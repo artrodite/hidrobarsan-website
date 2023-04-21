@@ -1,18 +1,67 @@
 <template>
-    <div class="px-24">
+    <div class="container mx-auto">
         <div class="flex flex-col">
-            <h1 class="text-6xl mb-4">{{ product.name }}</h1>
+            <h1 class="text-6xl mb-4">{{ productDetails.name }}</h1>
             <span class="mb-8">{{ product.type ?? 'Tipi' }}</span>
             <div>
                 <button class="bg-[#FBB901] text-white px-4 py-2 text-sm">İletişime Geç</button>
             </div>
         </div>
-        <div class="my-12 relative" style="height: 40rem">
-            <machine-model/>
-            <span class="absolute top-3/4 left-1/2 -translate-y-1/2 -translate-x-1/2">Detayları gör <i class="fa fa-chevron-down"/> </span>
+        <div class="relative" style="height: 40rem">
+            <Suspense>
+                <MachineModel :product-name="product.name"/>
+            </Suspense>
+            <!--            <machine-model :product-name="product.name"/>-->
+            <span class="absolute top-3/4 left-1/2 -translate-y-1/2 -translate-x-1/2">Detayları gör <i
+                    class="fa fa-chevron-down"/> </span>
         </div>
-        <div class="h-96 w-2/3 mx-auto flex items-center justify-center bg-amber-50">
-            VİDO
+        <div class="h-96 w-1/2 mx-auto mb-40">
+            <iframe
+                    :src="productDetails.videoUrl"
+                    height="100%"
+                    title="Product Videp"
+                    width="100%"
+            />
+        </div>
+        <div class="flex justify-between">
+            <div class="w-1/2">
+                <swiper :navigation="true" :slides-per-view="1">
+                    <!--                    :pagination="{ clickable: true }" :slides-per-view="1" :space-between="50" navigation-->
+                    <swiper-slide v-for="(imageUrl, index) in productDetails.images" :key="index">
+                        <img :src="imageUrl" alt="imageUrl">
+                    </swiper-slide>
+                </swiper>
+            </div>
+            <div class="w-1/3">
+                <div class="mb-4 font-bold">
+                    Teknik özellikler
+                </div>
+                <div v-for="(specification, index) in productDetails.specifications" :key="index"
+                     class="flex items-center mb-4">
+                    <i class="fa fa-circle text-[#FBB901] align-baseline mr-4" style="font-size: 0.5rem"/>
+                    <div class="whitespace-nowrap w-1/2">
+                        {{ specification.title }}
+                    </div>
+                    <div class="whitespace-nowrap w-1/2">
+                        {{ specification.desc }}
+                    </div>
+                </div>
+
+                <div class="mt-6 mb-4 font-bold">
+                    Ebatlar
+                </div>
+
+                <div v-for="(size, index) in productDetails.sizes" :key="index" class="flex items-center mb-4">
+                    <i class="fa fa-circle text-[#FBB901] align-baseline mr-4" style="font-size: 0.5rem"/>
+                    <div class="w-1/2">
+                        {{ size.title }}
+                    </div>
+                    <div class="whitespace-nowrap w-1/2">
+                        {{ size.desc }}
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </template>
@@ -23,13 +72,21 @@ import telliKesiciler from "@/datas/telliKesiciler.json";
 import zincirliKesiciler from "@/datas/zincirliKesiciler.json";
 import deliciler from "@/datas/deliciler.json";
 import MachineModel from "@/components/MachineModel.vue";
+import {Swiper, SwiperSlide} from 'swiper/vue';
+import 'swiper/css';
+
 
 export default {
     name: "ProductDetails",
-    components: {MachineModel},
+    components: {
+        MachineModel,
+        Swiper,
+        SwiperSlide
+    },
     data() {
         return {
-            product: {}
+            product: {},
+            productDetails: {}
         }
     },
     mounted() {
@@ -37,15 +94,16 @@ export default {
         console.log(productType);
 
         if (productType === 'delici-detay') {
-            this.product = deliciler.deliciler.find(kesici => kesici.id === Number(this.$route.params.id));
+            this.product = deliciler.deliciler.find(delici => delici.name.toLowerCase() === this.$route.params.name);
+            this.productDetails = this.product.details
             return
         }
         if (productType === 'telli-kesici-detay') {
-            this.product = telliKesiciler.telliKesiciler.find(kesici => kesici.id === Number(this.$route.params.id));
+            this.product = telliKesiciler.telliKesiciler.find(kesici => kesici.name.toLowerCase() === this.$route.params.name);
             return
         }
         if (productType === 'zincirli-kesici-detay') {
-            this.product = zincirliKesiciler.zincirliKesiciler.find(kesici => kesici.id === Number(this.$route.params.id));
+            this.product = zincirliKesiciler.zincirliKesiciler.find(kesici => kesici.name.toLowerCase() === this.$route.params.name);
 
         }
     }

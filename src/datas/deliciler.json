@@ -5,21 +5,311 @@
       "name": "Y328",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/categories/kesici.png",
-      "type": "Mobil Sondaj"
+      "type": "Mobil Sondaj",
+      "details": {
+        "name": "Y328 Mobil Sondaj",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/delici/Y328/1.png",
+          "/images/products/delici/Y328/2.png",
+          "/images/products/delici/Y328/3.png"
+        ],
+        "aksesuarlar": [
+          {
+            "imageUrl": "/images/products/delici/Y328/aksesuar-1.png",
+            "title": "Operatör Kabini",
+            "desc": "Yeni sistem operatör kabini sayesinde operatöre daha fazla güvenlik ve kontrol rahatlığı kazandırır."
+          },
+          {
+            "imageUrl": "/images/products/delici/Y328/aksesuar-2.png",
+            "title": "Kızak ve Bom",
+            "desc": "Kızak bölümün sağa ve sola, bom bölümünün ise uzama, kısalma kabiliyetiyle; makine hareket ettirilmeden teraziye alınarak merkezlenmeyi kolay biçimde sağlar."
+          },
+          {
+            "imageUrl": "/images/products/delici/Y328/aksesuar-3.png",
+            "title": "Dizel Motor",
+            "desc": "47 HP dizel motoru sayesinde daha yüksek eğimde ve zor arazi şartlarında kolayca yürür."
+          },
+          {
+            "imageUrl": "/images/products/delici/Y328/aksesuar-4.png",
+            "title": "Kompresör",
+            "desc": "Hem hava hem de hidrolik sistem tek bir motor ile daha güçlü çalışarak tam performans sağlar ve daha hafiftir. "
+          },
+          {
+            "imageUrl": "/images/products/delici/Y328/aksesuar-5.png",
+            "title": "5.5 cm",
+            "desc": "Zemine en yakın performans"
+          },
+          {
+            "imageUrl": "/images/products/delici/Y328/aksesuar-6.png",
+            "title": "Boru",
+            "desc": "Boru adaptörlerinin uzun ömürlü kullanımı için arttırılmış sertliği sayesinde yıpranmaların önüne geçer."
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Elektrik Motoru",
+            "desc": "75 kW"
+          },
+          {
+            "title": "Dizel Motor",
+            "desc": "7 HP (Yanmar), 28 HP (Deutz)"
+          },
+          {
+            "title": "Hidrolik Pompaları",
+            "desc": "Pistonlu"
+          },
+          {
+            "title": "Yürüyüş Şekli",
+            "desc": "Lastik tekerli - 3 Çekerli"
+          },
+          {
+            "title": "Çalışma Şekli",
+            "desc": "Yatay ve Dikey 220°"
+          },
+          {
+            "title": "Delme Çapı",
+            "desc": "90 mm"
+          },
+          {
+            "title": "Direksiyon Tipi",
+            "desc": "Joystick"
+          },
+          {
+            "title": "Boru Boyu (Tij)",
+            "desc": "2m(15 Adet)"
+          },
+          {
+            "title": "Hava Basıncı",
+            "desc": "8-10 Bar"
+          },
+          {
+            "title": "Delme Hızı",
+            "desc": "14-18 m/s"
+          },
+          {
+            "title": "Hava Debisi",
+            "desc": "5 m3/dk"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "En",
+            "desc": "2200 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "6950 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "2090 mm"
+          },
+          {
+            "title": "Ağırlık",
+            "desc": "~7750kg"
+          }
+        ]
+      }
     },
     {
       "id": 2,
       "name": "Y327",
-      "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/categories/delici.png",
-      "type": "Mobil Sondaj"
+      "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+      "type": "Mobil Sondaj",
+      "details": {
+        "name": "Y327 Mobil Sondaj",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/delici/Y327/1.png",
+          "/images/products/delici/Y327/2.png",
+          "/images/products/delici/Y327/3.png"
+        ],
+        "aksesuarlar": [
+          {
+            "imageUrl": "/images/products/delici/Y327/aksesuar-1.png",
+            "title": "Operatör Kabini",
+            "desc": "Yeni sistem operatör kabini sayesinde operatöre daha fazla güvenlik ve kontrol rahatlığı kazandırır."
+          },
+          {
+            "imageUrl": "/images/products/delici/Y327/aksesuar-6.png",
+            "title": "Boru",
+            "desc": "Boru adaptörlerinin uzun ömürlü kullanımı için arttırılmış sertliği sayesinde yıpranmaların önüne geçer."
+          },
+          {
+            "imageUrl": "/images/products/delici/Y327/aksesuar-2.png",
+            "title": "Kızak ve Bom",
+            "desc": "Kızak bölümün sağa ve sola, bom bölümünün ise uzama, kısalma kabiliyetiyle; makine hareket ettirilmeden teraziye alınarak merkezlenmeyi kolay biçimde sağlar."
+          },
+          {
+            "imageUrl": "/images/products/delici/Y327/aksesuar-3.png",
+            "title": "Dizel Motor",
+            "desc": "47 HP dizel motoru sayesinde daha yüksek eğimde ve zor arazi şartlarında kolayca yürür."
+          },
+          {
+            "imageUrl": "/images/products/delici/Y327/aksesuar-4.png",
+            "title": "Hidrolik Kelepçe",
+            "desc": "Boru sökme ve takma işlemini kolaylaştırmak için hidrolik kelepçe sistemine sahiptir."
+          },
+          {
+            "imageUrl": "/images/products/delici/Y327/aksesuar-5.png",
+            "title": "5.5 cm",
+            "desc": "Zemine en yakın performans"
+          },
+          {
+            "imageUrl": "/images/products/delici/Y327/aksesuar-7.png",
+            "title": "Kompresör",
+            "desc": "Hem hava hem de hidrolik sistem tek bir motor ile daha güçlü çalışarak tam performans sağlar ve daha hafiftir."
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Elektrik Motoru",
+            "desc": "75 kW"
+          },
+          {
+            "title": "Dizel Motor",
+            "desc": "47 HP (Yanmar Perkins)"
+          },
+          {
+            "title": "Hidrolik Pompaları",
+            "desc": "Pistonlu"
+          },
+          {
+            "title": "Yürüyüş Şekli",
+            "desc": "Paletli"
+          },
+          {
+            "title": "Çalışma Şekli",
+            "desc": "Yatay ve Dikey 220°"
+          },
+          {
+            "title": "Delme Çapı",
+            "desc": "90 mm"
+          },
+          {
+            "title": "Direksiyon Tipi",
+            "desc": "Joystick"
+          },
+          {
+            "title": "Boru Boyu (Tij)",
+            "desc": "2m (15 Adet)"
+          },
+          {
+            "title": "Hava Basıncı",
+            "desc": "8-10 Bar"
+          },
+          {
+            "title": "Delme Hızı",
+            "desc": "14-18 m/s"
+          },
+          {
+            "title": "Hava Debisi",
+            "desc": "5 m3/dk"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "En",
+            "desc": "2200 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "6800 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "2090 mm"
+          },
+          {
+            "title": "Ağırlık",
+            "desc": "6750 kg"
+          }
+        ]
+      }
     },
     {
       "id": 3,
       "name": "108T",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/categories/delici.png",
-      "type": "Hidrolik Montaj"
+      "type": "Hidrolik Montaj",
+      "details": {
+        "name": "Y327 Mobil Sondaj",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/delici/108T/1.png"
+        ],
+        "aksesuarlar": [
+          {
+            "imageUrl": "/images/products/delici/180T/aksesuar-1.png",
+            "title": "Uzun Ömürlü Kullanım Boru",
+            "desc": "Boru adaptörlerinin uzun ömürlü kullanımı için arttırılmış sertliği sayesinde yıpranmaların önüne geçer."
+          },
+          {
+            "imageUrl": "/images/products/delici/180T/aksesuar-2.png",
+            "title": "Tabanca (Seri Kafa)",
+            "desc": "Daha az hava gücü ile daha hızlı delik delmeyi sağlayarak hem enerjiden hem de zamandan tasarruf sağlar."
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Elektrik Motoru",
+            "desc": "11 kW"
+          },
+          {
+            "title": "Delme Hızı",
+            "desc": "6-10 m/s"
+          },
+          {
+            "title": "Delme Çapı",
+            "desc": "90 mm"
+          },
+          {
+            "title": "Çalışma Şekli",
+            "desc": "Yatay ve Dikey"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "Ünite Ağılığı",
+            "desc": "~320 kg"
+          },
+          {
+            "title": "Direk Ağırlığı",
+            "desc": "~185 kg"
+          },
+          {
+            "title": "Sehpa ve Borular",
+            "desc": "~350 kg"
+          },
+          {
+            "title": "Ünite En",
+            "desc": "1000 mm"
+          },
+          {
+            "title": "Ünite Boy",
+            "desc": "1330 mm"
+          },
+          {
+            "title": "Ünite yükseklik",
+            "desc": "895 mm"
+          },
+          {
+            "title": "Direk En",
+            "desc": "1000 mm"
+          },
+          {
+            "title": "Direk Boy",
+            "desc": "1330 mm"
+          },
+          {
+            "title": "Direk Yükseklik",
+            "desc": "895 mm"
+          }
+        ]
+      }
     }
   ]
 }

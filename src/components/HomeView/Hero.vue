@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-white h-screen w-full">
-        <machine-model/>
+    <div class="container mx-auto h-screen">
+        Hero
     </div>
 </template>
 

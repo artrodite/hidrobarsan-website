@@ -1,14 +1,102 @@
 <template>
-    <nav class="navbar bg-[#F7F7F7] flex items-center justify-between py-12 px-24 sticky top-0 z-10">
-        <div class="w-40">
-            <img alt="hidrobarsan-logo" src="../assets/logo.png">
-        </div>
-        <div class="flex gap-10">
-            <router-link class="nav-item nav-link" to="/">Anasayfa</router-link>
-            <router-link class="nav-item nav-link" to="/about">Hakkımızda</router-link>
-            <router-link class="nav-item nav-link" to="/urunlerimiz">Ürünlerimiz</router-link>
-            <router-link class="nav-item nav-link" to="/contact">İletişim</router-link>
-            <div class="nav-item nav-link"><i class="fa fa-globe"/></div>
+    <nav class="bg-[#F7F7F7] mb-16 sticky font-normal top-0 z-50">
+        <div class="max-w-screen container flex flex-wrap md:flex-nowrap items-center justify-between mx-auto py-8 px-6 md:px-0">
+            <a class="flex items-center" href="/">
+                <img alt="hidrobarsan" class="w-40" src="../assets/logo.png"/>
+            </a>
+            <div class="flex items-center md:order-2">
+                <button class="inline-flex items-center justify-center px-4 py-2 text-sm rounded-lg cursor-pointer transition-all hover:bg-[#FBB900] hover:text-white"
+                        data-dropdown-toggle="language-dropdown-menu"
+                        type="button">
+                    <i class="fa fa-globe me-4"/>
+                    Türkçe
+                    <span class="ms-4 hidden md:inline-flex">
+                        <i class="fa fa-chevron-down "/>
+                    </span>
+                </button>
+                <!-- Dropdown -->
+                <div id="language-dropdown-menu"
+                     class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow">
+                    <ul class="py-2 " role="none">
+                        <li>
+                            <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#"
+                               role="menuitem">
+                                <div class="inline-flex items-center">
+                                    <svg id="flag-icon-css-us" aria-hidden="true"
+                                         class="h-3.5 w-3.5 rounded-full mr-2" viewBox="0 0 512 512"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <g fill-rule="evenodd">
+                                            <g stroke-width="1pt">
+                                                <path d="M0 0h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z"
+                                                      fill="#bd3d44"
+                                                      transform="scale(3.9385)"/>
+                                                <path d="M0 10h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z"
+                                                      fill="#fff"
+                                                      transform="scale(3.9385)"/>
+                                            </g>
+                                            <path d="M0 0h98.8v70H0z" fill="#192f5d" transform="scale(3.9385)"/>
+                                            <path d="M8.2 3l1 2.8H12L9.7 7.5l.9 2.7-2.4-1.7L6 10.2l.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7L74 8.5l-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 7.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 24.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 21.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 38.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 35.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 52.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 49.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 66.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 63.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9z"
+                                                  fill="#fff"
+                                                  transform="scale(3.9385)"/>
+                                        </g>
+                                    </svg>
+                                    English (US)
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#"
+                               role="menuitem">
+                                <div class="inline-flex items-center">
+                                    <svg id="flag-icon-css-de" aria-hidden="true"
+                                         class="h-3.5 w-3.5 rounded-full mr-2" viewBox="0 0 512 512"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 341.3h512V512H0z" fill="#ffce00"/>
+                                        <path d="M0 0h512v170.7H0z"/>
+                                        <path d="M0 170.7h512v170.6H0z" fill="#d00"/>
+                                    </svg>
+                                    Deutsch
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button aria-controls="mobile-menu-language-select" aria-expanded="false"
+                        class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200"
+                        data-collapse-toggle="mobile-menu-language-select" type="button">
+                    <span class="sr-only">Open main menu</span>
+                    <i class="fa fa-bars"/>
+                </button>
+            </div>
+            <div id="mobile-menu-language-select"
+                 class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+                <ul class="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                    <li>
+                        <router-link aria-current="page"
+                                     class="block py-2 pl-3 pr-4 rounded link-hover-animation md:bg-transparent md:p-0"
+                                     to="/">Anasayfa
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link
+                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0"
+                                to="/hakkimizda">Hakkımızda
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link
+                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0"
+                                to="/urunlerimiz">Ürünlerimiz
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link
+                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0"
+                                to="/iletisim">İletişim
+                        </router-link>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 </template>

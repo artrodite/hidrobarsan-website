@@ -1,26 +1,68 @@
 <template>
   <!-- eslint-disable  -->
-    <Suspense>
+    <div v-if="!!productName" class="w-full h-full">
+
         <TresCanvas preset="realistic">
-            <OrbitControls id="orbitControls" :minPolarAngle="Math.PI / 4" :maxPolarAngle="Math.PI / 2" :enableZoom="false" />
-            <TresPerspectiveCamera :position="cameraPosition" :fov="50" :aspect="1" :near="0.1" :far="1000" />
+            <OrbitControls id="orbitControls" :enableZoom="false" :maxPolarAngle="Math.PI / 2"
+                           :minPolarAngle="Math.PI / 4"/>
+            <TresPerspectiveCamera :aspect="1" :far="1000" :fov="40" :near="0.1" :position="cameraPosition"/>
             <TresScene>
-                <GLTFModel ref="cardRef" path="/models/3000m/3000m.gltf" draco />
-                <TresDirectionalLight :position="[0, 3, -6]" :intensity=".25" cast-shadow />
-                <TresDirectionalLight :position="[0, 3, 6]" :intensity=".25" cast-shadow />
-                <TresDirectionalLight :position="[12, 3, 0]" :intensity=".25" cast-shadow />
-                <TresDirectionalLight :position="[-12, 3, -50]" :intensity=".25" cast-shadow />
+
+                <!--                    <GLTFModel ref="cardRef"-->
+                <!--                               :path="'/models/' + productName +'/' + productName +'.gltf'" draco/>-->
+
+                <!--                <TresMesh v-bind="scene"/>-->
+                <Suspense>
+                    <GLTFModel draco :path="'/models/' + productName +'/' + productName +'.gltf'"/>
+                </Suspense>
+
+                <TresDirectionalLight :intensity=".25" :position="[0, 3, -6]" cast-shadow/>
+                <TresDirectionalLight :intensity=".25" :position="[0, 3, 6]" cast-shadow/>
+                <TresDirectionalLight :intensity=".25" :position="[12, 3, 0]" cast-shadow/>
+                <TresDirectionalLight :intensity=".25" :position="[-12, 3, -50]" cast-shadow/>
             </TresScene>
         </TresCanvas>
-    </Suspense>
+
+    </div>
 </template>
 
 
-<script setup>
-import { OrbitControls, GLTFModel } from '@tresjs/cientos';
-import { ref } from 'vue';
+<script>
+import {ref} from 'vue';
+import {useGLTF} from '@tresjs/cientos'
+import {OrbitControls, GLTFModel} from '@tresjs/cientos';
 
-const cameraPosition = ref([10, 10, 10]);
+export default {
+    name: 'MachineModel',
+    components: {
+        OrbitControls,
+        GLTFModel
+    },
+    props: {
+        productName: {
+            type: String,
+            required: true
+        }
+    },
+    async setup() {
+
+        const cameraPosition = ref([10, 10, 2]);
+        // const {scene} = await useGLTF('/models/3000M/3000M.gltf', {draco: true})
+        // console.log('scene', scene)
+
+        return {
+            // scene,
+            cameraPosition
+        }
+    },
+}
+// const cameraPosition = ref([10, 10, 2]);
+//
+// const props = defineProps({
+//     productName: String
+// })
+//
+// console.log(props);
 
 
 </script>

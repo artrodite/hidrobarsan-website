@@ -6,6 +6,8 @@ import TelliKesiciler from "@/views/TelliKesiciler.vue";
 import ZincirliKesiciler from "@/views/ZincirliKesiciler.vue";
 import ProductDetailsView from "@/views/ProductDetailsView.vue";
 import {createRouter, createWebHistory} from 'vue-router'
+import AboutView from "@/views/AboutView.vue";
+import ContactView from "@/views/ContactView.vue";
 // import app from "@/App.vue";
 
 // app.use(VueRouter)
@@ -15,6 +17,16 @@ const routes = [
         path: '/',
         name: 'home',
         component: HomeView
+    },
+    {
+        path: '/hakkimizda',
+        name: 'about',
+        component: AboutView
+    },
+    {
+        path: '/iletisim',
+        name: 'contact',
+        component: ContactView
     },
     {
         path: '/urunlerimiz',
@@ -42,17 +54,17 @@ const routes = [
         component: TelliKesiciler
     },
     {
-        path: '/urunlerimiz/kesiciler/zincirli/:id',
+        path: '/urunlerimiz/kesiciler/zincirli/:name',
         name: 'zincirli-kesici-detay',
         component: ProductDetailsView
     },
     {
-        path: '/urunlerimiz/kesiciler/telli/:id',
+        path: '/urunlerimiz/kesiciler/telli/:name',
         name: 'telli-kesici-detay',
         component: ProductDetailsView
     },
     {
-        path: '/urunlerimiz/deliciler/:id',
+        path: '/urunlerimiz/deliciler/:name',
         name: 'delici-detay',
         component: ProductDetailsView
     }

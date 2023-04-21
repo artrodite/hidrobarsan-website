@@ -2,9 +2,15 @@
     <div id="app">
         <Navbar/>
         <div class="min-h-screen">
-            <transition mode="out-in" name="fade">
-                <router-view/>
-            </transition>
+            <!--            <transition mode="out-in" name="fade">-->
+            <!--                <router-view/>-->
+            <!--            </transition>-->
+            <router-view v-slot="{ Component }">
+                <transition mode="out-in" name="fade">
+                    <component :is="Component"/>
+                </transition>
+            </router-view>
+
         </div>
         <Footer/>
     </div>
@@ -13,15 +19,21 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
+import '@/css/_user.scss';
+import { initFlowbite } from 'flowbite'
+
 
 export default {
     components: {Footer, Navbar},
-    watch:{
-        $route (){
-            window.scrollTo(0,0, {
+    watch: {
+        $route() {
+            window.scrollTo(0, 0, {
                 behavior: 'smooth'
             })
         }
+    },
+    mounted() {
+        initFlowbite();
     }
 }
 
