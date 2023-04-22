@@ -14,34 +14,34 @@
           "/images/products/delici/Y328/2.png",
           "/images/products/delici/Y328/3.png"
         ],
-        "aksesuarlar": [
+        "accessories": [
           {
-            "imageUrl": "/images/products/delici/Y328/aksesuar-1.png",
+            "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-1.png",
             "title": "Operatör Kabini",
             "desc": "Yeni sistem operatör kabini sayesinde operatöre daha fazla güvenlik ve kontrol rahatlığı kazandırır."
           },
           {
-            "imageUrl": "/images/products/delici/Y328/aksesuar-2.png",
+            "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-2.png",
             "title": "Kızak ve Bom",
             "desc": "Kızak bölümün sağa ve sola, bom bölümünün ise uzama, kısalma kabiliyetiyle; makine hareket ettirilmeden teraziye alınarak merkezlenmeyi kolay biçimde sağlar."
           },
           {
-            "imageUrl": "/images/products/delici/Y328/aksesuar-3.png",
+            "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-3.png",
             "title": "Dizel Motor",
             "desc": "47 HP dizel motoru sayesinde daha yüksek eğimde ve zor arazi şartlarında kolayca yürür."
           },
           {
-            "imageUrl": "/images/products/delici/Y328/aksesuar-4.png",
+            "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-4.png",
             "title": "Kompresör",
             "desc": "Hem hava hem de hidrolik sistem tek bir motor ile daha güçlü çalışarak tam performans sağlar ve daha hafiftir. "
           },
           {
-            "imageUrl": "/images/products/delici/Y328/aksesuar-5.png",
+            "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-5.png",
             "title": "5.5 cm",
             "desc": "Zemine en yakın performans"
           },
           {
-            "imageUrl": "/images/products/delici/Y328/aksesuar-6.png",
+            "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-6.png",
             "title": "Boru",
             "desc": "Boru adaptörlerinin uzun ömürlü kullanımı için arttırılmış sertliği sayesinde yıpranmaların önüne geçer."
           }
@@ -126,39 +126,39 @@
           "/images/products/delici/Y327/2.png",
           "/images/products/delici/Y327/3.png"
         ],
-        "aksesuarlar": [
+        "accessories": [
           {
-            "imageUrl": "/images/products/delici/Y327/aksesuar-1.png",
+            "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-1.png",
             "title": "Operatör Kabini",
             "desc": "Yeni sistem operatör kabini sayesinde operatöre daha fazla güvenlik ve kontrol rahatlığı kazandırır."
           },
           {
-            "imageUrl": "/images/products/delici/Y327/aksesuar-6.png",
+            "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-6.png",
             "title": "Boru",
             "desc": "Boru adaptörlerinin uzun ömürlü kullanımı için arttırılmış sertliği sayesinde yıpranmaların önüne geçer."
           },
           {
-            "imageUrl": "/images/products/delici/Y327/aksesuar-2.png",
+            "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-2.png",
             "title": "Kızak ve Bom",
             "desc": "Kızak bölümün sağa ve sola, bom bölümünün ise uzama, kısalma kabiliyetiyle; makine hareket ettirilmeden teraziye alınarak merkezlenmeyi kolay biçimde sağlar."
           },
           {
-            "imageUrl": "/images/products/delici/Y327/aksesuar-3.png",
+            "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-3.png",
             "title": "Dizel Motor",
             "desc": "47 HP dizel motoru sayesinde daha yüksek eğimde ve zor arazi şartlarında kolayca yürür."
           },
           {
-            "imageUrl": "/images/products/delici/Y327/aksesuar-4.png",
+            "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-4.png",
             "title": "Hidrolik Kelepçe",
             "desc": "Boru sökme ve takma işlemini kolaylaştırmak için hidrolik kelepçe sistemine sahiptir."
           },
           {
-            "imageUrl": "/images/products/delici/Y327/aksesuar-5.png",
+            "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-5.png",
             "title": "5.5 cm",
             "desc": "Zemine en yakın performans"
           },
           {
-            "imageUrl": "/images/products/delici/Y327/aksesuar-7.png",
+            "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-7.png",
             "title": "Kompresör",
             "desc": "Hem hava hem de hidrolik sistem tek bir motor ile daha güçlü çalışarak tam performans sağlar ve daha hafiftir."
           }
@@ -241,14 +241,14 @@
         "images": [
           "/images/products/delici/108T/1.png"
         ],
-        "aksesuarlar": [
+        "accessories": [
           {
-            "imageUrl": "/images/products/delici/180T/aksesuar-1.png",
+            "imageUrl": "/images/products/delici/108T/aksesuar/aksesuar-1.png",
             "title": "Uzun Ömürlü Kullanım Boru",
             "desc": "Boru adaptörlerinin uzun ömürlü kullanımı için arttırılmış sertliği sayesinde yıpranmaların önüne geçer."
           },
           {
-            "imageUrl": "/images/products/delici/180T/aksesuar-2.png",
+            "imageUrl": "/images/products/delici/108T/aksesuar/aksesuar-2.png",
             "title": "Tabanca (Seri Kafa)",
             "desc": "Daha az hava gücü ile daha hızlı delik delmeyi sağlayarak hem enerjiden hem de zamandan tasarruf sağlar."
           }

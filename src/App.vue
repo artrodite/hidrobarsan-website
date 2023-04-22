@@ -20,8 +20,7 @@
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import '@/css/_user.scss';
-import { initFlowbite } from 'flowbite'
-
+import {initFlowbite} from 'flowbite'
 
 export default {
     components: {Footer, Navbar},

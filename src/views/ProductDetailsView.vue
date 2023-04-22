@@ -15,7 +15,7 @@
             <span class="absolute top-3/4 left-1/2 -translate-y-1/2 -translate-x-1/2">Detayları gör <i
                     class="fa fa-chevron-down"/> </span>
         </div>
-        <div class="h-96 w-1/2 mx-auto mb-40">
+        <div v-if="!!productDetails.videoUrl" class="h-96 w-1/2 mx-auto mb-40">
             <iframe
                     :src="productDetails.videoUrl"
                     height="100%"
@@ -23,16 +23,16 @@
                     width="100%"
             />
         </div>
-        <div class="flex justify-between">
-            <div class="w-1/2">
+        <div class="grid grid-cols-3 justify-between gap-16">
+            <div class="col-span-2">
+                <!--Swiper-->
                 <swiper :navigation="true" :slides-per-view="1">
-                    <!--                    :pagination="{ clickable: true }" :slides-per-view="1" :space-between="50" navigation-->
                     <swiper-slide v-for="(imageUrl, index) in productDetails.images" :key="index">
                         <img :src="imageUrl" alt="imageUrl">
                     </swiper-slide>
                 </swiper>
             </div>
-            <div class="w-1/3">
+            <div>
                 <div class="mb-4 font-bold">
                     Teknik özellikler
                 </div>
@@ -63,6 +63,10 @@
 
             </div>
         </div>
+        <div class="grid grid-cols-3 gap-16 py-36">
+            <AccessoryCard v-for="(accessory, index) in productDetails.accessories" :key="index"
+                           :accessory="accessory"/>
+        </div>
     </div>
 </template>
 
@@ -72,13 +76,14 @@ import telliKesiciler from "@/datas/telliKesiciler.json";
 import zincirliKesiciler from "@/datas/zincirliKesiciler.json";
 import deliciler from "@/datas/deliciler.json";
 import MachineModel from "@/components/MachineModel.vue";
+import AccessoryCard from "@/components/AccessoryCard.vue";
 import {Swiper, SwiperSlide} from 'swiper/vue';
 import 'swiper/css';
-
 
 export default {
     name: "ProductDetails",
     components: {
+        AccessoryCard,
         MachineModel,
         Swiper,
         SwiperSlide
@@ -86,30 +91,31 @@ export default {
     data() {
         return {
             product: {},
-            productDetails: {}
+            productDetails: {},
         }
     },
-    mounted() {
-        const productType = this.$route.name;
-        console.log(productType);
+    async mounted() {
+        await this.checkProductType()
 
-        if (productType === 'delici-detay') {
-            this.product = deliciler.deliciler.find(delici => delici.name.toLowerCase() === this.$route.params.name);
-            this.productDetails = this.product.details
-            return
-        }
-        if (productType === 'telli-kesici-detay') {
-            this.product = telliKesiciler.telliKesiciler.find(kesici => kesici.name.toLowerCase() === this.$route.params.name);
-            return
-        }
-        if (productType === 'zincirli-kesici-detay') {
-            this.product = zincirliKesiciler.zincirliKesiciler.find(kesici => kesici.name.toLowerCase() === this.$route.params.name);
-
-        }
+    },
+    methods: {
+        checkProductType() {
+            const productType = this.$route.name;
+            if (productType === 'delici-detay') {
+                this.product = deliciler.deliciler.find(delici => delici.name.toLowerCase() === this.$route.params.name);
+                this.productDetails = this.product.details
+                return
+            }
+            if (productType === 'telli-kesici-detay') {
+                this.product = telliKesiciler.telliKesiciler.find(kesici => kesici.name.toLowerCase() === this.$route.params.name);
+                return
+            }
+            if (productType === 'zincirli-kesici-detay') {
+                this.product = zincirliKesiciler.zincirliKesiciler.find(kesici => kesici.name.toLowerCase() === this.$route.params.name);
+            }
+        },
     }
 }
 </script>
-
-<style scoped>
-
+<style lang="scss" scoped>
 </style>
