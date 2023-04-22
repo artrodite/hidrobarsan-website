@@ -103,16 +103,14 @@ export default {
             const productType = this.$route.name;
             if (productType === 'delici-detay') {
                 this.product = deliciler.deliciler.find(delici => delici.name.toLowerCase() === this.$route.params.name);
-                this.productDetails = this.product.details
-                return
             }
             if (productType === 'telli-kesici-detay') {
                 this.product = telliKesiciler.telliKesiciler.find(kesici => kesici.name.toLowerCase() === this.$route.params.name);
-                return
             }
             if (productType === 'zincirli-kesici-detay') {
                 this.product = zincirliKesiciler.zincirliKesiciler.find(kesici => kesici.name.toLowerCase() === this.$route.params.name);
             }
+            this.productDetails = this.product.details
         },
     }
 }

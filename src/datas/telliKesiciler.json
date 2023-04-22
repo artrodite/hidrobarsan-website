@@ -4,36 +4,447 @@
       "id": 1,
       "name": "6000M",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-      "imgUrl": "/images/categories/kesici.png",
-      "type": "Köprülü Tel Kesme"
+      "imgUrl": "/images/products/kesici/telli-kesici/6000M/1.png",
+      "type": "Köprülü Tel Kesme",
+      "details": {
+        "name": "6000M Köprülü Tel Kesme",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/kesici/telli-kesici/6000M/1.png",
+          "/images/products/kesici/telli-kesici/6000M/2.png"
+        ],
+        "accessories": [
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-1.png",
+            "title": "Tam Donanımlı Sistem",
+            "desc": "Yürüyüş motoruna ve ana motoruna bağlı yeni nesil invertör sistemleri sayesinde; Elektrik tasarrufu sağlar.\nKolay tel kalkışı için yüksek tork sağlar.\nTaşın özelliğine göre maksimum performansta kesim yapar.\nKesim esnasında kesim kesim amperine bağlı olarak invertör ile yürüyüş hızı otomatik ayarlanır."
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-2.png",
+            "title": "Kızak",
+            "desc": "Kızak bölümünün sağa ve sola hareket kabiliyeti sayesinde makina pozisyonunu kolaylıkla ayarlar."
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-3.png",
+            "title": "Kablolu Kumanda",
+            "desc": ""
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-4.png",
+            "title": "Uzaktan Kumanda",
+            "desc": ""
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Ana Motor",
+            "desc": "75 kW"
+          },
+          {
+            "title": "Yürüyüş Motor",
+            "desc": "1.5 kW"
+          },
+          {
+            "title": "Hidrolik Motoru",
+            "desc": "2.2 kW"
+          },
+          {
+            "title": "Kasnak Devir Kontrol",
+            "desc": "İnvertör"
+          },
+          {
+            "title": "Çalışma Açısı",
+            "desc": "270°"
+          },
+          {
+            "title": "Çalışma Açısı Değiştirme",
+            "desc": "Elektrikli"
+          },
+          {
+            "title": "Yürüyüş Şekli",
+            "desc": "Lastik tekerli - 3 Çekerli"
+          },
+          {
+            "title": "Yürüyüş Sistemi",
+            "desc": "İnvertör"
+          },
+          {
+            "title": "Kesme Hızı",
+            "desc": "20-30 m²/s"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "Köprü Uzunluğu",
+            "desc": "5 m"
+          },
+          {
+            "title": "En",
+            "desc": "1680 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "6740 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "2730 mm"
+          },
+          {
+            "title": "Ağırlık",
+            "desc": "~3900 kg"
+          },
+          {
+            "title": "Kasnak Çapı",
+            "desc": "800 mm"
+          },
+          {
+            "title": "Kasnak Hareketi",
+            "desc": "250 mm"
+          },
+          {
+            "title": "Yardımcı Kasnak Çapı",
+            "desc": "300 mm"
+          }
+        ]
+      }
     },
     {
       "id": 2,
       "name": "1260M",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-      "imgUrl": "/images/categories/delici.png",
-      "type": "Tel Kesme"
+      "imgUrl": "/images/products/kesici/telli-kesici/1260M/1.png",
+      "details": {
+        "type": "Tel Kesme",
+        "name": "1260M Raylı Tel Kesme",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/kesici/telli-kesici/1260M/1.png",
+          "/images/products/kesici/telli-kesici/1260M/2.png"
+        ],
+        "accessories": [
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-1.png",
+            "title": "Kasnak Döndürme Butonu",
+            "desc": "Otomatik kasnak döndürme butonu sayesinde çalışma açısını değiştirmek için insan gücüne ihtiyaç duymaz."
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-2.png",
+            "title": "360° Dönebilme Kabiliyeti",
+            "desc": "360° dönebilme özelliği sayesinde her açıdan kesim yapabilme olanağı tanıyarak dönmeyi operatör butonu ile otomatik olarak gerçekleştirir."
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-3.png",
+            "title": "Elektrik Panosu ve Kontrol Paneli",
+            "desc": "Üzerinde yer alan elektrik panosu ve kontrol paneli ile kablo karmaşasını ortadan kaldırır, kolay taşınır ve zamandan tasarruf etmenizi sağlar."
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-4.png",
+            "title": "Kablolu Kumanda",
+            "desc": ""
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-5.png",
+            "title": "Uzaktan Kumanda",
+            "desc": ""
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Elektrik Motoru",
+            "desc": "55 kW"
+          },
+          {
+            "title": "Yürüyüş Sistemi",
+            "desc": "İnvertör"
+          },
+          {
+            "title": "Güç Aktarımı",
+            "desc": "Tork Konvertör"
+          },
+          {
+            "title": "Kesme Hızı",
+            "desc": "10-15 m²/s"
+          },
+          {
+            "title": "Çalışma Açısı",
+            "desc": "360°"
+          },
+          {
+            "title": "Çalışma Şekli",
+            "desc": "Sağ, Sol ve Alt"
+          },
+          {
+            "title": "Çalışma Açısı Değiştirme",
+            "desc": "Elektrikli"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "Ray Uzunluğu",
+            "desc": "6 m"
+          },
+          {
+            "title": "En",
+            "desc": "1230 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "2560 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "1670 mm"
+          },
+          {
+            "title": "Ağırlık",
+            "desc": "~1550 kg"
+          },
+          {
+            "title": "Kasnak Çapı",
+            "desc": "800 mm"
+          },
+          {
+            "title": "Yardımcı Kasnak Çapı",
+            "desc": "300 mm"
+          }
+        ]
+      }
     },
     {
       "id": 3,
       "name": "4000Y",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-      "imgUrl": "/images/categories/delici.png",
-      "type": "Tel Kesme"
+      "imgUrl": "/images/products/kesici/telli-kesici/4000Y/1.png",
+      "type": "Tel Kesme",
+      "details": {
+        "type": "Tel Kesme",
+        "name": "4000Y Yarma",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/kesici/telli-kesici/4000Y/1.png"
+        ],
+        "accessories": [
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/4000Y/aksesuar/aksesuar-1.png",
+            "title": "Çalışma Açısı",
+            "desc": "270°’lik çalışma açısıyla arazideki zemin düz olmasa da dik kesim yapılmasını sağlar."
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/4000Y/aksesuar/aksesuar-2.png",
+            "title": "Kablolu Kumanda",
+            "desc": ""
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/4000Y/aksesuar/aksesuar-3.png",
+            "title": "Redüktörlü Döndürme Sistemi",
+            "desc": "Geliştirilmiş Kol Sistemi sayesinde operatörün güç harcamasına gerek kalmadan çalışma açısını kolayca değiştirebilir."
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Elektrik Motoru",
+            "desc": "30 kW"
+          },
+          {
+            "title": "Kesme Hızı",
+            "desc": "7-13 m²/s"
+          },
+          {
+            "title": "Ray Sonu Kontrol",
+            "desc": "Elektrikli"
+          },
+          {
+            "title": "Çalışma Açısı",
+            "desc": "220°"
+          },
+          {
+            "title": "Çalışma Şekli ",
+            "desc": "Sağ ve Sol"
+          },
+          {
+            "title": "Çalışma Açısı Değiştirme",
+            "desc": "Redüktörlü"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "Ray Uzunluğu",
+            "desc": "4 m"
+          },
+          {
+            "title": "En",
+            "desc": "1460 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "4335 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "1710 mm"
+          },
+          {
+            "title": "Ağırlık",
+            "desc": "~815,5 kg"
+          },
+          {
+            "title": "Kasnak Çapı",
+            "desc": "500 mm"
+          }
+        ]
+      }
     },
     {
       "id": 4,
       "name": "3000Y",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-      "imgUrl": "/images/categories/delici.png",
-      "type": "Tel Kesme"
+      "imgUrl": "/images/products/kesici/telli-kesici/4000Y/1.png",
+      "type": "Tel Kesme",
+      "details": {
+        "type": "Tel Kesme",
+        "name": "3000Y",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/kesici/telli-kesici/3000Y/1.png"
+        ],
+        "accessories": [
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/3000Y/aksesuar/aksesuar-1.png",
+            "title": "Çalışma Açısı",
+            "desc": "270°’lik çalışma açısıyla arazideki zemin düz olmasa da dik kesim yapılmasını sağlar."
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/3000Y/aksesuar/aksesuar-2.png",
+            "title": "Kablolu Kumanda",
+            "desc": ""
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/3000Y/aksesuar/aksesuar-3.png",
+            "title": "Redüktörlü Döndürme Sistemi",
+            "desc": "Geliştirilmiş Kol Sistemi sayesinde operatörün güç harcamasına gerek kalmadan çalışma açısını kolayca değiştirebilir."
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Elektrik Motoru",
+            "desc": "22 kW"
+          },
+          {
+            "title": "Kesme Hızı",
+            "desc": "5-10 m²/s"
+          },
+          {
+            "title": "Ray Sonu Kontrol",
+            "desc": "Elektrikli"
+          },
+          {
+            "title": "Çalışma Açısı",
+            "desc": "220°"
+          },
+          {
+            "title": "Çalışma Şekli ",
+            "desc": "Sağ ve Sol"
+          },
+          {
+            "title": "Çalışma Açısı Değiştirme",
+            "desc": "Redüktörlü"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "Ray Uzunluğu",
+            "desc": "3 m"
+          },
+          {
+            "title": "En",
+            "desc": "1460 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "3340 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "1710 mm"
+          },
+          {
+            "title": "Ağırlık",
+            "desc": "~742 kg"
+          },
+          {
+            "title": "Kasnak Çapı",
+            "desc": "500 mm"
+          }
+        ]
+      }
     },
     {
       "id": 5,
       "name": "3000M",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-      "imgUrl": "/images/categories/delici.png",
-      "type": "Tel Kesme"
+      "imgUrl": "/images/products/kesici/telli-kesici/3000M/1.png",
+      "type": "Tel Kesme,",
+      "details": {
+        "type": "Tel Kesme",
+        "name": "3000M",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/kesici/telli-kesici/3000M/1.png"
+        ],
+        "accessories": [
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/3000M/aksesuar/aksesuar-1.png",
+            "title": "Kilitleme Mekanizması",
+            "desc": "Ani elmas tel kopmalarında motor -kasnak grubunun kontrolsüz bir şekilde aşağıya düşmesini önleyerek operatör ve makina güvenliğini sağlamayı amaçlar."
+          },
+          {
+            "imageUrl": "/images/products/kesici/telli-kesici/3000M/aksesuar/aksesuar-2.png",
+            "title": "Kablolu Kumanda",
+            "desc": ""
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Elektrik Motoru",
+            "desc": "18.5 kW"
+          },
+          {
+            "title": "Kesme Hızı",
+            "desc": "3-7 m²/s"
+          },
+          {
+            "title": "Çalışma Şekli ",
+            "desc": "Sağ ve Sol"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "Ray Uzunluğu",
+            "desc": "3 m"
+          },
+          {
+            "title": "En",
+            "desc": "1190 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "3320 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "1410 mm"
+          },
+          {
+            "title": "Ağırlık",
+            "desc": "~435 kg"
+          },
+          {
+            "title": "Kasnak Çapı",
+            "desc": "500 mm"
+          }
+        ]
+      }
     }
   ]
 }

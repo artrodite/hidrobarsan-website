@@ -3,13 +3,13 @@
     {
       "id": 1,
       "name": "Zincirli",
-      "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+      "desc": "Zincirli Kesme Makinası büyük bir zincir testeresi kullanarak mermer bloklarını keser",
       "imgUrl": "/images/categories/kesici.png"
     },
     {
       "id": 2,
       "name": "Telli",
-      "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+      "desc": "Telli Kesme Makinası daha ince kesimler yapabilir ve malzeme kaybını daha aza indirir.",
       "imgUrl": "/images/categories/delici.png"
 
     }
