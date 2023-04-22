@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto">
+    <div class="container mx-auto px-12 md:px-0">
         <div class="flex flex-col">
             <h1 class="text-6xl mb-4">{{ productDetails.name }}</h1>
             <span class="mb-8">{{ product.type ?? 'Tipi' }}</span>
@@ -15,7 +15,7 @@
             <span class="absolute top-3/4 left-1/2 -translate-y-1/2 -translate-x-1/2">Detayları gör <i
                     class="fa fa-chevron-down"/> </span>
         </div>
-        <div v-if="!!productDetails.videoUrl" class="h-96 w-1/2 mx-auto mb-40">
+        <div v-if="!!productDetails.videoUrl" class="h-64 lg:h-96 lg:w-1/2 mx-auto mb-40">
             <iframe
                     :src="productDetails.videoUrl"
                     height="100%"
@@ -23,8 +23,8 @@
                     width="100%"
             />
         </div>
-        <div class="grid grid-cols-3 justify-between gap-16">
-            <div class="col-span-2">
+        <div class="grid grid-cols-1 xl:grid-cols-3 justify-between md:gap-16">
+            <div class="xl:col-span-2 mb-12 lg:mb-0">
                 <!--Swiper-->
                 <swiper :navigation="true" :slides-per-view="1">
                     <swiper-slide v-for="(imageUrl, index) in productDetails.images" :key="index">
@@ -32,17 +32,17 @@
                     </swiper-slide>
                 </swiper>
             </div>
-            <div>
+            <div class="xl:col-span-1">
                 <div class="mb-4 font-bold">
                     Teknik özellikler
                 </div>
                 <div v-for="(specification, index) in productDetails.specifications" :key="index"
                      class="flex items-center mb-4">
                     <i class="fa fa-circle text-[#FBB901] align-baseline mr-4" style="font-size: 0.5rem"/>
-                    <div class="whitespace-nowrap w-1/2">
+                    <div class="w-1/2">
                         {{ specification.title }}
                     </div>
-                    <div class="whitespace-nowrap w-1/2">
+                    <div class=" w-1/2">
                         {{ specification.desc }}
                     </div>
                 </div>
@@ -56,14 +56,14 @@
                     <div class="w-1/2">
                         {{ size.title }}
                     </div>
-                    <div class="whitespace-nowrap w-1/2">
+                    <div class="w-1/2">
                         {{ size.desc }}
                     </div>
                 </div>
 
             </div>
         </div>
-        <div class="grid grid-cols-3 gap-16 py-36">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 py-36  md:px-0">
             <AccessoryCard v-for="(accessory, index) in productDetails.accessories" :key="index"
                            :accessory="accessory"/>
         </div>

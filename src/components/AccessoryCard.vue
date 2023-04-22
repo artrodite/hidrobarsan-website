@@ -3,7 +3,7 @@
         <div class="text-3xl whitespace-nowrap absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
             {{ accessory.title }}
         </div>
-        <div class="p-12 flex items-center justify-center">
+        <div class="p-6 md:p-12 flex items-center justify-center">
             <img :alt="accessory.title + ' image'" :src="accessory.imageUrl">
         </div>
         <div class="text-lg">
