@@ -1,18 +1,14 @@
 <template>
-    <div class="px-6">
+    <div class="px-6 mb-24">
         <div class="mb-4 font-thin" data-aos="fade-up">
             İletişim
         </div>
-        <Map />
-        <div class="flex flex-col items-center justify-center gap-4 my-8">
-            <div class="flex" data-aos="fade-up">
-                <img alt="map-icon" class="mr-4" src="@/assets/map-icon.svg"> Adres
-            </div>
-            <span class="text-lg text-center font-thin" data-aos="fade-up" data-aos-delay="100">
-                Hacıeyüplü Mahallesi, 3182 Sokak, No.: 7/A Merkezefendi - DENIZLI TÜRKIYE
-            </span>
+        <Map/>
+        <div class="flex flex-col items-center justify-center gap-4 my-8 font-thin" data-aos="fade-up" data-aos-delay="100">
+            Hacıeyüplü Mahallesi, 3182 Sokak, No.: 7/A Merkezefendi - DENIZLI TÜRKIYE
+
         </div>
-        <div class="grid grid-cols-2 gap-4 mb-8">
+        <div class="grid grid-cols-2 gap-4 mt-24 mb-12">
             <a v-for="(info, index) in infos" :key="index"
                :data-aos="(index % 2) ? 'fade-left' : 'fade-right'"
                :data-aos-delay="index * 100"
@@ -27,7 +23,8 @@
         </div>
         <div class="flex justify-between items-center mb-16">
             <a v-for="(social, index) in socials" :key="index"
-               :class="index === 0 ? 'text-left' : ((index === 1) ? 'text-center' : 'text-right')" :data-aos-delay="index * 100"
+               :class="index === 0 ? 'text-left' : ((index === 1) ? 'text-center' : 'text-right')"
+               :data-aos-delay="index * 100"
                :href="social.action"
                class="text-sm w-1/3"
                data-aos="fade-up"

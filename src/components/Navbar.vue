@@ -5,15 +5,15 @@
                 <img alt="hidrobarsan" class="w-40" src="../assets/logo.png"/>
             </a>
             <div class="flex items-center md:order-2">
-                <button class="inline-flex items-center justify-center px-4 py-2 text-sm rounded-lg cursor-pointer transition-all hover:bg-[#FBB900] hover:text-white"
-                        data-dropdown-toggle="language-dropdown-menu"
-                        type="button">
-                    <i class="fa fa-globe me-4"/>
-                    Türkçe
-                    <span class="ms-4 hidden md:inline-flex">
-                        <i class="fa fa-chevron-down "/>
-                    </span>
-                </button>
+                <!--                <button class="inline-flex items-center justify-center px-4 py-2 text-sm rounded-lg cursor-pointer transition-all hover:bg-[#FBB900] hover:text-white"-->
+                <!--                        data-dropdown-toggle="language-dropdown-menu"-->
+                <!--                        type="button">-->
+                <!--                    <i class="fa fa-globe me-4"/>-->
+                <!--                    Türkçe-->
+                <!--                    <span class="ms-4 hidden md:inline-flex">-->
+                <!--                        <i class="fa fa-chevron-down "/>-->
+                <!--                    </span>-->
+                <!--                </button>-->
                 <!-- Dropdown -->
                 <div id="language-dropdown-menu"
                      class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow">
@@ -63,9 +63,10 @@
                 </div>
                 <button aria-controls="mobile-menu-language-select" aria-expanded="false"
                         class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200"
-                        data-collapse-toggle="mobile-menu-language-select" type="button">
+                        data-collapse-toggle="mobile-menu-language-select" type="button" @click="toggleDropdown">
                     <span class="sr-only">Open main menu</span>
-                    <i class="fa fa-bars"/>
+                    <i :class="isDropdownOpen ? 'fa-xmark' : 'fa-grip-lines '"
+                       class="fa text-2xl text-black transition-all"/>
                 </button>
             </div>
             <div id="mobile-menu-language-select"
@@ -103,7 +104,17 @@
 
 <script>
 export default {
-    name: "Navbar"
+    name: "Navbar",
+    data() {
+        return {
+            isDropdownOpen: false
+        }
+    },
+    methods: {
+        toggleDropdown() {
+            this.isDropdownOpen = !this.isDropdownOpen
+        }
+    }
 }
 </script>
 
