@@ -1,21 +1,21 @@
 <template>
     <div class="px-6">
-        <div class="mb-4 font-thin" data-aos="fade-up" data-aos-delay="100">
+        <div class="mb-4 font-thin" data-aos="fade-up">
             İletişim
         </div>
         <Map />
         <div class="flex flex-col items-center justify-center gap-4 my-8">
-            <div class="flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="flex" data-aos="fade-up">
                 <img alt="map-icon" class="mr-4" src="@/assets/map-icon.svg"> Adres
             </div>
-            <span class="text-lg text-center font-thin" data-aos="fade-up" data-aos-delay="400">
+            <span class="text-lg text-center font-thin" data-aos="fade-up" data-aos-delay="100">
                 Hacıeyüplü Mahallesi, 3182 Sokak, No.: 7/A Merkezefendi - DENIZLI TÜRKIYE
             </span>
         </div>
         <div class="grid grid-cols-2 gap-4 mb-8">
             <a v-for="(info, index) in infos" :key="index"
                :data-aos="(index % 2) ? 'fade-left' : 'fade-right'"
-               :data-aos-delay="(index + 1) * 100"
+               :data-aos-delay="index * 100"
                :href="info.action"
                class="border py-2 px-4 border-[#FBB901] justify-center">
                 <div class="w-2/3 mx-auto">

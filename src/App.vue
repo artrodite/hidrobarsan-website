@@ -36,7 +36,7 @@ export default {
     mounted() {
         initFlowbite();
         AOS.init({
-            duration: 1000,
+            duration: 500,
             once: true,
             easing: 'ease-in-out',
         })

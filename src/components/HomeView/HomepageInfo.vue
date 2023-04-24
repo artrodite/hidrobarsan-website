@@ -5,7 +5,7 @@
         </div>
         <div class="grid grid-cols-2 gap-4 mb-4">
             <div v-for="(info, index) in infos" :key="index"
-                 :data-aos-delay="(index + 1) * 100"
+                 :data-aos-delay="index  * 100"
                  class="py-4 px-2 flex flex-col items-center justify-between bg-white rounded-lg shadow-md"
                  data-aos="zoom-in">
                 <div class="flex items-center justify-center mb-2">
