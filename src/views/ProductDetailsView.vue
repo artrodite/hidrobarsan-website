@@ -2,9 +2,9 @@
     <div class="container mx-auto px-6 md:px-0">
         <div class="flex flex-col">
             <h1 class="text-6xl mb-4">{{ productDetails.name }}</h1>
-            <span class="mb-8">{{ product.type ?? 'Tipi' }}</span>
+<!--            <span class="mb-8">{{ product.type ?? 'Tipi' }}</span>-->
             <div>
-                <button class="bg-[#FBB901] text-white px-4 py-2 text-sm">İletişime Geç</button>
+                <button class="bg-[#F7AF03] text-white px-4 py-2 text-sm">İletişime Geç</button>
             </div>
         </div>
         <div class="relative" style="height: 40rem">
@@ -38,7 +38,7 @@
                 </div>
                 <div v-for="(specification, index) in productDetails.specifications" :key="index"
                      class="flex items-center mb-4">
-                    <i class="fa fa-circle text-[#FBB901] align-baseline mr-4" style="font-size: 0.5rem"/>
+                    <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
                     <div class="w-1/2">
                         {{ specification.title }}
                     </div>
@@ -52,7 +52,7 @@
                 </div>
 
                 <div v-for="(size, index) in productDetails.sizes" :key="index" class="flex items-center mb-4">
-                    <i class="fa fa-circle text-[#FBB901] align-baseline mr-4" style="font-size: 0.5rem"/>
+                    <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
                     <div class="w-1/2">
                         {{ size.title }}
                     </div>

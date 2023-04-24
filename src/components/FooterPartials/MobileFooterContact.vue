@@ -13,9 +13,9 @@
                :data-aos="(index % 2) ? 'fade-left' : 'fade-right'"
                :data-aos-delay="index * 100"
                :href="info.action"
-               class="border py-2 px-4 border-[#FBB901] justify-center">
+               class="border py-2 px-4 border-[#F7AF03] justify-center">
                 <div class="w-2/3 mx-auto">
-                    <div class="whitespace-nowrap items-center text-[#FBB901] font-thin">
+                    <div class="whitespace-nowrap items-center text-[#F7AF03] font-thin">
                         <i :class="info.img" class="mr-3 fa"/> {{ info.text }}
                     </div>
                 </div>

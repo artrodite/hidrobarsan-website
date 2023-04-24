@@ -1,10 +1,10 @@
 <template>
-    <div>
-        <div class="px-24">
-            <h1 class="text-7xl">Zincirli Kesiciler</h1>
+    <div class="container mx-auto px-6 md:px-0">
+        <div>
+            <div class="text-5xl font-medium md:text-7xl">Zincirli Kesiciler</div>
             <h4>Ürünlerimiz > Kesiciler > Zincirli Kesiciler</h4>
         </div>
-        <div class="px-24 py-24 grid items-stretch grid-cols-3 justify-items-center gap-16">
+        <div class="py-12 md:py-24 grid grid-cols-1 md:grid-cols-3 items-stretch justify-items-center gap-16">
             <Card v-for="(kesici, index) in zincirliKesiciler" :key="index" :index="index" :product="kesici"/>
         </div>
     </div>

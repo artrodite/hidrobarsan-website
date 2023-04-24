@@ -71,7 +71,7 @@ body > div {
 
 .product-card:hover {
   img {
-    transform: translateY(-33.3%) scale(1.1);
+    transform: translateY(-33.3%) scale(1.15);
   }
 }
 

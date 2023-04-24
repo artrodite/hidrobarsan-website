@@ -1,10 +1,10 @@
 <template>
     <router-link :to="getRouterLink(product)"
                  class="flex flex-col justify-between product-card bg-white py-4 px-8 max-w-lg flex-grow">
-        <img :src="product.imgUrl" class="-translate-y-1/3 mx-auto transition-all">
+        <img :src="product.imgUrl" class="-translate-y-1/3 mx-auto transition-all" alt="product-img">
 
         <div class="-mt-2">
-            <div class="text-5xl mb-4">{{ product.name }}</div>
+            <div class="text-3xl font-medium mb-4">{{ product.name }}</div>
             <div class="flex items-end">
                 <div>{{ product.desc }}</div>
                 <span :style="{animationDelay: 0.3 * index + 's'}" class="text-7xl icon transition-all"> > </span>
