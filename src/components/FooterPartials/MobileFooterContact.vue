@@ -3,8 +3,8 @@
         <div class="mb-4 font-thin" data-aos="fade-up" data-aos-delay="100">
             İletişim
         </div>
-        <Map/>
-        <div class="flex flex-col items-center justify-center gap-4 mb-8">
+        <Map />
+        <div class="flex flex-col items-center justify-center gap-4 my-8">
             <div class="flex" data-aos="fade-up" data-aos-delay="300">
                 <img alt="map-icon" class="mr-4" src="@/assets/map-icon.svg"> Adres
             </div>
@@ -16,6 +16,7 @@
             <a v-for="(info, index) in infos" :key="index"
                :data-aos="(index % 2) ? 'fade-left' : 'fade-right'"
                :data-aos-delay="(index + 1) * 100"
+               :href="info.action"
                class="border py-2 px-4 border-[#FBB901] justify-center">
                 <div class="w-2/3 mx-auto">
                     <div class="whitespace-nowrap items-center text-[#FBB901] font-thin">
@@ -26,9 +27,10 @@
         </div>
         <div class="flex justify-between items-center mb-16">
             <a v-for="(social, index) in socials" :key="index"
-               :class="index === 0 ? 'text-left' : ((index === 1) ? 'text-center' : 'text-right')" class="text-sm w-1/3"
+               :class="index === 0 ? 'text-left' : ((index === 1) ? 'text-center' : 'text-right')" :data-aos-delay="index * 100"
+               :href="social.action"
+               class="text-sm w-1/3"
                data-aos="fade-up"
-               :data-aos-delay="index * 100"
                target="_blank">
                 <i :class="social.img" class="mr-2 fa"/> {{ social.text }}
             </a>
@@ -85,12 +87,12 @@ export default {
                 {
                     img: 'fa-facebook',
                     text: 'Facebook',
-                    action: 'https://www.facebook.com/hidrobarsan'
+                    action: 'https://www.facebook.com/people/Hidrobarsan-Mermer-Makinalar%C4%B1/100063876920005/'
                 },
                 {
                     img: 'fa-linkedin',
                     text: 'Linkedin',
-                    action: 'https://www.linkedin.com/company/hidrobarsan/'
+                    action: 'https://www.linkedin.com/company/hidrobarsan-mermer-makinalar%C4%B1'
                 }
             ]
         }

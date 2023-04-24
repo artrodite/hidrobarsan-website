@@ -37,8 +37,7 @@ export default {
         initFlowbite();
         AOS.init({
             duration: 1000,
-            once: false,
-            dataAosOut: 'fade-out',
+            once: true,
             easing: 'ease-in-out',
         })
     }
@@ -56,9 +55,9 @@ export default {
   box-sizing: border-box;
 }
 
-body{
-    max-width: 100vw;
-    overflow-x: hidden;
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 body > div {

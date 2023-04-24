@@ -1,5 +1,5 @@
 <template>
-    <div class="px-6 mb-16">
+    <div class="px-6 pb-12 mb-16">
         <div class="mb-4 font-thin" data-aos="fade-up">
             Hakkımızda
         </div>
