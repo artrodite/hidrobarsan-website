@@ -1,15 +1,15 @@
 <template>
     <div class="px-6 py-12 mb-16">
-        <div class="mb-4 font-thin">
+        <div class="mb-4 font-thin" data-aos="fade-up">
             Duyurular
         </div>
         <div class="flex flex-col md:flex-row gap-12">
-            <div class="md:order-2">
+            <div class="md:order-2" data-aos="fade-up" data-aos-delay="100">
                 <img alt="announcement-img" src="/images/announcement.png">
             </div>
             <div>
-                <div class="font-medium mb-4">İzmir Uluslararası Doğal Taş ve Teknolojileri Fuarındayız</div>
-                <div class="font-thin">
+                <div class="font-medium mb-4" data-aos="fade-up" data-aos-delay="200">İzmir Uluslararası Doğal Taş ve Teknolojileri Fuarındayız</div>
+                <div class="font-thin" data-aos="fade-up" data-aos-delay="300">
                     Hidrobarsan yeni teknolojileri ile tanışıp mermer sektörüne yeni bir nefes aldıracak son
                     teklonojileri
                     görmek için, bir fincan kahvenin kırk yıllık hatrı var diyerek sizi değerli müşterilerimizi C226

@@ -57,17 +57,19 @@
 
             </div>
             <mobile-footer-contact class="block md:hidden"/>
-            <div class="px-6 flex items-center">
-                <div class="w-20 me-16">
-                    <img alt="logo" src="@/assets/logo.png">
+            <div data-aos="flip-up" data-aos-duration="1500">
+                <div class="px-6 flex items-center">
+                    <div class="w-20 me-16">
+                        <img alt="logo" src="@/assets/logo.png">
+                    </div>
+                    <div class="w-full border-t border-black"></div>
                 </div>
-                <div class="w-full border-t border-black"></div>
-            </div>
-            <div class="px-6 py-12 flex items-center justify-between">
-                <div class="text-xs">© 2023 Hidrobarsan - Tüm hakları saklıdır.</div>
-                <a href="https://artrodite.com" target="_blank">
-                    <img alt="artrodite" src="@/assets/artrodite-logo.svg">
-                </a>
+                <div class="px-6 py-12 flex items-center justify-between">
+                    <div class="text-xs">© 2023 Hidrobarsan - Tüm hakları saklıdır.</div>
+                    <a href="https://artrodite.com" target="_blank">
+                        <img alt="artrodite" src="@/assets/artrodite-logo.svg">
+                    </a>
+                </div>
             </div>
         </div>
     </footer>

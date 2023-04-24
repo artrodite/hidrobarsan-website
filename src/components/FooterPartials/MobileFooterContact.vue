@@ -1,30 +1,37 @@
 <template>
     <div class="px-6">
-        <div class="mb-4 font-thin">
+        <div class="mb-4 font-thin" data-aos="fade-up" data-aos-delay="100">
             İletişim
         </div>
         <Map/>
         <div class="flex flex-col items-center justify-center gap-4 mb-8">
-            <div class="flex">
+            <div class="flex" data-aos="fade-up" data-aos-delay="300">
                 <img alt="map-icon" class="mr-4" src="@/assets/map-icon.svg"> Adres
             </div>
-            <span class="text-lg text-center font-thin">
+            <span class="text-lg text-center font-thin" data-aos="fade-up" data-aos-delay="400">
                 Hacıeyüplü Mahallesi, 3182 Sokak, No.: 7/A Merkezefendi - DENIZLI TÜRKIYE
             </span>
         </div>
-        <div class="grid grid-cols-2 gap-4 mb-16">
-            <div v-for="(info, index) in infos" :key="index"
-                 class="border-2 py-2 px-4 border-[#FBB901] justify-center">
-                <a href="tel:5460742383">
-                    <div class="w-2/3 mx-auto">
-                        <div class="inline-flex whitespace-nowrap items-center">
-
-                            <img :src="'/images/footer-info/' + info.img + '.svg' " alt="" class="mr-2">
-                            {{ info.text }}
-                        </div>
+        <div class="grid grid-cols-2 gap-4 mb-8">
+            <a v-for="(info, index) in infos" :key="index"
+               :data-aos="(index % 2) ? 'fade-left' : 'fade-right'"
+               :data-aos-delay="(index + 1) * 100"
+               class="border py-2 px-4 border-[#FBB901] justify-center">
+                <div class="w-2/3 mx-auto">
+                    <div class="whitespace-nowrap items-center text-[#FBB901] font-thin">
+                        <i :class="info.img" class="mr-3 fa"/> {{ info.text }}
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
+        </div>
+        <div class="flex justify-between items-center mb-16">
+            <a v-for="(social, index) in socials" :key="index"
+               :class="index === 0 ? 'text-left' : ((index === 1) ? 'text-center' : 'text-right')" class="text-sm w-1/3"
+               data-aos="fade-up"
+               :data-aos-delay="index * 100"
+               target="_blank">
+                <i :class="social.img" class="mr-2 fa"/> {{ social.text }}
+            </a>
         </div>
     </div>
 </template>
@@ -39,28 +46,51 @@ export default {
         return {
             infos: [
                 {
-                    img: 'email',
-                    text: 'E-posta'
+                    img: 'fa-envelope',
+                    text: 'E-posta',
+                    action: 'mailto:info@hidrobarsan.com'
                 },
                 {
-                    img: 'phone',
-                    text: 'Fabrika'
+                    img: 'fa-mobile-screen-button',
+                    text: 'Fabrika',
+                    action: 'tel:5336823946'
                 },
                 {
-                    img: 'support',
-                    text: 'Servis'
+                    img: 'fa-headset',
+                    text: 'Servis',
+                    action: 'tel:5321314345'
                 },
                 {
-                    img: 'truck',
-                    text: 'İhracat'
+                    img: 'fa-truck-moving',
+                    text: 'İhracat',
+                    action: 'tel:5336823947'
                 },
                 {
-                    img: 'call',
-                    text: 'Ofis'
+                    img: 'fa-phone',
+                    text: 'Ofis',
+                    action: 'tel:2582687890'
                 },
                 {
-                    img: 'fax',
-                    text: 'Fax'
+                    img: 'fa-fax',
+                    text: 'Fax',
+                    action: 'tel:2582687891'
+                }
+            ],
+            socials: [
+                {
+                    img: 'fa-instagram',
+                    text: 'Instagram',
+                    action: 'https://www.instagram.com/hidrobarsanmakina/'
+                },
+                {
+                    img: 'fa-facebook',
+                    text: 'Facebook',
+                    action: 'https://www.facebook.com/hidrobarsan'
+                },
+                {
+                    img: 'fa-linkedin',
+                    text: 'Linkedin',
+                    action: 'https://www.linkedin.com/company/hidrobarsan/'
                 }
             ]
         }

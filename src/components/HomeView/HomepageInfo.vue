@@ -1,11 +1,13 @@
 <template>
-    <div class="px-6">
-        <div class="mb-4 font-thin">
+    <div class="px-6 mb-16">
+        <div class="mb-4 font-thin" data-aos="fade-up">
             Hakkımızda
         </div>
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid grid-cols-2 gap-4 mb-4">
             <div v-for="(info, index) in infos" :key="index"
-                 class="py-4 px-2 flex flex-col items-center justify-between bg-white rounded-lg shadow-md">
+                 :data-aos-delay="(index + 1) * 100"
+                 class="py-4 px-2 flex flex-col items-center justify-between bg-white rounded-lg shadow-md"
+                 data-aos="zoom-in">
                 <div class="flex items-center justify-center mb-2">
                     <img :src="'/images/landing-info/' + info.img + '.svg'" alt="" class="w-8">
                 </div>
@@ -14,6 +16,10 @@
                 </div>
             </div>
         </div>
+        <router-link class="bg-[#F7BE38] w-full rounded-lg flex p-4 justify-center items-center" data-aos="fade-up"
+                     to="/">
+            <span class="text-white font-medium">Daha Fazlasını Görmek için Tıklayınız</span>
+        </router-link>
     </div>
 </template>
 

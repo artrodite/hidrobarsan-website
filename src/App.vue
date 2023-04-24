@@ -21,6 +21,8 @@ import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import '@/css/_user.scss';
 import {initFlowbite} from 'flowbite'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default {
     components: {Footer, Navbar},
@@ -33,6 +35,12 @@ export default {
     },
     mounted() {
         initFlowbite();
+        AOS.init({
+            duration: 1000,
+            once: false,
+            dataAosOut: 'fade-out',
+            easing: 'ease-in-out',
+        })
     }
 }
 
@@ -41,6 +49,21 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body > div {
+  overflow-x: hidden;
+}
 
 #app {
   font-family: 'Poppins', sans-serif;

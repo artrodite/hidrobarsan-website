@@ -1,6 +1,6 @@
 <template>
-    <nav class="bg-[#F7F7F7] mb-16 sticky font-normal top-0 z-50">
-        <div class="max-w-screen container flex flex-wrap md:flex-nowrap items-center justify-between mx-auto py-8 px-6 md:px-0">
+    <nav class="bg-[#F7F7F7] mb-8 md:mb-16 w-full font-normal sticky top-0 z-50">
+        <div class="max-w-screen container flex flex-wrap md:flex-nowrap items-center justify-between mx-auto py-4 md:py-8 px-6 md:px-0">
             <a class="flex items-center" href="/">
                 <img alt="hidrobarsan" class="w-40" src="../assets/logo.png"/>
             </a>
