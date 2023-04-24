@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto px-12 md:px-0">
+    <div class="container mx-auto px-6 md:px-0">
         <div class="flex flex-col">
             <h1 class="text-6xl mb-4">{{ productDetails.name }}</h1>
             <span class="mb-8">{{ product.type ?? 'Tipi' }}</span>

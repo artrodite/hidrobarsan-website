@@ -73,25 +73,25 @@
                 <ul class="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
                     <li>
                         <router-link aria-current="page"
-                                     class="block py-2 pl-3 pr-4 rounded link-hover-animation md:bg-transparent md:p-0"
+                                     class="block py-2 pl-3 pr-4 rounded link-hover-animation md:bg-transparent md:p-0 w-fit"
                                      to="/">Anasayfa
                         </router-link>
                     </li>
                     <li>
                         <router-link
-                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0"
+                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
                                 to="/hakkimizda">Hakkımızda
                         </router-link>
                     </li>
                     <li>
                         <router-link
-                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0"
+                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
                                 to="/urunlerimiz">Ürünlerimiz
                         </router-link>
                     </li>
                     <li>
                         <router-link
-                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0"
+                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
                                 to="/iletisim">İletişim
                         </router-link>
                     </li>
