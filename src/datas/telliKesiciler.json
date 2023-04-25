@@ -216,7 +216,7 @@
     {
       "id": 3,
       "name": "4000Y",
-      "modelUrl": "/models/4000y/4000y.gltf",
+      "modelUrl": "",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/kesici/telli-kesici/4000Y/1.png",
       "type": "Tel Kesme",
