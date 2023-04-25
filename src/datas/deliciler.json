@@ -9,7 +9,7 @@
       "type": "Mobil Sondaj",
       "details": {
         "name": "Y328 Mobil Sondaj",
-        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "videoUrl": "https://www.youtube.com/embed/m0tmYiniAis",
         "images": [
           "/images/products/delici/Y328/1.png",
           "/images/products/delici/Y328/2.png",
@@ -54,7 +54,7 @@
           },
           {
             "title": "Dizel Motor",
-            "desc": "7 HP (Yanmar), 28 HP (Deutz)"
+            "desc": "47 HP (Yanmar), \n28 HP (Deutz)"
           },
           {
             "title": "Hidrolik Pompaları",
@@ -78,7 +78,7 @@
           },
           {
             "title": "Boru Boyu (Tij)",
-            "desc": "2m(15 Adet)"
+            "desc": "2m"
           },
           {
             "title": "Hava Basıncı",
@@ -109,6 +109,28 @@
           {
             "title": "Ağırlık",
             "desc": "~7750kg"
+          }
+        ],
+        "equipments": [
+          {
+            "title": "Sabitleme Zinciri",
+            "desc": "2 adet"
+          },
+          {
+            "title": "Boru",
+            "desc": "15 adet"
+          },
+          {
+            "title": "Uzatma Fişi",
+            "desc": "1 adet (5X125A)"
+          },
+          {
+            "title": "Merkezleme Ucu (Uzun)",
+            "desc": "1 adet"
+          },
+          {
+            "title": "24 Kombine Anahtar",
+            "desc": "1 adet"
           }
         ]
       }
@@ -228,6 +250,28 @@
             "title": "Ağırlık",
             "desc": "6750 kg"
           }
+        ],
+        "equipments": [
+          {
+            "title": "Sabitleme Zinciri",
+            "desc": "2 adet"
+          },
+          {
+            "title": "Boru",
+            "desc": "15 adet"
+          },
+          {
+            "title": "Uzatma Fişi",
+            "desc": "1 adet (5X125A)"
+          },
+          {
+            "title": "Merkezleme Ucu (Uzun)",
+            "desc": "1 adet"
+          },
+          {
+            "title": "24 Kombine Anahtar",
+            "desc": "1 adet"
+          }
         ]
       }
     },
@@ -310,6 +354,28 @@
           {
             "title": "Direk Yükseklik",
             "desc": "895 mm"
+          }
+        ],
+        "equipments": [
+          {
+            "title": "Sabitleme Zinciri",
+            "desc": "2 adet"
+          },
+          {
+            "title": "Boru",
+            "desc": "15 adet"
+          },
+          {
+            "title": "Uzatma Fişi",
+            "desc": "1 adet (5X125A)"
+          },
+          {
+            "title": "Merkezleme Ucu (Uzun)",
+            "desc": "1 adet"
+          },
+          {
+            "title": "24 Kombine Anahtar",
+            "desc": "1 adet"
           }
         ]
       }

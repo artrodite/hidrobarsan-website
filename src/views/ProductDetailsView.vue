@@ -52,7 +52,6 @@
                 <div class="mt-6 mb-4 font-bold">
                     Ebatlar
                 </div>
-
                 <div v-for="(size, index) in productDetails.sizes" :key="index" class="flex items-center mb-4">
                     <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
                     <div class="w-1/2">
@@ -63,6 +62,22 @@
                     </div>
                 </div>
 
+                <div v-if="productDetails.equipments">
+                    <div class="mt-6 mb-4 font-bold">
+                        Aksesuarlar
+                    </div>
+
+                    <div v-for="(equipment, index) in productDetails.equipments" :key="index"
+                         class="flex items-center mb-4">
+                        <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
+                        <div class="w-1/2">
+                            {{ equipment.title }}
+                        </div>
+                        <div class="w-1/2">
+                            {{ equipment.desc }}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 py-36  md:px-0">

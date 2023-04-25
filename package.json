@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@tresjs/cientos": "^1.8.0",
     "aos": "^2.3.4",
     "flowbite": "^1.6.5",

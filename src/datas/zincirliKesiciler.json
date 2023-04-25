@@ -61,10 +61,6 @@
             "desc": "360°"
           },
           {
-            "title": "Yürüyüş Sistemi",
-            "desc": "İnvertör"
-          },
-          {
             "title": "Kesme Hızı",
             "desc": "7-14 m²/s"
           },
@@ -278,10 +274,6 @@
           {
             "title": "Kesme Hızı",
             "desc": "7-12 m²/s"
-          },
-          {
-            "title": "Yürüyüş Hızı",
-            "desc": "2 km/s"
           },
           {
             "title": "Kesme Genişliği",

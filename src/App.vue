@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <Navbar/>
-        <div class="min-h-screen">
+        <div>
             <!--            <transition mode="out-in" name="fade">-->
             <!--                <router-view/>-->
             <!--            </transition>-->
@@ -23,6 +23,7 @@ import '@/css/_user.scss';
 import {initFlowbite} from 'flowbite'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import * as emailjs from "@emailjs/browser";
 
 export default {
     components: {Footer, Navbar},
@@ -40,6 +41,7 @@ export default {
             once: true,
             easing: 'ease-in-out',
         })
+        emailjs.init(process.env.VUE_APP_EMAIL_PUBLIC_KEY);
     }
 }
 
