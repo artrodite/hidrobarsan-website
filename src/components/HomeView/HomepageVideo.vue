@@ -1,5 +1,5 @@
 <template>
-    <div class="px-6 h-44 mt-16 mb-16">
+    <div class="px-6 h-44 mt-16 mb-16" v-if="false">
         <iframe
                 height="100%"
                 src="https://www.youtube.com/embed/b73BI9eUkjM"

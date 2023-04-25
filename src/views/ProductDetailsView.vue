@@ -2,15 +2,17 @@
     <div class="container mx-auto px-6 md:px-0">
         <div class="flex flex-col">
             <h1 class="text-6xl mb-4">{{ productDetails.name }}</h1>
-<!--            <span class="mb-8">{{ product.type ?? 'Tipi' }}</span>-->
+            <!--            <span class="mb-8">{{ product.type ?? 'Tipi' }}</span>-->
             <div>
                 <button class="bg-[#F7AF03] text-white px-4 py-2 text-sm">İletişime Geç</button>
             </div>
         </div>
-        <div class="relative" style="height: 40rem">
-            <Suspense>
-                <MachineModel :product-name="product.name"/>
-            </Suspense>
+        <div>
+            <div v-if="product.modelUrl" class="relative" style="height: 40rem">
+                <Suspense>
+                    <MachineModel :model-url="product.modelUrl"/>
+                </Suspense>
+            </div>
             <!--            <machine-model :product-name="product.name"/>-->
             <span class="absolute top-3/4 left-1/2 -translate-y-1/2 -translate-x-1/2">Detayları gör <i
                     class="fa fa-chevron-down"/> </span>

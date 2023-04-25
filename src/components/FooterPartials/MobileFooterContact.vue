@@ -4,11 +4,10 @@
             İletişim
         </div>
         <Map/>
-        <div class="flex flex-col items-center justify-center gap-4 my-8 font-thin" data-aos="fade-up" data-aos-delay="100">
-            Hacıeyüplü Mahallesi, 3182 Sokak, No.: 7/A Merkezefendi - DENIZLI TÜRKIYE
-
-        </div>
-        <div class="grid grid-cols-2 gap-4 mt-24 mb-12">
+        <a href="https://goo.gl/maps/McGBpHfmCPdotHvs6" class="text-[#F7AF03] flex items-center justify-center gap-4 border border-[#F7AF03] font-thin mb-4 p-2" target="_blank" data-aos="fade-up" data-aos-delay="100">
+            <i class="fa fa-location-dot"/> Adres
+        </a>
+        <div class="grid grid-cols-2 gap-4 mb-12">
             <a v-for="(info, index) in infos" :key="index"
                :data-aos="(index % 2) ? 'fade-left' : 'fade-right'"
                :data-aos-delay="index * 100"

@@ -2,38 +2,423 @@
   "zincirliKesiciler": [
     {
       "id": 1,
-      "name": "HZK8200 TOZ EMİŞ SİSTEMLİ",
+      "name": "HZK8200 Toz Emiş Sistemli",
+      "modelUrl": "/models/hzk8200/hzk8200.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-      "imgUrl": "/images/categories/kesici.png",
-      "type": "Zincirli Kollu Kesme"
+      "imgUrl": "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
+      "type": "Zincirli Kollu Kesme",
+      "details": {
+        "name": "HZK8200 Toz Emiş Sistemli",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
+          "/images/products/kesici/zincirli-kesici/HZK8200/2.png"
+        ],
+        "accessories": [
+          {
+            "imageUrl": "/images/products/kesici/zincirli-kesici/HZK8200/aksesuar/aksesuar-1.png",
+            "title": "Forklift Taşıma",
+            "desc": "Yeni çatı sistemi sayesinde makinanın 4 tarafından ve üstünden taşıma imkanı sunar. Böylece dar alanlarda bile kolay taşıma sağlar."
+          },
+          {
+            "imageUrl": "/images/products/kesici/zincirli-kesici/HZK8200/aksesuar/aksesuar-2.png",
+            "title": "Kablolu Kumanda",
+            "desc": ""
+          },
+          {
+            "imageUrl": "/images/products/kesici/zincirli-kesici/HZK8200/aksesuar/aksesuar-3.png",
+            "title": "Uzaktan Kumanda",
+            "desc": ""
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Toplam Elektrik Motor Gücü",
+            "desc": "66 kW"
+          },
+          {
+            "title": "Zincir Dönüş Hızı",
+            "desc": "0 - 60 m/dk"
+          },
+          {
+            "title": "İdeal Kesme Derinliği",
+            "desc": "7000 mm"
+          },
+          {
+            "title": "Çalışma Şekli",
+            "desc": "Yatay ve Dikey"
+          },
+          {
+            "title": "Zincir Güç Aktarımı",
+            "desc": "Kapalı Devre Hidrolik"
+          },
+          {
+            "title": "Sistem Kontrolü",
+            "desc": "Hidrolik"
+          },
+          {
+            "title": "Kol Dönüş Açısı",
+            "desc": "360°"
+          },
+          {
+            "title": "Yürüyüş Sistemi",
+            "desc": "İnvertör"
+          },
+          {
+            "title": "Kesme Hızı",
+            "desc": "7-14 m²/s"
+          },
+          {
+            "title": "Kesme Genişliği",
+            "desc": "38 mm"
+          },
+          {
+            "title": "Yağ Tankı Kapasitesi",
+            "desc": "180 lt"
+          },
+          {
+            "title": "Gres Tankı Kapasitesi",
+            "desc": "30 lt"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "Ray Uzunluğu",
+            "desc": "4 m (4 adet)"
+          },
+          {
+            "title": "En",
+            "desc": "2170 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "11800 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "3200 mm"
+          },
+          {
+            "title": "Ağırlık",
+            "desc": "~16.400 kg"
+          }
+        ]
+      }
     },
     {
       "id": 2,
-      "name": "HZK8200",
+      "name": "HZK3400 Yengeç",
+      "modelUrl": "/models/hzk3400yengec/hzk3400yengec.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-      "imgUrl": "/images/categories/delici.png",
-      "type": "Zincirli Kollu Kesme"
+      "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/1.png",
+      "type": "Zincirli Kollu Kesme",
+      "details": {
+        "name": "HZK3400 Yengeç",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/1.png",
+          "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/2.png"
+        ],
+        "accessories": [
+          {
+            "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-1.png",
+            "title": "Forklift Taşıma",
+            "desc": "Yeni çatı sistemi sayesinde makinanın 4 tarafından ve üstünden taşıma imkanı sunar. Böylece dar alanlarda bile kolay taşıma sağlar."
+          },
+          {
+            "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-2.png",
+            "title": "Kablolu Kumanda",
+            "desc": ""
+          },
+          {
+            "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-3.png",
+            "title": "Uzaktan Kumanda",
+            "desc": ""
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Toplam Elektrik Motor Gücü",
+            "desc": "48 kW"
+          },
+          {
+            "title": "Zincir Dönüş Hızı",
+            "desc": "0 - 45 m/dk"
+          },
+          {
+            "title": "İdeal Kesme Derinliği",
+            "desc": "3000 mm"
+          },
+          {
+            "title": "Kesim Açısı",
+            "desc": "70°"
+          },
+          {
+            "title": "Çalışma Şekli",
+            "desc": "Yatay ve Dikey"
+          },
+          {
+            "title": "Zincir Güç Aktarımı",
+            "desc": "Kapalı Devre Hidrolik"
+          },
+          {
+            "title": "Sistem Kontrolü",
+            "desc": "Hidrolik"
+          },
+          {
+            "title": "Kol Dönüş Açısı",
+            "desc": "360°"
+          },
+          {
+            "title": "Kesme Hızı",
+            "desc": "7-12 m²/s"
+          },
+          {
+            "title": "Yürüyüş Hızı",
+            "desc": "2 km/s"
+          },
+          {
+            "title": "Kesme Genişliği",
+            "desc": "38 mm"
+          },
+          {
+            "title": "Yağ Tankı Kapasitesi",
+            "desc": "180 lt"
+          },
+          {
+            "title": "Gres Tankı Kapasitesi",
+            "desc": "30 lt"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "Ray Uzunluğu",
+            "desc": "3250 mm"
+          },
+          {
+            "title": "En",
+            "desc": "1800 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "6090 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "2240 mm"
+          },
+          {
+            "title": "Ağırlık",
+            "desc": "~8200 kg"
+          }
+        ]
+      }
     },
     {
       "id": 3,
-      "name": "HZK3400 YENGEÇ",
+      "name": "HZK3400",
+      "modelUrl": "/models/hzk3400/hzk3400.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-      "imgUrl": "/images/categories/delici.png",
-      "type": "Zincirli Kollu Kesme"
+      "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
+      "type": "Zincirli Kollu Kesme",
+      "details": {
+        "name": "HZK3400 Zincirli Kollu Kesme",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
+          "/images/products/kesici/zincirli-kesici/HZK3400/2.png",
+          "/images/products/kesici/zincirli-kesici/HZK3400/3.png",
+          "/images/products/kesici/zincirli-kesici/HZK3400/4.png"
+        ],
+        "accessories": [
+          {
+            "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400/aksesuar/aksesuar-1.png",
+            "title": "Kablolu Kumanda",
+            "desc": ""
+          },
+          {
+            "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400/aksesuar/aksesuar-2.png",
+            "title": "Uzaktan Kumanda",
+            "desc": ""
+          }
+        ],
+        "specifications": [
+          {
+            "title": "Toplam Elektrik Motor Gücü",
+            "desc": "48 kW"
+          },
+          {
+            "title": "Zincir Dönüş Hızı",
+            "desc": "0 - 45 m/dk"
+          },
+          {
+            "title": "İdeal Kesme Derinliği",
+            "desc": "3000 mm"
+          },
+          {
+            "title": "Kesim Açısı",
+            "desc": "70°"
+          },
+          {
+            "title": "Çalışma Şekli",
+            "desc": "Yatay ve Dikey"
+          },
+          {
+            "title": "Zincir Güç Aktarımı",
+            "desc": "Kapalı Devre Hidrolik"
+          },
+          {
+            "title": "Sistem Kontrolü",
+            "desc": "Hidrolik"
+          },
+          {
+            "title": "Kol Dönüş Açısı",
+            "desc": "360°"
+          },
+          {
+            "title": "Kesme Hızı",
+            "desc": "7-12 m²/s"
+          },
+          {
+            "title": "Yürüyüş Hızı",
+            "desc": "2 km/s"
+          },
+          {
+            "title": "Kesme Genişliği",
+            "desc": "38 mm"
+          },
+          {
+            "title": "Yağ Tankı Kapasitesi",
+            "desc": "180 lt"
+          },
+          {
+            "title": "Gres Tankı Kapasitesi",
+            "desc": "30 lt"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "Ray Uzunluğu",
+            "desc": "3 mt (3 adet)"
+          },
+          {
+            "title": "En",
+            "desc": "1800 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "4550 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "2240 mm"
+          },
+          {
+            "title": "Ağırlık",
+            "desc": "~6680 kg"
+          }
+        ]
+      }
     },
     {
       "id": 4,
-      "name": "HZK3400",
-      "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-      "imgUrl": "/images/categories/delici.png",
-      "type": "Zincirli Kollu Kesme"
-    },
-    {
-      "id": 5,
       "name": "HZK3400-M",
+      "modelUrl": "/models/hzk3400-m/hzk3400-m.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-      "imgUrl": "/images/categories/delici.png",
-      "type": "Mobil Zincirli Kollu Kesme"
+      "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400-M/1.png",
+      "type": "Mobil Zincirli Kollu Kesme",
+      "details": {
+        "name": "HZK3400-M Mobil Zincirli Kollu Kesme",
+        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "images": [
+          "/images/products/kesici/zincirli-kesici/HZK3400-M/1.png"
+        ],
+        "accessories": [],
+        "specifications": [
+          {
+            "title": "Toplam Elektrik Motor Gücü",
+            "desc": "75 kW"
+          },
+          {
+            "title": "Maksimum Kesme Yüksekliği",
+            "desc": "5500 mm"
+          },
+          {
+            "title": "Ray Yatay Hareket Mesafesi",
+            "desc": "2000 mm"
+          },
+          {
+            "title": "İdeal Kesme Boyu",
+            "desc": "3000 mm"
+          },
+          {
+            "title": "Zincir Dönüş Hızı",
+            "desc": "0 - 45 m/dk"
+          },
+          {
+            "title": "Kesim Açısı",
+            "desc": "90°"
+          },
+          {
+            "title": "Çalışma Şekli",
+            "desc": "Dikey"
+          },
+          {
+            "title": "Zincir Güç Aktarımı",
+            "desc": "Hidrolik"
+          },
+          {
+            "title": "Sistem Kontrolü",
+            "desc": "Hidrolik"
+          },
+          {
+            "title": "Kol Dönüş Açısı",
+            "desc": "110°"
+          },
+          {
+            "title": "Kesme Hızı",
+            "desc": "7-12 m²/s"
+          },
+          {
+            "title": "Kesme Genişliği",
+            "desc": "28 mm"
+          },
+          {
+            "title": "Gres Tankı Kapasitesi",
+            "desc": "12 lt"
+          }
+        ],
+        "sizes": [
+          {
+            "title": "Dikey Ray Uzunluğu",
+            "desc": "3300 mm"
+          },
+          {
+            "title": "Yatay Ray Uzunluğu",
+            "desc": "2800 mm"
+          },
+          {
+            "title": "Kesme Genişliği",
+            "desc": "28 mm"
+          },
+          {
+            "title": "En",
+            "desc": "2800 mm"
+          },
+          {
+            "title": "Boy",
+            "desc": "1200 mm"
+          },
+          {
+            "title": "Yükseklik",
+            "desc": "4500 mm"
+          },
+          {
+            "title": "Kesme Ekipman Ağırlığı",
+            "desc": "~2500 kg"
+          }
+        ]
+      }
     }
   ]
 }

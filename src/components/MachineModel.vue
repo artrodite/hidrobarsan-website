@@ -1,7 +1,6 @@
 <template>
   <!-- eslint-disable  -->
-    <div v-if="!!productName" class="w-full h-full">
-
+    <div v-if="!!modelUrl" class="w-full h-full">
         <TresCanvas preset="realistic">
             <OrbitControls id="orbitControls" :enableZoom="false" :maxPolarAngle="Math.PI / 2"
                            :minPolarAngle="Math.PI / 4"/>
@@ -12,8 +11,12 @@
                 <!--                               :path="'/models/' + productName +'/' + productName +'.gltf'" draco/>-->
 
                 <!--                <TresMesh v-bind="scene"/>-->
+                <!--                    <GLTFModel draco :path="'/models/' + productName +'/' + productName +'.gltf'"/>-->
+                <!--                <Suspense>-->
+                <!--                </Suspense>-->
                 <Suspense>
-                    <GLTFModel draco :path="'/models/' + productName +'/' + productName +'.gltf'"/>
+                    <GLTFModel :path="modelUrl" draco/>
+                    <!--                    <primitive :object="nodes."/>-->
                 </Suspense>
 
                 <TresDirectionalLight :intensity=".25" :position="[0, 3, -6]" cast-shadow/>
@@ -22,15 +25,14 @@
                 <TresDirectionalLight :intensity=".25" :position="[-12, 3, -50]" cast-shadow/>
             </TresScene>
         </TresCanvas>
-
     </div>
 </template>
 
 
 <script>
 import {ref} from 'vue';
-import {useGLTF} from '@tresjs/cientos'
 import {OrbitControls, GLTFModel} from '@tresjs/cientos';
+
 
 export default {
     name: 'MachineModel',
@@ -39,30 +41,22 @@ export default {
         GLTFModel
     },
     props: {
-        productName: {
+        modelUrl: {
             type: String,
             required: true
         }
     },
     async setup() {
 
-        const cameraPosition = ref([10, 10, 2]);
+        const cameraPosition = ref([5, 10, 20]);
         // const {scene} = await useGLTF('/models/3000M/3000M.gltf', {draco: true})
         // console.log('scene', scene)
 
         return {
-            // scene,
-            cameraPosition
+            cameraPosition,
         }
     },
 }
-// const cameraPosition = ref([10, 10, 2]);
-//
-// const props = defineProps({
-//     productName: String
-// })
-//
-// console.log(props);
 
 
 </script>

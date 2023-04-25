@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-4 border shadow-md" data-aos="fade-right" data-aos-delay="200">
+    <div class="mb-8 border shadow-md" data-aos="fade-right" data-aos-delay="200">
         <iframe allowfullscreen=""
                 class="w-full"
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"

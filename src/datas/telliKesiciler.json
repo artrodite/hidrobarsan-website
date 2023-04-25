@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "6000M",
+      "modelUrl": "/models/6000m/6000m.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/kesici/telli-kesici/6000M/1.png",
       "type": "Köprülü Tel Kesme",
@@ -112,6 +113,7 @@
     {
       "id": 2,
       "name": "1260M",
+      "modelUrl": "/models/1260m/1260m.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/kesici/telli-kesici/1260M/1.png",
       "details": {
@@ -214,6 +216,7 @@
     {
       "id": 3,
       "name": "4000Y",
+      "modelUrl": "/models/4000y/4000y.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/kesici/telli-kesici/4000Y/1.png",
       "type": "Tel Kesme",
@@ -298,6 +301,7 @@
     {
       "id": 4,
       "name": "3000Y",
+      "modelUrl": "",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/kesici/telli-kesici/4000Y/1.png",
       "type": "Tel Kesme",
@@ -382,6 +386,7 @@
     {
       "id": 5,
       "name": "3000M",
+      "modelUrl": "/models/3000m/3000m.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/kesici/telli-kesici/3000M/1.png",
       "type": "Tel Kesme,",
