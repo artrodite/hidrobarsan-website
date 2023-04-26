@@ -17,10 +17,10 @@
             </div>
         </div>
         <router-link
-                class="bg-[#F7AF03] w-full mx-auto md:mt-16 md:w-fit  md:bg-transparent rounded-lg flex p-4 justify-center items-center"
+                class="bg-[#F7AF03] w-full mx-auto md:mt-16 md:w-fit  md:bg-transparent rounded-lg flex p-4 justify-center items-center transition-all border border-transparent md:hover:border-[#F7AF03]"
                 data-aos="fade-up"
                 to="/hakkimizda">
-            <span class="text-white md:text-[#F7AF03] font-medium">Daha Fazlasını Görmek için Tıklayınız</span>
+            <span class="text-white md:text-[#F7AF03] text-sm md:text-md font-medium">Daha Fazlasını Görmek için Tıklayınız</span>
         </router-link>
     </div>
 </template>

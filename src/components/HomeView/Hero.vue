@@ -5,9 +5,9 @@
                     :navigation="true"
                     :slides-per-view="1"
                     @autoplayTimeLeft="onAutoplayTimeLeft"
-                    @slideChange="onSlideChange"
                     @swiper="onSwiper"
             >
+                <!--                @slideChange="onSlideChange"-->
                 <swiper-slide>
                     <img alt="hero image" class="mx-auto" src="/images/hero-1.png">
                 </swiper-slide>
@@ -33,7 +33,7 @@
                 Mermer tozunu ortadan kaldıran son teknoloji emiş sistemi.
             </div>
             <router-link
-                    class="mt-12 bg-[#F7AF03] w-full md:w-1/3 md:border md:border-[#F7AF03] md:bg-transparent rounded flex p-4 justify-center items-center"
+                    class="mt-12 bg-[#F7AF03] w-full md:w-1/3 md:border md:border-[#F7AF03] md:bg-transparent rounded flex p-4 justify-center items-center transition-all md:hover:shadow-md md:hover:shadow-[#F7AF03]"
                     to="/urunlerimiz">
                 <span class="text-white md:text-[#F7AF03] font-medium mr-2">Ürünleri İnceleyin</span>
                 <img alt="3d-view-icon" class="block md:hidden" src="@/assets/3d-view-icon.svg">
@@ -63,13 +63,13 @@ export default {
         const onSwiper = (swiper) => {
             console.log(swiper);
         };
-        const onSlideChange = () => {
-            console.log('slide change');
-        };
+        // const onSlideChange = () => {
+        //     console.log('slide change');
+        // };
 
         return {
             onSwiper,
-            onSlideChange,
+            // onSlideChange,
             onAutoplayTimeLeft,
             progressCircle,
             progressContent
