@@ -2,16 +2,16 @@
   "categories": [
     {
       "id": 1,
-      "name": "Kesiciler",
+      "name": "Kesici Makina Grubu",
       "url": "kesiciler",
-      "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+      "desc": "",
       "imgUrl": "/images/categories/kesici.png"
     },
     {
       "id": 2,
-      "name": "Deliciler",
+      "name": "Delici Makina Grubu",
       "url": "deliciler",
-      "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+      "desc": "",
       "imgUrl": "/images/categories/delici.png"
     }
   ]

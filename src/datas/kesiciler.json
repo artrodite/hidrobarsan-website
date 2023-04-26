@@ -2,16 +2,16 @@
   "kesiciler": [
     {
       "id": 1,
-      "name": "Zincirli",
+      "name": "Zincirli Kesme Grubu",
       "url": "zincirli",
-      "desc": "Zincirli Kesme Makinası büyük bir zincir testeresi kullanarak mermer bloklarını keser",
+      "desc": "",
       "imgUrl": "/images/categories/kesici.png"
     },
     {
       "id": 2,
-      "name": "Telli",
+      "name": "Telli Kesme Grubu",
       "url": "telli",
-      "desc": "Telli Kesme Makinası daha ince kesimler yapabilir ve malzeme kaybını daha aza indirir.",
+      "desc": "",
       "imgUrl": "/images/products/kesici/telli-kesici/6000M/1.png"
     }
   ]

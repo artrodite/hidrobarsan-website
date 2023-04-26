@@ -15,6 +15,9 @@
                 <!--                    </span>-->
                 <!--                </button>-->
                 <!-- Dropdown -->
+                <a class="hidden md:flex items-center opacity-0" href="/">
+                    <img alt="hidrobarsan" class="w-40" src="../assets/logo.png"/>
+                </a>
                 <div id="language-dropdown-menu"
                      class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow">
                     <ul class="py-2 " role="none">

@@ -26,20 +26,18 @@
 
         </div>
         <div class="flex flex-col text-5xl mt-4">
-            <span class="font-bold text-[#F7AF03]" data-aos="fade-right">{{ show ? 'KESMEK' : 'DELMEK' }}</span>
-            <span data-aos="fade-right" data-aos-delay="200">ARTIK DAHA KOLAY</span>
+            <span class="font-bold text-[#F7AF03]" data-aos="fade-right">TOZ EMME</span>
+            <span data-aos="fade-right" data-aos-delay="200">SİSTEMİ</span>
         </div>
         <div class="font-thin mt-4" data-aos="fade-right" data-aos-delay="300">
-            Yeni toz emişli <span class="text-[#F7AF03] font-bold text-xl">{{ show ? 'HZK8200' : 'Y328' }}</span> ile İş
-            yükünüzü azaltın, tozlardan kurtulun.
+            Mermer tozunu ortadan kaldıran son teknoloji emiş sistemi.
         </div>
 
-        <router-link :to="show ? '/urunlerimiz/kesiciler/zincirli/hzk8200' : '/urunlerimiz/deliciler/y328'"
-                     class="mt-12 bg-[#F7AF03] w-full rounded flex p-4 justify-center items-center">
-            <span class="text-white font-medium mr-2">Bu ürünü inceleyin</span>
+        <router-link class="mt-12 bg-[#F7AF03] w-full rounded flex p-4 justify-center items-center"
+                     to="/urunlerimiz">
+            <span class="text-white font-medium mr-2">Ürünleri İnceleyin</span>
             <img alt="3d-view-icon" src="@/assets/3d-view-icon.svg">
         </router-link>
-
     </div>
 </template>
 
@@ -82,19 +80,11 @@ export default {
                 disableOnInteraction: false
             },
             loop: true,
-            show: true
         }
     },
     components: {
         Swiper,
         SwiperSlide
-    },
-    mounted() {
-        this.$nextTick(() => {
-            setInterval(() => {
-                this.show = !this.show;
-            }, 3300);
-        });
     }
 }
 </script>
