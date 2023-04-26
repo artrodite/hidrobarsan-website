@@ -9,7 +9,7 @@
                     <MachineModel :model-url="product.modelUrl"/>
                 </Suspense>
                 <div class="my-4">
-                    <img alt="3d" class="view-icon " data-aos="fade-left" src="@/assets/3d-view-icon.svg">
+                    <img alt="3d" class="view-icon " data-aos="fade-left" src="@/assets/3d-view-icon-colored.svg">
                 </div>
             </div>
             <div class="text-center my-8">
@@ -201,9 +201,5 @@ i.swipeRight {
   100% {
     transform: translateX(0);
   }
-}
-
-.view-icon {
-  filter: brightness(0) saturate(100%) invert(73%) sepia(77%) saturate(1934%) hue-rotate(357deg) brightness(97%) contrast(101%);
 }
 </style>

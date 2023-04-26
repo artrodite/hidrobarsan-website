@@ -32,10 +32,12 @@
             <div class="font-thin mt-4" data-aos="fade-right" data-aos-delay="300">
                 Mermer tozunu ortadan kaldıran son teknoloji emiş sistemi.
             </div>
-            <router-link class="mt-12 bg-[#F7AF03] w-full rounded flex p-4 justify-center items-center"
-                         to="/urunlerimiz">
-                <span class="text-white font-medium mr-2">Ürünleri İnceleyin</span>
-                <img alt="3d-view-icon" src="@/assets/3d-view-icon.svg">
+            <router-link
+                    class="mt-12 bg-[#F7AF03] w-full md:w-1/3 md:border md:border-[#F7AF03] md:bg-transparent rounded flex p-4 justify-center items-center"
+                    to="/urunlerimiz">
+                <span class="text-white md:text-[#F7AF03] font-medium mr-2">Ürünleri İnceleyin</span>
+                <img alt="3d-view-icon" class="block md:hidden" src="@/assets/3d-view-icon.svg">
+                <img alt="3d-view-icon-colored" class="hidden md:block" src="@/assets/3d-view-icon-colored.svg">
             </router-link>
         </div>
     </div>

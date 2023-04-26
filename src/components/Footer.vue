@@ -65,8 +65,8 @@
                     <div class="w-full border-t border-black"></div>
                 </div>
                 <div class="px-6 py-12 flex items-center justify-between">
-                    <div class="text-xs">© 2023 Hidrobarsan - Tüm hakları saklıdır.</div>
-                    <a href="https://artrodite.com" target="_blank">
+                    <div class="text-xs order-2 md:order-1">© 2023 Hidrobarsan - Tüm hakları saklıdır.</div>
+                    <a class="order-1 md:order-2" href="https://artrodite.com" target="_blank">
                         <img alt="artrodite" src="@/assets/artrodite-logo.svg">
                     </a>
                 </div>
