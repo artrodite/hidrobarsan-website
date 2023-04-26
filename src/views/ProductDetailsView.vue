@@ -40,7 +40,7 @@
                     <i class="fa-solid fa-arrow-right-long swipeRight"></i>
                 </div>
                 <!--Swiper-->
-                <swiper :navigation="true" :slides-per-view="1" :loop="loop">
+                <swiper :navigation="true" :slides-per-view="1" :loop="false" :rewind="rewind">
                     <swiper-slide v-for="(imageUrl, index) in productDetails.images" :key="index">
                         <img :src="imageUrl.url" alt="imageUrl">
                         <div v-if="imageUrl.desc" class="text-[#F7AF03]">
@@ -126,7 +126,7 @@ export default {
         return {
             product: {},
             productDetails: {},
-            loop: true
+            rewind: true,
         }
     },
     async mounted() {
