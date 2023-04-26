@@ -4,17 +4,35 @@
             <div class="hidden md:grid py-12 px-6 md:pt-24 md:pl-48  justify-items-between text-sm grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
                 <ul>
                     <li class="font-semibold"> Site</li>
-                    <li> Anasayfa</li>
-                    <li> Ürünlerimiz</li>
-                    <li> Hakkımızda</li>
-                    <li> İletişim</li>
+                    <li>
+                        <router-link
+                                to="/">Anasayfa
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link
+                                to="/hakkimizda">Hakkımızda
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link
+                                to="/urunlerimiz">Ürünlerimiz
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link
+                                to="/iletisim">İletişim
+                        </router-link>
+                    </li>
                 </ul>
                 <!---->
                 <ul>
                     <li class="font-semibold"> Sosyal Medya</li>
-                    <li> Instagram</li>
-                    <li> Facebook</li>
-                    <li> LinkedIn</li>
+                    <li><a href="https://www.instagram.com/hidrobarsanmakina/" target="_blank">Instagram </a></li>
+                    <li><a href="https://www.facebook.com/people/Hidrobarsan-Mermer-Makinalar%C4%B1/100063876920005/"
+                           target="_blank">Facebook </a></li>
+                    <li><a href="https://www.linkedin.com/company/hidrobarsan-mermer-makinalar%C4%B1" target="_blank">LinkedIn </a>
+                    </li>
                 </ul>
                 <!---->
                 <ul>
@@ -27,7 +45,7 @@
                 <!---->
                 <ul>
                     <li class="font-semibold">Mail</li>
-                    <li>info@hidrobarsan.com.tr</li>
+                    <li><a href="mailto:info@hidrobarsan.com.tr" target="_blank">info@hidrobarsan.com.tr</a></li>
                 </ul>
                 <!---->
                 <ul>
