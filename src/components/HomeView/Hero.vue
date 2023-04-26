@@ -1,5 +1,5 @@
 <template>
-    <div class="container px-6 md:px-0 mx-auto mb-12">
+    <div class="container px-6 md:px-0 mx-auto md:mt-12 mb-12 grid grid-cols-1 md:grid-cols-2 gap-16">
         <div class="w-full" data-aos="fade-left">
             <swiper ref="swiper" :allow-touch-move="false" :autoplay="true" :loop="loop"
                     :navigation="true"
@@ -23,21 +23,21 @@
                     </div>
                 </template>
             </swiper>
-
         </div>
-        <div class="flex flex-col text-5xl mt-4">
-            <span class="font-bold text-[#F7AF03]" data-aos="fade-right">TOZ EMME</span>
-            <span data-aos="fade-right" data-aos-delay="200">SİSTEMİ</span>
+        <div class="flex flex-col justify-center">
+            <div class="flex flex-col text-5xl md:text-7xl mt-4">
+                <span class="font-bold text-[#F7AF03]" data-aos="fade-right">TOZ EMME</span>
+                <span data-aos="fade-right" data-aos-delay="200">SİSTEMİ</span>
+            </div>
+            <div class="font-thin mt-4" data-aos="fade-right" data-aos-delay="300">
+                Mermer tozunu ortadan kaldıran son teknoloji emiş sistemi.
+            </div>
+            <router-link class="mt-12 bg-[#F7AF03] w-full rounded flex p-4 justify-center items-center"
+                         to="/urunlerimiz">
+                <span class="text-white font-medium mr-2">Ürünleri İnceleyin</span>
+                <img alt="3d-view-icon" src="@/assets/3d-view-icon.svg">
+            </router-link>
         </div>
-        <div class="font-thin mt-4" data-aos="fade-right" data-aos-delay="300">
-            Mermer tozunu ortadan kaldıran son teknoloji emiş sistemi.
-        </div>
-
-        <router-link class="mt-12 bg-[#F7AF03] w-full rounded flex p-4 justify-center items-center"
-                     to="/urunlerimiz">
-            <span class="text-white font-medium mr-2">Ürünleri İnceleyin</span>
-            <img alt="3d-view-icon" src="@/assets/3d-view-icon.svg">
-        </router-link>
     </div>
 </template>
 
