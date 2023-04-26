@@ -1,6 +1,6 @@
 <template>
   <!-- eslint-disable  -->
-    <div v-if="!!modelUrl" class="w-full h-full">
+    <div v-if="!!modelUrl" class="w-full h-full border border-[#F7AF03] rounded">
         <TresCanvas preset="realistic">
             <OrbitControls id="orbitControls" :enableZoom="false" :maxPolarAngle="Math.PI / 2"
                            :minPolarAngle="Math.PI / 4"/>
@@ -48,7 +48,7 @@ export default {
     },
     async setup() {
 
-        const cameraPosition = ref([5, 10, 20]);
+        const cameraPosition = ref([0, 0, 15]);
         // const {scene} = await useGLTF('/models/3000M/3000M.gltf', {draco: true})
         // console.log('scene', scene)
 
@@ -61,4 +61,7 @@ export default {
 
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+
+</style>

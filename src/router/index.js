@@ -54,17 +54,17 @@ const routes = [
         component: TelliKesiciler
     },
     {
-        path: '/urunlerimiz/kesiciler/zincirli/:name',
+        path: '/urunlerimiz/kesiciler/zincirli/:url',
         name: 'zincirli-kesici-detay',
         component: ProductDetailsView
     },
     {
-        path: '/urunlerimiz/kesiciler/telli/:name',
+        path: '/urunlerimiz/kesiciler/telli/:url',
         name: 'telli-kesici-detay',
         component: ProductDetailsView
     },
     {
-        path: '/urunlerimiz/deliciler/:name',
+        path: '/urunlerimiz/deliciler/:url',
         name: 'delici-detay',
         component: ProductDetailsView
     }

@@ -3,13 +3,14 @@
     {
       "id": 1,
       "name": "HZK8200 Toz Emiş Sistemli",
+      "url": "hzk8200",
       "modelUrl": "/models/hzk8200/hzk8200.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
       "type": "Zincirli Kollu Kesme",
       "details": {
         "name": "HZK8200 Toz Emiş Sistemli",
-        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "videoUrl": "",
         "images": [
           "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
           "/images/products/kesici/zincirli-kesici/HZK8200/2.png"
@@ -103,14 +104,15 @@
     },
     {
       "id": 2,
-      "name": "HZK3400 Yengeç",
+      "name": "HZK3400-YENGEC",
+      "url": "hzk3400-yengec",
       "modelUrl": "/models/hzk3400yengec/hzk3400yengec.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/1.png",
       "type": "Zincirli Kollu Kesme",
       "details": {
         "name": "HZK3400 Yengeç",
-        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "videoUrl": "",
         "images": [
           "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/1.png",
           "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/2.png"
@@ -213,13 +215,14 @@
     {
       "id": 3,
       "name": "HZK3400",
+      "url": "hzk3400",
       "modelUrl": "/models/hzk3400/hzk3400.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
       "type": "Zincirli Kollu Kesme",
       "details": {
         "name": "HZK3400 Zincirli Kollu Kesme",
-        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "videoUrl": "",
         "images": [
           "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
           "/images/products/kesici/zincirli-kesici/HZK3400/2.png",
@@ -315,13 +318,14 @@
     {
       "id": 4,
       "name": "HZK3400-M",
+      "url": "hzk3400-m",
       "modelUrl": "/models/hzk3400-m/hzk3400-m.gltf",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400-M/1.png",
       "type": "Mobil Zincirli Kollu Kesme",
       "details": {
         "name": "HZK3400-M Mobil Zincirli Kollu Kesme",
-        "videoUrl": "https://www.youtube.com/embed/b73BI9eUkjM",
+        "videoUrl": "",
         "images": [
           "/images/products/kesici/zincirli-kesici/HZK3400-M/1.png"
         ],

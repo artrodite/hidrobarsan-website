@@ -18,7 +18,7 @@
 export default {
     methods: {
         getRouterLink(product) {
-            return this.$route.path + '/' + product.name.toLowerCase();
+            return this.$route.path + '/' + product.url;
         }
     },
     props: {

@@ -17,7 +17,7 @@
             </div>
         </div>
         <router-link class="bg-[#F7AF03] w-full rounded-lg flex p-4 justify-center items-center" data-aos="fade-up"
-                     to="/">
+                     to="/hakkimizda">
             <span class="text-white font-medium">Daha Fazlasını Görmek için Tıklayınız</span>
         </router-link>
     </div>

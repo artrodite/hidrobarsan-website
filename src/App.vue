@@ -13,6 +13,11 @@
 
         </div>
         <Footer/>
+        <div class="scroll-to-top-button bg-black text-white text-center flex items-center justify-center cursor-pointer fixed bottom-12 right-6 transition-all hover:bg-[#F7AF03]"
+             style="width: 40px; height: 40px;"
+             @click="scrollToTop">
+            <i class="fa-solid fa-chevron-up fs-6"/>
+        </div>
     </div>
 </template>
 
@@ -29,9 +34,7 @@ export default {
     components: {Footer, Navbar},
     watch: {
         $route() {
-            window.scrollTo(0, 0, {
-                behavior: 'smooth'
-            })
+            this.scrollToTop();
         }
     },
     mounted() {
@@ -42,6 +45,15 @@ export default {
             easing: 'ease-in-out',
         })
         emailjs.init(process.env.VUE_APP_EMAIL_PUBLIC_KEY);
+    },
+    setup() {
+        const scrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+        return {scrollToTop}
     }
 }
 
