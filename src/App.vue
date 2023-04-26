@@ -34,6 +34,7 @@ export default {
     components: {Footer, Navbar},
     watch: {
         $route() {
+            document.title = 'Hidrobarsan | ' + this.$route.meta.title;
             this.scrollToTop();
         }
     },
@@ -54,7 +55,7 @@ export default {
             })
         }
         return {scrollToTop}
-    }
+    },
 }
 
 

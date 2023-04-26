@@ -16,41 +16,49 @@ const routes = [
     {
         path: '/',
         name: 'home',
+        meta: {title: 'Anasayfa'},
         component: HomeView
     },
     {
         path: '/hakkimizda',
         name: 'about',
+        meta: {title: 'Hakkımızda'},
         component: AboutView
     },
     {
         path: '/iletisim',
         name: 'contact',
+        meta: {title: 'İletişim'},
         component: ContactView
     },
     {
         path: '/urunlerimiz',
         name: 'products',
+        meta: {title: 'Ürünlerimiz'},
         component: ProductsView
     },
     {
         path: '/urunlerimiz/kesiciler',
         name: 'kesiciler',
+        meta: {title: 'Kesiciler'},
         component: KesicilerView
     },
     {
         path: '/urunlerimiz/deliciler',
         name: 'deliciler',
+        meta: {title: 'Deliciler'},
         component: DelicilerView
     },
     {
         path: '/urunlerimiz/kesiciler/zincirli',
         name: 'zincirli-kesiciler',
+        meta: {title: 'Zincirli Kesiciler'},
         component: ZincirliKesiciler
     },
     {
         path: '/urunlerimiz/kesiciler/telli',
         name: 'telli-kesiciler',
+        meta: {title: 'Telli Kesiciler'},
         component: TelliKesiciler
     },
     {
