@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white p-12 relative text-center flex flex-col justify-between transition-all shadow-sm hover:scale-105">
-        <div class="text-3xl whitespace-nowrap absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <div class="text-3xl md:whitespace-nowrap absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
             {{ accessory.title }}
         </div>
         <div class="p-6 md:p-12 flex items-center justify-center">
