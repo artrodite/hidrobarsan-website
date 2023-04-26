@@ -12,8 +12,14 @@
         "name": "HZK8200 Toz Emiş Sistemli",
         "videoUrl": "",
         "images": [
-          "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
-          "/images/products/kesici/zincirli-kesici/HZK8200/2.png"
+          {
+            "url": "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
+            "desc": "Yan Kesim Modu"
+          },
+          {
+            "url": "/images/products/kesici/zincirli-kesici/HZK8200/2.png",
+            "desc": "Alt Kesim Modu"
+          }
         ],
         "accessories": [
           {
@@ -114,8 +120,18 @@
         "name": "HZK3400 Yengeç",
         "videoUrl": "",
         "images": [
-          "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/1.png",
-          "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/2.png"
+          {
+            "url": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/1.png",
+            "desc": "Yan Kesim Modu"
+          },
+          {
+            "url": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/2.png",
+            "desc": "Yan Kesim Modu"
+          },
+          {
+            "url": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/3.png",
+            "desc": "Alt Kesim Modu"
+          }
         ],
         "accessories": [
           {
@@ -224,10 +240,22 @@
         "name": "HZK3400 Zincirli Kollu Kesme",
         "videoUrl": "",
         "images": [
-          "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
-          "/images/products/kesici/zincirli-kesici/HZK3400/2.png",
-          "/images/products/kesici/zincirli-kesici/HZK3400/3.png",
-          "/images/products/kesici/zincirli-kesici/HZK3400/4.png"
+          {
+            "url": "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
+            "desc": "Yan Kesim Modu"
+          },
+          {
+            "url": "/images/products/kesici/zincirli-kesici/HZK3400/2.png",
+            "desc": "Yan Kesim Modu"
+          },
+          {
+            "url": "/images/products/kesici/zincirli-kesici/HZK3400/4.png",
+            "desc": "Alt Kesim Modu"
+          },
+          {
+            "url": "/images/products/kesici/zincirli-kesici/HZK3400/3.png",
+            "desc": "Alt Kesim Modu"
+          }
         ],
         "accessories": [
           {
@@ -327,7 +355,10 @@
         "name": "HZK3400-M Mobil Zincirli Kollu Kesme",
         "videoUrl": "",
         "images": [
-          "/images/products/kesici/zincirli-kesici/HZK3400-M/1.png"
+          {
+            "url": "/images/products/kesici/zincirli-kesici/HZK3400-M/1.png",
+            "desc": "HZK3400-M Mobil Zincirli Kollu Kesme"
+          }
         ],
         "accessories": [],
         "specifications": [

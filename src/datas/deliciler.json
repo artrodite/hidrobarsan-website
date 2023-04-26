@@ -12,9 +12,18 @@
         "name": "Y328 Mobil Sondaj",
         "videoUrl": "https://www.youtube.com/embed/m0tmYiniAis",
         "images": [
-          "/images/products/delici/Y328/1.png",
-          "/images/products/delici/Y328/2.png",
-          "/images/products/delici/Y328/3.png"
+          {
+            "url": "/images/products/delici/Y328/1.png",
+            "desc": "Yatay Delme modu"
+          },
+          {
+            "url": "/images/products/delici/Y328/2.png",
+            "desc": "Dikey Delme modu"
+          },
+          {
+            "url": "/images/products/delici/Y328/3.png",
+            "desc": "Operatör Kabini"
+          }
         ],
         "accessories": [
           {
@@ -148,9 +157,18 @@
         "name": "Y327 Mobil Sondaj",
         "videoUrl": "",
         "images": [
-          "/images/products/delici/Y327/1.png",
-          "/images/products/delici/Y327/2.png",
-          "/images/products/delici/Y327/3.png"
+          {
+            "url": "/images/products/delici/Y327/1.png",
+            "desc": "Dikey Delme Modu"
+          },
+          {
+            "url": "/images/products/delici/Y327/2.png",
+            "desc": "Operatör Kabini"
+          },
+          {
+            "url": "/images/products/delici/Y327/3.png",
+            "desc": "Yatay Delme Modu"
+          }
         ],
         "accessories": [
           {
@@ -289,7 +307,10 @@
         "name": "108T Hidrolik Sondaj",
         "videoUrl": "",
         "images": [
-          "/images/products/delici/108T/1.png"
+          {
+            "url": "/images/products/delici/108T/1.png",
+            "desc": "108T Hidrolik Sondaj"
+          }
         ],
         "accessories": [
           {

@@ -12,8 +12,14 @@
         "name": "6000M Köprülü Tel Kesme",
         "videoUrl": "https://www.youtube.com/embed/m74loFPpA1w",
         "images": [
-          "/images/products/kesici/telli-kesici/6000M/1.png",
-          "/images/products/kesici/telli-kesici/6000M/2.png"
+          {
+            "url": "/images/products/kesici/telli-kesici/6000M/1.png",
+            "desc": ""
+          },
+          {
+            "url": "/images/products/kesici/telli-kesici/6000M/2.png",
+            "desc": "Alt kesim modu"
+          }
         ],
         "accessories": [
           {
@@ -115,8 +121,14 @@
         "name": "1260M Raylı Tel Kesme",
         "videoUrl": "",
         "images": [
-          "/images/products/kesici/telli-kesici/1260M/1.png",
-          "/images/products/kesici/telli-kesici/1260M/2.png"
+          {
+            "url": "/images/products/kesici/telli-kesici/1260M/1.png",
+            "desc": "Alt Kesim Modu"
+          },
+          {
+            "url": "/images/products/kesici/telli-kesici/1260M/2.png",
+            "desc": ""
+          }
         ],
         "accessories": [
           {
@@ -220,7 +232,11 @@
         "name": "4000Y Yarma",
         "videoUrl": "",
         "images": [
-          "/images/products/kesici/telli-kesici/4000Y/1.png"
+          {
+            "url": "/images/products/kesici/telli-kesici/4000Y/1.png",
+            "desc": "4000Y Yarma"
+          }
+
         ],
         "accessories": [
           {
@@ -306,7 +322,10 @@
         "name": "3000Y Düz Sayalama",
         "videoUrl": "",
         "images": [
-          "/images/products/kesici/telli-kesici/3000Y/1.png"
+          {
+            "url": "/images/products/kesici/telli-kesici/3000Y/1.png",
+            "desc": "3000Y Düz Sayalama"
+          }
         ],
         "accessories": [
           {
@@ -392,7 +411,10 @@
         "name": "3000M Rampalı Sayalama",
         "videoUrl": "",
         "images": [
-          "/images/products/kesici/telli-kesici/3000M/1.png"
+          {
+            "url": "/images/products/kesici/telli-kesici/3000M/1.png",
+            "desc": "3000M Rampalı Sayalama"
+          }
         ],
         "accessories": [
           {

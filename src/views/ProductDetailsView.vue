@@ -42,7 +42,10 @@
                 <!--Swiper-->
                 <swiper :navigation="true" :slides-per-view="1">
                     <swiper-slide v-for="(imageUrl, index) in productDetails.images" :key="index">
-                        <img :src="imageUrl" alt="imageUrl">
+                        <img :src="imageUrl.url" alt="imageUrl">
+                        <div v-if="imageUrl.desc" class="text-[#F7AF03]">
+                            {{ imageUrl.desc }}
+                        </div>
                     </swiper-slide>
                 </swiper>
             </div>
