@@ -26,18 +26,20 @@
         </div>
         <div class="flex flex-col justify-center">
             <div class="flex flex-col text-5xl md:text-7xl mt-4">
-                <span class="font-bold text-[#F7AF03]" data-aos="fade-right">TOZ EMME</span>
+                <span class="font-bold text-[#F7AF03] mb-2" data-aos="fade-right">TOZ EMME</span>
                 <span data-aos="fade-right" data-aos-delay="200">SİSTEMİ</span>
             </div>
-            <div class="font-thin mt-4" data-aos="fade-right" data-aos-delay="300">
+            <div class="font-thin mt-8" data-aos="fade-right" data-aos-delay="300">
                 Mermer tozunu ortadan kaldıran son teknoloji emiş sistemi.
             </div>
             <router-link
-                    class="mt-12 bg-[#F7AF03] w-full md:w-1/3 md:border md:border-[#F7AF03] md:bg-transparent rounded flex p-4 justify-center items-center transition-all md:hover:shadow-md md:hover:shadow-[#F7AF03]"
+                    class="see-product-btn mt-12 w-full md:w-1/3 border border-[#F7AF03] bg-transparent flex p-4 justify-center items-center transition-all"
                     to="/urunlerimiz">
-                <span class="text-white md:text-[#F7AF03] font-medium mr-2">Ürünleri İnceleyin</span>
-                <img alt="3d-view-icon" class="block md:hidden" src="@/assets/3d-view-icon.svg">
-                <img alt="3d-view-icon-colored" class="hidden md:block" src="@/assets/3d-view-icon-colored.svg">
+                <span class="see-product-btn-text text-[#F7AF03] font-medium mr-2">Bu ürünü incele</span>
+                <img alt="3d-view-icon" class="view3d-icon hidden"
+                     src="@/assets/3d-view-icon.svg">
+                <img alt="3d-view-icon-colored" class="view3d-icon-colored block"
+                     src="@/assets/3d-view-icon-colored.svg">
             </router-link>
         </div>
     </div>
@@ -92,6 +94,26 @@ export default {
 </script>
 
 <style scoped>
+
+@media (min-width: 768px ) {
+    .see-product-btn {
+        &:hover {
+            background-color: #F7AF03;
+
+            .see-product-btn-text {
+                color: #fff;
+            }
+
+            .view3d-icon {
+                display: block;
+            }
+
+            .view3d-icon-colored {
+                display: none;
+            }
+        }
+    }
+}
 
 .autoplay-progress {
     position: absolute;

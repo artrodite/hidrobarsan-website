@@ -1,13 +1,13 @@
 <template>
     <div class="container px-6 md:px-0 mx-auto py-12 mb-16 md:mt-16">
         <div class="mb-4 font-thin" data-aos="fade-up">
-            Duyurular <i class="down-icon md:opacity-0 fa fa-turn-down font-thin"/>
+            Duyurular <i class="ml-2 fa fa-chevron-down font-thin text-xs md:opacity-0"/>
         </div>
         <div class="flex flex-col gap-12">
-            <div class="order-2 md:order-1 mx-auto md:w-1/3" data-aos="fade-up" data-aos-delay="100">
+            <div class="order-1 mx-auto md:w-1/3" data-aos="fade-up" data-aos-delay="100">
                 <img alt="announcement-img" src="/images/announcement.png">
             </div>
-            <div class="order-1 md:order-2 text-justify mx-auto md:w-1/3">
+            <div class="order-2 text-justify mx-auto md:w-1/3">
                 <div class="font-medium mb-4" data-aos="fade-up" data-aos-delay="200">İzmir Uluslararası Doğal Taş ve
                     Teknolojileri Fuarındayız
                 </div>
@@ -30,8 +30,4 @@ export default {
 </script>
 
 <style scoped>
-.down-icon {
-    vertical-align: -webkit-baseline-middle;
-    font-variant: all-small-caps;
-}
 </style>

@@ -19,7 +19,7 @@
                     <img alt="hidrobarsan" class="w-40" src="../assets/logo.png"/>
                 </a>
                 <div id="language-dropdown-menu"
-                     class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow">
+                     class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 shadow">
                     <ul class="py-2 " role="none">
                         <li>
                             <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#"
@@ -69,7 +69,7 @@
                         data-collapse-toggle="mobile-menu-language-select" type="button" @click="toggleDropdown">
                     <span class="sr-only">Open main menu</span>
                     <i :class="isDropdownOpen ? 'fa-xmark' : 'fa-grip-lines '"
-                       class="fa text-2xl text-black transition-all"/>
+                       class="fa text-4xl text-black transition-all"/>
                 </button>
             </div>
             <div id="mobile-menu-language-select"

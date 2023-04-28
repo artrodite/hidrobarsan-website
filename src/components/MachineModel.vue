@@ -1,6 +1,6 @@
 <template>
   <!-- eslint-disable  -->
-    <div v-if="!!modelUrl" class="w-full h-full border border-[#F7AF03] rounded">
+    <div v-if="!!modelUrl" class="w-full h-full border border-[#F7AF03]">
         <TresCanvas preset="realistic">
             <OrbitControls id="orbitControls" :enableZoom="false" :maxPolarAngle="Math.PI / 2"
                            :minPolarAngle="Math.PI / 4"/>

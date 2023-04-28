@@ -3,18 +3,18 @@
         <div class="mb-4 font-thin" data-aos="fade-up">
             İletişim
         </div>
-        <Map/>
+        <Map />
         <a href="https://goo.gl/maps/McGBpHfmCPdotHvs6" class="text-[#F7AF03] flex items-center justify-center gap-4 border border-[#F7AF03] font-thin mb-4 p-2" target="_blank" data-aos="fade-up" data-aos-delay="100">
             <i class="fa fa-location-dot"/> Adres
         </a>
-        <div class="grid grid-cols-2 gap-4 mb-12">
+        <div class="grid grid-cols-2 gap-4 mb-16">
             <a v-for="(info, index) in infos" :key="index"
                :data-aos="(index % 2) ? 'fade-left' : 'fade-right'"
                :data-aos-delay="index * 100"
                :href="info.action"
                class="border py-2 px-4 border-[#F7AF03] justify-center">
                 <div class="w-2/3 mx-auto">
-                    <div class="whitespace-nowrap items-center text-[#F7AF03] font-thin">
+                    <div class="whitespace-nowrap md:text-center items-center text-[#F7AF03] font-thin">
                         <i :class="info.img" class="mr-3 fa"/> {{ info.text }}
                     </div>
                 </div>

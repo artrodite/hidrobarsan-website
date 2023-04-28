@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto px-6 md:px-0">
-        <div class="flex justify-between">
-            <h1 class="text-5xl md:text-6xl mb-4" data-aos="fade-right">{{ productDetails.name }}</h1>
+        <div class="flex justify-between mb-8">
+            <h1 class="text-5xl md:text-6xl" data-aos="fade-right">{{ productDetails.name }}</h1>
         </div>
         <div>
             <div v-if="product.modelUrl" class="relative h-[20rem] md:h-[40rem]" data-aos="fade-up">
@@ -16,8 +16,9 @@
                 <router-link class="md:w-64 text-[#F7AF03] px-4 py-2 md:py-4 text-lg " to="/iletisim">İletişime Geç
                 </router-link>
             </div>
-            <div class="see-deails text-center mb-12">
-                <i class="fa fa-angles-down"/>
+            <div class="text-center mb-12">
+                <i v-for="(_, index) in 7" :key="index" :style="{animationDelay: index * 100 + 'ms'}"
+                   class="see-details fa fa-chevron-down mx-1"/>
             </div>
 
             <!--            <machine-model :product-name="product.name"/>-->
@@ -50,36 +51,36 @@
                 </swiper>
             </div>
             <div class="xl:col-span-1">
-                <div class="mb-4 font-bold" data-aos="fade-up">
+                <div class="mb-4 font-bold text-xl" data-aos="fade-up">
                     Teknik özellikler
                 </div>
                 <div v-for="(specification, index) in productDetails.specifications" :key="index"
                      :data-aos-delay="index * 100" class="flex items-center mb-4" data-aos="fade-right">
                     <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
-                    <div class="w-1/2">
+                    <div class="w-1/2 font-medium">
                         {{ specification.title }}
                     </div>
-                    <div class=" w-1/2">
+                    <div class=" w-1/2 font-light">
                         {{ specification.desc }}
                     </div>
                 </div>
 
-                <div class="mt-6 mb-4 font-bold" data-aos="fade-right">
+                <div class="mt-6 mb-4 font-bold text-xl" data-aos="fade-right">
                     Ebatlar
                 </div>
                 <div v-for="(size, index) in productDetails.sizes" :key="index" :data-aos-delay="index * 100"
                      class="flex items-center mb-4" data-aos="fade-right">
                     <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
-                    <div class="w-1/2">
+                    <div class="w-1/2 font-medium">
                         {{ size.title }}
                     </div>
-                    <div class="w-1/2">
+                    <div class="w-1/2 font-light">
                         {{ size.desc }}
                     </div>
                 </div>
 
                 <div v-if="productDetails.equipments">
-                    <div class="mt-6 mb-4 font-bold" data-aos="fade-right">
+                    <div class="mt-6 mb-4 font-bold text-xl" data-aos="fade-right">
                         Aksesuarlar
                     </div>
 
@@ -87,10 +88,10 @@
                          :data-aos-delay="index * 100"
                          class="flex items-center mb-4" data-aos="fade-right">
                         <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
-                        <div class="w-1/2">
+                        <div class="w-1/2 font-medium">
                             {{ equipment.title }}
                         </div>
-                        <div class="w-1/2">
+                        <div class="w-1/2 font-light">
                             {{ equipment.desc }}
                         </div>
                     </div>
@@ -154,8 +155,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 
-.see-deails {
-  animation: bounce 2s infinite;
+.see-details {
+  animation: bounce 2s infinite
 }
 
 @keyframes bounce {
