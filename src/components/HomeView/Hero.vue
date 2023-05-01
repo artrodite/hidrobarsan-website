@@ -2,7 +2,6 @@
     <div class="container px-6 md:px-0 mx-auto md:mt-12 mb-12 grid grid-cols-1 md:grid-cols-2 gap-16">
         <div class="w-full" data-aos="fade-left">
             <swiper ref="swiper" :allow-touch-move="false" :autoplay="true" :loop="loop"
-                    :navigation="true"
                     :slides-per-view="1"
                     @autoplayTimeLeft="onAutoplayTimeLeft"
                     @swiper="onSwiper"
