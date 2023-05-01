@@ -1,5 +1,6 @@
 <template>
-    <router-link :to="getRouterLink(product)"
+    <router-link :class="fromSlider ? 'disabled' : ''"
+                 :to="fromSlider ? '' : getRouterLink(product)"
                  class="flex flex-col justify-between product-card bg-white py-4 px-8 max-w-lg flex-grow">
         <img :src="product.imgUrl" alt="product-img" class="-translate-y-1/3 mx-auto transition-all">
 
@@ -29,6 +30,10 @@ export default {
         index: {
             type: Number,
             required: true
+        },
+        fromSlider: {
+            type: Boolean,
+            default: false
         }
     },
 }
@@ -37,5 +42,9 @@ export default {
 <style scoped>
 .icon {
     animation: swing 2s ease-in-out infinite;
+}
+
+.disabled {
+    pointer-events: none;
 }
 </style>
