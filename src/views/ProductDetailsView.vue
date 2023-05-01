@@ -1,10 +1,16 @@
 <template>
     <div class="container mx-auto px-6 md:px-0">
-        <div class="flex justify-between mb-8">
-            <h1 class="text-5xl md:text-6xl" data-aos="fade-right">{{ productDetails.name }}</h1>
+        <div class="mb-8">
+            <div class="text-5xl md:text-6xl mb-4" data-aos="fade-right">{{ productDetails.name }}</div>
+            <div class="hidden lg:block">
+                <h4>
+                    <router-link v-for="(link, index) in routerLinks" :key="index" :to="link.url">{{ link.name }}
+                    </router-link>
+                </h4>
+            </div>
         </div>
         <div>
-            <div v-if="product.modelUrl" class="relative h-[20rem] md:h-[40rem]" data-aos="fade-up">
+            <div v-if="!product.modelUrl" class="relative h-[20rem] md:h-[40rem]" data-aos="fade-up">
 
                 <Suspense>
                     <MachineModel :key="product.modelUrl" :model-url="product.modelUrl"/>
@@ -27,7 +33,7 @@
             <!--            <span class="absolute top-3/4 left-1/2 -translate-y-1/2 -translate-x-1/2">Detayları gör <i-->
             <!--                    class="fa fa-chevron-down"/> </span>-->
         </div>
-        <div v-if="!!productDetails.videoUrl" class="h-64 lg:h-96 lg:w-1/2 mx-auto mb-40" data-aos="fade-up">
+        <div v-if="!!productDetails.videoUrl" class="h-64 lg:h-[40rem] lg:w-3/4 mx-auto mb-40" data-aos="fade-up">
             <iframe
                     :src="productDetails.videoUrl"
                     height="100%"
@@ -35,54 +41,52 @@
                     width="100%"
             />
         </div>
-        <div class="grid grid-cols-1 xl:grid-cols-3 justify-between md:gap-16">
-            <div class="xl:col-span-2 mb-12 lg:mb-0">
-                <div v-if="productDetails.images && productDetails.images.length > 1" class="text-center">
-                    <i class="fa-solid fa-arrow-left-long swipeLeft"> </i>
-                    Fotoğrafları Görmek için Kaydırın!
-                    <i class="fa-solid fa-arrow-right-long swipeRight"></i>
-                </div>
+        <div class="grid grid-cols-1 justify-between md:gap-16">
+            <div class="mb-12 w-3/4 mx-auto">
+
                 <!--Swiper-->
-                <swiper :loop="false" :navigation="true" :rewind="rewind" :slides-per-view="1">
-                    <swiper-slide v-for="(imageUrl, index) in productDetails.images" :key="index">
+                <swiper :loop="false" :modules="modules" :navigation="true" :pagination="true" :rewind="rewind"
+                        :slides-per-view="1">
+                    <swiper-slide v-for="(imageUrl, index) in productDetails.images" :key="index" class="relative">
                         <img :src="imageUrl.url" alt="imageUrl">
-                        <div v-if="imageUrl.desc" class="text-[#F7AF03]">
+                        <div v-if="imageUrl.desc"
+                             class="font-semibold text-5xl absolute bottom-20 left-1/2 -translate-x-1/2">
                             {{ imageUrl.desc }}
                         </div>
                     </swiper-slide>
                 </swiper>
             </div>
-            <div class="xl:col-span-1">
+            <div class="lg:w-[400px] mx-auto">
                 <div class="mb-4 font-bold text-xl" data-aos="fade-up">
                     Teknik özellikler
                 </div>
                 <div v-for="(specification, index) in productDetails.specifications" :key="index"
                      :data-aos-delay="index * 100" class="flex items-center mb-4" data-aos="fade-right">
                     <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
-                    <div class="w-1/2 font-medium">
+                    <div class="w-2/3 font-medium">
                         {{ specification.title }}
                     </div>
-                    <div class=" w-1/2 font-light">
+                    <div class=" w-1/3 font-light">
                         {{ specification.desc }}
                     </div>
                 </div>
 
-                <div class="mt-6 mb-4 font-bold text-xl" data-aos="fade-right">
+                <div class="mt-6 lg:mt-40 mb-4 font-bold text-xl" data-aos="fade-right">
                     Ebatlar
                 </div>
                 <div v-for="(size, index) in productDetails.sizes" :key="index" :data-aos-delay="index * 100"
                      class="flex items-center mb-4" data-aos="fade-right">
                     <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
-                    <div class="w-1/2 font-medium">
+                    <div class="w-2/3 font-medium">
                         {{ size.title }}
                     </div>
-                    <div class="w-1/2 font-light">
+                    <div class="w-1/3 font-light">
                         {{ size.desc }}
                     </div>
                 </div>
 
-                <div v-if="productDetails.equipments">
-                    <div class="mt-6 mb-4 font-bold text-xl" data-aos="fade-right">
+                <div v-if="productDetails.equipments" class="mt-6 lg:mt-40">
+                    <div class="mb-4 font-bold text-xl" data-aos="fade-right">
                         Aksesuarlar
                     </div>
 
@@ -90,10 +94,10 @@
                          :data-aos-delay="index * 100"
                          class="flex items-center mb-4" data-aos="fade-right">
                         <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
-                        <div class="w-1/2 font-medium">
+                        <div class="w-2/3 font-medium">
                             {{ equipment.title }}
                         </div>
-                        <div class="w-1/2 font-light">
+                        <div class="w-1/3 font-light">
                             {{ equipment.desc }}
                         </div>
                     </div>
@@ -104,6 +108,7 @@
             <AccessoryCard v-for="(accessory, index) in productDetails.accessories" :key="index" :accessory="accessory"
                            data-aos="zoom-in"/>
         </div>
+        <products-slider class="hidden lg:block"/>
     </div>
 </template>
 
@@ -115,21 +120,32 @@ import deliciler from "@/datas/deliciler.json";
 import MachineModel from "@/components/MachineModel.vue";
 import AccessoryCard from "@/components/AccessoryCard.vue";
 import {Swiper, SwiperSlide} from 'swiper/vue';
+import {Pagination, Navigation} from 'swiper';
 import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import ProductsSlider from "@/components/ProductsSlider.vue";
 
 export default {
     name: "ProductDetails",
+    setup() {
+        return {
+            modules: [Pagination, Navigation],
+        }
+    },
     components: {
+        ProductsSlider,
         AccessoryCard,
         MachineModel,
         Swiper,
-        SwiperSlide
+        SwiperSlide,
     },
     data() {
         return {
             product: {},
             productDetails: {},
             rewind: true,
+            routerLinks: [],
         }
     },
     async mounted() {
@@ -139,18 +155,55 @@ export default {
     methods: {
         checkProductType() {
             const productType = this.$route.name;
-            console.log(productType)
             if (productType === 'delici-detay') {
                 this.product = deliciler.deliciler.find(delici => delici.url.toLowerCase() === this.$route.params.url);
+                this.routerLinks = [
+                    {
+                        name: 'Ürünlerimiz > ',
+                        url: '/urunlerimiz'
+                    },
+                    {
+                        name: 'Deliciler',
+                        url: '/urunlerimiz/deliciler'
+                    }
+                ]
             }
             if (productType === 'telli-kesici-detay') {
                 this.product = telliKesiciler.telliKesiciler.find(kesici => kesici.url.toLowerCase() === this.$route.params.url);
+                this.routerLinks = [
+                    {
+                        name: 'Ürünlerimiz > ',
+                        url: '/urunlerimiz'
+                    },
+                    {
+                        name: 'Kesiciler > ',
+                        url: '/urunlerimiz/kesiciler'
+                    },
+                    {
+                        name: 'Telli Kesiciler',
+                        url: '/urunlerimiz/kesiciler/telli-kesiciler'
+                    }
+                ]
             }
             if (productType === 'zincirli-kesici-detay') {
                 this.product = zincirliKesiciler.zincirliKesiciler.find(kesici => kesici.url.toLowerCase() === this.$route.params.url);
+                this.routerLinks =
+                    [
+                        {
+                            name: 'Ürünlerimiz > ',
+                            url: '/urunlerimiz'
+                        },
+                        {
+                            name: 'Kesiciler > ',
+                            url: '/urunlerimiz/kesiciler'
+                        },
+                        {
+                            name: 'Zincirli Kesiciler',
+                            url: '/urunlerimiz/kesiciler/zincirli-kesiciler'
+                        }
+                    ]
             }
             this.productDetails = this.product.details
-
         },
     }
 }
@@ -181,6 +234,25 @@ i.swipeLeft {
 
 i.swipeRight {
   animation: swipeR 2s infinite;
+}
+
+.swiper-wrapper {
+  :global(.swiper-button-prev::after) {
+    font-size: 2rem;
+    color: #000000;
+  }
+
+  :global(.swiper-button-next::after) {
+    font-size: 2rem;
+    color: #000000;
+  }
+
+  :global(.swiper-pagination-bullet) {
+    border-radius: 0;
+    width: 1rem;
+    height: 1rem;
+    background-color: #F7AF03;
+  }
 }
 
 @keyframes swipeL {

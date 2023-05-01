@@ -1,5 +1,5 @@
 <template>
-    <div class="map-container mb-8 border shadow-md" data-aos="fade-right" data-aos-delay="200">
+    <div class="map-container mb-8 border shadow-md">
         <iframe allowfullscreen=""
                 class="w-full h-full"
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"

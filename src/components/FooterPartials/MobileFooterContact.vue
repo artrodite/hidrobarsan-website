@@ -1,6 +1,6 @@
 <template>
     <div class="px-6 mb-24">
-        <div class="mb-4 font-thin" data-aos="fade-up">
+        <div class="mb-4 font-thin lg:hidden" data-aos="fade-up">
             İletişim
         </div>
         <Map />
