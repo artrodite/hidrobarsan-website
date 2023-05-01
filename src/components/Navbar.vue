@@ -1,9 +1,9 @@
 <template>
     <nav class="bg-[#F7F7F7] mb-4 w-full font-normal sticky top-0 z-50">
         <div class="max-w-screen container flex flex-wrap md:flex-nowrap items-center justify-between mx-auto py-4 md:py-8 px-6 md:px-0">
-            <a class="flex items-center" href="/">
+            <router-link class="flex items-center" to="/">
                 <img alt="hidrobarsan" class="w-40" src="../assets/logo.png"/>
-            </a>
+            </router-link>
             <div class="flex items-center md:order-2">
                 <!--                <button class="inline-flex items-center justify-center px-4 py-2 text-sm rounded-lg cursor-pointer transition-all hover:bg-[#FBB900] hover:text-white"-->
                 <!--                        data-dropdown-toggle="language-dropdown-menu"-->

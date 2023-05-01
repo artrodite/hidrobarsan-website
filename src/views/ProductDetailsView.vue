@@ -5,9 +5,11 @@
         </div>
         <div>
             <div v-if="product.modelUrl" class="relative h-[20rem] md:h-[40rem]" data-aos="fade-up">
+
                 <Suspense>
-                    <MachineModel :model-url="product.modelUrl"/>
+                    <MachineModel :key="product.modelUrl" :model-url="product.modelUrl"/>
                 </Suspense>
+
                 <div class="my-4">
                     <img alt="3d" class="view-icon " data-aos="fade-left" src="@/assets/3d-view-icon-colored.svg">
                 </div>
