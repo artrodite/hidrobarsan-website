@@ -1,5 +1,5 @@
 <template>
-    <div class="container px-6 md:px-0 mx-auto md:mt-12 mb-12 grid grid-cols-1 md:grid-cols-2 gap-16">
+    <div class="container px-6 md:px-0 mx-auto md:mt-12 mb-16 grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="w-full" data-aos="fade-left">
             <swiper ref="swiper" :allow-touch-move="false" :autoplay="true" :loop="loop"
                     :slides-per-view="1"
@@ -28,11 +28,11 @@
                 <span class="mb-2" data-aos="fade-right">TOZ EMME</span>
                 <span class="text-[#F7AF03] font-bold" data-aos="fade-right" data-aos-delay="200">SİSTEMİ</span>
             </div>
-            <div class="font-thin mt-8 texl-xl lg:text-3xl" data-aos="fade-right" data-aos-delay="300">
+            <div class="font-thin mt-4 texl-xl lg:text-3xl" data-aos="fade-right" data-aos-delay="300">
                 Mermer tozunu ortadan kaldıran son teknoloji emiş sistemi.
             </div>
             <router-link
-                    class="see-product-btn mt-12 w-full md:w-2/3 border border-[#F7AF03] bg-transparent flex px-4 py-2 justify-center items-center transition-all"
+                    class="see-product-btn mt-8 w-full md:w-2/3 border border-[#F7AF03] bg-transparent flex px-4 py-2 justify-center items-center transition-all"
                     to="/urunlerimiz">
                 <span class="see-product-btn-text text-[#F7AF03] font-medium mr-2">Ürünlere Göz At</span>
                 <img alt="3d-view-icon" class="view3d-icon hidden"
