@@ -34,7 +34,7 @@
             <router-link
                     class="see-product-btn mt-12 w-full md:w-2/3 border border-[#F7AF03] bg-transparent flex px-4 py-2 justify-center items-center transition-all"
                     to="/urunlerimiz">
-                <span class="see-product-btn-text text-[#F7AF03] font-medium mr-2">Bu ürünü incele</span>
+                <span class="see-product-btn-text text-[#F7AF03] font-medium mr-2">Ürünlere Göz At</span>
                 <img alt="3d-view-icon" class="view3d-icon hidden"
                      src="@/assets/3d-view-icon.svg">
                 <img alt="3d-view-icon-colored" class="view3d-icon-colored block"
@@ -62,7 +62,7 @@ export default {
         };
 
         const onSwiper = (swiper) => {
-            console.log(swiper);
+            // console.log(swiper);
         };
         // const onSlideChange = () => {
         //     console.log('slide change');

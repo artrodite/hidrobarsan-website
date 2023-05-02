@@ -62,17 +62,17 @@
             </div>
             <div class="flex flex-col md:flex-row md:gap-4 md:items-center mt-8">
                 <div class="flex items-center justify-center w-full">
-                    <label class="flex items-center justify-center w-full border border-[#F7AF03] cursor-pointer"
+                    <label class="flex items-center justify-center w-full border border-[#F7AF03] cursor-pointer text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03]"
                            for="dropzone-file">
-                        <div class="items-center justify-center p-2 text-[#F7AF03]">
+                        <div class="items-center justify-center p-2">
                             <i class="fa fa-paperclip mr-2"/> Dosya Ekle
                         </div>
                         <input id="dropzone-file" class="hidden" type="file"/>
                     </label>
                 </div>
                 <div class="mt-8 md:mt-0 md:w-1/2">
-                    <button class="bg-[#F7AF03] text-white border border-[#F7AF03] p-2 w-full" @click="submit">
-                        Gönder <img alt="send-icon" class="hidden ml-2 align-center h-4 md:inline-flex"
+                    <button class="send-button bg-[#F7AF03] text-white border border-[#F7AF03] p-2 w-full" @click="submit">
+                        Gönder <img alt="send-icon" class="send-icon hidden ml-2 align-center h-4 md:inline-flex transition-all"
                                     src="@/assets/send-icon.svg">
                     </button>
                 </div>
@@ -123,15 +123,15 @@ export default {
                 subject: this.subject,
                 name: this.name,
                 message: this.message,
-            }).then((response) => {
-                console.log('SUCCESS!', response.status, response.text);
+            }).then(() => {
+                // console.log('SUCCESS!', response.status, response.text);
                 this.name = '';
                 this.email = '';
                 this.subject = '';
                 this.message = '';
                 this.feedback = 'Mesajınız başarıyla gönderildi. Teşekkür ederiz.'
-            }, (err) => {
-                console.log('FAILED...', err);
+            }, () => {
+                // console.log('FAILED...', err);
                 this.feedback = 'Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.'
             });
         }
@@ -152,6 +152,12 @@ input, textarea {
 
 textarea {
   resize: none;
+}
+
+.send-button:hover{
+    .send-icon{
+        transform: translateX(10px);
+    }
 }
 
 

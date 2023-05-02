@@ -51,7 +51,7 @@ export default {
         this.products = [...telliKesiciler.telliKesiciler];
         this.products = [...this.products, ...zincirliKesiciler.zincirliKesiciler];
         this.products = [...this.products, ...deliciler.deliciler];
-        console.log(this.products);
+        // console.log(this.products);
     }
 }
 </script>

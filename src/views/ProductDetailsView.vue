@@ -4,8 +4,9 @@
             <div class="text-5xl md:text-6xl mb-4" data-aos="fade-right">{{ productDetails.name }}</div>
             <div class="hidden lg:block">
                 <h4>
-                    <router-link v-for="(link, index) in routerLinks" :key="index" :to="link.url">{{ link.name }}
+                    <router-link class="mr-1 link-hover-animation" v-for="(link, index) in routerLinks" :key="index" :to="link.url">{{ link.name }}
                     </router-link>
+                    {{productDetails.name}}
                 </h4>
             </div>
         </div>
@@ -42,7 +43,7 @@
             />
         </div>
         <div class="grid grid-cols-1 justify-between md:gap-16">
-            <div class="mb-12 w-3/4 mx-auto">
+            <div class="mb-12 w-full lg:w-3/4 mx-auto">
 
                 <!--Swiper-->
                 <swiper :loop="false" :modules="modules" :navigation="true" :pagination="true" :rewind="rewind"
@@ -50,7 +51,8 @@
                     <swiper-slide v-for="(imageUrl, index) in productDetails.images" :key="index" class="relative">
                         <img :src="imageUrl.url" alt="imageUrl">
                         <div v-if="imageUrl.desc"
-                             class="font-semibold text-5xl absolute bottom-20 left-1/2 -translate-x-1/2">
+                             class="font-semibold lg:text-5xl">
+<!--                            lg:absolute lg:bottom-20 lg:left-1/2 lg:-translate-x-1/2-->
                             {{ imageUrl.desc }}
                         </div>
                     </swiper-slide>
@@ -163,7 +165,7 @@ export default {
                         url: '/urunlerimiz'
                     },
                     {
-                        name: 'Deliciler',
+                        name: 'Deliciler > ',
                         url: '/urunlerimiz/deliciler'
                     }
                 ]
@@ -180,8 +182,8 @@ export default {
                         url: '/urunlerimiz/kesiciler'
                     },
                     {
-                        name: 'Telli Kesiciler',
-                        url: '/urunlerimiz/kesiciler/telli-kesiciler'
+                        name: 'Telli Kesiciler > ',
+                        url: '/urunlerimiz/kesiciler/telli'
                     }
                 ]
             }
@@ -198,8 +200,8 @@ export default {
                             url: '/urunlerimiz/kesiciler'
                         },
                         {
-                            name: 'Zincirli Kesiciler',
-                            url: '/urunlerimiz/kesiciler/zincirli-kesiciler'
+                            name: 'Zincirli Kesiciler > ',
+                            url: '/urunlerimiz/kesiciler/zincirli'
                         }
                     ]
             }
@@ -236,6 +238,8 @@ i.swipeRight {
   animation: swipeR 2s infinite;
 }
 
+
+
 .swiper-wrapper {
   :global(.swiper-button-prev::after) {
     font-size: 2rem;
@@ -253,6 +257,15 @@ i.swipeRight {
     height: 1rem;
     background-color: #F7AF03;
   }
+}
+
+@media (max-width: 768px) {
+    .swiper-wrapper{
+        :global(.swiper-pagination-bullet) {
+            width: .5rem;
+            height: .5rem;
+        }
+    }
 }
 
 @keyframes swipeL {
