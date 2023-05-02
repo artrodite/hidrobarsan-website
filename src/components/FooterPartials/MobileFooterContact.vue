@@ -3,8 +3,10 @@
         <div class="mb-4 font-thin lg:hidden" data-aos="fade-up">
             İletişim
         </div>
-        <Map />
-        <a href="https://goo.gl/maps/McGBpHfmCPdotHvs6" class="text-[#F7AF03] flex items-center justify-center gap-4 border border-[#F7AF03] font-thin mb-4 p-2" target="_blank" data-aos="fade-up" data-aos-delay="100">
+        <Map/>
+        <a class="text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03] flex items-center justify-center gap-4 border border-[#F7AF03] font-thin mb-4 p-2"
+           data-aos="fade-up"
+           data-aos-delay="100" href="https://goo.gl/maps/McGBpHfmCPdotHvs6" target="_blank">
             <i class="fa fa-location-dot"/> Adres
         </a>
         <div class="grid grid-cols-2 gap-4 mb-16">
@@ -12,9 +14,9 @@
                :data-aos="(index % 2) ? 'fade-left' : 'fade-right'"
                :data-aos-delay="index * 100"
                :href="info.action"
-               class="border py-2 px-4 border-[#F7AF03] justify-center">
+               class="border py-2 px-4 border-[#F7AF03] justify-center text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03]">
                 <div class="w-2/3 mx-auto">
-                    <div class="whitespace-nowrap md:text-center items-center text-[#F7AF03] font-thin">
+                    <div class="whitespace-nowrap md:text-center items-center  font-thin">
                         <i :class="info.img" class="mr-3 fa"/> {{ info.text }}
                     </div>
                 </div>
@@ -25,10 +27,12 @@
                :class="index === 0 ? 'text-left' : ((index === 1) ? 'text-center' : 'text-right')"
                :data-aos-delay="index * 100"
                :href="social.action"
-               class="text-sm w-1/3"
+               class="text-sm w-1/3 "
                data-aos="fade-up"
                target="_blank">
-                <i :class="social.img" class="mr-2 fa"/> {{ social.text }}
+                <span class="link-hover-animation">
+                    <i :class="social.img" class="mr-2 fa"/> {{ social.text }}
+                </span>
             </a>
         </div>
     </div>
