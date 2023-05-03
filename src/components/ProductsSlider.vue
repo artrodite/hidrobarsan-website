@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto px-6 mt-64">
+    <div class="hidden container mx-auto px-6 mt-64">
         <div class="mb-16 text-2xl">
             Ürünlerimiz
         </div>
