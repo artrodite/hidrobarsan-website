@@ -4,9 +4,10 @@
             <div class="text-5xl md:text-6xl mb-4" data-aos="fade-right">{{ productDetails.name }}</div>
             <div class="hidden lg:block">
                 <h4>
-                    <router-link class="mr-1 link-hover-animation" v-for="(link, index) in routerLinks" :key="index" :to="link.url">{{ link.name }}
+                    <router-link v-for="(link, index) in routerLinks" :key="index" :to="link.url"
+                                 class="mr-1 link-hover-animation">{{ link.name }}
                     </router-link>
-                    {{productDetails.name}}
+                    {{ productDetails.name }}
                 </h4>
             </div>
         </div>
@@ -20,6 +21,14 @@
                 <div class="my-4">
                     <img alt="3d" class="view-icon " data-aos="fade-left" src="@/assets/3d-view-icon-colored.svg">
                 </div>
+            </div>
+
+            <div v-else-if="product.modelVideoUrl" class="relative h-[20rem] md:h-[40rem]" data-aos="fade-up">
+                <video ref="video" :src="product.modelVideoUrl" autoplay class="w-full h-full" loop muted playsinline type="video/mp4"/>
+                <div class="my-4">
+                    <img alt="3d" class="view-icon " data-aos="fade-left" src="@/assets/3d-view-icon-colored.svg">
+                </div>
+
             </div>
             <div class="text-center my-8">
                 <router-link class="md:w-64 text-[#F7AF03] px-4 py-2 md:py-4 text-lg " to="/iletisim">İletişime Geç
@@ -52,7 +61,7 @@
                         <img :src="imageUrl.url" alt="imageUrl">
                         <div v-if="imageUrl.desc"
                              class="font-semibold lg:text-5xl">
-<!--                            lg:absolute lg:bottom-20 lg:left-1/2 lg:-translate-x-1/2-->
+                            <!--                            lg:absolute lg:bottom-20 lg:left-1/2 lg:-translate-x-1/2-->
                             {{ imageUrl.desc }}
                         </div>
                     </swiper-slide>
@@ -153,6 +162,9 @@ export default {
     async mounted() {
         await this.checkProductType()
         document.title = this.productDetails.name ? ('Hidrobarsan | ' + this.productDetails.name) : ('Hidrobarsan | Ürün Detay')
+        // Get video elemetent and apply videoAutoplayDelay
+
+
     },
     methods: {
         checkProductType() {
@@ -207,6 +219,10 @@ export default {
             }
             this.productDetails = this.product.details
         },
+        videoRewind() {
+
+
+        },
     }
 }
 </script>
@@ -239,7 +255,6 @@ i.swipeRight {
 }
 
 
-
 .swiper-wrapper {
   :global(.swiper-button-prev::after) {
     font-size: 2rem;
@@ -260,12 +275,12 @@ i.swipeRight {
 }
 
 @media (max-width: 768px) {
-    .swiper-wrapper{
-        :global(.swiper-pagination-bullet) {
-            width: .5rem;
-            height: .5rem;
-        }
+  .swiper-wrapper {
+    :global(.swiper-pagination-bullet) {
+      width: .5rem;
+      height: .5rem;
     }
+  }
 }
 
 @keyframes swipeL {

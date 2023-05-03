@@ -1,14 +1,12 @@
 <template>
     <div>
-
-
         <div class="container mx-auto px-6 md:px-96">
-            <div class="text-5xl mb-8 font-medium md:text-center" data-aos="fade-right">
+            <div class="text-5xl mb-8 font-medium md:text-center">
                 Bize Ulaşın
             </div>
-            <div class="grid grid-cols-1 gap-8 px-2">
+            <div data-aos="fade-right" class="grid grid-cols-1 gap-8 px-2">
                 <div class="lg:flex lg:justify-between lg:gap-12">
-                    <div class="flex items-center mb-8 lg:mb-0 lg:flex-grow" data-aos="fade-right">
+                    <div class="flex items-center mb-8 lg:mb-0 lg:flex-grow">
                         <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-4">
                             <i class="fa fa-user"/>
                         </div>
@@ -20,7 +18,7 @@
                                    required type="text">
                         </div>
                     </div>
-                    <div class="flex items-center lg:flex-grow" data-aos="fade-right">
+                    <div class="flex items-center lg:flex-grow">
                         <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-[0.9rem]">
                             <i class="fa fa-envelope"/>
                         </div>
@@ -33,7 +31,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex items-center" data-aos="fade-right">
+                <div class="flex items-center">
                     <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-4">
                         <i class="fa fa-comment-dots"/>
                     </div>
@@ -45,7 +43,7 @@
                                required type="text">
                     </div>
                 </div>
-                <div class="flex items-stretch" data-aos="fade-right">
+                <div class="flex items-stretch">
                     <div class="bg-[#F3F3F3] flex justify-center p-4">
                         <i class="fa fa-pencil"/>
                     </div>
@@ -64,9 +62,9 @@
                 <div class="flex items-center justify-center w-full">
                     <label class="flex items-center justify-center w-full border border-[#F7AF03] cursor-pointer text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03]"
                            for="dropzone-file">
-                        <div class="items-center justify-center p-2">
+                        <span class="items-center justify-center p-2">
                             <i class="fa fa-paperclip mr-2"/> Dosya Ekle
-                        </div>
+                        </span>
                         <input id="dropzone-file" class="hidden" type="file"/>
                     </label>
                 </div>
