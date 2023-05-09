@@ -12,7 +12,7 @@
             </div>
         </div>
         <div>
-            <div v-if="product.modelUrl" class="relative h-[20rem] md:h-[40rem]" data-aos="fade-up">
+            <div v-if="false" class="relative h-[20rem] md:h-[40rem]" data-aos="fade-up">
 
                 <Suspense>
                     <MachineModel :key="product.modelUrl" :model-url="product.modelUrl"/>
