@@ -5,15 +5,6 @@
                 <img alt="hidrobarsan" class="w-40" src="../assets/logo.png"/>
             </router-link>
             <div class="flex items-center md:order-2">
-                <!--                <button class="inline-flex items-center justify-center px-4 py-2 text-sm rounded-lg cursor-pointer transition-all hover:bg-[#FBB900] hover:text-white"-->
-                <!--                        data-dropdown-toggle="language-dropdown-menu"-->
-                <!--                        type="button">-->
-                <!--                    <i class="fa fa-globe me-4"/>-->
-                <!--                    Türkçe-->
-                <!--                    <span class="ms-4 hidden md:inline-flex">-->
-                <!--                        <i class="fa fa-chevron-down "/>-->
-                <!--                    </span>-->
-                <!--                </button>-->
                 <!-- Dropdown -->
                 <a class="hidden md:flex items-center opacity-0" href="/">
                     <img alt="hidrobarsan" class="w-40" src="../assets/logo.png"/>

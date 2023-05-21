@@ -2,14 +2,21 @@
   "categories": [
     {
       "id": 1,
-      "name": "Kesici Makina Grubu",
-      "url": "kesiciler",
+      "name": "Zincir Kesici Makina Grubu",
+      "url": "kesiciler/zincirli",
       "desc": "",
       "imgUrl": "/images/categories/kesici.png"
     },
     {
       "id": 2,
-      "name": "Delici Makina Grubu",
+      "name": "Telli Kesici Makina Grubu",
+      "url": "kesiciler/telli",
+      "desc": "",
+      "imgUrl": "/images/products/kesici/telli-kesici/6000M/1.png"
+    },
+    {
+      "id": 3,
+      "name": "Deliciler Makina Grubu",
       "url": "deliciler",
       "desc": "",
       "imgUrl": "/images/categories/delici.png"

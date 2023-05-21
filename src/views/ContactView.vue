@@ -4,33 +4,57 @@
             <div class="text-5xl mb-8 font-medium md:text-center">
                 Bize Ulaşın
             </div>
-            <div data-aos="fade-right" class="grid grid-cols-1 gap-8 px-2">
-                <div class="lg:flex lg:justify-between lg:gap-12">
-                    <div class="flex items-center mb-8 lg:mb-0 lg:flex-grow">
-                        <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-4">
-                            <i class="fa fa-user"/>
-                        </div>
-                        <div class="w-full p-[3px] bg-[#F3F3F3]">
-                            <input id="text"
-                                   v-model="name"
-                                   class="w-full border-none"
-                                   placeholder="İsim Soyisim"
-                                   required type="text">
-                        </div>
+            <!--Input List-->
+            <div class="grid grid-cols-1 gap-8 px-2" data-aos="fade-right">
+                <div class="flex items-center">
+                    <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-4">
+                        <i class="fa fa-user"/>
                     </div>
-                    <div class="flex items-center lg:flex-grow">
-                        <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-[0.9rem]">
-                            <i class="fa fa-envelope"/>
-                        </div>
-                        <div class="w-full p-[3px] bg-[F3F3F3]">
-                            <input id="email"
-                                   v-model="email"
-                                   class="w-full border-none"
-                                   placeholder="Mail Adresiniz"
-                                   required type="text">
-                        </div>
+                    <div class="w-full p-[3px] bg-[#F3F3F3]">
+                        <input id="text"
+                               v-model="name"
+                               class="w-full border-none"
+                               placeholder="İsim Soyisim"
+                               required type="text">
                     </div>
                 </div>
+                <div class="flex items-center">
+                    <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-[0.9rem]">
+                        <i class="fa fa-phone"/>
+                    </div>
+                    <div class="w-full p-[3px] bg-[F3F3F3]">
+                        <input id="phone"
+                               v-model="phoneNumber"
+                               class="w-full border-none"
+                               placeholder="Telefon Numaranız"
+                               required type="number">
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-[0.9rem]">
+                        <i class="fa fa-envelope"/>
+                    </div>
+                    <div class="w-full p-[3px] bg-[F3F3F3]">
+                        <input id="email"
+                               v-model="email"
+                               class="w-full border-none"
+                               placeholder="Mail Adresiniz"
+                               required type="text">
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-[0.9rem]">
+                        <i class="fa fa-location-dot"/>
+                    </div>
+                    <div class="w-full p-[3px] bg-[F3F3F3]">
+                        <input id="address"
+                               v-model="address"
+                               class="w-full border-none"
+                               placeholder="Adresiniz"
+                               required type="text">
+                    </div>
+                </div>
+
                 <div class="flex items-center">
                     <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-4">
                         <i class="fa fa-comment-dots"/>
@@ -43,6 +67,7 @@
                                required type="text">
                     </div>
                 </div>
+
                 <div class="flex items-stretch">
                     <div class="bg-[#F3F3F3] flex justify-center p-4">
                         <i class="fa fa-pencil"/>
@@ -58,8 +83,9 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col md:flex-row md:gap-4 md:items-center mt-8">
-                <div class="flex items-center justify-center w-full">
+
+            <div class="flex flex-col md:flex-row md:gap-8 md:items-center mt-8">
+                <div class="flex items-center justify-center md:w-1/3">
                     <label class="flex items-center justify-center w-full border border-[#F7AF03] cursor-pointer text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03]"
                            for="dropzone-file">
                         <span class="items-center justify-center p-2">
@@ -68,9 +94,11 @@
                         <input id="dropzone-file" class="hidden" type="file"/>
                     </label>
                 </div>
-                <div class="mt-8 md:mt-0 md:w-1/2">
-                    <button class="send-button bg-[#F7AF03] text-white border border-[#F7AF03] p-2 w-full" @click="submit">
-                        Gönder <img alt="send-icon" class="send-icon hidden ml-2 align-center h-4 md:inline-flex transition-all"
+                <div class="mt-8 md:mt-0 w-full">
+                    <button class="send-button bg-[#F7AF03] text-white border border-[#F7AF03] p-2 w-full"
+                            @click="submit">
+                        Gönder <img alt="send-icon"
+                                    class="send-icon hidden ml-2 align-center h-4 md:inline-flex transition-all"
                                     src="@/assets/send-icon.svg">
                     </button>
                 </div>
@@ -105,15 +133,17 @@ export default {
     data() {
         return {
             name: '',
+            phoneNumber: '',
+            address: '',
             email: '',
             subject: '',
             message: '',
-            feedback: ''
+            feedback: '',
         }
     },
     methods: {
         async submit() {
-            if (this.name === '' || this.email === '' || this.subject === '' || this.message === '') {
+            if (this.name === '' || this.email === '' || this.subject === '' || this.message === '' || this.phoneNumber === '' || this.address === '') {
                 this.feedback = 'Lütfen tüm alanları doldurunuz.';
                 return;
             }
@@ -121,6 +151,8 @@ export default {
                 subject: this.subject,
                 name: this.name,
                 message: this.message,
+                phoneNumber: this.phoneNumber,
+                address: this.address,
             }).then(() => {
                 // console.log('SUCCESS!', response.status, response.text);
                 this.name = '';
@@ -143,6 +175,17 @@ i:not(.fa-chevron-down, .fa-paperclip) {
   font-size: 1.2rem;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 input, textarea {
   font-size: .875rem;
 
@@ -152,10 +195,10 @@ textarea {
   resize: none;
 }
 
-.send-button:hover{
-    .send-icon{
-        transform: translateX(10px);
-    }
+.send-button:hover {
+  .send-icon {
+    transform: translateX(10px);
+  }
 }
 
 

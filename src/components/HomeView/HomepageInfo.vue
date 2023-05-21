@@ -17,10 +17,11 @@
             </div>
         </div>
         <router-link
-                class="bg-[#F7AF03] w-full mx-auto md:mt-16 md:w-fit  md:bg-transparent flex p-4 justify-center items-center transition-all border border-transparent md:hover:border-[#F7AF03]"
+                class="see-more-btn bg-[#F7AF03] w-full mx-auto md:mt-16 md:w-fit md:bg-transparent hover:bg-[#F7AF03] flex px-8 py-2 justify-center items-center transition-all border border-[#F7AF03]"
                 data-aos="fade-up"
                 to="/hakkimizda">
-            <span class="text-white md:text-[#F7AF03] text-sm md:text-md font-medium">Daha Fazlasını Görmek için Tıklayınız</span>
+            <span class="text-white md:text-[#F7AF03] text-sm md:text-md font-medium">Daha Fazlasını Görmek için Tıkla <i
+                    class="ml-2 fa fa-chevron-right text-xs"/> </span>
         </router-link>
     </div>
 </template>
@@ -37,7 +38,7 @@ export default {
                 },
                 {
                     img: 'field',
-                    text: '16.000 m² ile lider Üretim Alanı'
+                    text: '16.000 m² Üretim Alanı'
                 },
                 {
                     img: 'handshake',
@@ -62,4 +63,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.see-more-btn:hover {
+  span {
+    color: #fff;
+  }
+}
 </style>

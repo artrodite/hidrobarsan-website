@@ -3,8 +3,8 @@
         <div>
             <div class="text-5xl font-medium md:text-7xl">Ürünlerimiz</div>
         </div>
-        <div class="py-12 md:py-24 grid grid-cols-1 md:grid-cols-2 items-stretch gap-16">
-            <Card v-for="(category, index) in categories" :key="index" :index="index" :product="category" :class="(index % 2) ? 'justify-self-start' : 'justify-self-end'"/>
+        <div class="py-12 md:py-24 grid grid-cols-1 md:grid-cols-3 items-stretch gap-16">
+            <Card v-for="(category, index) in categories" :key="index" :index="index" :product="category"/>
         </div>
     </div>
 </template>

@@ -4,10 +4,7 @@
         <HomepageVideo/>
         <HomepageAnnouncement/>
         <HomepageInfo/>
-        <div class="container mx-auto px-6 md:px-96">
-
-            <mobile-footer-contact class="hidden md:block"/>
-        </div>
+        <!--        <mobile-footer-contact class="hidden md:block"/>-->
         <products-slider class="hidden lg:block"/>
     </div>
 </template>
@@ -17,11 +14,10 @@ import Hero from "@/components/HomeView/Hero.vue";
 import HomepageVideo from "@/components/HomeView/HomepageVideo.vue";
 import HomepageAnnouncement from "@/components/HomeView/HomepageAnnouncement.vue";
 import HomepageInfo from "@/components/HomeView/HomepageInfo.vue";
-import MobileFooterContact from "@/components/FooterPartials/MobileFooterContact.vue";
 import ProductsSlider from "@/components/ProductsSlider.vue";
 
 export default {
     name: 'HomeView',
-    components: {ProductsSlider, MobileFooterContact, HomepageInfo, HomepageAnnouncement, HomepageVideo, Hero}
+    components: {ProductsSlider, HomepageInfo, HomepageAnnouncement, HomepageVideo, Hero}
 }
 </script>

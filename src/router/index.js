@@ -1,6 +1,5 @@
 import HomeView from '../views/HomeView.vue'
 import ProductsView from "@/views/ProductsView.vue";
-import KesicilerView from "@/views/KesicilerView.vue";
 import DelicilerView from "@/views/DelicilerView.vue";
 import TelliKesiciler from "@/views/TelliKesiciler.vue";
 import ZincirliKesiciler from "@/views/ZincirliKesiciler.vue";
@@ -36,12 +35,6 @@ const routes = [
         name: 'products',
         meta: {title: 'Ürünlerimiz'},
         component: ProductsView
-    },
-    {
-        path: '/urunlerimiz/kesiciler',
-        name: 'kesiciler',
-        meta: {title: 'Kesiciler'},
-        component: KesicilerView
     },
     {
         path: '/urunlerimiz/deliciler',

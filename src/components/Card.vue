@@ -3,13 +3,15 @@
                  :to="fromSlider ? '' : getRouterLink(product)"
                  class="flex flex-col justify-between product-card bg-white py-4 px-8 max-w-lg flex-grow">
         <img :src="product.imgUrl" alt="product-img" class="-translate-y-1/3 mx-auto transition-all">
+        <div class="flex justify-between">
+            <div class="-mt-2 md:-mt-12 flex flex-col justify-between">
+                <span class="text-4xl font-medium">{{ product.name }}</span>
+                <div v-if="product.type" class="font-medium text-xl">{{ product.type }}</div>
+            </div>
 
-        <div class="-mt-2 md:-mt-12 flex justify-between items-center">
-            <span class="text-3xl font-medium">{{ product.name }}</span>
-            <!--            <div class="flex items-end">-->
-            <!--                <div>{{ product.desc }}</div>-->
-            <span :style="{animationDelay: 0.3 * index + 's'}" class="text-7xl icon transition-all"> > </span>
-            <!--            </div>-->
+            <div class="flex items-end">
+                <span :style="{animationDelay: 0.3 * index + 's'}" class="text-7xl icon transition-all"> > </span>
+            </div>
         </div>
     </router-link>
 

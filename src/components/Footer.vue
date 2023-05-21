@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-[#F7F7F7] w-full mt-12">
         <div class="container mx-auto">
-            <div class="hidden md:grid py-12 px-6 md:pt-24 md:pl-48  justify-items-between text-sm grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div class="hidden md:grid py-12 px-6 md:pt-24 md:pl-48  justify-items-between text-sm grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-16">
                 <ul>
                     <li class="font-semibold"> Site</li>
                     <li>
@@ -43,12 +43,7 @@
                     <li>TÜRKIYE</li>
                 </ul>
                 <!---->
-                <ul>
-                    <li class="font-semibold">Mail</li>
-                    <li><a href="mailto:info@hidrobarsan.com.tr" target="_blank">info@hidrobarsan.com.tr</a></li>
-                </ul>
-                <!---->
-                <ul>
+                <ul class="mr-2">
                     <li class="font-semibold"> İletişim</li>
                     <li class="flex justify-between">
                         <span class="me-6"> GSM </span>
@@ -70,6 +65,11 @@
                         <span class="me-6"> Fax </span>
                         <span> +90 (258) 268 78 91 </span>
                     </li>
+                </ul>
+                <!---->
+                <ul>
+                    <li class="font-semibold">Mail</li>
+                    <li><a href="mailto:info@hidrobarsan.com.tr" target="_blank">info@hidrobarsan.com.tr</a></li>
                 </ul>
 
 

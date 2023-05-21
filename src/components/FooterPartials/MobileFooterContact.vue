@@ -31,7 +31,8 @@
                data-aos="fade-up"
                target="_blank">
                 <span class="link-hover-animation">
-                    <i :class="social.img" class="mr-2 fa"/> {{ social.text }}
+                    <i :class="social.img" class="mr-2 fa text-2xl md:text-base"/>
+                    <span class="hidden md:inline-flex">{{ social.text }}</span>
                 </span>
             </a>
         </div>
@@ -88,6 +89,11 @@ export default {
                     img: 'fa-facebook',
                     text: 'Facebook',
                     action: 'https://www.facebook.com/people/Hidrobarsan-Mermer-Makinalar%C4%B1/100063876920005/'
+                },
+                {
+                    img: 'fa-youtube',
+                    text: 'Youtube',
+                    action: 'https://www.youtube.com/@Hidrobarsanmakinalari'
                 },
                 {
                     img: 'fa-linkedin',

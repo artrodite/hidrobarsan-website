@@ -18,7 +18,7 @@ import deliciler from "@/datas/deliciler.json";
 import Card from "@/components/Card.vue";
 
 export default {
-    name: "KesicilerView",
+    name: "DelicilerView",
     components: {Card},
     data() {
         return {

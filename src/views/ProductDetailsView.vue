@@ -17,7 +17,12 @@
                        type="video/mp4"/>
             </div>
             <div class="text-center my-8">
-                <router-link class="md:w-64 text-[#F7AF03] px-4 py-2 md:py-4 text-lg " to="/iletisim">İletişime Geç
+                <router-link
+                        class="contact-us-btn bg-[#F7AF03] w-full mx-auto md:mt-16 md:w-fit md:bg-transparent hover:bg-[#F7AF03] flex px-8 py-2 justify-center items-center transition-all border border-[#F7AF03]"
+                        data-aos="fade-up"
+                        to="/iletisim">
+            <span class="text-white md:text-[#F7AF03] text-sm md:text-md font-medium">İletişime Geç<i
+                    class="ml-2 fa fa-chevron-right text-xs"/> </span>
                 </router-link>
             </div>
             <div class="text-center mb-12">
@@ -35,7 +40,6 @@
         </div>
         <div class="grid grid-cols-1 justify-between md:gap-16">
             <div class="mb-12 w-full lg:w-3/4 mx-auto">
-
                 <!--Swiper-->
                 <swiper :loop="false" :modules="modules" :navigation="true" :pagination="true" :rewind="rewind"
                         :slides-per-view="1">
@@ -49,37 +53,37 @@
                     </swiper-slide>
                 </swiper>
             </div>
-            <div class="lg:w-[400px] mx-auto">
-                <div class="mb-4 font-bold text-xl" data-aos="fade-up">
+            <div class="lg:w-[900px] mx-auto">
+                <div class="mb-12 font-semibold text-2xl md:text-4xl" data-aos="fade-up">
                     Teknik özellikler
                 </div>
                 <div v-for="(specification, index) in productDetails.specifications" :key="index"
                      :data-aos-delay="index * 100" class="flex items-center mb-4" data-aos="fade-right">
                     <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
-                    <div class="w-2/3 font-medium">
+                    <div class="w-2/3 font-medium text-lg md:text-2xl">
                         {{ specification.title }}
                     </div>
-                    <div class=" w-1/3 font-light">
+                    <div class=" w-1/3 font-light md:text-2xl">
                         {{ specification.desc }}
                     </div>
                 </div>
 
-                <div class="mt-6 lg:mt-40 mb-4 font-bold text-xl" data-aos="fade-right">
+                <div class="mt-12 lg:mt-24 mb-12 font-semibold text-2xl md:text-4xl" data-aos="fade-right">
                     Ebatlar
                 </div>
                 <div v-for="(size, index) in productDetails.sizes" :key="index" :data-aos-delay="index * 100"
                      class="flex items-center mb-4" data-aos="fade-right">
                     <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
-                    <div class="w-2/3 font-medium">
+                    <div class="w-2/3 font-medium text-lg md:text-2xl">
                         {{ size.title }}
                     </div>
-                    <div class="w-1/3 font-light">
+                    <div class="w-1/3 font-light md:text-2xl">
                         {{ size.desc }}
                     </div>
                 </div>
 
-                <div v-if="productDetails.equipments" class="mt-6 lg:mt-40">
-                    <div class="mb-4 font-bold text-xl" data-aos="fade-right">
+                <div v-if="productDetails.equipments" class="mt-12 lg:mt-24">
+                    <div class="mb-12 font-semibold text-2xl md:text-4xl" data-aos="fade-right">
                         Aksesuarlar
                     </div>
 
@@ -87,17 +91,17 @@
                          :data-aos-delay="index * 100"
                          class="flex items-center mb-4" data-aos="fade-right">
                         <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
-                        <div class="w-2/3 font-medium">
+                        <div class="w-2/3 font-medium text-lg md:text-2xl">
                             {{ equipment.title }}
                         </div>
-                        <div class="w-1/3 font-light">
+                        <div class="w-1/3 font-light md:text-2xl">
                             {{ equipment.desc }}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-24 md:gap-16 py-36  md:px-0">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-24 md:gap-16 py-36 md:px-0">
             <AccessoryCard v-for="(accessory, index) in productDetails.accessories" :key="index" :accessory="accessory"
                            data-aos="zoom-in"/>
         </div>
@@ -199,6 +203,12 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+
+.contact-us-btn:hover {
+  span {
+    color: #ffffff;
+  }
+}
 
 .see-details {
   animation: bounce 2s infinite
