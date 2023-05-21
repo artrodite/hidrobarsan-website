@@ -12,23 +12,9 @@
             </div>
         </div>
         <div>
-            <div v-if="false" class="relative h-[20rem] md:h-[40rem]" data-aos="fade-up">
-
-                <Suspense>
-                    <MachineModel :key="product.modelUrl" :model-url="product.modelUrl"/>
-                </Suspense>
-
-                <div class="my-4">
-                    <img alt="3d" class="view-icon " data-aos="fade-left" src="@/assets/3d-view-icon-colored.svg">
-                </div>
-            </div>
-
-            <div v-else-if="product.modelVideoUrl" class="relative h-[20rem] md:h-[40rem]" data-aos="fade-up">
-                <video ref="video" :src="product.modelVideoUrl" autoplay class="w-full h-full" loop muted playsinline type="video/mp4"/>
-                <div class="my-4">
-                    <img alt="3d" class="view-icon " data-aos="fade-left" src="@/assets/3d-view-icon-colored.svg">
-                </div>
-
+            <div v-if="product.modelVideoUrl" class="relative h-[20rem] md:h-[40rem]" data-aos="fade-up">
+                <video ref="video" :src="product.modelVideoUrl" autoplay class="w-full h-full" loop muted playsinline
+                       type="video/mp4"/>
             </div>
             <div class="text-center my-8">
                 <router-link class="md:w-64 text-[#F7AF03] px-4 py-2 md:py-4 text-lg " to="/iletisim">İletişime Geç
@@ -38,10 +24,6 @@
                 <i v-for="(_, index) in 7" :key="index" :style="{animationDelay: index * 100 + 'ms'}"
                    class="see-details fa fa-chevron-down mx-1"/>
             </div>
-
-            <!--            <machine-model :product-name="product.name"/>-->
-            <!--            <span class="absolute top-3/4 left-1/2 -translate-y-1/2 -translate-x-1/2">Detayları gör <i-->
-            <!--                    class="fa fa-chevron-down"/> </span>-->
         </div>
         <div v-if="!!productDetails.videoUrl" class="h-64 lg:h-[40rem] lg:w-3/4 mx-auto mb-40" data-aos="fade-up">
             <iframe
@@ -124,11 +106,9 @@
 </template>
 
 <script>
-/* eslint-disable no-unused-vars */
 import telliKesiciler from "@/datas/telliKesiciler.json";
 import zincirliKesiciler from "@/datas/zincirliKesiciler.json";
 import deliciler from "@/datas/deliciler.json";
-import MachineModel from "@/components/MachineModel.vue";
 import AccessoryCard from "@/components/AccessoryCard.vue";
 import {Swiper, SwiperSlide} from 'swiper/vue';
 import {Pagination, Navigation} from 'swiper';
@@ -147,7 +127,6 @@ export default {
     components: {
         ProductsSlider,
         AccessoryCard,
-        MachineModel,
         Swiper,
         SwiperSlide,
     },
@@ -162,9 +141,6 @@ export default {
     async mounted() {
         await this.checkProductType()
         document.title = this.productDetails.name ? ('Hidrobarsan | ' + this.productDetails.name) : ('Hidrobarsan | Ürün Detay')
-        // Get video elemetent and apply videoAutoplayDelay
-
-
     },
     methods: {
         checkProductType() {
@@ -218,10 +194,6 @@ export default {
                     ]
             }
             this.productDetails = this.product.details
-        },
-        videoRewind() {
-
-
         },
     }
 }
