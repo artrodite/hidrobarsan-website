@@ -6,7 +6,6 @@
                     @autoplayTimeLeft="onAutoplayTimeLeft"
                     @swiper="onSwiper"
             >
-                <!--                @slideChange="onSlideChange"-->
                 <swiper-slide>
                     <img alt="hero image" class="mx-auto" src="/images/hero-1.png">
                 </swiper-slide>
@@ -35,10 +34,6 @@
                     class="see-product-btn mt-8 w-full md:w-2/3 border border-[#F7AF03] bg-transparent flex px-4 py-2 justify-center items-center transition-all"
                     to="/urunlerimiz">
                 <span class="see-product-btn-text text-[#F7AF03] font-medium mr-2">Ürünlere Göz At</span>
-                <img alt="3d-view-icon" class="view3d-icon hidden"
-                     src="@/assets/3d-view-icon.svg">
-                <img alt="3d-view-icon-colored" class="view3d-icon-colored block"
-                     src="@/assets/3d-view-icon-colored.svg">
             </router-link>
         </div>
     </div>
@@ -64,13 +59,8 @@ export default {
         const onSwiper = (swiper) => {
             // console.log(swiper);
         };
-        // const onSlideChange = () => {
-        //     console.log('slide change');
-        // };
-
         return {
             onSwiper,
-            // onSlideChange,
             onAutoplayTimeLeft,
             progressCircle,
             progressContent
@@ -98,17 +88,8 @@ export default {
     .see-product-btn {
         &:hover {
             background-color: #F7AF03;
-
             .see-product-btn-text {
                 color: #fff;
-            }
-
-            .view3d-icon {
-                display: block;
-            }
-
-            .view3d-icon-colored {
-                display: none;
             }
         }
     }
