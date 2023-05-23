@@ -45,64 +45,79 @@
         ],
         "specifications": [
           {
+            "icon": "/icons/ana_motor.svg",
             "title": "Ana Motor",
             "desc": "75 kW"
           },
           {
+            "icon": "/icons/yuruyus_motoru.svg",
             "title": "Yürüyüş Motor",
             "desc": "1.5 kW"
           },
           {
+            "icon": "/icons/hidrolik_motoru.svg",
             "title": "Hidrolik Motoru",
             "desc": "2.2 kW"
           },
           {
+            "icon": "/icons/kasnak_devir_kontrol.svg",
             "title": "Kasnak Devir Kontrol",
             "desc": "İnvertör"
           },
           {
+            "icon": "/icons/calisma_acısı.svg",
             "title": "Çalışma Açısı",
             "desc": "270°"
           },
           {
+            "icon": "/icons/calisma_acisi_degistirme.svg",
             "title": "Çalışma Açısı Değiştirme",
             "desc": "Elektrikli"
           },
           {
+            "icon": "/icons/kesme_hizi.svg",
             "title": "Kesme Hızı",
             "desc": "20-30 m²/s"
           }
         ],
         "sizes": [
           {
+            "icon": "/icons/kopru_uzunlugu.svg",
             "title": "Köprü Uzunluğu",
             "desc": "5 m"
           },
           {
+            "icon": "/icons/en.svg",
             "title": "En",
             "desc": "1680 mm"
           },
           {
+            "icon": "/icons/boy.svg",
             "title": "Boy",
             "desc": "6740 mm"
           },
           {
+            "icon": "/icons/yukseklik.svg",
             "title": "Yükseklik",
             "desc": "2730 mm"
           },
           {
+            "icon": "/icons/agirlik.svg",
             "title": "Ağırlık",
             "desc": "~3900 kg"
           },
           {
+            "icon": "/icons/kasnak_capi.svg",
             "title": "Kasnak Çapı",
             "desc": "800 mm"
           },
           {
+            "icon": "/icons/kasnak_hareketi.svg",
             "title": "Kasnak Hareketi",
             "desc": "250 mm"
           },
           {
+            "icon": "/icons/yardimci_kasnak_capi.svg",
             "title": "Yardımcı Kasnak Çapı",
             "desc": "300 mm"
           }
@@ -160,60 +175,74 @@
         ],
         "specifications": [
           {
+            "icon": "/icons/elektrik_motoru.svg",
             "title": "Elektrik Motoru",
             "desc": "55 kW"
           },
           {
+            "icon": "/icons/yuruyus_sistemi.svg",
             "title": "Yürüyüş Sistemi",
             "desc": "İnvertör"
           },
           {
+            "icon": "/icons/guc_aktarimi.svg",
             "title": "Güç Aktarımı",
             "desc": "Tork Konvertör"
           },
           {
+            "icon": "/icons/kesme_hizi.svg",
             "title": "Kesme Hızı",
             "desc": "10-15 m²/s"
           },
           {
+            "icon": "/icons/calisma_acısı.svg",
             "title": "Çalışma Açısı",
             "desc": "360°"
           },
           {
+            "icon": "/icons/calisma_sekli.svg",
             "title": "Çalışma Şekli",
             "desc": "Sağ, Sol ve Alt"
           },
           {
+            "icon": "/icons/calisma_acisi_degistirme.svg",
             "title": "Çalışma Açısı Değiştirme",
             "desc": "Elektrikli"
           }
         ],
         "sizes": [
           {
+            "icon": "/icons/ray_uzunlugu.svg",
             "title": "Ray Uzunluğu",
             "desc": "6 m"
           },
           {
+            "icon": "/icons/en.svg",
             "title": "En",
             "desc": "1230 mm"
           },
           {
+            "icon": "/icons/boy.svg",
             "title": "Boy",
             "desc": "2560 mm"
           },
           {
+            "icon": "/icons/yukseklik.svg",
             "title": "Yükseklik",
             "desc": "1670 mm"
           },
           {
+            "icon": "/icons/agirlik.svg",
             "title": "Ağırlık",
             "desc": "~1550 kg"
           },
           {
+            "icon": "/icons/kasnak_capi.svg",
             "title": "Kasnak Çapı",
             "desc": "800 mm"
           },
           {
+            "icon": "/icons/yardimci_kasnak_capi.svg",
             "title": "Yardımcı Kasnak Çapı",
             "desc": "300 mm"
           }
@@ -257,52 +286,64 @@
         ],
         "specifications": [
           {
+            "icon": "/icons/elektrik_motoru.svg",
             "title": "Elektrik Motoru",
             "desc": "30 kW"
           },
           {
+            "icon": "/icons/kesme_hizi.svg",
             "title": "Kesme Hızı",
             "desc": "7-13 m²/s"
           },
           {
+            "icon": "/icons/ray_sonu_kontrolu.svg",
             "title": "Ray Sonu Kontrol",
             "desc": "Elektrikli"
           },
           {
+            "icon": "/icons/calisma_acısı.svg",
             "title": "Çalışma Açısı",
             "desc": "220°"
           },
           {
+            "icon": "/icons/calisma_sekli.svg",
             "title": "Çalışma Şekli ",
             "desc": "Sağ ve Sol"
           },
           {
+            "icon": "/icons/calisma_acisi_degistirme.svg",
             "title": "Çalışma Açısı Değiştirme",
             "desc": "Redüktörlü"
           }
         ],
         "sizes": [
           {
+            "icon": "/icons/ray_uzunlugu.svg",
             "title": "Ray Uzunluğu",
             "desc": "4 m"
           },
           {
+            "icon": "/icons/en.svg",
             "title": "En",
             "desc": "1460 mm"
           },
           {
+            "icon": "/icons/boy.svg",
             "title": "Boy",
             "desc": "4335 mm"
           },
           {
+            "icon": "/icons/yukseklik.svg",
             "title": "Yükseklik",
             "desc": "1710 mm"
           },
           {
+            "icon": "/icons/agirlik.svg",
             "title": "Ağırlık",
             "desc": "~815,5 kg"
           },
           {
+            "icon": "/icons/kasnak_capi.svg",
             "title": "Kasnak Çapı",
             "desc": "500 mm"
           }
@@ -346,52 +387,64 @@
         ],
         "specifications": [
           {
+            "icon": "/icons/elektrik_motoru.svg",
             "title": "Elektrik Motoru",
             "desc": "22 kW"
           },
           {
+            "icon": "/icons/kesme_hizi.svg",
             "title": "Kesme Hızı",
             "desc": "5-10 m²/s"
           },
           {
+            "icon": "/icons/ray_sonu_kontrolu.svg",
             "title": "Ray Sonu Kontrol",
             "desc": "Elektrikli"
           },
           {
+            "icon": "/icons/calisma_acısı.svg",
             "title": "Çalışma Açısı",
             "desc": "220°"
           },
           {
+            "icon": "/icons/calisma_sekli.svg",
             "title": "Çalışma Şekli ",
             "desc": "Sağ ve Sol"
           },
           {
+            "icon": "/icons/calisma_acisi_degistirme.svg",
             "title": "Çalışma Açısı Değiştirme",
             "desc": "Redüktörlü"
           }
         ],
         "sizes": [
           {
+            "icon": "/icons/ray_uzunlugu.svg",
             "title": "Ray Uzunluğu",
             "desc": "3 m"
           },
           {
+            "icon": "/icons/en.svg",
             "title": "En",
             "desc": "1460 mm"
           },
           {
+            "icon": "/icons/boy.svg",
             "title": "Boy",
             "desc": "3340 mm"
           },
           {
+            "icon": "/icons/yukseklik.svg",
             "title": "Yükseklik",
             "desc": "1710 mm"
           },
           {
+            "icon": "/icons/agirlik.svg",
             "title": "Ağırlık",
             "desc": "~742 kg"
           },
           {
+            "icon": "/icons/kasnak_capi.svg",
             "title": "Kasnak Çapı",
             "desc": "500 mm"
           }
@@ -430,40 +483,49 @@
         ],
         "specifications": [
           {
+            "icon": "/icons/elektrik_motoru.svg",
             "title": "Elektrik Motoru",
             "desc": "18.5 kW"
           },
           {
+            "icon": "/icons/kesme_hizi.svg",
             "title": "Kesme Hızı",
             "desc": "3-7 m²/s"
           },
           {
+            "icon": "/icons/calisma_sekli.svg",
             "title": "Çalışma Şekli ",
             "desc": "Sağ ve Sol"
           }
         ],
         "sizes": [
           {
+            "icon": "/icons/ray_uzunlugu.svg",
             "title": "Ray Uzunluğu",
             "desc": "3 m"
           },
           {
+            "icon": "/icons/en.svg",
             "title": "En",
             "desc": "1190 mm"
           },
           {
+            "icon": "/icons/boy.svg",
             "title": "Boy",
             "desc": "3320 mm"
           },
           {
+            "icon": "/icons/yukselik.svg",
             "title": "Yükseklik",
             "desc": "1410 mm"
           },
           {
+            "icon": "/icons/agirlik.svg",
             "title": "Ağırlık",
             "desc": "~435 kg"
           },
           {
+            "icon": "/icons/kasnak_capi.svg",
             "title": "Kasnak Çapı",
             "desc": "500 mm"
           }

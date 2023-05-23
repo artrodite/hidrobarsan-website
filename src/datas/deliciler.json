@@ -64,64 +64,79 @@
         ],
         "specifications": [
           {
+            "icon": "/icons/elektrik_motoru.svg",
             "title": "Elektrik Motoru",
             "desc": "75 kW"
           },
           {
+            "icon": "/icons/dizel_motor.svg",
             "title": "Dizel Motor",
             "desc": "47 HP (Yanmar), \n28 HP (Deutz)"
           },
           {
+            "icon": "/icons/hidrolik_pompalari.svg",
             "title": "Hidrolik Pompaları",
             "desc": "Pistonlu"
           },
           {
+            "icon": "/icons/yuruyus_sekli.svg",
             "title": "Yürüyüş Şekli",
             "desc": "Lastik tekerli - 3 Çekerli"
           },
           {
+            "icon": "/icons/calisma_sekli.svg",
             "title": "Çalışma Şekli",
             "desc": "Yatay ve Dikey 220°"
           },
           {
+            "icon": "/icons/delme_capı.svg",
             "title": "Delme Çapı",
             "desc": "90 mm"
           },
           {
+            "icon": "/icons/direksiyon_tipi.svg",
             "title": "Direksiyon Tipi",
             "desc": "Joystick"
           },
           {
+            "icon": "/icons/boru_boyu_(tij).svg",
             "title": "Boru Boyu (Tij)",
             "desc": "2m"
           },
           {
+            "icon": "/icons/hava_basinci.svg",
             "title": "Hava Basıncı",
             "desc": "8-10 Bar"
           },
           {
+            "icon": "/icons/delme_hızı.svg",
             "title": "Delme Hızı",
             "desc": "14-18 m/s"
           },
           {
+            "icon": "/icons/hava_debisi.svg",
             "title": "Hava Debisi",
             "desc": "5 m3/dk"
           }
         ],
         "sizes": [
           {
+            "icon": "/icons/en.svg",
             "title": "En",
             "desc": "2200 mm"
           },
           {
+            "icon": "/icons/boy.svg",
             "title": "Boy",
             "desc": "6950 mm"
           },
           {
+            "icon": "/icons/yukseklik.svg",
             "title": "Yükseklik",
             "desc": "2090 mm"
           },
           {
+            "icon": "/icons/agirlik.svg",
             "title": "Ağırlık",
             "desc": "~7750kg"
           }
@@ -154,6 +169,7 @@
       "id": 2,
       "name": "Y327",
       "url": "y327",
+      "modelVideoUrl": "/videos/y327.mp4",
       "imgUrl": "/images/products/delici/Y327/1.png",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "type": "Mobil Sondaj",
@@ -218,64 +234,79 @@
         ],
         "specifications": [
           {
+            "icon": "/icons/elektrik_motoru.svg",
             "title": "Elektrik Motoru",
             "desc": "75 kW"
           },
           {
+            "icon": "/icons/dizel_motor.svg",
             "title": "Dizel Motor",
             "desc": "47 HP (Yanmar Perkins)"
           },
           {
+            "icon": "/icons/hidrolik_pompaları.svg",
             "title": "Hidrolik Pompaları",
             "desc": "Pistonlu"
           },
           {
+            "icon": "/icons/yuruyus_sekli.svg",
             "title": "Yürüyüş Şekli",
             "desc": "Paletli"
           },
           {
+            "icon": "/icons/calisma_sekli.svg",
             "title": "Çalışma Şekli",
             "desc": "Yatay ve Dikey 220°"
           },
           {
+            "icon": "/icons/delme_capı.svg",
             "title": "Delme Çapı",
             "desc": "90 mm"
           },
           {
+            "icon": "/icons/direksiyon_tipi.svg",
             "title": "Direksiyon Tipi",
             "desc": "Joystick"
           },
           {
+            "icon": "/icons/boru_boyu_(tij).svg",
             "title": "Boru Boyu (Tij)",
             "desc": "2m (15 Adet)"
           },
           {
+            "icon": "/icons/hava_basinci.svg",
             "title": "Hava Basıncı",
             "desc": "8-10 Bar"
           },
           {
+            "icon": "/icons/delme_hızı.svg",
             "title": "Delme Hızı",
             "desc": "14-18 m/s"
           },
           {
+            "icon": "/icons/hava_debisi.svg",
             "title": "Hava Debisi",
             "desc": "5 m3/dk"
           }
         ],
         "sizes": [
           {
+            "icon": "/icons/en.svg",
             "title": "En",
             "desc": "2200 mm"
           },
           {
+            "icon": "/icons/boy.svg",
             "title": "Boy",
             "desc": "6800 mm"
           },
           {
+            "icon": "/icons/yukseklik.svg",
             "title": "Yükseklik",
             "desc": "2090 mm"
           },
           {
+            "icon": "/icons/agirlik.svg",
             "title": "Ağırlık",
             "desc": "6750 kg"
           }
@@ -308,6 +339,7 @@
       "id": 3,
       "name": "108T",
       "url": "108t",
+      "modelVideoUrl": "/videos/108t.mp4",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/products/delici/108T/1.png",
       "type": "Hidrolik Sondaj",
@@ -334,56 +366,69 @@
         ],
         "specifications": [
           {
+            "icon": "/icons/elektrik_motoru.svg",
             "title": "Elektrik Motoru",
             "desc": "11 kW"
           },
           {
+            "icon": "/icons/delme_hızı.svg",
             "title": "Delme Hızı",
             "desc": "6-10 m/s"
           },
           {
+            "icon": "/icons/delme_capı.svg",
             "title": "Delme Çapı",
             "desc": "90 mm"
           },
           {
+            "icon": "/icons/calisma_sekli.svg",
             "title": "Çalışma Şekli",
             "desc": "Yatay ve Dikey"
           }
         ],
         "sizes": [
           {
+            "icon": "/icons/unite_agirligi.svg",
             "title": "Ünite Ağılığı",
             "desc": "~320 kg"
           },
           {
+            "icon": "/icons/direk_agırlıgı.svg",
             "title": "Direk Ağırlığı",
             "desc": "~185 kg"
           },
           {
+            "icon": "/icons/sehpa_borular.svg",
             "title": "Sehpa ve Borular",
             "desc": "~350 kg"
           },
           {
+            "icon": "/icons/unite_en.svg",
             "title": "Ünite En",
             "desc": "1000 mm"
           },
           {
+            "icon": "/icons/unite_boy.svg",
             "title": "Ünite Boy",
             "desc": "1330 mm"
           },
           {
+            "icon": "/icons/unite_yukseklik.svg",
             "title": "Ünite yükseklik",
             "desc": "895 mm"
           },
           {
+            "icon": "/icons/direk_en.svg",
             "title": "Direk En",
             "desc": "1000 mm"
           },
           {
+            "icon": "/icons/direk_boy.svg",
             "title": "Direk Boy",
             "desc": "1330 mm"
           },
           {
+            "icon": "/icons/direk_yukseklik.svg",
             "title": "Direk Yükseklik",
             "desc": "895 mm"
           }
