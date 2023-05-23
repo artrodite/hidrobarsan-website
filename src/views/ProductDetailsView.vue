@@ -90,7 +90,7 @@
                     <div v-for="(equipment, index) in productDetails.equipments" :key="index"
                          :data-aos-delay="index * 100"
                          class="flex items-center mb-4" data-aos="fade-right">
-                        <i class="fa fa-circle text-[#F7AF03] align-baseline mr-4" style="font-size: 0.5rem"/>
+                        <img src="/icons/star.svg" alt="" class="mr-4"/>
                         <div class="w-2/3 font-medium text-lg md:text-2xl">
                             {{ equipment.title }}
                         </div>
