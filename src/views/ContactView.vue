@@ -60,11 +60,25 @@
                         <i class="fa fa-comment-dots"/>
                     </div>
                     <div class="w-full p-[3px] bg-[#F3F3F3]">
-                        <input id="subject"
-                               v-model="subject"
-                               class="w-full border-none"
-                               placeholder="Konu"
-                               required type="text">
+                        <!--                        <input id="subject"-->
+                        <!--                               v-model="subject"-->
+                        <!--                               class="w-full border-none"-->
+                        <!--                               placeholder="Konu"-->
+                        <!--                               required type="text">-->
+                        <select id="subject"
+                                class="bg-gray-50 border-none text-[#6A7280] text-sm rounded-lg block w-full p-2.5"
+                                v-model="subject">
+                            <option selected>Konu</option>
+                            <option value=" Ürün">Ürün</option>
+                            <option value="Satış">Satış</option>
+                            <option value="Yedek Parça">Yedek Parça</option>
+                            <option value="Servis">Servis</option>
+                            <option value="Bilgi Talebi">Bilgi Talebi</option>
+                            <option value="Şikayet">Şikayet</option>
+                            <option value="Öneri">Öneri</option>
+                            <option value="Teşekkür">Teşekkür</option>
+                            <option value="Diğer">Diğer</option>
+                        </select>
                     </div>
                 </div>
 
@@ -136,7 +150,7 @@ export default {
             phoneNumber: '',
             address: '',
             email: '',
-            subject: '',
+            subject: 'Konu',
             message: '',
             feedback: '',
         }
