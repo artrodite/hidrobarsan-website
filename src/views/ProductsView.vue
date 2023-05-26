@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto px-6 md:px-0">
         <div>
-            <div class="text-5xl font-medium md:text-7xl">Ürünlerimiz</div>
+            <div class="text-5xl font-medium md:text-7xl">{{ $t('products.urls.products') }}</div>
         </div>
         <div class="py-12 md:py-24 grid grid-cols-1 md:grid-cols-3 items-stretch gap-16">
             <Card v-for="(category, index) in categories" :key="index" :index="index" :product="category"/>
@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import categories from "../datas/categories.json";
 import Card from "@/components/Card.vue";
 
 export default {
@@ -22,7 +21,7 @@ export default {
         }
     },
     mounted() {
-        this.categories = categories.categories;
+        this.categories = this.$tm('products.categories');
     },
 }
 </script>

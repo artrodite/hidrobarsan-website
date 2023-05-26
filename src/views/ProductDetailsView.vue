@@ -16,7 +16,9 @@
                             class="contact-us-btn bg-[#F7AF03] w-full mt-8 md:w-fit flex px-8 py-2 justify-center items-center transition-all border border-[#F7AF03]"
                             data-aos="fade-up"
                             to="/iletisim">
-                        <span class="text-white text-sm md:text-md font-medium">İletişime Geç</span>
+                        <span class="text-white text-sm md:text-md font-medium">{{
+                            $t('products.productDetailsPage.contactUs')
+                            }}</span>
                     </router-link>
                 </div>
             </div>
@@ -33,11 +35,11 @@
                 </div>
             </div>
         </div>
-        <div v-if="!!productDetails.videoUrl" class="h-64 lg:h-[40rem] lg:w-3/4 mx-auto mb-40" data-aos="fade-up">
+        <div v-if="productDetails.videoUrl" class="h-64 lg:h-[40rem] lg:w-3/4 mx-auto mb-40" data-aos="fade-up">
             <iframe
                     :src="productDetails.videoUrl"
                     height="100%"
-                    title="Product Videp"
+                    title="Product Video"
                     width="100%"
             />
         </div>
@@ -56,7 +58,7 @@
             </div>
             <div class="lg:w-[900px] mx-auto">
                 <div class="mb-12 font-semibold text-2xl md:text-4xl" data-aos="fade-up">
-                    Teknik özellikler
+                    {{ $t('products.productDetailsPage.technicalSpecifications') }}
                 </div>
                 <div v-for="(specification, index) in productDetails.specifications" :key="index"
                      :data-aos-delay="index * 100" class="flex items-center mb-4" data-aos="fade-right">
@@ -70,7 +72,7 @@
                 </div>
 
                 <div class="mt-12 lg:mt-24 mb-12 font-semibold text-2xl md:text-4xl" data-aos="fade-right">
-                    Ebatlar
+                    {{ $t('products.productDetailsPage.sizes') }}
                 </div>
                 <div v-for="(size, index) in productDetails.sizes" :key="index" :data-aos-delay="index * 100"
                      class="flex items-center mb-4" data-aos="fade-right">
@@ -85,7 +87,7 @@
 
                 <div v-if="productDetails.equipments" class="mt-12 lg:mt-24">
                     <div class="mb-12 font-semibold text-2xl md:text-4xl" data-aos="fade-right">
-                        Aksesuarlar
+                        {{ $t('products.productDetailsPage.equipments') }}
                     </div>
 
                     <div v-for="(equipment, index) in productDetails.equipments" :key="index"
@@ -111,9 +113,9 @@
 </template>
 
 <script>
-import telliKesiciler from "@/datas/telliKesiciler.json";
-import zincirliKesiciler from "@/datas/zincirliKesiciler.json";
-import deliciler from "@/datas/deliciler.json";
+// import telliKesiciler from "@/datas/telliKesiciler.json";
+// import zincirliKesiciler from "@/datas/zincirliKesiciler.json";
+// import deliciler from "@/datas/deliciler.json";
 import AccessoryCard from "@/components/AccessoryCard.vue";
 import {Swiper, SwiperSlide} from 'swiper/vue';
 import {Pagination, Navigation} from 'swiper';
@@ -139,6 +141,9 @@ export default {
         return {
             product: {},
             productDetails: {},
+            deliciler: this.$tm('products.deliciler'),
+            telliKesiciler: this.$tm('products.telliKesiciler'),
+            zincirliKesiciler: this.$tm('products.zincirliKesiciler'),
             rewind: true,
             routerLinks: [],
         }
@@ -151,49 +156,41 @@ export default {
         checkProductType() {
             const productType = this.$route.name;
             if (productType === 'delici-detay') {
-                this.product = deliciler.deliciler.find(delici => delici.url.toLowerCase() === this.$route.params.url);
+                this.product = this.deliciler.find(delici => delici.url.toLowerCase() === this.$route.params.url);
                 this.routerLinks = [
                     {
-                        name: 'Ürünlerimiz > ',
+                        name: `${this.$t('products.urls.products')} >`,
                         url: '/urunlerimiz'
                     },
                     {
-                        name: 'Deliciler > ',
+                        name: `${this.$t('products.urls.drills')} >`,
                         url: '/urunlerimiz/deliciler'
                     }
                 ]
             }
             if (productType === 'telli-kesici-detay') {
-                this.product = telliKesiciler.telliKesiciler.find(kesici => kesici.url.toLowerCase() === this.$route.params.url);
+                this.product = this.telliKesiciler.find(kesici => kesici.url.toLowerCase() === this.$route.params.url);
                 this.routerLinks = [
                     {
-                        name: 'Ürünlerimiz > ',
+                        name: `${this.$t('products.urls.products')} >`,
                         url: '/urunlerimiz'
                     },
                     {
-                        name: 'Kesiciler > ',
-                        url: '/urunlerimiz/kesiciler'
-                    },
-                    {
-                        name: 'Telli Kesiciler > ',
+                        name: `${this.$t('products.urls.wireCutter')} >`,
                         url: '/urunlerimiz/kesiciler/telli'
                     }
                 ]
             }
             if (productType === 'zincirli-kesici-detay') {
-                this.product = zincirliKesiciler.zincirliKesiciler.find(kesici => kesici.url.toLowerCase() === this.$route.params.url);
+                this.product = this.zincirliKesiciler.find(kesici => kesici.url.toLowerCase() === this.$route.params.url);
                 this.routerLinks =
                     [
                         {
-                            name: 'Ürünlerimiz > ',
+                            name: `${this.$t('products.urls.products')} >`,
                             url: '/urunlerimiz'
                         },
                         {
-                            name: 'Kesiciler > ',
-                            url: '/urunlerimiz/kesiciler'
-                        },
-                        {
-                            name: 'Zincirli Kesiciler > ',
+                            name: `${this.$t('products.urls.chainsawCutter')} >`,
                             url: '/urunlerimiz/kesiciler/zincirli'
                         }
                     ]

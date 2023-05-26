@@ -2,7 +2,7 @@
     <div>
         <div class="container mx-auto px-6 md:px-96">
             <div class="text-5xl mb-8 font-medium md:text-center">
-                Bize Ulaşın
+                {{ $t('contact.title') }}
             </div>
             <!--Input List-->
             <div class="grid grid-cols-1 gap-8 px-2" data-aos="fade-right">
@@ -14,7 +14,7 @@
                         <input id="text"
                                v-model="name"
                                class="w-full border-none"
-                               placeholder="İsim Soyisim"
+                               :placeholder="$t('contact.inputPlaceholders.name')"
                                required type="text">
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                         <input id="phone"
                                v-model="phoneNumber"
                                class="w-full border-none"
-                               placeholder="Telefon Numaranız"
+                               :placeholder="$t('contact.inputPlaceholders.phone')"
                                required type="number">
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                         <input id="email"
                                v-model="email"
                                class="w-full border-none"
-                               placeholder="Mail Adresiniz"
+                               :placeholder="$t('contact.inputPlaceholders.email')"
                                required type="text">
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         <input id="address"
                                v-model="address"
                                class="w-full border-none"
-                               placeholder="Adresiniz"
+                               :placeholder="$t('contact.inputPlaceholders.address')"
                                required type="text">
                     </div>
                 </div>
@@ -68,16 +68,11 @@
                         <select id="subject"
                                 class="bg-gray-50 border-none text-[#6A7280] text-sm rounded-lg block w-full p-2.5"
                                 v-model="subject">
-                            <option selected>Konu</option>
-                            <option value=" Ürün">Ürün</option>
-                            <option value="Satış">Satış</option>
-                            <option value="Yedek Parça">Yedek Parça</option>
-                            <option value="Servis">Servis</option>
-                            <option value="Bilgi Talebi">Bilgi Talebi</option>
-                            <option value="Şikayet">Şikayet</option>
-                            <option value="Öneri">Öneri</option>
-                            <option value="Teşekkür">Teşekkür</option>
-                            <option value="Diğer">Diğer</option>
+                            <option selected>{{ $t('contact.inputPlaceholders.subjects.title') }}</option>
+                            <option v-for="(subject, index) in $tm('contact.inputPlaceholders.subjects.options')"
+                                    :key="index">
+                                {{ subject }}
+                            </option>
                         </select>
                     </div>
                 </div>
@@ -91,7 +86,7 @@
                         v-model="message"
                         class="w-full border-none"
                         cols="5"
-                        placeholder="Mesajınız"
+                        :placeholder="$t('contact.inputPlaceholders.message')"
                         rows="5"
                 />
                     </div>
@@ -103,7 +98,7 @@
                     <label class="flex items-center justify-center w-full border border-[#F7AF03] cursor-pointer text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03]"
                            for="dropzone-file">
                         <span class="items-center justify-center p-2">
-                            <i class="fa fa-paperclip mr-2"/> Dosya Ekle
+                            <i class="fa fa-paperclip mr-2"/> {{ $t('contact.addFile') }}
                         </span>
                         <input id="dropzone-file" class="hidden" type="file"/>
                     </label>
@@ -111,15 +106,15 @@
                 <div class="mt-8 md:mt-0 w-full">
                     <button class="send-button bg-[#F7AF03] text-white border border-[#F7AF03] p-2 w-full"
                             @click="submit">
-                        Gönder <img alt="send-icon"
-                                    class="send-icon hidden ml-2 align-center h-4 md:inline-flex transition-all"
-                                    src="@/assets/send-icon.svg">
+                        {{ $t('contact.submit') }} <img alt="send-icon"
+                                                        class="send-icon hidden ml-2 align-center h-4 md:inline-flex transition-all"
+                                                        src="@/assets/send-icon.svg">
                     </button>
                 </div>
             </div>
 
             <div class="mt-4 text-sm text-[#888888]">
-                Şirketimiz ve ürünlerimiz hakkında istediğiniz bilgiyi almak için hemen bize ulaşabilirsiniz.
+                {{ $t('contact.description') }}
             </div>
 
             <div v-if="feedback" class="mt-4 text-sm text-[#F7AF03]">
@@ -127,7 +122,7 @@
             </div>
 
             <div class="my-28 text-center text-black ml-4">
-                Daha Fazlası <i class="ml-2 fa fa-chevron-down text-xs"/>
+                {{ $t('contact.more') }} <i class="ml-2 fa fa-chevron-down text-xs"/>
             </div>
 
             <mobile-footer-contact class="hidden md:block"/>
@@ -150,7 +145,7 @@ export default {
             phoneNumber: '',
             address: '',
             email: '',
-            subject: 'Konu',
+            subject: this.$t('contact.inputPlaceholders.subjects.title'),
             message: '',
             feedback: '',
         }
@@ -158,7 +153,7 @@ export default {
     methods: {
         async submit() {
             if (this.name === '' || this.email === '' || this.subject === '' || this.message === '' || this.phoneNumber === '' || this.address === '') {
-                this.feedback = 'Lütfen tüm alanları doldurunuz.';
+                this.feedback = this.$t('contact.fillAllFields');
                 return;
             }
             await emailjs.send(process.env.VUE_APP_EMAIL_SERVICE, process.env.VUE_APP_EMAIL_TEMPLATE, {
@@ -173,10 +168,10 @@ export default {
                 this.email = '';
                 this.subject = '';
                 this.message = '';
-                this.feedback = 'Mesajınız başarıyla gönderildi. Teşekkür ederiz.'
+                this.feedback = this.$t('contact.submitSuccess')
             }, () => {
                 // console.log('FAILED...', err);
-                this.feedback = 'Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.'
+                this.feedback = this.$t('contact.submitFailed')
             });
         }
     }

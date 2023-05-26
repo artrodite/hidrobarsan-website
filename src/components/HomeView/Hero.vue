@@ -24,22 +24,27 @@
         </div>
         <div class="flex flex-col lg:pl-16">
             <div class="flex flex-col text-5xl md:text-8xl mt-4">
-                <span class="mb-2" data-aos="fade-right">TOZ EMME</span>
-                <span class="text-[#F7AF03] font-bold" data-aos="fade-right" data-aos-delay="200">SİSTEMİ</span>
+                <span class="mb-2" data-aos="fade-right">{{ $t('home.hero.title1') }}</span>
+                <span class="text-[#F7AF03] font-bold" data-aos="fade-right"
+                      data-aos-delay="200">{{ $t('home.hero.title2') }}</span>
             </div>
             <div class="font-thin mt-4 texl-xl lg:text-3xl" data-aos="fade-right" data-aos-delay="300">
-                Mermer tozunu ortadan kaldıran son teknoloji emiş sistemi.
+                {{ $t('home.hero.description') }}
             </div>
             <div class="flex flex-col md:flex-row gap-4">
                 <router-link
                         class="see-product-btn mt-8 md:w-2/3 border border-[#F7AF03] bg-[#F7AF03] hover:bg-transparent flex px-4 py-2 justify-center items-center transition-all"
                         to="/urunlerimiz">
-                    <span class="see-product-btn-text text-white font-medium mr-2">Ürünlere Göz At</span>
+                    <span class="see-product-btn-text text-white font-medium mr-2">{{
+                        $t('home.hero.seeProducts')
+                        }}</span>
                 </router-link>
                 <router-link
                         class="contact-us-btn md:mt-8  md:w-2/3 border border-[#F7AF03] bg-transparent hover:bg-[#F7AF03] flex px-4 py-2 justify-center items-center transition-all"
                         to="/iletisim">
-                    <span class="contact-us-btn-text text-[#F7AF03] font-medium mr-2">Bize Ulaş</span>
+                    <span class="contact-us-btn-text text-[#F7AF03] font-medium mr-2">{{
+                        $t('home.hero.contactUs')
+                        }}</span>
                 </router-link>
             </div>
         </div>
@@ -63,7 +68,7 @@ export default {
             progressContent.value.textContent = `${Math.ceil(time / 1000)}s`;
         };
 
-        const onSwiper = (swiper) => {
+        const onSwiper = () => {
             // console.log(swiper);
         };
         return {

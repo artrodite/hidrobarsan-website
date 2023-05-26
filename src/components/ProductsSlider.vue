@@ -1,7 +1,7 @@
 <template>
     <div v-if="false" class="container mx-auto px-6 mt-64">
         <div class="mb-16 text-2xl">
-            Ürünlerimiz
+            {{ $t('products.urls.products') }}
         </div>
         <div>
             <swiper ref="swiper" :autoplay="true" :loop="loop" :slides-per-view="4.5" :space-between="30"
@@ -19,9 +19,6 @@ import {Swiper, SwiperSlide} from 'swiper/vue';
 import SwiperCore, {Autoplay} from "swiper"
 
 import 'swiper/css';
-import telliKesiciler from "@/datas/telliKesiciler.json";
-import zincirliKesiciler from "@/datas/zincirliKesiciler.json";
-import deliciler from "@/datas/deliciler.json";
 import Card from "@/components/Card.vue";
 
 SwiperCore.use([Autoplay])
@@ -48,9 +45,7 @@ export default {
         SwiperSlide
     },
     async mounted() {
-        this.products = [...telliKesiciler.telliKesiciler];
-        this.products = [...this.products, ...zincirliKesiciler.zincirliKesiciler];
-        this.products = [...this.products, ...deliciler.deliciler];
+        this.products = [...this.$tm('products.telliKesiciler'), ...this.$tm('products.zincirliKesiciler'), ...this.$tm('products.deliciler')];
         // console.log(this.products);
     }
 }

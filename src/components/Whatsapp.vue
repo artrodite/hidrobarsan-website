@@ -1,9 +1,9 @@
 <template>
     <a class="text-white bg-[#25D366] text-center flex items-center justify-center cursor-pointer rounded-full fixed bottom-12 left-6 transition-all p-8 animate-bounce"
-       href="https://wa.me/+905336823946"
+       :href="'https://wa.me/+' + ($i18n.locale === 'tr' ? '905336823946' : '905336823947')"
        style="width: 36px; height: 36px;"
     >
-        <i class="fa-brands fa-whatsapp text-3xl" />
+        <i class="fa-brands fa-whatsapp text-3xl"/>
     </a>
 </template>
 

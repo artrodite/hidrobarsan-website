@@ -1,0 +1,1630 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title1": "DUST SUCTION",
+      "title2": "SYSTEM",
+      "description": "State-of-the-art suction system that removes marble dust.",
+      "seeProducts": "See Products",
+      "contactUs": "Contact Us"
+    },
+    "announcements": {
+      "title": "Announcements",
+      "cards": [
+        {
+          "cardTitle": "Izmir International Natural Stone and Technologies Fair",
+          "cardDescription": "In order to meet with Hidrobarsan new technologies and to see the latest technologies that will breathe new life into the marble sector, we are waiting for you, our valued customers, to have a cup of coffee at booth number C226."
+        }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "cards": [
+        "Support in 3 Days",
+        "16.000 m² Field of Production",
+        "We are with you every step of the way",
+        "High value added production",
+        "22 Years Experience",
+        "Customer Satisfaction"
+      ],
+      "seeMore": "See More"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "urls": {
+      "products": "Products",
+      "chainsawCutter": "Chainsaw Cutters",
+      "wireCutter": "Wire Cutters",
+      "drill": "Drills"
+    },
+    "productDetailsPage": {
+      "contactUs": "Contact Us",
+      "technicalSpecifications": "Technical Specifications",
+      "sizes": "Sizes",
+      "equipments": "Equipments"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Chain Cutter Machine Group",
+        "url": "kesiciler/zincirli",
+        "desc": "",
+        "imgUrl": "/images/categories/kesici.png"
+      },
+      {
+        "id": 2,
+        "name": "Wire Cutter Machine Group",
+        "url": "kesiciler/telli",
+        "desc": "",
+        "imgUrl": "/images/products/kesici/telli-kesici/6000M/1.png"
+      },
+      {
+        "id": 3,
+        "name": "Drills Machine Group",
+        "url": "deliciler",
+        "desc": "",
+        "imgUrl": "/images/categories/delici.png"
+      }
+    ],
+    "deliciler": [
+      {
+        "id": 1,
+        "name": "Y328",
+        "url": "y328",
+        "modelVideoUrl": "/videos/y328.mp4",
+        "imgUrl": "/images/products/delici/Y328/1.png",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "type": "Mobile Drilling",
+        "details": {
+          "name": "Y328 Mobile Drilling",
+          "videoUrl": "https://www.youtube.com/embed/m0tmYiniAis",
+          "images": [
+            {
+              "url": "/images/products/delici/Y328/1.png",
+              "desc": "Horizontal Drilling Mode"
+            },
+            {
+              "url": "/images/products/delici/Y328/2.png",
+              "desc": "Vertical Drilling Mode"
+            },
+            {
+              "url": "/images/products/delici/Y328/3.png",
+              "desc": "Operator’s Cab"
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-1.png",
+              "title": "Operator’s Cab",
+              "desc": "The new system provides to operator more safety and control comfort with the motion control system."
+            },
+            {
+              "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-2.png",
+              "title": "Slide and Boom",
+              "desc": "With the ability to extend and shorten the slide section and to the right and left mobility, and the boom section; it provides easy centering by taking the machine to the balance without moving it."
+            },
+            {
+              "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-3.png",
+              "title": "Diesel Motor",
+              "desc": "With the 47 HP Diesel Motor, it easily operates in steeper and difficult terrain conditions. "
+            },
+            {
+              "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-4.png",
+              "title": "Compressor",
+              "desc": "Both the air and hydraulic systems works more strongly with a single-engine, providing full performance and lighter. "
+            },
+            {
+              "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-5.png",
+              "title": "5.5 cm",
+              "desc": "Close to ground performance."
+            },
+            {
+              "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-6.png",
+              "title": "Pipe",
+              "desc": "It prevents wear thanks to its increased hardness for the long-lasting use of pipe adapters."
+            },
+            {
+              "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-7.png",
+              "title": "360° Rotation Capability",
+              "desc": "Thanks to its 360° rotating feature, it automatically performs the turn with the operator button, allowing it to cut from all angles."
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/elektrik_motoru.svg",
+              "title": "Electrical Motor",
+              "desc": "75 kW"
+            },
+            {
+              "icon": "/icons/dizel_motor.svg",
+              "title": "Diesel Motor",
+              "desc": "47 HP (Yanmar or Perkins)"
+            },
+            {
+              "icon": "/icons/hidrolik_pompalari.svg",
+              "title": "Hydraulic Pump",
+              "desc": "Piston type"
+            },
+            {
+              "icon": "/icons/yuruyus_sekli.svg",
+              "title": "Moving",
+              "desc": "3-Wheel Drive"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Drilling Rotation",
+              "desc": "Horizontal and Vertical 220°"
+            },
+            {
+              "icon": "/icons/delme_capı.svg",
+              "title": "Delme Çapı",
+              "desc": "90 mm"
+            },
+            {
+              "icon": "/icons/direksiyon_tipi.svg",
+              "title": "Steering Type",
+              "desc": "Joystick"
+            },
+            {
+              "icon": "/icons/boru_boyu_(tij).svg",
+              "title": "Pipe Length (Stem)",
+              "desc": "2m"
+            },
+            {
+              "icon": "/icons/hava_basinci.svg",
+              "title": "Air Pressure",
+              "desc": "8-10 Bar"
+            },
+            {
+              "icon": "/icons/delme_hızı.svg",
+              "title": "Drilling Speed",
+              "desc": "14-18 m/s"
+            },
+            {
+              "icon": "/icons/hava_debisi.svg",
+              "title": "Air Flow",
+              "desc": "5 m3/dk"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "2200 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "6950 mm"
+            },
+            {
+              "icon": "/icons/yukseklik.svg",
+              "title": "Height",
+              "desc": "2090 mm"
+            },
+            {
+              "icon": "/icons/agirlik.svg",
+              "title": "Weight",
+              "desc": "~7750kg"
+            }
+          ],
+          "equipments": [
+            {
+              "title": "Fixing Chain",
+              "desc": "2 pieces"
+            },
+            {
+              "title": "Pipe",
+              "desc": "15 pieces"
+            },
+            {
+              "title": "Extension Elect. Cable",
+              "desc": "1 piece (5X125A)"
+            },
+            {
+              "title": "Centering Tip (Long type)",
+              "desc": "1 piece"
+            },
+            {
+              "title": "24 Combine Wrench",
+              "desc": "1 piece"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Y327",
+        "url": "y327",
+        "modelVideoUrl": "/videos/y327.mp4",
+        "imgUrl": "/images/products/delici/Y327/1.png",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "type": "Mobile Drilling",
+        "details": {
+          "name": "Y327 Mobile Drilling",
+          "videoUrl": "",
+          "images": [
+            {
+              "url": "/images/products/delici/Y327/1.png",
+              "desc": "Vertical Drilling Mode"
+            },
+            {
+              "url": "/images/products/delici/Y327/2.png",
+              "desc": "Operator’s Cab"
+            },
+            {
+              "url": "/images/products/delici/Y327/3.png",
+              "desc": "Horizontal Drilling Mode"
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-1.png",
+              "title": "Operator’s Cab",
+              "desc": "The new system provides to operator more safety and control comfort with the motion control system."
+            },
+            {
+              "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-2.png",
+              "title": "Pipe",
+              "desc": "It prevents wear thanks to its increased hardness for the long-lasting use of pipe adapters."
+            },
+            {
+              "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-3.png",
+              "title": "Slide and Boom",
+              "desc": "With the ability to extend and shorten the slide section and to the right and left mobility, and the boom section; it provides easy centering by taking the machine to the balance without moving it."
+            },
+            {
+              "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-4.png",
+              "title": "Diesel Motor",
+              "desc": "With the 47 HP Diesel Motor, it easily operates in steeper and difficult terrain conditions. "
+            },
+            {
+              "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-5.png",
+              "title": "Hydraulic Clamp System",
+              "desc": "It has a hydraulic clamp system to facilitate pipe disassembly and installation."
+            },
+            {
+              "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-6.png",
+              "title": "5.5 cm",
+              "desc": "Close to ground performance."
+            },
+            {
+              "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-7.png",
+              "title": "Compressor",
+              "desc": "Both the air and hydraulic systems works more strongly with a single-engine, providing full performance and lighter."
+            },
+            {
+              "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-8.png",
+              "title": "360° Rotation Capability",
+              "desc": "Thanks to its 360° rotating feature, it automatically performs the turn with the operator button, allowing it to cut from all angles."
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/elektrik_motoru.svg",
+              "title": "Electrical Motor",
+              "desc": "75 kW"
+            },
+            {
+              "icon": "/icons/dizel_motor.svg",
+              "title": "Diesel Motor",
+              "desc": "47 HP (Yanmar Perkins)"
+            },
+            {
+              "icon": "/icons/hidrolik_pompalari.svg",
+              "title": "Hydraulic Pump",
+              "desc": "Piston type"
+            },
+            {
+              "icon": "/icons/yuruyus_sekli.svg",
+              "title": "Moving",
+              "desc": "Tracked"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Drilling Rotation",
+              "desc": "Horizontal and Vertical 220°"
+            },
+            {
+              "icon": "/icons/delme_capı.svg",
+              "title": "Hole Diameter",
+              "desc": "90 mm"
+            },
+            {
+              "icon": "/icons/direksiyon_tipi.svg",
+              "title": "Steering Type",
+              "desc": "Joystick"
+            },
+            {
+              "icon": "/icons/boru_boyu_(tij).svg",
+              "title": "Pipe Length (Stem)",
+              "desc": "2m (15 Adet)"
+            },
+            {
+              "icon": "/icons/hava_basinci.svg",
+              "title": "Air Pressure",
+              "desc": "8-10 Bar"
+            },
+            {
+              "icon": "/icons/delme_hızı.svg",
+              "title": "Drilling Speed",
+              "desc": "14-18 m/s"
+            },
+            {
+              "icon": "/icons/hava_debisi.svg",
+              "title": "Air Flow",
+              "desc": "5 m3/dk"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "2200 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "6800 mm"
+            },
+            {
+              "icon": "/icons/yukseklik.svg",
+              "title": "Height",
+              "desc": "2090 mm"
+            },
+            {
+              "icon": "/icons/agirlik.svg",
+              "title": "Weight",
+              "desc": "6750 kg"
+            }
+          ],
+          "equipments": [
+            {
+              "title": "Fixing Chain",
+              "desc": "2 pieces"
+            },
+            {
+              "title": "Pipe",
+              "desc": "15 pieces"
+            },
+            {
+              "title": "Extension Elect. Cable",
+              "desc": "1 piece (5X125A)"
+            },
+            {
+              "title": "Centering Tip (Long type)",
+              "desc": "1 piece"
+            },
+            {
+              "title": "24 Combine Wrench",
+              "desc": "1 piece"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "108T",
+        "url": "108t",
+        "modelVideoUrl": "/videos/108t.mp4",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "imgUrl": "/images/products/delici/108T/1.png",
+        "type": "HYDRAULIC DRILLING",
+        "details": {
+          "name": "108T HYDRAULIC DRILLING",
+          "videoUrl": "",
+          "images": [
+            {
+              "url": "/images/products/delici/108T/1.png",
+              "desc": "108T Hydraulic Drilling"
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/delici/108T/aksesuar/aksesuar-1.png",
+              "title": "Long-Lasting Use Pipe",
+              "desc": "Pipe prevents wear thanks to its increased hardness for long-lasting use of pipe adapters."
+            },
+            {
+              "imageUrl": "/images/products/delici/108T/aksesuar/aksesuar-2.png",
+              "title": "DTH Hammer (Speed Drill)",
+              "desc": "It saves both energy and time by providing faster hole drilling with less air power."
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/elektrik_motoru.svg",
+              "title": "Electrical Motor",
+              "desc": "11 kW"
+            },
+            {
+              "icon": "/icons/delme_hızı.svg",
+              "title": "Drilling Speed",
+              "desc": "6-10 m/s"
+            },
+            {
+              "icon": "/icons/delme_capı.svg",
+              "title": "Hole Diameter",
+              "desc": "90 mm"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Drilling Rotation",
+              "desc": "Horizontal and Vertical"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/unite_agirligi.svg",
+              "title": "Hydraulic Unit Weight",
+              "desc": "~320 kg"
+            },
+            {
+              "icon": "/icons/unite_en.svg",
+              "title": "Hydraulic Unit Width",
+              "desc": "1000 mm"
+            },
+            {
+              "icon": "/icons/unite_boy.svg",
+              "title": "Hydraulic Unit Length",
+              "desc": "1330 mm"
+            },
+            {
+              "icon": "/icons/unite_yukseklik.svg",
+              "title": "Hydraulic Unit Height",
+              "desc": "895 mm"
+            },
+            {
+              "icon": "/icons/direk_agırlıgı.svg",
+              "title": "Tower Weight",
+              "desc": "~185 kg"
+            },
+            {
+              "icon": "/icons/direk_en.svg",
+              "title": "Tower Width",
+              "desc": "1000 mm"
+            },
+            {
+              "icon": "/icons/direk_boy.svg",
+              "title": "Tower Length",
+              "desc": "1330 mm"
+            },
+            {
+              "icon": "/icons/direk_yukseklik.svg",
+              "title": "Tower Height",
+              "desc": "895 mm"
+            },
+            {
+              "icon": "/icons/sehpa_borular.svg",
+              "title": "Stand + Pipes",
+              "desc": "~350 kg"
+            }
+          ],
+          "equipments": [
+            {
+              "title": "Fixing Chain",
+              "desc": "2 pieces"
+            },
+            {
+              "title": "Pipe",
+              "desc": "15 pieces"
+            },
+            {
+              "title": "Extension Elect. Cable",
+              "desc": "1 piece (5X125A)"
+            },
+            {
+              "title": "Centering Tip (Long type)",
+              "desc": "1 piece"
+            },
+            {
+              "title": "24 Combine Wrench",
+              "desc": "1 piece"
+            }
+          ]
+        }
+      }
+    ],
+    "telliKesiciler": [
+      {
+        "id": 1,
+        "name": "6000M",
+        "url": "6000m",
+        "modelVideoUrl": "/videos/6000m.mp4",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "imgUrl": "/images/products/kesici/telli-kesici/6000M/1.png",
+        "type": "BRIDGE TYPE DIAMOND WIRE SAW",
+        "details": {
+          "name": "6000M BRIDGE TYPE DIAMOND WIRE SAW",
+          "videoUrl": "https://www.youtube.com/embed/m74loFPpA1w",
+          "images": [
+            {
+              "url": "/images/products/kesici/telli-kesici/6000M/1.png",
+              "desc": ""
+            },
+            {
+              "url": "/images/products/kesici/telli-kesici/6000M/2.png",
+              "desc": "Undercutting mode"
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-1.png",
+              "title": "Fully Equipped System",
+              "desc": "Thanks to the new generation inverter systems connected to the feed motor and the main motor; Reduces electricity usage.\nIt provides high torque for easy wire lifting.\nIt cuts at maximum performance according to the feature of the stone.\nDuring cutting depends on electricity amperage sets walking speed with inverter automatically."
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-2.png",
+              "title": "Slide",
+              "desc": "Thanks to the right and left mobility of the sled section, it easily adjust the cutting position without the need to change the machine position."
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-3.png",
+              "title": "Wired remote",
+              "desc": ""
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-4.png",
+              "title": "Wireless remote",
+              "desc": ""
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/ana_motor.svg",
+              "title": "Main Motor",
+              "desc": "75 kW"
+            },
+            {
+              "icon": "/icons/yuruyus_motoru.svg",
+              "title": "Feed Motor",
+              "desc": "1.5 kW"
+            },
+            {
+              "icon": "/icons/hidrolik_motoru.svg",
+              "title": "Hydraulic Motor",
+              "desc": "2.2 kW"
+            },
+            {
+              "icon": "/icons/kasnak_devir_kontrol.svg",
+              "title": "Flywheel Speed Control",
+              "desc": "Invertör"
+            },
+            {
+              "icon": "/icons/calisma_acısı.svg",
+              "title": "Cutting Rotation",
+              "desc": "270°"
+            },
+            {
+              "icon": "/icons/calisma_acisi_degistirme.svg",
+              "title": "Work Angle Setting",
+              "desc": "Electrical"
+            },
+            {
+              "icon": "/icons/kesme_hizi.svg",
+              "title": "Cutting Speed",
+              "desc": "20-30 m²/s"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/kopru_uzunlugu.svg",
+              "title": "Bridge Length",
+              "desc": "5 m"
+            },
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "1680 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "6740 mm"
+            },
+            {
+              "icon": "/icons/yukseklik.svg",
+              "title": "Height",
+              "desc": "2730 mm"
+            },
+            {
+              "icon": "/icons/agirlik.svg",
+              "title": "Weight",
+              "desc": "~3900 kg"
+            },
+            {
+              "icon": "/icons/kasnak_capi.svg",
+              "title": "Flywheel Diameter",
+              "desc": "800 mm"
+            },
+            {
+              "icon": "/icons/kasnak_hareketi.svg",
+              "title": "Flywheel Movement",
+              "desc": "250 mm"
+            },
+            {
+              "icon": "/icons/yardimci_kasnak_capi.svg",
+              "title": "Guide Flywheel Diameter",
+              "desc": "300 mm"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "1260M",
+        "url": "1260m",
+        "modelVideoUrl": "/videos/1260m.mp4",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "imgUrl": "/images/products/kesici/telli-kesici/1260M/1.png",
+        "type": "DIAMOND WIRE SAW WITH RAILS",
+        "details": {
+          "type": "Tel Kesme",
+          "name": "1260M DIAMOND WIRE SAW WITH RAILS",
+          "videoUrl": "",
+          "images": [
+            {
+              "url": "/images/products/kesici/telli-kesici/1260M/1.png",
+              "desc": "Undercutting Mode"
+            },
+            {
+              "url": "/images/products/kesici/telli-kesici/1260M/2.png",
+              "desc": ""
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-1.png",
+              "title": "Flywheel Rotation Button",
+              "desc": "Thanks to the automatic flywheel rotation button, it does not need human power to change the working angle."
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-2.png",
+              "title": "360° Rotation Capability",
+              "desc": "Thanks to its 360° rotating feature, it automatically performs the turn with the operator button, allowing it to cut from all angles."
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-3.png",
+              "title": "Distribution Board and Control Panel",
+              "desc": "With the distribution board and control panel on it, it eliminates cable clutter, is easy to carry, and saves time."
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-4.png",
+              "title": "Wired remote",
+              "desc": ""
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-5.png",
+              "title": "Wireless remote",
+              "desc": ""
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/elektrik_motoru.svg",
+              "title": "Electrical Motor",
+              "desc": "55 kW"
+            },
+            {
+              "icon": "/icons/yuruyus_sistemi.svg",
+              "title": "Moving System",
+              "desc": "Inverter (Siemens)"
+            },
+            {
+              "icon": "/icons/guc_aktarimi.svg",
+              "title": "Power Transmission",
+              "desc": "Torque Converter"
+            },
+            {
+              "icon": "/icons/kesme_hizi.svg",
+              "title": "Cutting Speed",
+              "desc": "10-15 m²/s"
+            },
+            {
+              "icon": "/icons/calisma_acısı.svg",
+              "title": "Cutting Rotation",
+              "desc": "360°"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Work Position",
+              "desc": "Right, Left and Bottom"
+            },
+            {
+              "icon": "/icons/calisma_acisi_degistirme.svg",
+              "title": "Work Angle Setting",
+              "desc": "Electrical"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/ray_uzunlugu.svg",
+              "title": "Rail Length",
+              "desc": "6 m"
+            },
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "1230 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "2560 mm"
+            },
+            {
+              "icon": "/icons/yukseklik.svg",
+              "title": "Height",
+              "desc": "1670 mm"
+            },
+            {
+              "icon": "/icons/agirlik.svg",
+              "title": "Weight",
+              "desc": "~1550 kg"
+            },
+            {
+              "icon": "/icons/kasnak_capi.svg",
+              "title": "Flywheel Diameter",
+              "desc": "800 mm"
+            },
+            {
+              "icon": "/icons/yardimci_kasnak_capi.svg",
+              "title": "Guide Flywheel Diameter",
+              "desc": "300 mm"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "4000Y",
+        "url": "4000y",
+        "modelVideoUrl": "/videos/4000y-3000y.mp4",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "imgUrl": "/images/products/kesici/telli-kesici/4000Y/1.png",
+        "type": "HORIZONTAL TYPE BLOCK SIZING",
+        "details": {
+          "type": "Tel Kesme",
+          "name": "4000Y HORIZONTAL TYPE BLOCK SIZING",
+          "videoUrl": "",
+          "images": [
+            {
+              "url": "/images/products/kesici/telli-kesici/4000Y/1.png",
+              "desc": "4000Y Horizontal Type Block Sizing"
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/4000Y/aksesuar/aksesuar-1.png",
+              "title": "Cutting Rotation",
+              "desc": "With its 270° Working Angle, it enables vertical cutting even if the ground on the terrain is not flat."
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/4000Y/aksesuar/aksesuar-2.png",
+              "title": "Rotation System with Reducer",
+              "desc": "With the improved Arm System, it can easily change the operating angle without the need for the operator to expend power."
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/4000Y/aksesuar/aksesuar-3.png",
+              "title": "Wired remote",
+              "desc": ""
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/elektrik_motoru.svg",
+              "title": "Electrical Motor",
+              "desc": "30 kW"
+            },
+            {
+              "icon": "/icons/kesme_hizi.svg",
+              "title": "Cutting Speed",
+              "desc": "7-13 m²/s"
+            },
+            {
+              "icon": "/icons/ray_sonu_kontrolu.svg",
+              "title": "Rail End Control",
+              "desc": "Electrical"
+            },
+            {
+              "icon": "/icons/calisma_acısı.svg",
+              "title": "Cutting Rotation",
+              "desc": "220°"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Work Position",
+              "desc": "Right and Left"
+            },
+            {
+              "icon": "/icons/calisma_acisi_degistirme.svg",
+              "title": "Work Angle Setting",
+              "desc": "Reducer"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/ray_uzunlugu.svg",
+              "title": "Rail Length",
+              "desc": "4 m"
+            },
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "1460 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "4335 mm"
+            },
+            {
+              "icon": "/icons/yukseklik.svg",
+              "title": "Height",
+              "desc": "1710 mm"
+            },
+            {
+              "icon": "/icons/agirlik.svg",
+              "title": "Weight",
+              "desc": "~815,5 kg"
+            },
+            {
+              "icon": "/icons/kasnak_capi.svg",
+              "title": "Flywheel Diameter",
+              "desc": "500 mm"
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "3000Y",
+        "url": "3000y",
+        "modelVideoUrl": "/videos/4000y-3000y.mp4",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "imgUrl": "/images/products/kesici/telli-kesici/4000Y/1.png",
+        "type": "HORIZONTAL TYPE BLOCK SIZING",
+        "details": {
+          "type": "Tel Kesme",
+          "name": "3000Y HORIZONTAL TYPE BLOCK SIZING",
+          "videoUrl": "",
+          "images": [
+            {
+              "url": "/images/products/kesici/telli-kesici/3000Y/1.png",
+              "desc": "3000Y Horizontal Type Block Sizing"
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/3000Y/aksesuar/aksesuar-1.png",
+              "title": "Cutting Rotation",
+              "desc": "With its 270° Working Angle, it enables vertical cutting even if the ground on the terrain is not flat."
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/3000Y/aksesuar/aksesuar-2.png",
+              "title": "Rotation System with Reducer",
+              "desc": "With the improved Arm System, it can easily change the operating angle without the need for the operator to expend power."
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/3000Y/aksesuar/aksesuar-3.png",
+              "title": "Wired remote",
+              "desc": ""
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/elektrik_motoru.svg",
+              "title": "Electrical Motor",
+              "desc": "22 kW"
+            },
+            {
+              "icon": "/icons/kesme_hizi.svg",
+              "title": "Cutting Speed",
+              "desc": "5-10 m²/s"
+            },
+            {
+              "icon": "/icons/ray_sonu_kontrolu.svg",
+              "title": "Rail End Control",
+              "desc": "Electrical"
+            },
+            {
+              "icon": "/icons/calisma_acısı.svg",
+              "title": "Cutting Rotation",
+              "desc": "220°"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Work Position",
+              "desc": "Right and Left"
+            },
+            {
+              "icon": "/icons/calisma_acisi_degistirme.svg",
+              "title": "Work Angle Setting",
+              "desc": "Reducer"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/ray_uzunlugu.svg",
+              "title": "Rail Length",
+              "desc": "3 m"
+            },
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "1460 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "3340 mm"
+            },
+            {
+              "icon": "/icons/yukseklik.svg",
+              "title": "Height",
+              "desc": "1710 mm"
+            },
+            {
+              "icon": "/icons/agirlik.svg",
+              "title": "Weight",
+              "desc": "~742 kg"
+            },
+            {
+              "icon": "/icons/kasnak_capi.svg",
+              "title": "Flywheel Diameter",
+              "desc": "500 mm"
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "name": "3000M",
+        "url": "3000m",
+        "modelVideoUrl": "/videos/3000m.mp4",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "imgUrl": "/images/products/kesici/telli-kesici/3000M/1.png",
+        "type": "RAMP TYPE BLOCK SIZING",
+        "details": {
+          "type": "Tel Kesme",
+          "name": "3000M RAMP TYPE BLOCK SIZING",
+          "videoUrl": "",
+          "images": [
+            {
+              "url": "/images/products/kesici/telli-kesici/3000M/1.png",
+              "desc": "3000M Ramp Type Block Sizing"
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/3000M/aksesuar/aksesuar-1.png",
+              "title": "Locking Mechanism",
+              "desc": "Provides operator and machine safety by preventing the motor-flywheel group from falling uncontrollably in case of sudden diamond wire breaks."
+            },
+            {
+              "imageUrl": "/images/products/kesici/telli-kesici/3000M/aksesuar/aksesuar-2.png",
+              "title": "Wired remote",
+              "desc": ""
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/elektrik_motoru.svg",
+              "title": "Electrical Motor",
+              "desc": "18.5 kW"
+            },
+            {
+              "icon": "/icons/kesme_hizi.svg",
+              "title": "Cutting Speed",
+              "desc": "3-7 m²/s"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Work Position",
+              "desc": "Right and Left"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/ray_uzunlugu.svg",
+              "title": "Rail Length",
+              "desc": "3 m"
+            },
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "1190 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "3320 mm"
+            },
+            {
+              "icon": "/icons/yukselik.svg",
+              "title": "Height",
+              "desc": "1410 mm"
+            },
+            {
+              "icon": "/icons/agirlik.svg",
+              "title": "Weight",
+              "desc": "~435 kg"
+            },
+            {
+              "icon": "/icons/kasnak_capi.svg",
+              "title": "Flywheel Diameter",
+              "desc": "500 mm"
+            }
+          ]
+        }
+      }
+    ],
+    "zincirliKesiciler": [
+      {
+        "id": 1,
+        "name": "HZK8200 DUST SUCTION SYSTEM",
+        "url": "hzk8200",
+        "modelVideoUrl": "/videos/hzk8200.mp4",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "imgUrl": "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
+        "type": "CHAIN SAW MACHINE",
+        "details": {
+          "name": "HZK8200 DUST SUCTION SYSTEM",
+          "videoUrl": "https://www.youtube.com/embed/FSiJVyRv_Aw",
+          "images": [
+            {
+              "url": "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
+              "desc": "Side Cutting Mode"
+            },
+            {
+              "url": "/images/products/kesici/zincirli-kesici/HZK8200/2.png",
+              "desc": "Undercutting Mode"
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/kesici/zincirli-kesici/HZK8200/aksesuar/aksesuar-1.png",
+              "title": "Forklift Transport",
+              "desc": "Thus, it provides easy transportation even in tight spaces, Thanks to the new roof system, it offers the possibility of carrying from 4 side and above the machine."
+            },
+            {
+              "imageUrl": "/images/products/kesici/zincirli-kesici/HZK8200/aksesuar/aksesuar-2.png",
+              "title": "Wired remote",
+              "desc": ""
+            },
+            {
+              "imageUrl": "/images/products/kesici/zincirli-kesici/HZK8200/aksesuar/aksesuar-3.png",
+              "title": "Wireless remote",
+              "desc": ""
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/toplam_elektrik_motor_gucu.svg",
+              "title": "Total Electrical Motor Power",
+              "desc": "66 kW"
+            },
+            {
+              "icon": "/icons/zincir_donus_hizi.svg",
+              "title": "Chain Rotation Speed",
+              "desc": "0 - 60 m/dk"
+            },
+            {
+              "icon": "/icons/ideal_kesme_derinligi.svg",
+              "title": "Useful Cutting Depth",
+              "desc": "7000 mm"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Work Position",
+              "desc": "Horizontal and Vertical"
+            },
+            {
+              "icon": "/icons/zincir_guc_aktarimi.svg",
+              "title": "Chain Power Transfer",
+              "desc": "Closed Circuit Hydraulic"
+            },
+            {
+              "icon": "/icons/sistem_kontrolu.svg",
+              "title": "System Control",
+              "desc": "Hydraulic"
+            },
+            {
+              "icon": "/icons/kol_donus_acisi.svg",
+              "title": "Arm Rotation",
+              "desc": "360°"
+            },
+            {
+              "icon": "/icons/kesme_hizi.svg",
+              "title": "Cutting Speed",
+              "desc": "7-14 m²/s"
+            },
+            {
+              "icon": "/icons/kesme_genisligi.svg",
+              "title": "Width of Cut",
+              "desc": "38 mm"
+            },
+            {
+              "icon": "/icons/yag_tanki_kapasitesi.svg",
+              "title": "Oil Tank Capacity",
+              "desc": "180 lt"
+            },
+            {
+              "icon": "/icons/gres_tanki_kapasitesi.svg",
+              "title": "Grease Tank Capacity",
+              "desc": "30 lt"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/ray_uzunlugu.svg",
+              "title": "Rail Length",
+              "desc": "4 m (4 pieces)"
+            },
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "2170 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "11800 mm"
+            },
+            {
+              "icon": "/icons/yukseklik.svg",
+              "title": "Height",
+              "desc": "3200 mm"
+            },
+            {
+              "icon": "/icons/agirlik.svg",
+              "title": "Weight",
+              "desc": "~16.400 kg"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "HZK3400 CRAB",
+        "url": "hzk3400-yengec",
+        "modelVideoUrl": "/videos/hzk3400yengec.mp4",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/1.png",
+        "type": "CHAIN SAW MACHINE",
+        "details": {
+          "name": "HZK3400 CRAB",
+          "videoUrl": "",
+          "images": [
+            {
+              "url": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/1.png",
+              "desc": "Side Cutting Mode"
+            },
+            {
+              "url": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/2.png",
+              "desc": "Side Cutting Mode"
+            },
+            {
+              "url": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/3.png",
+              "desc": "Undercutting Mode"
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-1.png",
+              "title": "Forklift Transport",
+              "desc": "Thus, it provides easy transportation even in tight spaces, Thanks to the new roof system, it offers the possibility of carrying from 4 side and above the machine."
+            },
+            {
+              "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-2.png",
+              "title": "Wired remote",
+              "desc": ""
+            },
+            {
+              "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-3.png",
+              "title": "Wireless remote",
+              "desc": ""
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/toplam_elektrik_motor_gucu.svg",
+              "title": "Total Electrical Motor Power",
+              "desc": "48 kW"
+            },
+            {
+              "icon": "/icons/zincir_donus_hizi.svg",
+              "title": "Chain Rotation Speed",
+              "desc": "0 - 45 m/dk"
+            },
+            {
+              "icon": "/icons/ideal_kesme_derinligi.svg",
+              "title": "Useful Cutting Depth",
+              "desc": "3000 mm"
+            },
+            {
+              "icon": "/icons/kesim_acisi.svg",
+              "title": "Angle of Cutting",
+              "desc": "70°"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Work Position",
+              "desc": "Horizontal and Vertical"
+            },
+            {
+              "icon": "/icons/zincir_guc_aktarimi.svg",
+              "title": "Chain Power Transfer",
+              "desc": "Closed Circuit Hydraulic"
+            },
+            {
+              "icon": "/icons/sistem_kontrolu.svg",
+              "title": "System Control",
+              "desc": "Hydraulic"
+            },
+            {
+              "icon": "/icons/kol_donus_acisi.svg",
+              "title": "Arm Rotation",
+              "desc": "360°"
+            },
+            {
+              "icon": "/icons/kesme_hizi.svg",
+              "title": "Cutting Speed",
+              "desc": "7-12 m²/s"
+            },
+            {
+              "icon": "/icons/yuruyus_hizi.svg",
+              "title": "Moving Speed",
+              "desc": "2 km/s"
+            },
+            {
+              "icon": "/icons/kesme_genisligi.svg",
+              "title": "Width of Cut",
+              "desc": "38 mm"
+            },
+            {
+              "icon": "/icons/yag_tanki_kapasitesi.svg",
+              "title": "Oil Tank Capacity",
+              "desc": "180 lt"
+            },
+            {
+              "icon": "/icons/gres_tanki_kapasitesi.svg",
+              "title": "Grease Tank Capacity",
+              "desc": "30 lt"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/ray_uzunlugu.svg",
+              "title": "Rail Length",
+              "desc": "3250 mm"
+            },
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "1800 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "6090 mm"
+            },
+            {
+              "icon": "/icons/yukseklik.svg",
+              "title": "Height",
+              "desc": "2240 mm"
+            },
+            {
+              "icon": "/icons/agirlik.svg",
+              "title": "Weight",
+              "desc": "~8200 kg"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "HZK3400",
+        "url": "hzk3400",
+        "modelVideoUrl": "/videos/hzk3400.mp4",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
+        "type": "CHAIN SAW MACHINE",
+        "details": {
+          "name": "HZK3400 CHAIN SAW MACHINE",
+          "videoUrl": "",
+          "images": [
+            {
+              "url": "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
+              "desc": "Side Cutting Mode"
+            },
+            {
+              "url": "/images/products/kesici/zincirli-kesici/HZK3400/2.png",
+              "desc": "Side Cutting Mode"
+            },
+            {
+              "url": "/images/products/kesici/zincirli-kesici/HZK3400/4.png",
+              "desc": "Undercutting Mode"
+            },
+            {
+              "url": "/images/products/kesici/zincirli-kesici/HZK3400/3.png",
+              "desc": "Undercutting Mode"
+            }
+          ],
+          "accessories": [
+            {
+              "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400/aksesuar/aksesuar-1.png",
+              "title": "Wired remote",
+              "desc": ""
+            },
+            {
+              "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400/aksesuar/aksesuar-2.png",
+              "title": "Wireless remote",
+              "desc": ""
+            }
+          ],
+          "specifications": [
+            {
+              "icon": "/icons/toplam_elektrik_motor_gucu.svg",
+              "title": "Total Electrical Motor Power",
+              "desc": "48 kW"
+            },
+            {
+              "icon": "/icons/zincir_donus_hizi.svg",
+              "title": "Chain Rotation Speed",
+              "desc": "0 - 45 m/dk"
+            },
+            {
+              "icon": "/icons/ideal_kesme_derinligi.svg",
+              "title": "Useful Cutting Depth",
+              "desc": "3000 mm"
+            },
+            {
+              "icon": "/icons/kesim_acisi.svg",
+              "title": "Angle of Cutting",
+              "desc": "70°"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Work Position",
+              "desc": "Horizontal and Vertical"
+            },
+            {
+              "icon": "/icons/zincir_guc_aktarimi.svg",
+              "title": "Chain Power Transfer",
+              "desc": "Closed Circuit Hydraulic"
+            },
+            {
+              "icon": "/icons/sistem_kontrolu.svg",
+              "title": "System Control",
+              "desc": "Hydraulic"
+            },
+            {
+              "icon": "/icons/kol_donus_acisi.svg",
+              "title": "Arm Rotation",
+              "desc": "360°"
+            },
+            {
+              "icon": "/icons/kesme_hizi.svg",
+              "title": "Cutting Speed",
+              "desc": "7-12 m²/s"
+            },
+            {
+              "icon": "/icons/kesme_genisligi.svg",
+              "title": "Width of Cut",
+              "desc": "38 mm"
+            },
+            {
+              "icon": "/icons/yag_tanki_kapasitesi.svg",
+              "title": "Oil Tank Capacity",
+              "desc": "180 lt"
+            },
+            {
+              "icon": "/icons/gres_tanki_kapasitesi.svg",
+              "title": "Grease Tank Capacity",
+              "desc": "30 lt"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/ray_uzunlugu.svg",
+              "title": "Rail Length",
+              "desc": "3 mt (3 pieces)"
+            },
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "1800 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "4550 mm"
+            },
+            {
+              "icon": "/icons/yukseklik.svg",
+              "title": "Height",
+              "desc": "2240 mm"
+            },
+            {
+              "icon": "/icons/agirlik.svg",
+              "title": "Weight",
+              "desc": "~6680 kg"
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "HZK3400-M",
+        "url": "hzk3400-m",
+        "modelVideoUrl": "/videos/hzk3400m.mp4",
+        "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+        "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400-M/1.png",
+        "type": "MOBILE CHAIN SAW MACHINE",
+        "details": {
+          "name": "HZK3400-M MOBILE CHAIN SAW MACHINE",
+          "videoUrl": "",
+          "images": [
+            {
+              "url": "/images/products/kesici/zincirli-kesici/HZK3400-M/1.png",
+              "desc": "HZK3400-M Mobile Chain Saw Machine"
+            }
+          ],
+          "accessories": [],
+          "specifications": [
+            {
+              "icon": "/icons/toplam_elektrik_motor_gucu.svg",
+              "title": "Total Electrical Motor Power",
+              "desc": "75 kW"
+            },
+            {
+              "icon": "/icons/maksimum_kesme_yuksekligi.svg",
+              "title": "Maximum Cutting Height",
+              "desc": "5500 mm"
+            },
+            {
+              "icon": "/icons/yatay_ray_hareket_mesafesi.svg",
+              "title": "Rail Horizontal Stroke",
+              "desc": "2000 mm"
+            },
+            {
+              "icon": "/icons/ideal_kesme_boyu.svg",
+              "title": "Useful Cutting Length",
+              "desc": "3000 mm"
+            },
+            {
+              "icon": "/icons/zincir_donus_hizi.svg",
+              "title": "Chain Rotation Speed",
+              "desc": "0 - 45 m/dk"
+            },
+            {
+              "icon": "/icons/kesim_acisi.svg",
+              "title": "Angle of Cutting",
+              "desc": "90°"
+            },
+            {
+              "icon": "/icons/calisma_sekli.svg",
+              "title": "Work Position",
+              "desc": "Vertical"
+            },
+            {
+              "icon": "/icons/zincir_guc_aktarimi.svg",
+              "title": "Chain Power Transfer",
+              "desc": "Hydraulic"
+            },
+            {
+              "icon": "/icons/sistem_kontrolu.svg",
+              "title": "System Control",
+              "desc": "Hydraulic"
+            },
+            {
+              "icon": "/icons/kol_donus_acisi.svg",
+              "title": "Arm Rotation",
+              "desc": "110°"
+            },
+            {
+              "icon": "/icons/kesme_hizi.svg",
+              "title": "Cutting Speed",
+              "desc": "7-12 m²/s"
+            },
+            {
+              "icon": "/icons/kesme_genisligi.svg",
+              "title": "Width of Cut",
+              "desc": "28 mm"
+            },
+            {
+              "icon": "/icons/gres_tanki_kapasitesi.svg",
+              "title": "Grease Tank Capacity",
+              "desc": "12 lt"
+            }
+          ],
+          "sizes": [
+            {
+              "icon": "/icons/dikey_ray_uzunlugu.svg",
+              "title": "Vertical Rail Length",
+              "desc": "3300 mm"
+            },
+            {
+              "icon": "/icons/yatay_ray_uzunlugu.svg",
+              "title": "Horizontal Rail Length",
+              "desc": "2800 mm"
+            },
+            {
+              "icon": "/icons/kesme_genisligi.svg",
+              "title": "Width of Cut",
+              "desc": "28 mm"
+            },
+            {
+              "icon": "/icons/en.svg",
+              "title": "Width",
+              "desc": "2800 mm"
+            },
+            {
+              "icon": "/icons/boy.svg",
+              "title": "Length",
+              "desc": "1200 mm"
+            },
+            {
+              "icon": "/icons/yukseklik.svg",
+              "title": "Height",
+              "desc": "4500 mm"
+            },
+            {
+              "icon": "/icons/kesme_ekipman_agirligi.svg",
+              "title": "Cutting Equipment Weight",
+              "desc": "~2500 kg"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "inputPlaceholders": {
+      "name": "Name Surname",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "address": "Address",
+      "subjects": {
+        "title": "Subject",
+        "options": [
+          "Product",
+          "Sales",
+          "Spare part",
+          "Service",
+          "Information Request",
+          "Complaint",
+          "Suggestion",
+          "Thanks",
+          "Other"
+        ]
+      },
+      "message": "Message"
+    },
+    "addFile": "Attach File",
+    "submit": "Submit",
+    "submitSuccess": "Your message has been sent successfully. We will contact you as soon as possible.",
+    "submitFailed": "Your message could not be sent. Please try again later.",
+    "fillAllFields": "Please fill in all fields.",
+    "description": "You can contact us immediately to get the information you want about our company and products.",
+    "more": "See More"
+  },
+  "mobileFooter": {
+    "title": "Contact",
+    "address": "Address",
+    "email": "Email",
+    "factory": "Factory",
+    "service": "Service",
+    "exports": "Exports",
+    "office": "Office",
+    "fax": "Fax"
+  }
+}

@@ -1,13 +1,13 @@
 <template>
     <div class="px-6 mb-24">
         <div class="mb-4 font-thin lg:hidden" data-aos="fade-up">
-            İletişim
+            {{ $t('mobileFooter.title') }}
         </div>
         <Map/>
         <a class="text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03] flex items-center justify-center gap-4 border border-[#F7AF03] font-thin mb-4 p-2"
            data-aos="fade-up"
            data-aos-delay="100" href="https://goo.gl/maps/McGBpHfmCPdotHvs6" target="_blank">
-            <i class="fa fa-location-dot"/> Adres
+            <i class="fa fa-location-dot"/> {{ $t('mobileFooter.address') }}
         </a>
         <div class="grid grid-cols-2 gap-4 mb-16">
             <a v-for="(info, index) in infos" :key="index"
@@ -50,32 +50,32 @@ export default {
             infos: [
                 {
                     img: 'fa-envelope',
-                    text: 'E-posta',
+                    text: this.$t('mobileFooter.email'),
                     action: 'mailto:info@hidrobarsan.com'
                 },
                 {
                     img: 'fa-mobile-screen-button',
-                    text: 'Fabrika',
+                    text: this.$t('mobileFooter.factory'),
                     action: 'tel:5336823946'
                 },
                 {
                     img: 'fa-headset',
-                    text: 'Servis',
+                    text: this.$t('mobileFooter.service'),
                     action: 'tel:5321314345'
                 },
                 {
                     img: 'fa-truck-moving',
-                    text: 'İhracat',
+                    text: this.$t('mobileFooter.exports'),
                     action: 'tel:5336823947'
                 },
                 {
                     img: 'fa-phone',
-                    text: 'Ofis',
+                    text: this.$t('mobileFooter.office'),
                     action: 'tel:2582687890'
                 },
                 {
                     img: 'fa-fax',
-                    text: 'Fax',
+                    text: this.$t('mobileFooter.fax'),
                     action: 'tel:2582687891'
                 }
             ],
