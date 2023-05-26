@@ -10,7 +10,7 @@ import languages from "@/locale/languages";
 const messages = languages;
 
 const i18n = createI18n({
-    locale: 'en',
+    locale: 'tr',
     fallbackLocale: 'tr',
     messages,
 })
