@@ -7,9 +7,9 @@
   },
   "home": {
     "hero": {
-      "title1": "DUST SUCTION",
+      "title1": "DUST COLLECTOR",
       "title2": "SYSTEM",
-      "description": "State-of-the-art suction system that removes marble dust.",
+      "description": "Dust collector system that eliminates marble dusts!.",
       "seeProducts": "See Products",
       "contactUs": "Contact Us"
     },
@@ -1068,14 +1068,14 @@
     "zincirliKesiciler": [
       {
         "id": 1,
-        "name": "HZK8200 DUST SUCTION SYSTEM",
+        "name": "HZK8200 DUST COLLECTOR SYSTEM",
         "url": "hzk8200",
         "modelVideoUrl": "/videos/hzk8200.mp4",
         "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
         "imgUrl": "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
         "type": "CHAIN SAW MACHINE",
         "details": {
-          "name": "HZK8200 DUST SUCTION SYSTEM",
+          "name": "HZK8200 DUST COLLECTOR SYSTEM",
           "videoUrl": "https://www.youtube.com/embed/FSiJVyRv_Aw",
           "images": [
             {
