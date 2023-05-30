@@ -550,7 +550,7 @@
             },
             {
               "url": "/images/products/kesici/telli-kesici/6000M/2.png",
-              "desc": "Undercutting mode"
+              "desc": "Horizontal Cutting Mode"
             }
           ],
           "accessories": [
@@ -671,7 +671,7 @@
           "images": [
             {
               "url": "/images/products/kesici/telli-kesici/1260M/1.png",
-              "desc": "Undercutting Mode"
+              "desc": "Horizontal Cutting Mode"
             },
             {
               "url": "/images/products/kesici/telli-kesici/1260M/2.png",
@@ -1080,11 +1080,11 @@
           "images": [
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
-              "desc": "Side Cutting Mode"
+              "desc": "Vertical Cutting Mode"
             },
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK8200/2.png",
-              "desc": "Undercutting Mode"
+              "desc": "Horizontal Cutting Mode"
             }
           ],
           "accessories": [
@@ -1204,15 +1204,15 @@
           "images": [
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/1.png",
-              "desc": "Side Cutting Mode"
+              "desc": "Vertical Cutting Mode"
             },
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/2.png",
-              "desc": "Side Cutting Mode"
+              "desc": "Vertical Cutting Mode"
             },
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/3.png",
-              "desc": "Undercutting Mode"
+              "desc": "Horizontal Cutting Mode"
             }
           ],
           "accessories": [
@@ -1342,19 +1342,19 @@
           "images": [
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
-              "desc": "Side Cutting Mode"
+              "desc": "Vertical Cutting Mode"
             },
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK3400/2.png",
-              "desc": "Side Cutting Mode"
+              "desc": "Vertical Cutting Mode"
             },
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK3400/4.png",
-              "desc": "Undercutting Mode"
+              "desc": "Horizontal Cutting Mode"
             },
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK3400/3.png",
-              "desc": "Undercutting Mode"
+              "desc": "Horizontal Cutting Mode"
             }
           ],
           "accessories": [

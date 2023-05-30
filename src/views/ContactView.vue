@@ -128,6 +128,7 @@
             <mobile-footer-contact class="hidden md:block"/>
         </div>
         <products-slider class="hidden lg:block"/>
+        <Whatsapp/>
     </div>
 </template>
 
@@ -135,10 +136,11 @@
 import * as emailjs from "@emailjs/browser";
 import MobileFooterContact from "@/components/FooterPartials/MobileFooterContact.vue";
 import ProductsSlider from "@/components/ProductsSlider.vue";
+import Whatsapp from "@/components/Whatsapp.vue";
 
 export default {
     name: "ContactView",
-    components: {ProductsSlider, MobileFooterContact},
+    components: {Whatsapp, ProductsSlider, MobileFooterContact},
     data() {
         return {
             name: '',

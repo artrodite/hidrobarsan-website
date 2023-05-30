@@ -13,7 +13,6 @@
 
         </div>
         <Footer/>
-        <Whatsapp/>
         <div class="scroll-to-top-button bg-black text-white text-center flex items-center justify-center cursor-pointer fixed bottom-12 right-6 transition-all hover:bg-[#F7AF03]"
              style="width: 36px; height: 36px;"
              @click="scrollToTop">

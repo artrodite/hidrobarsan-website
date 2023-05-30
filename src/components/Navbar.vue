@@ -111,7 +111,11 @@
                         </router-link>
                     </li>
                     <li>
-                        <div class="flex md:hidden pr-4">
+                        <div class="flex md:hidden pl-3 pr-4">
+                            <div class="w-6 flex items-center">
+                                <img v-if="$i18n.locale === 'tr'" src="@/assets/tr_flag.png" alt="flag">
+                                <img v-else-if="$i18n.locale === 'en'" src="@/assets/en_flag.png" alt="flag">
+                            </div>
                             <select class="text-black border-none bg-transparent focus:ring-0 text-sm rounded-lg block"
                                     v-model="$i18n.locale">
                                 <option value="en">
@@ -121,10 +125,7 @@
                                     Türkçe
                                 </option>
                             </select>
-                            <div class="w-6 flex items-center">
-                                <img v-if="$i18n.locale === 'tr'" src="@/assets/tr_flag.png" alt="flag">
-                                <img v-else-if="$i18n.locale === 'en'" src="@/assets/en_flag.png" alt="flag">
-                            </div>
+
                         </div>
                         <!--                        <div class="md:hidden flex items-center justify-center gap-4">-->
                         <!--                            <div @click="$i18n.locale = 'tr'" class="cursor-pointer w-8 h-8 rounded">-->
