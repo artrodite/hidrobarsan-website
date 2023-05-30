@@ -163,7 +163,7 @@ export default {
                         url: '/urunlerimiz'
                     },
                     {
-                        name: `${this.$t('products.urls.drills')} >`,
+                        name: `${this.$t('products.urls.drill')} >`,
                         url: '/urunlerimiz/deliciler'
                     }
                 ]
