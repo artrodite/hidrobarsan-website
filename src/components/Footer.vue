@@ -1,111 +1,159 @@
 <template>
-    <footer class="bg-[#F7F7F7] w-full mt-12">
-        <div class="container mx-auto">
-            <div class="hidden md:grid py-12 px-6 md:pt-24 md:pl-48  justify-items-between text-sm grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-16">
-                <ul>
-                    <li class="font-semibold"> Site</li>
-                    <li>
-                        <router-link
-                                to="/">Anasayfa
-                        </router-link>
-                    </li>
-                    <li>
-                        <router-link
-                                to="/hakkimizda">Hakkımızda
-                        </router-link>
-                    </li>
-                    <li>
-                        <router-link
-                                to="/urunlerimiz">Ürünlerimiz
-                        </router-link>
-                    </li>
-                    <li>
-                        <router-link
-                                to="/iletisim">İletişim
-                        </router-link>
-                    </li>
-                </ul>
-                <!---->
-                <ul>
-                    <li class="font-semibold"> Sosyal Medya</li>
-                    <li><a href="https://www.instagram.com/hidrobarsanmakina/" target="_blank">Instagram </a></li>
-                    <li><a href="https://www.facebook.com/people/Hidrobarsan-Mermer-Makinalar%C4%B1/100063876920005/"
-                           target="_blank">Facebook </a></li>
-                    <li><a href="https://www.linkedin.com/company/hidrobarsan-mermer-makinalar%C4%B1" target="_blank">LinkedIn </a>
-                    </li>
-                </ul>
-                <!---->
-                <ul>
-                    <li class="font-semibold">Adres</li>
-                    <li>Hacıeyüplü Mahallesi,</li>
-                    <li>3182 Sokak, No.: 7/A</li>
-                    <li>Merkezefendi - DENIZLI</li>
-                    <li>TÜRKIYE</li>
-                </ul>
-                <!---->
-                <ul class="mr-2">
-                    <li class="font-semibold"> İletişim</li>
-                    <li class="flex justify-between">
-                        <span class="me-6"> GSM </span>
-                        <span> +90 533 682 39 46 </span>
-                    </li>
-                    <li class="flex justify-between">
-                        <span class="me-6"> Sabit </span>
-                        <span> +90 258 268 78 90 </span>
-                    </li>
-                    <li class="flex justify-between">
-                        <span class="me-6"> Servis </span>
-                        <span> +90 532 131 43 45 </span>
-                    </li>
-                    <li class="flex justify-between">
-                        <span class="me-6"> İhracat </span>
-                        <span> +90 533 682 39 47 </span>
-                    </li>
-                    <li class="flex justify-between">
-                        <span class="me-6"> Fax </span>
-                        <span> +90 (258) 268 78 91 </span>
-                    </li>
-                </ul>
-                <!---->
-                <ul>
-                    <li class="font-semibold">Mail</li>
-                    <li><a href="mailto:info@hidrobarsan.com.tr" target="_blank">info@hidrobarsan.com.tr</a></li>
-                </ul>
-
-
-            </div>
-            <mobile-footer-contact class="block md:hidden"/>
-            <div data-aos="flip-up" data-aos-duration="1500">
-                <div class="px-6 flex items-center">
-                    <div class="w-20 me-16">
-                        <img alt="logo" src="@/assets/logo.png">
+    <footer class="bg-[#F7F7F7] container px-6 md:px-0 mx-auto mt-12">
+        <div>
+            <h1 class="font-bold text-4xl mb-24">İletişim Bilgilerimiz</h1>
+            <ul>
+                <li class="flex mb-12">
+                    <div class="w-24 md:w-48 font-semibold">
+                        Ofis
                     </div>
-                    <div class="w-full border-t border-black"></div>
-                </div>
-                <div class="px-6 py-12 flex items-center justify-between">
-                    <div class="text-xs order-2 md:order-1">© 2023 Hidrobarsan - Tüm hakları saklıdır.</div>
-                    <a class="order-1 md:order-2" href="https://artrodite.com" target="_blank">
-                        <img alt="artrodite" src="@/assets/artrodite-logo.svg">
+                    <div>
+                        <a href="tel:902582687890" class="link-hover-animation">
+                            +90 258 268 78 90
+                        </a>
+                        -
+                        <a href="tel:902583717890" class="link-hover-animation">
+                            258 371 78 90
+                        </a>
+                    </div>
+                </li>
+                <li class="flex mb-24">
+                    <div class="w-24 md:w-48 font-semibold">
+                        Fax
+                    </div>
+                    <div>
+                        <a href="tel:902582687891" class="link-hover-animation">
+                            +90 258 268 78 91
+                        </a>
+                    </div>
+                </li>
+                <li class="flex mb-12">
+                    <div class="w-24 md:w-48 font-semibold">
+                        Servis
+                    </div>
+                    <div>
+                        <a href="tel:905321314345" class="link-hover-animation">
+                            +90 532 131 43 45
+                        </a>
+                    </div>
+                </li>
+                <li class="flex mb-12">
+                    <div class="w-24 md:w-48 font-semibold">
+                        İhracat
+                    </div>
+                    <div>
+                        <a href="tel:905336823947" class="link-hover-animation">
+                            +90 533 682 39 47
+                        </a>
+                    </div>
+                </li>
+                <li class="flex mb-24">
+                    <div class="w-24 md:w-48 font-semibold">
+                        Fabrika
+                    </div>
+                    <div>
+                        <a href="tel:905336823946" class="link-hover-animation">
+                            +90 533 682 39 46
+                        </a>
+                    </div>
+                </li>
+                <li class="flex mb-24">
+                    <div class="w-24 md:w-48 font-semibold">
+                        E-posta
+                    </div>
+                    <a href="mailto:info@hidrobarsan.com" target="_blank" class="link-hover-animation">
+                        info@hidrobarsan.com  <i class="ml-2 fa fa-arrow-right" style="transform: rotate(-45deg)"/>
                     </a>
-                </div>
+                </li>
+                <li class="flex flex-col md:flex-row mb-12">
+                    <div class="w-32 md:w-48 mb-4 md:mb-0 font-semibold">
+                        Sosyal Medya
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 md:flex md:gap-32">
+                        <a href="https://www.instagram.com/hidrobarsanmakina/" target="_blank"
+                           class="link-hover-animation">
+                            Instagram <i class="ml-2 fa fa-arrow-right" style="transform: rotate(-45deg)"/>
+                        </a>
+                        <a href="https://www.facebook.com/people/Hidrobarsan-Mermer-Makinalar%C4%B1/100063876920005/"
+                           target="_blank" class="link-hover-animation">
+                            Facebook <i class="ml-2 fa fa-arrow-right" style="transform: rotate(-45deg)"/>
+                        </a>
+                        <a href="https://www.linkedin.com/company/hidrobarsan-mermer-makinalar%C4%B1" target="_blank"
+                           class="link-hover-animation">
+                            LinkedIn <i class="ml-2 fa fa-arrow-right" style="transform: rotate(-45deg)"/>
+                        </a>
+                        <a href="https://www.youtube.com/@Hidrobarsanmakinalari" target="_blank"
+                           class="link-hover-animation">
+                            Youtube <i class="ml-2 fa fa-arrow-right" style="transform: rotate(-45deg)"/>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="py-24">
+            <h1 class="font-bold text-4xl mb-24">Adres</h1>
+            <ul>
+                <li class="flex flex-col md:flex-row mb-12">
+                    <div class="w-24 md:w-48 mb-4 md:md-0 font-semibold">
+                        Fabrika
+                    </div>
+                    <div>
+                        Hacıeyüplü Mahallesi, 3182 Sokak, No. : 7/A Merkezefendi - DENIZLI TÜRKIYE
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="divider w-full h-0.5 bg-black"></div>
+        <div class="py-24">
+            <ul>
+                <li class="flex flex-col md:flex-row">
+                    <div class="w-24 mb-4 md:mb-0 md:w-48 font-semibold">
+                        Site
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 md:flex md:gap-32">
+                        <router-link to="/" class="link-hover-animation">
+                            Anasayfa
+                        </router-link>
+                        <router-link to="/urunlerimiz" class="link-hover-animation">
+                            Ürünlerimiz
+                        </router-link>
+                        <router-link to="/hakkimizda" class="link-hover-animation">
+                            Hakkımızda
+                        </router-link>
+                        <router-link to="/iletisim" class="link-hover-animation">
+                            İletişim
+                        </router-link>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="divider w-full h-0.5 bg-black"></div>
+        <div class="grid grid-cols-2 py-24 md:flex items-center justify-between">
+            <router-link to="/">
+                <img src="@/assets/logo.png" alt="logo" class="w-40">
+            </router-link>
+            <a href="https://artrodite.com" target="_blank"
+               class="order-3 col-span-2 md:order-2 flex justify-center mt-12 md:mt-0 md:block">
+                <img src="@/assets/artrodite-logo.svg" alt="artrodite" class="">
+            </a>
+            <div class="text-sm text-right md:text-center">
+                © 2023 Hidrobarsan <br class="md:hidden"> Tüm Hakları Saklıdır
             </div>
         </div>
     </footer>
 </template>
 
 <script>
-import MobileFooterContact from "@/components/FooterPartials/MobileFooterContact.vue";
-
 export default {
     name: "Footer",
-    components: {MobileFooterContact}
+    components: {}
 }
 </script>
 
 <style scoped>
 
-li {
-    margin-bottom: 12px;
-}
+/*li {*/
+/*    margin-bottom: 30px;*/
+/*}*/
 
 </style>
