@@ -6,13 +6,28 @@
             </router-link>
             <div class="flex items-center md:order-2">
                 <!-- Dropdown -->
-                <div class="hidden md:flex items-center gap-8">
-                    <div @click="$i18n.locale = 'tr'" class="cursor-pointer w-12 h-12 rounded">
-                        <img src="../assets/tr-flag.svg" alt="tr-flag" class="h-full">
+                <!--                <div class="hidden md:flex items-center gap-8">-->
+                <!--                    <div @click="$i18n.locale = 'tr'" class="cursor-pointer w-12 h-12 rounded">-->
+                <!--                        <img src="../assets/tr-flag.svg" alt="tr-flag" class="h-full">-->
+                <!--                    </div>-->
+                <!--                    <div @click="$i18n.locale = 'en'" class="cursor-pointer w-10 h-10 rounded">-->
+                <!--                        <img src="@/assets/en-flag.svg" alt="tr-flag" class="h-full">-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <div class="hidden md:flex">
+                    <div class="w-12 flex items-center">
+                        <img v-if="$i18n.locale === 'tr'" src="@/assets/tr_flag.png" alt="flag">
+                        <img v-else-if="$i18n.locale === 'en'" src="@/assets/en_flag.png" alt="flag">
                     </div>
-                    <div @click="$i18n.locale = 'en'" class="cursor-pointer w-10 h-10 rounded">
-                        <img src="@/assets/en-flag.svg" alt="tr-flag" class="h-full">
-                    </div>
+                    <select class="text-black border-none bg-transparent focus:ring-0 text-sm rounded-lg block w-full p-2.5"
+                            v-model="$i18n.locale">
+                        <option value="en">
+                            English
+                        </option>
+                        <option value="tr">
+                            Türkçe
+                        </option>
+                    </select>
                 </div>
                 <!--                                <div id="language-dropdown-menu"-->
                 <!--                                     class="my-4 text-base list-none bg-white divide-y divide-gray-100 shadow">-->
@@ -91,19 +106,34 @@
                     </li>
                     <li>
                         <router-link
-                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
+                                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent md:p-0 w-fit"
                                 to="/iletisim"> {{ $t('navbar.contact') }}
                         </router-link>
                     </li>
                     <li>
-                        <div class="md:hidden flex items-center justify-center gap-4">
-                            <div @click="$i18n.locale = 'tr'" class="cursor-pointer w-8 h-8 rounded">
-                                <img src="../assets/tr-flag.svg" alt="tr-flag" class="h-full">
-                            </div>
-                            <div @click="$i18n.locale = 'en'" class="cursor-pointer w-7 h-7 rounded">
-                                <img src="@/assets/en-flag.svg" alt="tr-flag" class="h-full">
+                        <div class="flex md:hidden pr-4">
+                            <select class="text-black border-none bg-transparent focus:ring-0 text-sm rounded-lg block"
+                                    v-model="$i18n.locale">
+                                <option value="en">
+                                    English
+                                </option>
+                                <option value="tr">
+                                    Türkçe
+                                </option>
+                            </select>
+                            <div class="w-6 flex items-center">
+                                <img v-if="$i18n.locale === 'tr'" src="@/assets/tr_flag.png" alt="flag">
+                                <img v-else-if="$i18n.locale === 'en'" src="@/assets/en_flag.png" alt="flag">
                             </div>
                         </div>
+                        <!--                        <div class="md:hidden flex items-center justify-center gap-4">-->
+                        <!--                            <div @click="$i18n.locale = 'tr'" class="cursor-pointer w-8 h-8 rounded">-->
+                        <!--                                <img src="../assets/tr_flag.png" alt="tr-flag" class="h-full">-->
+                        <!--                            </div>-->
+                        <!--                            <div @click="$i18n.locale = 'en'" class="cursor-pointer w-7 h-7 rounded">-->
+                        <!--                                <img src="@/assets/en_flag.png" alt="tr-flag" class="h-full">-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
                     </li>
                 </ul>
             </div>
