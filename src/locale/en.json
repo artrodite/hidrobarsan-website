@@ -1626,5 +1626,29 @@
     "exports": "Exports",
     "office": "Office",
     "fax": "Fax"
+  },
+  "footer": {
+    "contactInfos": {
+      "title": "Contact",
+      "office": "Office",
+      "fax": "Fax",
+      "service": "Service",
+      "exports": "Exports",
+      "factory": "Factory",
+      "email": "Email",
+      "socials": "Social Media"
+    },
+    "address": {
+      "title": "Address",
+      "factory": "Factory",
+      "factoryAddress": "Hacıeyüplü Mahallesi, 3182 Sokak, No. : 7/A Merkezefendi - DENIZLI TURKEY"
+    },
+    "sitemap": {
+      "title": "Website"
+    },
+    "copyright": {
+      "year" : "© 2023 Hidrobarsan",
+      "description": "All rights reserved."
+    }
   }
 }

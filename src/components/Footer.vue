@@ -1,11 +1,12 @@
 <template>
     <footer class="bg-[#F7F7F7] container px-6 md:px-0 mx-auto mt-12">
-        <div>
-            <h1 class="font-bold text-4xl mb-24">İletişim Bilgilerimiz</h1>
+        <Map class="lg:hidden"/>
+        <div class="mt-32">
+            <h1 class="font-bold text-4xl mb-24"> {{ $t('footer.contactInfos.title') }} </h1>
             <ul>
-                <li class="flex mb-12">
+                <li data-aos="fade-right" data-aos-delay="50" class="flex mb-12">
                     <div class="w-24 md:w-48 font-semibold">
-                        Ofis
+                        {{ $t('footer.contactInfos.office') }}
                     </div>
                     <div>
                         <a href="tel:902582687890" class="link-hover-animation">
@@ -17,9 +18,9 @@
                         </a>
                     </div>
                 </li>
-                <li class="flex mb-24">
+                <li data-aos="fade-right" data-aos-delay="100" class="flex mb-24">
                     <div class="w-24 md:w-48 font-semibold">
-                        Fax
+                        {{ $t('footer.contactInfos.fax') }}
                     </div>
                     <div>
                         <a href="tel:902582687891" class="link-hover-animation">
@@ -27,9 +28,9 @@
                         </a>
                     </div>
                 </li>
-                <li class="flex mb-12">
+                <li data-aos="fade-right" data-aos-delay="150" class="flex mb-12">
                     <div class="w-24 md:w-48 font-semibold">
-                        Servis
+                        {{ $t('footer.contactInfos.service') }}
                     </div>
                     <div>
                         <a href="tel:905321314345" class="link-hover-animation">
@@ -37,9 +38,9 @@
                         </a>
                     </div>
                 </li>
-                <li class="flex mb-12">
+                <li data-aos="fade-right" data-aos-delay="200" class="flex mb-12">
                     <div class="w-24 md:w-48 font-semibold">
-                        İhracat
+                        {{ $t('footer.contactInfos.exports') }}
                     </div>
                     <div>
                         <a href="tel:905336823947" class="link-hover-animation">
@@ -47,9 +48,9 @@
                         </a>
                     </div>
                 </li>
-                <li class="flex mb-24">
+                <li data-aos="fade-right" data-aos-delay="250" class="flex mb-24">
                     <div class="w-24 md:w-48 font-semibold">
-                        Fabrika
+                        {{ $t('footer.contactInfos.factory') }}
                     </div>
                     <div>
                         <a href="tel:905336823946" class="link-hover-animation">
@@ -57,17 +58,17 @@
                         </a>
                     </div>
                 </li>
-                <li class="flex mb-24">
+                <li data-aos="fade-right" data-aos-delay="300" class="flex mb-24">
                     <div class="w-24 md:w-48 font-semibold">
-                        E-posta
+                        {{ $t('footer.contactInfos.email') }}
                     </div>
                     <a href="mailto:info@hidrobarsan.com" target="_blank" class="link-hover-animation">
-                        info@hidrobarsan.com  <i class="ml-2 fa fa-arrow-right" style="transform: rotate(-45deg)"/>
+                        info@hidrobarsan.com <i class="ml-2 fa fa-arrow-right" style="transform: rotate(-45deg)"/>
                     </a>
                 </li>
-                <li class="flex flex-col md:flex-row mb-12">
+                <li data-aos="fade-right" data-aos-delay="350" class="flex flex-col md:flex-row mb-12">
                     <div class="w-32 md:w-48 mb-4 md:mb-0 font-semibold">
-                        Sosyal Medya
+                        {{ $t('footer.contactInfos.socials') }}
                     </div>
                     <div class="grid grid-cols-2 gap-4 md:flex md:gap-32">
                         <a href="https://www.instagram.com/hidrobarsanmakina/" target="_blank"
@@ -91,14 +92,14 @@
             </ul>
         </div>
         <div class="py-24">
-            <h1 class="font-bold text-4xl mb-24">Adres</h1>
+            <h1 data-aos="fade-right" class="font-bold text-4xl mb-24">{{ $t('footer.address.title') }}</h1>
             <ul>
-                <li class="flex flex-col md:flex-row mb-12">
+                <li data-aos="fade-right" data-aos-delay="50" class="flex flex-col md:flex-row">
                     <div class="w-24 md:w-48 mb-4 md:md-0 font-semibold">
-                        Fabrika
+                        {{ $t('footer.address.factory') }}
                     </div>
                     <div>
-                        Hacıeyüplü Mahallesi, 3182 Sokak, No. : 7/A Merkezefendi - DENIZLI TÜRKIYE
+                        {{ $t('footer.address.factoryAddress') }}
                     </div>
                 </li>
             </ul>
@@ -107,21 +108,22 @@
         <div class="py-24">
             <ul>
                 <li class="flex flex-col md:flex-row">
-                    <div class="w-24 mb-4 md:mb-0 md:w-48 font-semibold">
-                        Site
+                    <div data-aos="fade-right" data-aos-delay="100"
+                         class="w-24 mb-4 md:mb-0 md:w-48 font-semibold whitespace-nowrap">
+                        {{ $t('footer.sitemap.title') }}
                     </div>
-                    <div class="grid grid-cols-2 gap-4 md:flex md:gap-32">
+                    <div data-aos="fade-right" data-aos-delay="150" class="grid grid-cols-2 gap-4 md:flex md:gap-32">
                         <router-link to="/" class="link-hover-animation">
-                            Anasayfa
+                            {{ $t('navbar.home') }}
                         </router-link>
                         <router-link to="/urunlerimiz" class="link-hover-animation">
-                            Ürünlerimiz
+                            {{ $t('navbar.products') }}
                         </router-link>
                         <router-link to="/hakkimizda" class="link-hover-animation">
-                            Hakkımızda
+                            {{ $t('navbar.about') }}
                         </router-link>
                         <router-link to="/iletisim" class="link-hover-animation">
-                            İletişim
+                            {{ $t('navbar.contact') }}
                         </router-link>
                     </div>
                 </li>
@@ -137,16 +139,21 @@
                 <img src="@/assets/artrodite-logo.svg" alt="artrodite" class="">
             </a>
             <div class="text-sm text-right md:text-center">
-                © 2023 Hidrobarsan <br class="md:hidden"> Tüm Hakları Saklıdır
+                {{ $t('footer.copyright.year') }}
+                <br class="md:hidden">
+                {{ $t('footer.copyright.description') }}
             </div>
         </div>
+
     </footer>
 </template>
 
 <script>
+import Map from "@/components/FooterPartials/Map.vue";
+
 export default {
     name: "Footer",
-    components: {}
+    components: {Map}
 }
 </script>
 

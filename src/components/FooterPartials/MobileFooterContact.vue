@@ -4,38 +4,38 @@
             {{ $t('mobileFooter.title') }}
         </div>
         <Map/>
-        <a class="text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03] flex items-center justify-center gap-4 border border-[#F7AF03] font-thin mb-4 p-2"
-           data-aos="fade-up"
-           data-aos-delay="100" href="https://goo.gl/maps/McGBpHfmCPdotHvs6" target="_blank">
-            <i class="fa fa-location-dot"/> {{ $t('mobileFooter.address') }}
-        </a>
-        <div class="grid grid-cols-2 gap-4 mb-16">
-            <a v-for="(info, index) in infos" :key="index"
-               :data-aos="(index % 2) ? 'fade-left' : 'fade-right'"
-               :data-aos-delay="index * 100"
-               :href="info.action"
-               class="border py-2 px-4 border-[#F7AF03] justify-center text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03]">
-                <div class="w-2/3 mx-auto">
-                    <div class="whitespace-nowrap md:text-center items-center  font-thin">
-                        <i :class="info.img" class="mr-3 fa"/> {{ info.text }}
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="flex justify-between items-center mb-16">
-            <a v-for="(social, index) in socials" :key="index"
-               :class="index === 0 ? 'text-left' : ((index === 1) ? 'text-center' : 'text-right')"
-               :data-aos-delay="index * 100"
-               :href="social.action"
-               class="text-sm w-1/3 "
-               data-aos="fade-up"
-               target="_blank">
-                <span class="link-hover-animation">
-                    <i :class="social.img" class="mr-2 fa text-2xl md:text-base"/>
-                    <span class="hidden md:inline-flex">{{ social.text }}</span>
-                </span>
-            </a>
-        </div>
+        <!--        <a class="text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03] flex items-center justify-center gap-4 border border-[#F7AF03] font-thin mb-4 p-2"-->
+        <!--           data-aos="fade-up"-->
+        <!--           data-aos-delay="100" href="https://goo.gl/maps/McGBpHfmCPdotHvs6" target="_blank">-->
+        <!--            <i class="fa fa-location-dot"/> {{ $t('mobileFooter.address') }}-->
+        <!--        </a>-->
+        <!--        <div class="grid grid-cols-2 gap-4 mb-16">-->
+        <!--            <a v-for="(info, index) in infos" :key="index"-->
+        <!--               :data-aos="(index % 2) ? 'fade-left' : 'fade-right'"-->
+        <!--               :data-aos-delay="index * 100"-->
+        <!--               :href="info.action"-->
+        <!--               class="border py-2 px-4 border-[#F7AF03] justify-center text-[#F7AF03] transition-all hover:text-white hover:bg-[#F7AF03]">-->
+        <!--                <div class="w-2/3 mx-auto">-->
+        <!--                    <div class="whitespace-nowrap md:text-center items-center  font-thin">-->
+        <!--                        <i :class="info.img" class="mr-3 fa"/> {{ info.text }}-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </a>-->
+        <!--        </div>-->
+        <!--        <div class="flex justify-between items-center mb-16">-->
+        <!--            <a v-for="(social, index) in socials" :key="index"-->
+        <!--               :class="index === 0 ? 'text-left' : ((index === 1) ? 'text-center' : 'text-right')"-->
+        <!--               :data-aos-delay="index * 100"-->
+        <!--               :href="social.action"-->
+        <!--               class="text-sm w-1/3 "-->
+        <!--               data-aos="fade-up"-->
+        <!--               target="_blank">-->
+        <!--                <span class="link-hover-animation">-->
+        <!--                    <i :class="social.img" class="mr-2 fa text-2xl md:text-base"/>-->
+        <!--                    <span class="hidden md:inline-flex">{{ social.text }}</span>-->
+        <!--                </span>-->
+        <!--            </a>-->
+        <!--        </div>-->
     </div>
 </template>
 
