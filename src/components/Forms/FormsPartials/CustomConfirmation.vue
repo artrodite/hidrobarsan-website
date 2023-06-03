@@ -2,7 +2,7 @@
   <div class="flex items-start mb-4">
     <input :id="id" type="checkbox" value=""
            class="w-4 h-4 text-[#F7AF03] bg-transparent border-black focus:ring-0">
-    <label :for="id" class="ml-2 text-sm"> {{ text }} </label>
+    <label :for="id" class="ml-2 text-sm"> {{ text }} <span class="text-red-700">*</span> </label>
   </div>
 </template>
 

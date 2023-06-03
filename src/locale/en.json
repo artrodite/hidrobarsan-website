@@ -1641,7 +1641,8 @@
       "department": "Department",
       "gpa": "GPA"
     },
-    "message": "Message"
+    "message": "Message",
+    "error": "Please fill in all fields."
   },
   "jobApplicationForm": {
     "title": "Job Application",
@@ -1953,5 +1954,10 @@
       "year": "© 2023 Hidrobarsan",
       "description": "All rights reserved."
     }
+  },
+  "thankYou": {
+    "title": "Thank you for your application",
+    "description": "Your application has been received. We will contact you as soon as possible.",
+    "goToHome": "Go Home"
   }
 }

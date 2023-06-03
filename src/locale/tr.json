@@ -1642,7 +1642,8 @@
       "department": "Bölüm Adı",
       "gpa": "Genel Ağırlıklı Not Ortalaması"
     },
-    "message": "Mesajınız"
+    "message": "Mesajınız",
+    "error": "Lütfen tüm alanları doldurunuz."
   },
   "jobApplicationForm": {
     "title": "İş Başvurusu",
@@ -1955,5 +1956,10 @@
       "year": "© 2023 Hidrobarsan",
       "description": "Tüm Hakları Saklıdır."
     }
+  },
+  "thankYou": {
+    "title": "Başvurunuz için teşekkür ederiz.",
+    "description": "Başvurunuz tarafımıza ulaşmıştır. En kısa sürede değerlendirilecektir.",
+    "goToHome": "Anasayfaya git"
   }
 }

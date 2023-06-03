@@ -1,9 +1,11 @@
 <template>
   <div>
     <input v-if="!isDropdown" class="border-2 border-[#F3F3F3] w-full px-4 py-2 outline-[#F7AF03]"
-           :placeholder="placeholder" :type="type" :pattern="setPattern(type)">
+           :placeholder="placeholder" :type="type" :pattern="setPattern(type)"
+           @input="$emit('update:model', $event.target.value)"/>
 
-    <select v-else class="border-2 border-[#F3F3F3] w-full px-4 py-2 outline-[#F7AF03]">
+    <select v-else class="border-2 border-[#F3F3F3] w-full px-4 py-2 outline-[#F7AF03]"
+            @input="$emit('update:model', $event.target.value)">
       <option value="" disabled selected hidden>{{ placeholder }}</option>
       <option v-for="(option, index) in options" :key="index" :value="option.value">{{ option }}</option>
     </select>
@@ -13,9 +15,15 @@
 
 <script>
 import {defineComponent} from 'vue'
+import {data} from "autoprefixer";
 
 export default defineComponent({
   name: "CustomInput",
+  computed: {
+    data() {
+      return data
+    }
+  },
   props: {
     placeholder: {
       type: String,
@@ -32,7 +40,7 @@ export default defineComponent({
     type: {
       type: String,
       default: 'text'
-    }
+    },
   },
   mounted() {
     console.log('CustomInput mounted')
