@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About",
     "products": "Products",
-    "contact": "Contact"
+    "contact": "Contact",
+    "language": "Language"
   },
   "home": {
     "hero": {
@@ -1610,12 +1611,311 @@
       "message": "Message"
     },
     "addFile": "Attach File",
+    "addResume": "Attach Resume",
     "submit": "Submit",
     "submitSuccess": "Your message has been sent successfully. We will contact you as soon as possible.",
     "submitFailed": "Your message could not be sent. Please try again later.",
     "fillAllFields": "Please fill in all fields.",
     "description": "You can contact us immediately to get the information you want about our company and products.",
     "more": "See More"
+  },
+  "internshipForm": {
+    "title": "Internship Application Form",
+    "placeholders": {
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "internshipType": {
+        "title": "Internship Type",
+        "options": [
+          "Compulsory Internship",
+          "Voluntary Internship"
+        ]
+      },
+      "subject": "Internship Subject",
+      "duration": "Internship Duration (Day)",
+      "period": "Internship Period",
+      "school": "School Name",
+      "department": "Department",
+      "gpa": "GPA"
+    },
+    "message": "Message"
+  },
+  "jobApplicationForm": {
+    "title": "Job Application",
+    "sections": {
+      "main": {
+        "title": "",
+        "placeholders": {
+          "name": "Name Surname",
+          "email": "Email Address",
+          "phone": "Phone Number"
+        }
+      },
+      "addresses": {
+        "title": "Addresses",
+        "placeholders": {
+          "home": {
+            "address": "Home Address",
+            "town": "Town",
+            "city": "City"
+          },
+          "work": {
+            "address": "Work Address",
+            "town": "Town",
+            "city": "City"
+          }
+        }
+      },
+      "personalInfo": {
+        "title": "Personal Information",
+        "placeholders": {
+          "birthDate": "Date of Birth",
+          "birthPlace": "Place of Birth",
+          "city": "City of Registration",
+          "id": "ID Number",
+          "maritalStatus": {
+            "title": "Marital Status",
+            "options": [
+              "Single",
+              "Married",
+              "Divorced",
+              "Widowed"
+            ]
+          },
+          "bloodType": {
+            "title": "Blood Type",
+            "options": [
+              "0 Rh+",
+              "0 Rh-",
+              "A Rh+",
+              "A Rh-",
+              "B Rh+",
+              "B Rh-",
+              "AB Rh+",
+              "AB Rh-"
+            ]
+          },
+          "militaryStatus": {
+            "title": "Military Status",
+            "options": [
+              "Completed",
+              "Postponed",
+              "Exempt"
+            ]
+          },
+          "cigarette": {
+            "title": "Do you smoke?",
+            "options": [
+              "Yes",
+              "No"
+            ]
+          }
+        }
+      },
+      "familyInfo": {
+        "title": "Family Information",
+        "placeholders": {
+          "fatherName": "Father's Name",
+          "fatherJob": "Father's Occupation",
+          "fatherJobPlace": "Workplace",
+          "motherName": "Mother's Name",
+          "motherJob": "Mother's Occupation",
+          "motherJobPlace": "Workplace",
+          "spouseName": "Spouse's Name",
+          "spouseJob": "Spouse's Occupation",
+          "spouseJobPlace": "Workplace",
+          "children": "Number of Children",
+          "childrenNames": "Children's Names",
+          "childrenAges": "Children's Ages"
+        }
+      },
+      "privatePersonalInfo": {
+        "title": "Private Personal Information",
+        "description": "I understand that the personal information you provide in this section falls within the category of special categories of personal data as defined under Article 6 of the Personal Data Protection Law (KVKK). These data will be processed, stored, and transferred in accordance with the \"Measures to be Taken by Data Controllers in the Processing of Special Categories of Personal Data\" decision issued by the Personal Data Protection Board.",
+        "placeholders": {
+          "health": "Do you have any health problems? (Specify)",
+          "disability": "Do you have any disability? (Specify)",
+          "conviction": "Have you ever been convicted of a crime? (Specify)"
+        }
+      },
+      "education": {
+        "title": "Education",
+        "placeholders": {
+          "primary": {
+            "schoolName": "Primary School",
+            "schoolDepartment": "Department",
+            "schoolStartDate": "Start Year",
+            "schoolEndDate": "End Year",
+            "grade": "Grade"
+          },
+          "highSchool": {
+            "schoolName": "High School",
+            "schoolDepartment": "Department",
+            "schoolStartDate": "Start Year",
+            "schoolEndDate": "End Year",
+            "grade": "Grade"
+          },
+          "collage": {
+            "schoolName": "Collage",
+            "schoolDepartment": "Department",
+            "schoolStartDate": "Start Year",
+            "schoolEndDate": "End Year",
+            "grade": "Grade"
+          },
+          "bachelor": {
+            "schoolName": "Bachelor",
+            "schoolDepartment": "Department",
+            "schoolStartDate": "Start Year",
+            "schoolEndDate": "End Year",
+            "grade": "Grade"
+          },
+          "master": {
+            "schoolName": "Master",
+            "schoolDepartment": "Department",
+            "schoolStartDate": "Start Year",
+            "schoolEndDate": "End Year",
+            "grade": "Grade"
+          },
+          "doctorate": {
+            "schoolName": "Doctorate",
+            "schoolDepartment": "Department",
+            "schoolStartDate": "Start Year",
+            "schoolEndDate": "End Year",
+            "grade": "Grade"
+          }
+        }
+      },
+      "experiences": {
+        "title": "Work and Internship Experiences",
+        "description": "List your work and internship experiences starting from your most recent job.",
+        "placeholders": {
+          "companyName": "Company Name",
+          "companyCity": "City",
+          "companySector": "Sector",
+          "companyPosition": "Position",
+          "companyStartDate": "Start Date",
+          "companyEndDate": "End Date",
+          "companySalary": "Salary",
+          "companyReason": "Reason for Leaving"
+        },
+        "addExperience": "Add Experience"
+      },
+      "language": {
+        "title": "Language Skills",
+        "description": "List starting with the language you know best.",
+        "placeholders": {
+          "languageName": "Language",
+          "reading": {
+            "title": "Reading",
+            "options": [
+              "Very Good",
+              "Good",
+              "Medium",
+              "Weak"
+            ]
+          },
+          "writing": {
+            "title": "Writing",
+            "options": [
+              "Very Good",
+              "Good",
+              "Medium",
+              "Weak"
+            ]
+          },
+          "speaking": {
+            "title": "Speaking",
+            "options": [
+              "Very Good",
+              "Good",
+              "Medium",
+              "Weak"
+            ]
+          }
+        },
+        "addLanguage": "Dil Ekle"
+      },
+      "computer": {
+        "title": "Computer Skills",
+        "description": "List starting with the program you know best.",
+        "placeholders": {
+          "program": {
+            "title": "Program",
+            "level": {
+              "title": "Level",
+              "options": [
+                "Very Good",
+                "Good",
+                "Medium",
+                "Weak"
+              ]
+            }
+          },
+          "tool": {
+            "title": "Operating System, Database Applications, CASE Tools and Degrees you know",
+            "level": {
+              "title": "Level",
+              "options": [
+                "Very Good",
+                "Good",
+                "Medium",
+                "Weak"
+              ]
+            }
+          }
+        }
+      },
+      "courses": {
+        "title": "Courses",
+        "placeholders": {
+          "courseName": "Course Name",
+          "courseDate": "Date"
+        },
+        "addCourse": "Add Course"
+      },
+      "references": {
+        "title": "References",
+        "description": "I understand that the personal information you provide in this section falls within the category of special categories of personal data as defined under Article 6 of the Personal Data Protection Law (KVKK). These data will be processed, stored, and transferred in accordance with the \"Measures to be Taken by Data Controllers in the Processing of Special Categories of Personal Data\" decision issued by the Personal Data Protection Board.",
+        "placeholders": {
+          "referenceName": "Name Surname",
+          "referencePhone": "Phone Number",
+          "referenceEmail": "E-mail Address"
+        },
+        "addReference": "Add Reference",
+        "confirm": {
+          "text": "I acknowledge and confirm that I have read and understood the information provided in the Privacy Notice regarding the processing of personal data in the context of this reference process. I further confirm that I have obtained the necessary consents from the owners of the third-party data I have shared with your company for the reference process. I declare and undertake that the information provided is accurate for the operation of this reference process."
+        }
+      },
+      "generalInfo": {
+        "title": "General Information",
+        "description": "Please indicate 3 priority areas you would like to work in and why",
+        "positionPreferencePlaceholders": {
+          "position": "Position",
+          "reason": "Reason"
+        },
+        "placeholders": {
+          "salaryExpectation": "Salary Expectation (₺)",
+          "startWorkingDate": "Start Working Date",
+          "travelAvailability": "Can you travel?",
+          "careerGoal": "Career Goal",
+          "culturalActivities": "What are your cultural and sports activities, if any?",
+          "organizations": "Organizations you are a member of and actively participate in"
+        },
+        "confirm": {
+          "0": "I understand that you are giving your explicit consent for the personal data provided to be stored for a period of 5 years.",
+          "1": "I acknowledge and confirm that I do not give my consent for the processing of personal data.",
+          "2": "I confirm and declare that the information provided in this Job Application Form is accurate, complete, and truthful.",
+          "3": "I understand that any false or incomplete information may result in the termination of the employment contract without notice or compensation. If hired, I agree to work in accordance with the organization's processes, procedures, and instructions, including the possibility of overtime work when required. I also acknowledge that I may be subject to a probationary period."
+        }
+      },
+      "personalDataProtection": {
+        "text": "Your communication preferences within the scope of the Personal Data Protection Law (KVKK) and the Law on Regulation of Electronic Commerce (ETK) are as follows.",
+        "confirm": {
+          "0": "I have read and confirmed the Privacy and Data Protection Policy.",
+          "1": "I have read and confirmed the Electronic Commerce Regulation (ETK) text."
+        }
+      }
+    }
   },
   "mobileFooter": {
     "title": "Contact",
@@ -1647,7 +1947,7 @@
       "title": "Website"
     },
     "copyright": {
-      "year" : "© 2023 Hidrobarsan",
+      "year": "© 2023 Hidrobarsan",
       "description": "All rights reserved."
     }
   }

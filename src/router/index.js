@@ -28,7 +28,19 @@ const routes = [
         path: '/iletisim',
         name: 'contact',
         meta: {title: 'İletişim'},
-        component: ContactView
+        component: ContactView,
+    },
+    {
+        path: '/iletisim/staj',
+        name: 'internship',
+        meta: {title: 'Staj Formu'},
+        component: () => import('@/components/Forms/InternshipForm.vue')
+    },
+    {
+        path: '/iletisim/is-basvurusu',
+        name: 'job-application',
+        meta: {title: 'İş Başvurusu'},
+        component: () => import('@/components/Forms/JobApplicationForm.vue')
     },
     {
         path: '/urunlerimiz',

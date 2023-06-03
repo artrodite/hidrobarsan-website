@@ -3,7 +3,8 @@
     "home": "Anasayfa",
     "about": "Hakkımızda",
     "products": "Ürünlerimiz",
-    "contact": "İletişim"
+    "contact": "İletişim",
+    "language": "Dil"
   },
   "home": {
     "hero": {
@@ -1610,12 +1611,313 @@
       "message": "Mesajınız"
     },
     "addFile": "Dosya Ekle",
+    "addResume": "Özgeçmiş / CV",
     "submit": "Gönder",
     "submitSuccess": "Mesajınız başarıyla gönderildi. Teşekkür ederiz.",
     "submitFailed": "Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",
     "fillAllFields": "Lütfen tüm alanları doldurunuz.",
     "description": "Şirketimiz ve ürünlerimiz hakkında istediğiniz bilgiyi almak için hemen bize ulaşabilirsiniz.",
     "more": "Daha Fazlası"
+  },
+  "internshipForm": {
+    "title": "Staj Başvurusu",
+    "placeholders": {
+      "name": "İsim Soyisim",
+      "email": "Mail Adresiniz",
+      "phone": "Telefon Numaranız",
+      "internshipType": {
+        "title": "Staj Türü",
+        "options": [
+          "Zorunlu Staj",
+          "Gönüllü Staj"
+        ]
+      },
+      "subject": "Staj Konusu",
+      "duration": "Staj Süresi (Gün)",
+      "period": "Staj Dönemi",
+      "school": "Okul Adı",
+      "department": "Bölüm Adı",
+      "gpa": "Genel Ağırlıklı Not Ortalaması"
+    },
+    "message": "Mesajınız"
+  },
+  "jobApplicationForm": {
+    "title": "İş Başvurusu",
+    "sections": {
+      "main": {
+        "title": "",
+        "placeholders": {
+          "name": "İsim Soyisim",
+          "email": "Mail Adresiniz",
+          "phone": "Telefon Numaranız"
+        }
+      },
+      "addresses": {
+        "title": "Adres Bilgileri",
+        "placeholders": {
+          "home": {
+            "address": "Ev adresi",
+            "town": "İlçe",
+            "city": "İl"
+          },
+          "work": {
+            "address": "İş adresi",
+            "town": "İlçe",
+            "city": "İl"
+          }
+        }
+      },
+      "personalInfo": {
+        "title": "Kişisel Bilgiler",
+        "placeholders": {
+          "birthDate": "Doğum Tarihi",
+          "birthPlace": "Doğum Yeri",
+          "city": "Nüfusa Kayıtlı Olduğu İl",
+          "id": "TC Kimlik Numarası",
+          "maritalStatus": {
+            "title": "Medeni Durum",
+            "options": [
+              "Bekar",
+              "Evli",
+              "Boşanmış",
+              "Dul"
+            ]
+          },
+          "bloodType": {
+            "title": "Kan Grubu",
+            "options": [
+              "0 Rh+",
+              "0 Rh-",
+              "A Rh+",
+              "A Rh-",
+              "B Rh+",
+              "B Rh-",
+              "AB Rh+",
+              "AB Rh-"
+            ]
+          },
+          "militaryStatus": {
+            "title": "Askerlik Durumu",
+            "options": [
+              "Yapıldı",
+              "Yapılmadı",
+              "Tecilli",
+              "Muaf"
+            ]
+          },
+          "cigarette": {
+            "title": "Sigara Kullanıyor musunuz?",
+            "options": [
+              "Evet",
+              "Hayır"
+            ]
+          }
+        }
+      },
+      "familyInfo": {
+        "title": "Aile Bilgileri",
+        "placeholders": {
+          "fatherName": "Baba Adı",
+          "fatherJob": "Mesleği",
+          "fatherJobPlace": "İş Yeri",
+          "motherName": "Anne Adı",
+          "motherJob": "Anne Mesleği",
+          "motherJobPlace": "İş Yeri",
+          "spouseName": "Eş Adı",
+          "spouseJob": "Eş Mesleği",
+          "spouseJobPlace": "İş Yeri",
+          "children": "Çocuk Sayısı",
+          "childrenNames": "Çocuk(lar) Adları",
+          "childrenAges": "Çocuk(lar) Yaşları"
+        }
+      },
+      "privatePersonalInfo": {
+        "title": "Özel Nitelikli Kişisel Veriler",
+        "description": "Bu kısımda vereceğiniz kişisel bilgileriniz Kişisel Verilerin Korunması Kanunu (KVKK) MADDE 6 kapsamında sayılan özel nitelikli kişisel veri niteliğindedir. Bu veriler Kişisel Verileri Koruma Kurulu'nun yayınladığı \"ÖZEL NİTELİKLİ KİŞİSEL VERİLERİN İŞLENMESİNDE VERİ SORUMLULARINCA ALINMASI GEREKEN YETERLİ ÖNLEMLER\" kararına uygun olarak işlenecek, saklanacak ve aktarılacaktır.",
+        "placeholders": {
+          "health": "Sağlık Probleminiz Var mı? (Belirtiniz)",
+          "disability": "Engellilik Durumunuz Var mı? (Belirtiniz)",
+          "conviction": "Adli Sicil Kaydınız Var mı? (Belirtiniz)"
+        }
+      },
+      "education": {
+        "title": "Eğitim Bilgileri",
+        "placeholders": {
+          "primary": {
+            "schoolName": "İlkokul Adı",
+            "schoolDepartment": "Bölüm",
+            "schoolStartDate": "Başlangıç Yılı",
+            "schoolEndDate": "Bitiş Yılı",
+            "grade": "Derece"
+          },
+          "highSchool": {
+            "schoolName": "Lise",
+            "schoolDepartment": "Bölüm",
+            "schoolStartDate": "Başlangıç Yılı",
+            "schoolEndDate": "Bitiş Yılı",
+            "grade": "Derece"
+          },
+          "collage": {
+            "schoolName": "Yüksek Okul",
+            "schoolDepartment": "Bölüm",
+            "schoolStartDate": "Başlangıç Yılı",
+            "schoolEndDate": "Bitiş Yılı",
+            "grade": "Derece"
+          },
+          "bachelor": {
+            "schoolName": "Lisans",
+            "schoolDepartment": "Bölüm",
+            "schoolStartDate": "Başlangıç Yılı",
+            "schoolEndDate": "Bitiş Yılı",
+            "grade": "Derece"
+          },
+          "master": {
+            "schoolName": "Yüksek Lisans",
+            "schoolDepartment": "Bölüm",
+            "schoolStartDate": "Başlangıç Yılı",
+            "schoolEndDate": "Bitiş Yılı",
+            "grade": "Derece"
+          },
+          "doctorate": {
+            "schoolName": "Doktora",
+            "schoolDepartment": "Bölüm",
+            "schoolStartDate": "Başlangıç Yılı",
+            "schoolEndDate": "Bitiş Yılı",
+            "grade": "Derece"
+          }
+        }
+      },
+      "experiences": {
+        "title": "İş ve Staj Deneyimleri",
+        "description": "İş ve staj deneyimlerinizi en son çalıştığınız işten başlayarak sıralayınız.",
+        "placeholders": {
+          "companyName": "Şirket Adı",
+          "companyCity": "Bulunduğu İl",
+          "companySector": "Sektör",
+          "companyPosition": "Pozisyon",
+          "companyStartDate": "Başlangıç Tarihi",
+          "companyEndDate": "Bitiş Tarihi",
+          "companySalary": "Son Aldığınız Maaş",
+          "companyReason": "İşten Ayrılma Nedeni"
+        },
+        "addExperience": "Deneyim Ekle"
+      },
+      "language": {
+        "title": "Yabancı Dil Bilgisi",
+        "description": "En iyi bildiğiniz dilden başlayarak sıralayınız.",
+        "placeholders": {
+          "languageName": "Dil",
+          "reading": {
+            "title": "Okuma",
+            "options": [
+              "Çok İyi",
+              "İyi",
+              "Orta",
+              "Zayıf"
+            ]
+          },
+          "writing": {
+            "title": "Yazma",
+            "options": [
+              "Çok İyi",
+              "İyi",
+              "Orta",
+              "Zayıf"
+            ]
+          },
+          "speaking": {
+            "title": "Konuşma",
+            "options": [
+              "Çok İyi",
+              "İyi",
+              "Orta",
+              "Zayıf"
+            ]
+          }
+        },
+        "addLanguage": "Dil Ekle"
+      },
+      "computer": {
+        "title": "Bilgisayar Bilgisi",
+        "description": "En iyi bildiğiniz programdan başlayarak sıralayınız.",
+        "placeholders": {
+          "program": {
+            "title": "Program Adı",
+            "level": {
+              "title": "Seviye",
+              "options": [
+                "Çok İyi",
+                "İyi",
+                "Orta",
+                "Zayıf"
+              ]
+            }
+          },
+          "tool": {
+            "title": "Bildiğiniz İşletim Sistemi, Veritabanı Uygulamaları, CASE Araçları ve Dereceleri",
+            "level": {
+              "title": "Seviye",
+              "options": [
+                "Çok İyi",
+                "İyi",
+                "Orta",
+                "Zayıf"
+              ]
+            }
+          }
+        }
+      },
+      "courses": {
+        "title": "Katıldığınız Kurslar ve Seminerler",
+        "placeholders": {
+          "courseName": "Kurs Adı",
+          "courseDate": "Kurs Tarihi"
+        },
+        "addCourse": "Kurs Ekle"
+      },
+      "references": {
+        "title": "Referanslar",
+        "description": "Bu kısımda vereceğiniz kişisel bilgileriniz Kişisel Verilerin Korunması Kanunu (KVKK) MADDE 6 kapsamında sayılan özel nitelikli kişisel veri niteliğindedir. Bu veriler Kişisel Verileri Koruma Kurulu'nun yayınladığı \"ÖZEL NİTELİKLİ KİŞİSEL VERİLERİN İŞLENMESİNDE VERİ SORUMLULARINCA ALINMASI GEREKEN YETERLİ ÖNLEMLER\" kararına uygun olarak işlenecek, saklanacak ve aktarılacaktır.",
+        "placeholders": {
+          "referenceName": "Adı Soyadı",
+          "referencePhone": "Telefonu",
+          "referenceEmail": "E-posta Adresi"
+        },
+        "addReference": "Referans Ekle",
+        "confirm": {
+          "text": "İŞBU REFERANS SÜRECİNİN İŞLETİLMESİ İÇİN VERİLEN BİLGİLERİN DOĞRULUĞUNU KABUL EDER, AKTARDIĞIM 3. KİŞİ VERİLERİNİN SAHİPLERİNİ ŞİRKETİNİZ İLE REFERANS SÜRECİ KAPSAMINDA PAYLAŞILACAĞINA DAİR BİLGİLENDİRDİĞİMİ VE MUVAFAKATLARINI ALDIĞIMI, KİŞİSEL VERİLERİN KORUNMASI HAKKINDA BİLGİLENDİRME METNİ'Nİ OKUDUĞUMU BEYAN VE TAAHHÜT EDERİM."
+        }
+      },
+      "generalInfo": {
+        "title": "Genel Bilgiler",
+        "description": "Çalışmak istediğiniz öncelikli 3 alanı ve nedenlerini belirtiniz",
+        "positionPreferencePlaceholders": {
+          "position": "Pozisyon",
+          "reason": "Neden"
+        },
+        "placeholders": {
+          "salaryExpectation": "Maaş Beklentisi (₺)",
+          "startWorkingDate": "Çalışmaya Başlama Tarihi",
+          "travelAvailability": "Seyahat edebilir misiniz?",
+          "careerGoal": "Kariyer Hedefiniz",
+          "culturalActivities": "Var ise kültürel ve sportif faaliyetleriniz nelerdir?",
+          "organizations": "Üyesi olduğunuz ve aktif olarak çalışmalarına katıldığınız organizasyonlar"
+        },
+        "confirm": {
+          "0": "5 yıl müddetle muhafaza edilmesine, özgür irademle; açık olarak muvafakat ettiğimi kabul, beyan ve taahhüt ederim.",
+          "1": "Muvafakat etmediğimi kabul, beyan ve taahhüt ederim.",
+          "2": "Yukarıda belirttiğim bilgilerin doğruluğunu, istenildiği takdirde bu bilgileri belgelemeyi, kabul ve beyan ederim.",
+          "3": "Bu İş Başvuru Formu'nda verdiğim bilgilerin doğru, eksiksiz ve gerçeğe uygun olduğunu, aski halde hizmet akdinin ihbarsız ve tazminatsız sona erdirileceğini, işe alınmam halinde kuruluşun süreç, prosedür ve talimatlarına göre çalışmayı ve gerektiğinde fazla mesai yapmayı kabul ettiğimi ve deneme süresine tabi olacağımı teyit ve beyan ederim."
+        }
+      },
+      "personalDataProtection": {
+        "text": "Kişisel Verilerin Korunması Kanunu (KVKK) ve Elektronik Ticaretin Düzenlenmesi Kanunu (ETK) kapsamındaki iletişim tercihleriniz aşağıdaki gibidir.",
+        "confirm": {
+          "0": "Kişisel Verilerin Korunması ve Gizlilik metnini okudum, onaylıyorum.",
+          "1": "ETK metnini okudum, onaylıyorum."
+        }
+      }
+    }
   },
   "mobileFooter": {
     "title": "İletişim",
