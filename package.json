@@ -11,7 +11,6 @@
     "@emailjs/browser": "^3.11.0",
     "@tresjs/cientos": "^1.8.0",
     "aos": "^2.3.4",
-    "axios": "^1.4.0",
     "flowbite": "^1.6.5",
     "swiper": "^9.2.3",
     "vue": "^3.2.13",

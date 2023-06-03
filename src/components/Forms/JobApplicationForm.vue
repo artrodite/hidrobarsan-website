@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-6 md:px-96">
+  <div v-if="!isSubmitted" class="container mx-auto px-6 md:px-96">
     <h1 class="text-4xl mb-12">
       {{ $t('jobApplicationForm.title') }}
     </h1>
@@ -206,6 +206,9 @@
     <submit-button-group @submit=" submitForm"/>
     <Whatsapp/>
   </div>
+  <div v-else>
+    <thank-you/>
+  </div>
 </template>
 
 <script>
@@ -214,10 +217,11 @@ import Whatsapp from "@/components/Whatsapp.vue";
 import CustomInput from "@/components/Forms/FormsPartials/CustomInput.vue";
 import SubmitButtonGroup from "@/components/Forms/FormsPartials/SubmitButtonGroup.vue";
 import CustomConfirmation from "@/components/Forms/FormsPartials/CustomConfirmation.vue";
+import ThankYou from "@/components/Forms/ThankYou.vue";
 
 export default defineComponent({
   name: "JobApplicationForm",
-  components: {CustomConfirmation, SubmitButtonGroup, CustomInput, Whatsapp},
+  components: {ThankYou, CustomConfirmation, SubmitButtonGroup, CustomInput, Whatsapp},
   data() {
     return {
       sections: {},
@@ -227,11 +231,14 @@ export default defineComponent({
       courseCount: 3,
       referencesCount: 3,
       positionPreferencesCount: 3,
+      isSubmitted: false
     }
   },
   methods: {
     submitForm() {
       console.log('submitForm')
+      window.scrollTo(0, 0)
+      this.isSubmitted = true
     },
     addExperiences() {
       this.experiencesCount++
