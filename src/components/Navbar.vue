@@ -74,19 +74,19 @@
                   <router-link to="/iletisim"
                                class="block px-4 py-2 hover:bg-gray-100"
                                data-dropdown-close="dropdown">
-                    Mesaj
+                    {{ $t('navbar.message') }}
                   </router-link>
                 </li>
                 <li>
                   <router-link to="/iletisim/staj"
                                class="block px-4 py-2 hover:bg-gray-100">
-                    Staj Başvurusu
+                    {{ $t('navbar.internship') }}
                   </router-link>
                 </li>
                 <li>
                   <router-link to="/iletisim/is-basvurusu"
-                               class="block px-4 py-2 hover:bg-gray-100">İş
-                    Başvurusu
+                               class="block px-4 py-2 hover:bg-gray-100">
+                    {{ $t('navbar.job') }}
                   </router-link>
                 </li>
               </ul>
