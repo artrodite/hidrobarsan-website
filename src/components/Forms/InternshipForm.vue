@@ -3,8 +3,9 @@
     <h1 class="text-4xl mb-12">
       {{ $t('internshipForm.title') }}
     </h1>
-    <form data-netlify="true" method="POST" data-netlify-honeypot="bot-field" name="internship-form">,
-      <input type="hidden" name="form-name" value="internship-form" />
+    <form data-netlify="true" method="POST" data-netlify-honeypot="bot-field" name="internship-form"
+          @submit.prevent="handleSubmit">
+      <input type="hidden" name="form-name" value="internship-form"/>
       <div v-for="(placeholder, index) in placeholders" :key="index" class="mb-4">
         <custom-input :placeholder="typeof placeholder === 'string' ? placeholder : placeholder.title"
                       :is-dropdown="typeof placeholder !== 'string'"
@@ -36,8 +37,9 @@ import {defineComponent} from 'vue'
 import CustomInput from "@/components/Forms/FormsPartials/CustomInput.vue";
 import SubmitButtonGroup from "@/components/Forms/FormsPartials/SubmitButtonGroup.vue";
 import Whatsapp from "@/components/Whatsapp.vue";
-import * as emailjs from "@emailjs/browser";
+// import * as emailjs from "@emailjs/browser";
 import ThankYou from "@/components/Forms/ThankYou.vue";
+import axios from "axios";
 
 export default defineComponent({
   name: "InternshipForm",
@@ -80,31 +82,49 @@ export default defineComponent({
       if (key === ('gpa')) return 'number'
       return 'text'
     },
-    async submitForm() {
-      if (!this.checkModelValues()) {
-        this.showError = true
-        return
-      }
-      await emailjs.send(process.env.VUE_APP_EMAIL_SERVICE, process.env.VUE_APP_INTERNSHIP_EMAIL_TEMPLATE, {
-        department: this.model.department,
-        duration: this.model.duration,
-        email: this.model.email,
-        gpa: this.model.gpa,
-        internshipType: this.model.internshipType,
-        message: this.model.message,
-        name: this.model.name,
-        period: this.model.period,
-        phone: this.model.phone,
-        school: this.model.school,
-        subject: this.model.subject
-      }).then(() => {
-        this.isSubmitted = true
-      }).catch(() => {
-        this.isSubmitted = false
-        alert('Something went wrong, please try again later');
-      })
-      console.log('submitForm')
+    encode(data) {
+      return Object.keys(data)
+          .map(
+              key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+          )
+          .join("&");
     },
+    handleSubmit() {
+      const axiosConfig = {
+        header: {"Content-Type": "application/x-www-form-urlencoded"}
+      };
+      axios.post("/",
+          this.encode({
+            "form-name": "ask-question",
+            ...this.form
+          }),
+          axiosConfig
+      );
+    }    // async submitForm() {
+    //   if (!this.checkModelValues()) {
+    //     this.showError = true
+    //     return
+    //   }
+    //   await emailjs.send(process.env.VUE_APP_EMAIL_SERVICE, process.env.VUE_APP_INTERNSHIP_EMAIL_TEMPLATE, {
+    //     department: this.model.department,
+    //     duration: this.model.duration,
+    //     email: this.model.email,
+    //     gpa: this.model.gpa,
+    //     internshipType: this.model.internshipType,
+    //     message: this.model.message,
+    //     name: this.model.name,
+    //     period: this.model.period,
+    //     phone: this.model.phone,
+    //     school: this.model.school,
+    //     subject: this.model.subject
+    //   }).then(() => {
+    //     this.isSubmitted = true
+    //   }).catch(() => {
+    //     this.isSubmitted = false
+    //     alert('Something went wrong, please try again later');
+    //   })
+    //   console.log('submitForm')
+    // },
   },
   watch: {
     $i18n: {
