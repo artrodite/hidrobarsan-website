@@ -5,6 +5,7 @@
     </h1>
 
     <div v-for="(placeholder, index) in placeholders" :key="index" class="mb-4">
+<!--      <span class="text-red-700">*</span> -->
       <custom-input :placeholder="typeof placeholder === 'string' ? placeholder : placeholder.title"
                     :is-dropdown="typeof placeholder !== 'string'"
                     :options="typeof placeholder !== 'string' ? placeholder.options : null"
@@ -66,7 +67,11 @@ export default defineComponent({
   methods: {
     checkModelValues() {
       for (const key in this.model) {
-        if (this.model[key] === '' || this.model[key] === 0) return false
+        if (this.model[key] === '' || this.model[key] === 0) {
+          if (key !== 'message') {
+            return false
+          }
+        }
       }
       return true
     },
