@@ -8,7 +8,7 @@
       <div class="flex items-center md:order-2">
         <!-- Dropdown -->
         <div class="hidden md:flex">
-          <button id="languageDropdown" data-dropdown-toggle="language-dropdown" data-dropdown-trigger="hover"
+          <button id="languageDropdown" data-dropdown-toggle="language-dropdown"
                   class="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0 w-fit">
             {{ $t('navbar.language') }} <i class="ml-2 fa fa-chevron-down text-[#6B7280] text-xs"/>
           </button>
@@ -32,7 +32,7 @@
           </div>
         </div>
         <button aria-controls="mobile-menu-language-select" aria-expanded="false"
-                class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200"
+                class="items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden "
                 data-collapse-toggle="mobile-menu-language-select" type="button" @click="toggleDropdown">
           <span class="sr-only">Open main menu</span>
           <i :class="isDropdownOpen ? 'fa-xmark' : 'fa-grip-lines '"
@@ -41,7 +41,7 @@
       </div>
 
       <div id="mobile-menu-language-select"
-           class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+           class="bg-[#F7F7F7] absolute left-0 top-16 md:static items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
         <ul class="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
           <li>
             <router-link aria-current="page"
@@ -62,7 +62,7 @@
             </router-link>
           </li>
           <li>
-            <button id="contactDropdown" data-dropdown-toggle="dropdown" data-dropdown-trigger="hover"
+            <button id="contactDropdown" data-dropdown-toggle="dropdown"
                     class="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0 w-fit">
               {{ $t('navbar.contact') }} <i class="ml-2 fa fa-chevron-down text-[#6B7280] text-xs"/>
             </button>
@@ -73,7 +73,7 @@
                 <li>
                   <router-link to="/iletisim"
                                class="block px-4 py-2 hover:bg-gray-100"
-                               data-dropdown-close="dropdown">
+                  >
                     {{ $t('navbar.message') }}
                   </router-link>
                 </li>
@@ -126,11 +126,44 @@
 </template>
 
 <script>
+import {Dropdown} from "flowbite";
+
 export default {
   name: "Navbar",
   data() {
     return {
-      isDropdownOpen: false
+      isDropdownOpen: false,
+      contactDropdown: null,
+      languageDropdown: null,
+    }
+  },
+  mounted() {
+
+
+    this.contactDropdown = new Dropdown(
+        document.querySelector('#dropdown'),
+        document.querySelector('[data-dropdown-toggle="dropdown"]')
+    )
+    this.languageDropdown = new Dropdown(
+        document.querySelector('#language-dropdown'),
+        document.querySelector('[ data-dropdown-toggle="language-dropdown"]')
+    )
+    this.languageDropdownMobile = new Dropdown(
+        document.querySelector('#language-dropdown-mobile'),
+        document.querySelector('[ data-dropdown-toggle="language-dropdown-mobile"]')
+    )
+  },
+  watch: {
+    $route() {
+      this.contactDropdown.hide()
+      // this.isDropdownOpen = false
+    },
+    $i18n: {
+      handler() {
+        this.languageDropdown.hide()
+        this.languageDropdownMobile.hide()
+      },
+      deep: true
     }
   },
   methods: {
