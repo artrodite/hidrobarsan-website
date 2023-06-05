@@ -1,24 +1,25 @@
 <template>
-    <div id="app">
-        <Navbar/>
-        <div>
-            <!--            <transition mode="out-in" name="fade">-->
-            <!--                <router-view/>-->
-            <!--            </transition>-->
-            <router-view v-slot="{ Component }">
-                <transition mode="out-in" name="fade">
-                    <component :is="Component"/>
-                </transition>
-            </router-view>
+  <div id="app">
+    <Navbar/>
+    <div>
+      <!--            <transition mode="out-in" name="fade">-->
+      <!--                <router-view/>-->
+      <!--            </transition>-->
+      <router-view v-slot="{ Component }">
+        <transition mode="out-in" name="fade">
+          <component :is="Component"/>
+        </transition>
+      </router-view>
 
-        </div>
-        <Footer/>
-        <div class="scroll-to-top-button bg-black text-white text-center flex items-center justify-center cursor-pointer fixed bottom-12 right-6 transition-all hover:bg-[#F7AF03]"
-             style="width: 36px; height: 36px;"
-             @click="scrollToTop">
-            <i class="fa-solid fa-chevron-up fs-6"/>
-        </div>
     </div>
+    <Footer/>
+    <div
+        class="scroll-to-top-button bg-black text-white text-center flex items-center justify-center cursor-pointer fixed bottom-12 right-6 transition-all hover:bg-[#F7AF03]"
+        style="width: 36px; height: 36px;"
+        @click="scrollToTop">
+      <i class="fa-solid fa-chevron-up fs-6"/>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -32,31 +33,31 @@ import * as emailjs from "@emailjs/browser";
 import Whatsapp from "@/components/Whatsapp.vue";
 
 export default {
-    components: {Whatsapp, Footer, Navbar},
-    watch: {
-        $route() {
-            document.title = 'Hidrobarsan | ' + this.$route.meta.title;
-            this.scrollToTop();
-        }
-    },
-    mounted() {
-        initFlowbite();
-        AOS.init({
-            duration: 500,
-            once: true,
-            easing: 'ease-in-out',
-        })
-        emailjs.init(process.env.VUE_APP_EMAIL_PUBLIC_KEY);
-    },
-    setup() {
-        const scrollToTop = () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            })
-        }
-        return {scrollToTop}
-    },
+  components: {Whatsapp, Footer, Navbar},
+  watch: {
+    $route() {
+      document.title = 'Hidrobarsan | ' + this.$route.meta.title;
+      this.scrollToTop();
+    }
+  },
+  mounted() {
+    initFlowbite();
+    AOS.init({
+      duration: 500,
+      once: true,
+      easing: 'ease-in-out',
+    })
+    emailjs.init(process.env.VUE_APP_EMAIL_PUBLIC_KEY);
+  },
+  setup() {
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
+    return {scrollToTop}
+  },
 }
 
 

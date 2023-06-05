@@ -421,7 +421,7 @@
         "imgUrl": "/images/products/delici/108T/1.png",
         "type": "HYDRAULIC DRILLING",
         "details": {
-          "name": "108T HYDRAULIC DRILLING",
+          "name": "108T Hydraulic Drilling",
           "videoUrl": "",
           "images": [
             {
@@ -545,7 +545,7 @@
         "imgUrl": "/images/products/kesici/telli-kesici/6000M/1.png",
         "type": "BRIDGE TYPE DIAMOND WIRE SAW",
         "details": {
-          "name": "6000M BRIDGE TYPE DIAMOND WIRE SAW",
+          "name": "6000M Bridge Type Diamond Wire Saw",
           "videoUrl": "https://www.youtube.com/embed/m74loFPpA1w",
           "images": [
             {
@@ -670,7 +670,7 @@
         "type": "DIAMOND WIRE SAW WITH RAILS",
         "details": {
           "type": "Tel Kesme",
-          "name": "1260M DIAMOND WIRE SAW WITH RAILS",
+          "name": "1260M Diamond Wire Saw with Rails",
           "videoUrl": "",
           "images": [
             {
@@ -795,7 +795,7 @@
         "type": "HORIZONTAL TYPE BLOCK SIZING",
         "details": {
           "type": "Tel Kesme",
-          "name": "4000Y HORIZONTAL TYPE BLOCK SIZING",
+          "name": "4000Y Horizontal Type Block Sizing",
           "videoUrl": "",
           "images": [
             {
@@ -896,7 +896,7 @@
         "type": "HORIZONTAL TYPE BLOCK SIZING",
         "details": {
           "type": "Tel Kesme",
-          "name": "3000Y HORIZONTAL TYPE BLOCK SIZING",
+          "name": "3000Y Horizontal Type Block Sizing",
           "videoUrl": "",
           "images": [
             {
@@ -997,7 +997,7 @@
         "type": "RAMP TYPE BLOCK SIZING",
         "details": {
           "type": "Tel Kesme",
-          "name": "3000M RAMP TYPE BLOCK SIZING",
+          "name": "3000M Ramp Type Block Sizing",
           "videoUrl": "",
           "images": [
             {
@@ -1051,7 +1051,7 @@
               "desc": "3320 mm"
             },
             {
-              "icon": "/icons/yukselik.svg",
+              "icon": "/icons/yukseklik.svg",
               "title": "Height",
               "desc": "1410 mm"
             },
@@ -1079,7 +1079,7 @@
         "imgUrl": "/images/products/kesici/zincirli-kesici/HZK8200/1.png",
         "type": "CHAIN SAW MACHINE",
         "details": {
-          "name": "HZK8200 DUST COLLECTOR SYSTEM",
+          "name": "HZK8200 Dust Collector System",
           "videoUrl": "https://www.youtube.com/embed/FSiJVyRv_Aw",
           "images": [
             {
@@ -1203,7 +1203,7 @@
         "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/1.png",
         "type": "CHAIN SAW MACHINE",
         "details": {
-          "name": "HZK3400 CRAB",
+          "name": "HZK3400 Crab",
           "videoUrl": "",
           "images": [
             {
@@ -1341,7 +1341,7 @@
         "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
         "type": "CHAIN SAW MACHINE",
         "details": {
-          "name": "HZK3400 CHAIN SAW MACHINE",
+          "name": "HZK3400 Chainsaw Machine",
           "videoUrl": "",
           "images": [
             {
@@ -1471,9 +1471,9 @@
         "modelVideoUrl": "/videos/hzk3400m.mp4",
         "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
         "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400-M/1.png",
-        "type": "MOBILE CHAIN SAW MACHINE",
+        "type": "MOBILE CHAINSAW MACHINE",
         "details": {
-          "name": "HZK3400-M MOBILE CHAIN SAW MACHINE",
+          "name": "HZK3400-M Mobile Chainsaw Machine",
           "videoUrl": "",
           "images": [
             {
