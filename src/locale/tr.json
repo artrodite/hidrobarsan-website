@@ -13,7 +13,7 @@
     "hero": {
       "title1": "TOZ EMME",
       "title2": "SİSTEMİ",
-      "description": "Mermer tozunu ortadan kaldıran son teknoloji emiş sistemi",
+      "description": "Mermer tozunu ortadan kaldıran son teknoloji emiş sistemi!",
       "seeProducts": "Ürünlere Göz At",
       "contactUs": "Bize Ulaş"
     },
@@ -27,7 +27,7 @@
       ]
     },
     "about": {
-      "title": "About",
+      "title": "Hakkımızda",
       "cards": [
         "24 Saat İçinde Destek",
         "16.000 m² Üretim Alanı",
@@ -70,7 +70,7 @@
       },
       {
         "id": 3,
-        "name": "Deliciler Makina Grubu",
+        "name": "Delici Makina Grubu",
         "url": "deliciler",
         "desc": "",
         "imgUrl": "/images/categories/delici.png"
@@ -84,7 +84,7 @@
         "modelVideoUrl": "/videos/y328.mp4",
         "imgUrl": "/images/products/delici/Y328/1.png",
         "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-        "type": "Mobil Sondaj",
+        "type": "MOBİL SONDAJ",
         "details": {
           "name": "Y328 Mobil Sondaj",
           "videoUrl": "https://www.youtube.com/embed/m0tmYiniAis",
@@ -215,29 +215,29 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "~7750kg"
+              "desc": "Yaklaşık 7750kg"
             }
           ],
           "equipments": [
             {
               "title": "Sabitleme Zinciri",
-              "desc": "2 adet"
+              "desc": "2 Adet"
             },
             {
               "title": "Boru",
-              "desc": "15 adet"
+              "desc": "15 Adet"
             },
             {
               "title": "Uzatma Fişi",
-              "desc": "1 adet (5X125A)"
+              "desc": "1 Adet (5X125A)"
             },
             {
               "title": "Merkezleme Ucu (Uzun)",
-              "desc": "1 adet"
+              "desc": "1 Adet"
             },
             {
               "title": "24 Kombine Anahtar",
-              "desc": "1 adet"
+              "desc": "1 Adet"
             }
           ]
         }
@@ -249,7 +249,7 @@
         "modelVideoUrl": "/videos/y327.mp4",
         "imgUrl": "/images/products/delici/Y327/1.png",
         "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-        "type": "Mobil Sondaj",
+        "type": "MOBİL SONDAJ",
         "details": {
           "name": "Y327 Mobil Sondaj",
           "videoUrl": "",
@@ -318,7 +318,7 @@
             {
               "icon": "/icons/dizel_motor.svg",
               "title": "Dizel Motor",
-              "desc": "47 HP (Yanmar Perkins)"
+              "desc": "47 HP (Yanmar, Perkins)"
             },
             {
               "icon": "/icons/hidrolik_pompalari.svg",
@@ -391,23 +391,23 @@
           "equipments": [
             {
               "title": "Sabitleme Zinciri",
-              "desc": "2 adet"
+              "desc": "2 Adet"
             },
             {
               "title": "Boru",
-              "desc": "15 adet"
+              "desc": "15 Adet"
             },
             {
               "title": "Uzatma Fişi",
-              "desc": "1 adet (5X125A)"
+              "desc": "1 Adet (5X125A)"
             },
             {
               "title": "Merkezleme Ucu (Uzun)",
-              "desc": "1 adet"
+              "desc": "1 Adet"
             },
             {
               "title": "24 Kombine Anahtar",
-              "desc": "1 adet"
+              "desc": "1 Adet"
             }
           ]
         }
@@ -419,7 +419,7 @@
         "modelVideoUrl": "/videos/108t.mp4",
         "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
         "imgUrl": "/images/products/delici/108T/1.png",
-        "type": "Hidrolik Sondaj",
+        "type": "HİDROLİK SONDAJ",
         "details": {
           "name": "108T Hidrolik Sondaj",
           "videoUrl": "",
@@ -467,17 +467,17 @@
             {
               "icon": "/icons/unite_agirligi.svg",
               "title": "Ünite Ağılığı",
-              "desc": "~320 kg"
+              "desc": "Yaklaşık 320 kg"
             },
             {
               "icon": "/icons/direk_agırlıgı.svg",
               "title": "Direk Ağırlığı",
-              "desc": "~185 kg"
+              "desc": "Yaklaşık 185 kg"
             },
             {
               "icon": "/icons/sehpa_borular.svg",
               "title": "Sehpa ve Borular",
-              "desc": "~350 kg"
+              "desc": "Yaklaşık 350 kg"
             },
             {
               "icon": "/icons/unite_en.svg",
@@ -513,23 +513,23 @@
           "equipments": [
             {
               "title": "Sabitleme Zinciri",
-              "desc": "2 adet"
+              "desc": "2 Adet"
             },
             {
               "title": "Boru",
-              "desc": "15 adet"
+              "desc": "15 Adet"
             },
             {
               "title": "Uzatma Fişi",
-              "desc": "1 adet (5X125A)"
+              "desc": "1 Adet (5X125A)"
             },
             {
               "title": "Merkezleme Ucu (Uzun)",
-              "desc": "1 adet"
+              "desc": "1 Adet"
             },
             {
               "title": "24 Kombine Anahtar",
-              "desc": "1 adet"
+              "desc": "1 Adet"
             }
           ]
         }
@@ -571,12 +571,12 @@
             {
               "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-3.png",
               "title": "Kablolu Kumanda",
-              "desc": ""
+              "desc": "8 metrelik kablolu kumandası ile uzak mesafeden yönetilerek kullanım kolaylığı sağlar."
             },
             {
               "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-4.png",
               "title": "Uzaktan Kumanda",
-              "desc": ""
+              "desc": "50 metrelik kapsama alanına sahip uzaktan kumandası ile hızlı aksiyon alınarak konfor sağlar."
             }
           ],
           "specifications": [
@@ -640,7 +640,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "~3900 kg"
+              "desc": "Yaklaşık 3900 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -701,12 +701,12 @@
             {
               "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-4.png",
               "title": "Kablolu Kumanda",
-              "desc": ""
+              "desc": "8 metrelik kablolu kumandası ile uzak mesafeden yönetilerek kullanım kolaylığı sağlar."
             },
             {
               "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-5.png",
               "title": "Uzaktan Kumanda",
-              "desc": ""
+              "desc": "50 metrelik kapsama alanına sahip uzaktan kumandası ile hızlı aksiyon alınarak konfor sağlar."
             }
           ],
           "specifications": [
@@ -750,7 +750,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Ray Uzunluğu",
-              "desc": "6 m"
+              "desc": "6 Metre"
             },
             {
               "icon": "/icons/en.svg",
@@ -770,7 +770,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "~1550 kg"
+              "desc": "Yaklaşık 1550 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -817,7 +817,7 @@
             {
               "imageUrl": "/images/products/kesici/telli-kesici/4000Y/aksesuar/aksesuar-3.png",
               "title": "Kablolu Kumanda",
-              "desc": ""
+              "desc": "8 metrelik kablolu kumandası ile uzak mesafeden yönetilerek kullanım kolaylığı sağlar."
             }
           ],
           "specifications": [
@@ -856,7 +856,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Ray Uzunluğu",
-              "desc": "4 m"
+              "desc": "4 Metre (4 Adet)"
             },
             {
               "icon": "/icons/en.svg",
@@ -876,7 +876,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "~815,5 kg"
+              "desc": "Yaklaşık 815,5 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -918,7 +918,7 @@
             {
               "imageUrl": "/images/products/kesici/telli-kesici/3000Y/aksesuar/aksesuar-3.png",
               "title": "Kablolu Kumanda",
-              "desc": ""
+              "desc": "8 metrelik kablolu kumandası ile uzak mesafeden yönetilerek kullanım kolaylığı sağlar."
             }
           ],
           "specifications": [
@@ -957,7 +957,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Ray Uzunluğu",
-              "desc": "3 m"
+              "desc": "3 Metre"
             },
             {
               "icon": "/icons/en.svg",
@@ -977,7 +977,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "~742 kg"
+              "desc": "Yaklaşık 742 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -1014,7 +1014,7 @@
             {
               "imageUrl": "/images/products/kesici/telli-kesici/3000M/aksesuar/aksesuar-2.png",
               "title": "Kablolu Kumanda",
-              "desc": ""
+              "desc": "8 metrelik kablolu kumandası ile uzak mesafeden yönetilerek kullanım kolaylığı sağlar."
             }
           ],
           "specifications": [
@@ -1038,7 +1038,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Ray Uzunluğu",
-              "desc": "3 m"
+              "desc": "3 Metre"
             },
             {
               "icon": "/icons/en.svg",
@@ -1058,7 +1058,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "~435 kg"
+              "desc": "Yaklaşık 435 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -1100,12 +1100,12 @@
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK8200/aksesuar/aksesuar-2.png",
               "title": "Kablolu Kumanda",
-              "desc": ""
+              "desc": "8 metrelik kablolu kumandası ile uzak mesafeden yönetilerek kullanım kolaylığı sağlar."
             },
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK8200/aksesuar/aksesuar-3.png",
               "title": "Uzaktan Kumanda",
-              "desc": ""
+              "desc": "50 metrelik kapsama alanına sahip uzaktan kumandası ile hızlı aksiyon alınarak konfor sağlar."
             }
           ],
           "specifications": [
@@ -1155,6 +1155,11 @@
               "desc": "38 mm"
             },
             {
+              "icon": "/icons/kesim_acisi.svg",
+              "title": "Kesim Açısı",
+              "desc": "70°"
+            },
+            {
               "icon": "/icons/yag_tanki_kapasitesi.svg",
               "title": "Yağ Tankı Kapasitesi",
               "desc": "180 lt"
@@ -1169,7 +1174,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Ray Uzunluğu",
-              "desc": "4 m (4 adet)"
+              "desc": "4 Metre (4 Adet)"
             },
             {
               "icon": "/icons/en.svg",
@@ -1189,7 +1194,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "~16.400 kg"
+              "desc": "Yaklaşık 16.400 kg"
             }
           ]
         }
@@ -1228,12 +1233,12 @@
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-2.png",
               "title": "Kablolu Kumanda",
-              "desc": ""
+              "desc": "8 metrelik kablolu kumandası ile uzak mesafeden yönetilerek kullanım kolaylığı sağlar."
             },
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-3.png",
               "title": "Uzaktan Kumanda",
-              "desc": ""
+              "desc": "50 metrelik kapsama alanına sahip uzaktan kumandası ile hızlı aksiyon alınarak konfor sağlar."
             }
           ],
           "specifications": [
@@ -1327,7 +1332,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "~8200 kg"
+              "desc": "Yaklaşık 8200 kg"
             }
           ]
         }
@@ -1365,12 +1370,12 @@
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400/aksesuar/aksesuar-1.png",
               "title": "Kablolu Kumanda",
-              "desc": ""
+              "desc": "8 metrelik kablolu kumandası ile uzak mesafeden yönetilerek kullanım kolaylığı sağlar."
             },
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400/aksesuar/aksesuar-2.png",
               "title": "Uzaktan Kumanda",
-              "desc": ""
+              "desc": "50 metrelik kapsama alanına sahip uzaktan kumandası ile hızlı aksiyon alınarak konfor sağlar."
             }
           ],
           "specifications": [
@@ -1439,7 +1444,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Ray Uzunluğu",
-              "desc": "3 mt (3 adet)"
+              "desc": "3 Metre (3 Adet)"
             },
             {
               "icon": "/icons/en.svg",
@@ -1459,7 +1464,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "~6680 kg"
+              "desc": "Yaklaşık 6680 kg"
             }
           ]
         }
@@ -1561,11 +1566,6 @@
               "desc": "2800 mm"
             },
             {
-              "icon": "/icons/kesme_genisligi.svg",
-              "title": "Kesme Genişliği",
-              "desc": "28 mm"
-            },
-            {
               "icon": "/icons/en.svg",
               "title": "En",
               "desc": "2800 mm"
@@ -1583,7 +1583,7 @@
             {
               "icon": "/icons/kesme_ekipman_agirligi.svg",
               "title": "Kesme Ekipman Ağırlığı",
-              "desc": "~2500 kg"
+              "desc": "Yaklaşık 2500 kg"
             }
           ]
         }
@@ -1947,7 +1947,7 @@
     "address": {
       "title": "Adres",
       "factory": "Fabrika",
-      "factoryAddress": "Hacıeyüplü Mahallesi, 3182 Sokak, No. : 7/A Merkezefendi - DENIZLI TÜRKİYE"
+      "factoryAddress": "Hacıeyüplü Mahallesi, 3182 Sokak, No. : 7/A Merkezefendi - DENİZLİ TÜRKİYE"
     },
     "sitemap": {
       "title": "Site Haritası"

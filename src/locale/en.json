@@ -1,19 +1,19 @@
 {
   "navbar": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
     "products": "Products",
     "contact": "Contact",
     "message": "Message",
-    "internship": "Internship",
-    "job": "Job",
+    "internship": "Internship Application",
+    "job": "Job Application",
     "language": "Language"
   },
   "home": {
     "hero": {
       "title1": "DUST COLLECTOR",
       "title2": "SYSTEM",
-      "description": "Dust collector system that eliminates marble dusts!.",
+      "description": "Dust collector system that eliminates marble dusts!",
       "seeProducts": "See Products",
       "contactUs": "Contact Us"
     },
@@ -27,7 +27,7 @@
       ]
     },
     "about": {
-      "title": "About",
+      "title": "About Us",
       "cards": [
         "Support in 3 Days",
         "16.000 m² Field of Production",
@@ -84,7 +84,7 @@
         "modelVideoUrl": "/videos/y328.mp4",
         "imgUrl": "/images/products/delici/Y328/1.png",
         "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-        "type": "Mobile Drilling",
+        "type": "MOBILE DRILLING",
         "details": {
           "name": "Y328 Mobile Drilling",
           "videoUrl": "https://www.youtube.com/embed/m0tmYiniAis",
@@ -148,7 +148,7 @@
             {
               "icon": "/icons/dizel_motor.svg",
               "title": "Diesel Motor",
-              "desc": "47 HP (Yanmar or Perkins)"
+              "desc": "47 HP (Yanmar, Perkins)"
             },
             {
               "icon": "/icons/hidrolik_pompalari.svg",
@@ -215,17 +215,17 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "~7750kg"
+              "desc": "Approximately 7750kg"
             }
           ],
           "equipments": [
             {
               "title": "Fixing Chain",
-              "desc": "2 pieces"
+              "desc": "2 Pieces"
             },
             {
               "title": "Pipe",
-              "desc": "15 pieces"
+              "desc": "15 Pieces"
             },
             {
               "title": "Extension Elect. Cable",
@@ -249,7 +249,7 @@
         "modelVideoUrl": "/videos/y327.mp4",
         "imgUrl": "/images/products/delici/Y327/1.png",
         "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
-        "type": "Mobile Drilling",
+        "type": "MOBILE DRILLING",
         "details": {
           "name": "Y327 Mobile Drilling",
           "videoUrl": "",
@@ -318,7 +318,7 @@
             {
               "icon": "/icons/dizel_motor.svg",
               "title": "Diesel Motor",
-              "desc": "47 HP (Yanmar Perkins)"
+              "desc": "47 HP (Yanmar, Perkins)"
             },
             {
               "icon": "/icons/hidrolik_pompalari.svg",
@@ -391,11 +391,11 @@
           "equipments": [
             {
               "title": "Fixing Chain",
-              "desc": "2 pieces"
+              "desc": "2 Pieces"
             },
             {
               "title": "Pipe",
-              "desc": "15 pieces"
+              "desc": "15 Pieces"
             },
             {
               "title": "Extension Elect. Cable",
@@ -467,7 +467,7 @@
             {
               "icon": "/icons/unite_agirligi.svg",
               "title": "Hydraulic Unit Weight",
-              "desc": "~320 kg"
+              "desc": "Approximately 320 kg"
             },
             {
               "icon": "/icons/unite_en.svg",
@@ -487,7 +487,7 @@
             {
               "icon": "/icons/direk_agırlıgı.svg",
               "title": "Tower Weight",
-              "desc": "~185 kg"
+              "desc": "Approximately 185 kg"
             },
             {
               "icon": "/icons/direk_en.svg",
@@ -507,17 +507,17 @@
             {
               "icon": "/icons/sehpa_borular.svg",
               "title": "Stand + Pipes",
-              "desc": "~350 kg"
+              "desc": "Approximately 350 kg"
             }
           ],
           "equipments": [
             {
               "title": "Fixing Chain",
-              "desc": "2 pieces"
+              "desc": "2 Pieces"
             },
             {
               "title": "Pipe",
-              "desc": "15 pieces"
+              "desc": "15 Pieces"
             },
             {
               "title": "Extension Elect. Cable",
@@ -570,13 +570,13 @@
             },
             {
               "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-3.png",
-              "title": "Wired remote",
-              "desc": ""
+              "title": "Wired Remote",
+              "desc": "It provides ease of use by being controlled from a distant location with its 8-meter wired controller."
             },
             {
               "imageUrl": "/images/products/kesici/telli-kesici/6000M/aksesuar/aksesuar-4.png",
-              "title": "Wireless remote",
-              "desc": ""
+              "title": "Wireless Remote",
+              "desc": "It provides comfort with its remote control, which has a range of 50 meters, allowing for fast action."
             }
           ],
           "specifications": [
@@ -640,7 +640,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "~3900 kg"
+              "desc": "Approximately 3900 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -700,13 +700,13 @@
             },
             {
               "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-4.png",
-              "title": "Wired remote",
-              "desc": ""
+              "title": "Wired Remote",
+              "desc": "It provides ease of use by being controlled from a distant location with its 8-meter wired controller."
             },
             {
               "imageUrl": "/images/products/kesici/telli-kesici/1260M/aksesuar/aksesuar-5.png",
-              "title": "Wireless remote",
-              "desc": ""
+              "title": "Wireless Remote",
+              "desc": "It provides comfort with its remote control, which has a range of 50 meters, allowing for fast action."
             }
           ],
           "specifications": [
@@ -750,7 +750,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Rail Length",
-              "desc": "6 m"
+              "desc": "6 Meters"
             },
             {
               "icon": "/icons/en.svg",
@@ -770,7 +770,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "~1550 kg"
+              "desc": "Approximately 1550 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -816,8 +816,8 @@
             },
             {
               "imageUrl": "/images/products/kesici/telli-kesici/4000Y/aksesuar/aksesuar-3.png",
-              "title": "Wired remote",
-              "desc": ""
+              "title": "Wired Remote",
+              "desc": "It provides ease of use by being controlled from a distant location with its 8-meter wired controller."
             }
           ],
           "specifications": [
@@ -856,7 +856,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Rail Length",
-              "desc": "4 m"
+              "desc": "4 Meters"
             },
             {
               "icon": "/icons/en.svg",
@@ -876,7 +876,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "~815,5 kg"
+              "desc": "Approximately 815,5 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -917,8 +917,8 @@
             },
             {
               "imageUrl": "/images/products/kesici/telli-kesici/3000Y/aksesuar/aksesuar-3.png",
-              "title": "Wired remote",
-              "desc": ""
+              "title": "Wired Remote",
+              "desc": "It provides ease of use by being controlled from a distant location with its 8-meter wired controller."
             }
           ],
           "specifications": [
@@ -957,7 +957,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Rail Length",
-              "desc": "3 m"
+              "desc": "3 Meters"
             },
             {
               "icon": "/icons/en.svg",
@@ -977,7 +977,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "~742 kg"
+              "desc": "Approximately 742 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -1013,8 +1013,8 @@
             },
             {
               "imageUrl": "/images/products/kesici/telli-kesici/3000M/aksesuar/aksesuar-2.png",
-              "title": "Wired remote",
-              "desc": ""
+              "title": "Wired Remote",
+              "desc": "It provides ease of use by being controlled from a distant location with its 8-meter wired controller."
             }
           ],
           "specifications": [
@@ -1038,7 +1038,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Rail Length",
-              "desc": "3 m"
+              "desc": "3 Meters"
             },
             {
               "icon": "/icons/en.svg",
@@ -1058,7 +1058,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "~435 kg"
+              "desc": "Approximately 435 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -1099,13 +1099,13 @@
             },
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK8200/aksesuar/aksesuar-2.png",
-              "title": "Wired remote",
-              "desc": ""
+              "title": "Wired Remote",
+              "desc": "It provides ease of use by being controlled from a distant location with its 8-meter wired controller."
             },
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK8200/aksesuar/aksesuar-3.png",
-              "title": "Wireless remote",
-              "desc": ""
+              "title": "Wireless Remote",
+              "desc": "It provides comfort with its remote control, which has a range of 50 meters, allowing for fast action."
             }
           ],
           "specifications": [
@@ -1155,6 +1155,11 @@
               "desc": "38 mm"
             },
             {
+              "icon": "/icons/kesim_acisi.svg",
+              "title": "Angle of Cutting",
+              "desc": "70°"
+            },
+            {
               "icon": "/icons/yag_tanki_kapasitesi.svg",
               "title": "Oil Tank Capacity",
               "desc": "180 lt"
@@ -1169,7 +1174,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Rail Length",
-              "desc": "4 m (4 pieces)"
+              "desc": "4 Meters (4 Pieces)"
             },
             {
               "icon": "/icons/en.svg",
@@ -1189,7 +1194,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "~16.400 kg"
+              "desc": "Approximately 16.400 kg"
             }
           ]
         }
@@ -1227,13 +1232,13 @@
             },
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-2.png",
-              "title": "Wired remote",
-              "desc": ""
+              "title": "Wired Remote",
+              "desc": "It provides ease of use by being controlled from a distant location with its 8-meter wired controller."
             },
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-3.png",
-              "title": "Wireless remote",
-              "desc": ""
+              "title": "Wireless Remote",
+              "desc": "It provides comfort with its remote control, which has a range of 50 meters, allowing for fast action."
             }
           ],
           "specifications": [
@@ -1327,7 +1332,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "~8200 kg"
+              "desc": "Approximately 8200 kg"
             }
           ]
         }
@@ -1364,13 +1369,13 @@
           "accessories": [
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400/aksesuar/aksesuar-1.png",
-              "title": "Wired remote",
-              "desc": ""
+              "title": "Wired Remote",
+              "desc": "It provides ease of use by being controlled from a distant location with its 8-meter wired controller."
             },
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400/aksesuar/aksesuar-2.png",
-              "title": "Wireless remote",
-              "desc": ""
+              "title": "Wireless Remote",
+              "desc": "It provides comfort with its remote control, which has a range of 50 meters, allowing for fast action."
             }
           ],
           "specifications": [
@@ -1439,7 +1444,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Rail Length",
-              "desc": "3 mt (3 pieces)"
+              "desc": "3 Meters (3 Pieces)"
             },
             {
               "icon": "/icons/en.svg",
@@ -1459,7 +1464,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "~6680 kg"
+              "desc": "Approximately 6680 kg"
             }
           ]
         }
@@ -1561,11 +1566,6 @@
               "desc": "2800 mm"
             },
             {
-              "icon": "/icons/kesme_genisligi.svg",
-              "title": "Width of Cut",
-              "desc": "28 mm"
-            },
-            {
               "icon": "/icons/en.svg",
               "title": "Width",
               "desc": "2800 mm"
@@ -1583,7 +1583,7 @@
             {
               "icon": "/icons/kesme_ekipman_agirligi.svg",
               "title": "Cutting Equipment Weight",
-              "desc": "~2500 kg"
+              "desc": "Approximately 2500 kg"
             }
           ]
         }
@@ -1945,7 +1945,7 @@
     "address": {
       "title": "Address",
       "factory": "Factory",
-      "factoryAddress": "Hacıeyüplü Mahallesi, 3182 Sokak, No. : 7/A Merkezefendi - DENIZLI TURKEY"
+      "factoryAddress": "Hacıeyüplü Mahallesi, 3182 Sokak, No. : 7/A Merkezefendi - DENİZLİ TURKEY"
     },
     "sitemap": {
       "title": "Website"
