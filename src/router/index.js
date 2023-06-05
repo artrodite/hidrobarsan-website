@@ -30,12 +30,12 @@ const routes = [
         meta: {title: 'İletişim'},
         component: ContactView,
     },
-    {
-        path: '/iletisim/staj',
-        name: 'internship',
-        meta: {title: 'Staj Formu'},
-        component: () => import('@/components/Forms/InternshipForm.vue')
-    },
+    // {
+    //     path: '/iletisim/staj',
+    //     name: 'internship',
+    //     meta: {title: 'Staj Formu'},
+    //     component: () => import('@/components/Forms/InternshipForm.vue')
+    // },
     {
         path: '/iletisim/is-basvurusu',
         name: 'job-application',

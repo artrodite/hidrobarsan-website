@@ -12,10 +12,15 @@
     </div>
     <div class="mt-8 md:mt-0 w-full">
       <button class="send-button bg-[#F7AF03] text-white border border-[#F7AF03] p-2 w-full"
-              @click="submit">
-        {{ $t('contact.submit') }} <img alt="send-icon"
-                                        class="send-icon hidden ml-2 align-center h-4 md:inline-flex transition-all"
-                                        src="@/assets/send-icon.svg">
+              @click="submit" :disabled="isLoading">
+        <span v-if="!isLoading">
+        {{ $t('contact.submit') }}
+          <img alt="send-icon" class="send-icon hidden ml-2 align-center h-4 md:inline-flex transition-all"
+               src="@/assets/send-icon.svg">
+        </span>
+        <span v-else>
+            <i class="fa fa-spinner fa-spin ml-2 "/>
+        </span>
       </button>
     </div>
   </div>
@@ -26,6 +31,12 @@ import {defineComponent} from 'vue'
 
 export default defineComponent({
   name: "SubmitButtonGroup",
+  props: {
+    isLoading: {
+      type: Boolean,
+      default: true
+    },
+  },
   methods: {
     submit() {
       this.$emit('submit')

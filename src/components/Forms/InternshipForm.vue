@@ -1,32 +1,34 @@
 <template>
-  <div v-if="!isSubmitted" class="container mx-auto px-6 md:px-96">
-    <h1 class="text-4xl mb-12">
-      {{ $t('internshipForm.title') }}
-    </h1>
+  <div v-if="false">
+    <div v-if="!isSubmitted" class="container mx-auto px-6 md:px-96">
+      <h1 class="text-4xl mb-12">
+        {{ $t('internshipForm.title') }}
+      </h1>
 
-    <div v-for="(placeholder, index) in placeholders" :key="index" class="mb-4">
-<!--      <span class="text-red-700">*</span> -->
-      <custom-input :placeholder="typeof placeholder === 'string' ? placeholder : placeholder.title"
-                    :is-dropdown="typeof placeholder !== 'string'"
-                    :options="typeof placeholder !== 'string' ? placeholder.options : null"
-                    :type="getInputType(index)"
-                    @update:model="model[index] = $event"
-      />
+      <div v-for="(placeholder, index) in placeholders" :key="index" class="mb-4">
+        <!--      <span class="text-red-700">*</span> -->
+        <custom-input :placeholder="typeof placeholder === 'string' ? placeholder : placeholder.title"
+                      :is-dropdown="typeof placeholder !== 'string'"
+                      :options="typeof placeholder !== 'string' ? placeholder.options : null"
+                      :type="getInputType(index)"
+                      @update:model="model[index] = $event"
+        />
+      </div>
+      <textarea class="w-full h-40 max-h-72 border-2 border-[#F3F3F3] border-none bg-[#FFFFFF] p-4 mb-4"
+                :placeholder="$t('internshipForm.message')" @input="model.message = $event.target.value"/>
+
+
+      <div v-if="showError" class="text-red-500 text-end text-sm mt-2">
+        {{ $t('internshipForm.error') }}
+      </div>
+
+      <submit-button-group @submit="submitForm"/>
+
+      <Whatsapp/>
     </div>
-    <textarea class="w-full h-40 max-h-72 border-2 border-[#F3F3F3] border-none bg-[#FFFFFF] p-4 mb-4"
-              :placeholder="$t('internshipForm.message')" @input="model.message = $event.target.value"/>
-
-
-    <div v-if="showError" class="text-red-500 text-end text-sm mt-2">
-      {{ $t('internshipForm.error') }}
+    <div v-else>
+      <thank-you/>
     </div>
-
-    <submit-button-group @submit="submitForm"/>
-
-    <Whatsapp/>
-  </div>
-  <div v-else>
-    <thank-you/>
   </div>
 </template>
 

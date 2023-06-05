@@ -77,12 +77,12 @@
                     {{ $t('navbar.message') }}
                   </router-link>
                 </li>
-                <li>
-                  <router-link to="/iletisim/staj"
-                               class="block px-4 py-2 hover:bg-gray-100">
-                    {{ $t('navbar.internship') }}
-                  </router-link>
-                </li>
+                <!--                <li>-->
+                <!--                  <router-link to="/iletisim/staj"-->
+                <!--                               class="block px-4 py-2 hover:bg-gray-100">-->
+                <!--                    {{ $t('navbar.internship') }}-->
+                <!--                  </router-link>-->
+                <!--                </li>-->
                 <li>
                   <router-link to="/iletisim/is-basvurusu"
                                class="block px-4 py-2 hover:bg-gray-100">
