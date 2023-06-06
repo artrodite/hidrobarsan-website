@@ -440,6 +440,7 @@ export default defineComponent({
         name: this.model.name,
         phone: this.model.phone,
         email: this.model.email,
+        reply_to: this.model.email,
 
         homeAddress: this.model.addresses.home.address,
         homeTown: this.model.addresses.home.town,
