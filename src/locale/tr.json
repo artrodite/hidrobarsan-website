@@ -7,6 +7,9 @@
     "message": "Mesaj",
     "internship": "Staj Başvurusu",
     "job": "İş Başvurusu",
+    "catalog": "Kataloğu İndir",
+    "catalogLink": "/catalog/Hidrobarsan-Katalog.pdf",
+    "catalogName": "Hidrobarsan Katalog",
     "language": "Dil"
   },
   "home": {
@@ -135,8 +138,8 @@
             },
             {
               "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-7.png",
-              "title": "360° Dönebilme Kabiliyeti",
-              "desc": "360° dönebilme özelliği sayesinde her açıdan kesim yapabilme olanağı tanıyarak dönmeyi operatör butonu ile otomatik olarak gerçekleştirir."
+              "title": "220° Dönebilme Kabiliyeti",
+              "desc": "220° dönebilme özelliği sayesinde her açıdan kesim yapabilme olanağı tanıyarak dönmeyi operatör butonu ile otomatik olarak gerçekleştirir."
             }
           ],
           "specifications": [
@@ -178,12 +181,12 @@
             {
               "icon": "/icons/boru_boyu_(tij).svg",
               "title": "Boru Boyu (Tij)",
-              "desc": "2m"
+              "desc": "2 Metre (15 Adet)"
             },
             {
               "icon": "/icons/hava_basinci.svg",
               "title": "Hava Basıncı",
-              "desc": "8-10 Bar"
+              "desc": "8-10 Bar (Kompresör Tamsan markası tarafından özel olarak üretilmektedir.)"
             },
             {
               "icon": "/icons/delme_hızı.svg",
@@ -193,7 +196,7 @@
             {
               "icon": "/icons/hava_debisi.svg",
               "title": "Hava Debisi",
-              "desc": "5 m3/dk"
+              "desc": "5 m³/dk"
             }
           ],
           "sizes": [
@@ -224,8 +227,12 @@
               "desc": "2 Adet"
             },
             {
-              "title": "Boru",
+              "title": "Boru (Tij)",
               "desc": "15 Adet"
+            },
+            {
+              "title": "Boru Anahtarı",
+              "desc": "2 Adet"
             },
             {
               "title": "Uzatma Fişi",
@@ -260,11 +267,11 @@
             },
             {
               "url": "/images/products/delici/Y327/2.png",
-              "desc": "Operatör Kabini"
+              "desc": "Yatay Delme Modu"
             },
             {
               "url": "/images/products/delici/Y327/3.png",
-              "desc": "Yatay Delme Modu"
+              "desc": "Operatör Kabini"
             }
           ],
           "accessories": [
@@ -305,8 +312,8 @@
             },
             {
               "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-8.png",
-              "title": "360° Dönebilme Kabiliyeti",
-              "desc": "360° dönebilme özelliği sayesinde her açıdan kesim yapabilme olanağı tanıyarak dönmeyi operatör butonu ile otomatik olarak gerçekleştirir."
+              "title": "220° Dönebilme Kabiliyeti",
+              "desc": "220° dönebilme özelliği sayesinde her açıdan kesim yapabilme olanağı tanıyarak dönmeyi operatör butonu ile otomatik olarak gerçekleştirir."
             }
           ],
           "specifications": [
@@ -348,12 +355,12 @@
             {
               "icon": "/icons/boru_boyu_(tij).svg",
               "title": "Boru Boyu (Tij)",
-              "desc": "2m (15 Adet)"
+              "desc": "2 Metre (15 Adet)"
             },
             {
               "icon": "/icons/hava_basinci.svg",
               "title": "Hava Basıncı",
-              "desc": "8-10 Bar"
+              "desc": "8-10 Bar (Kompresör Tamsan markası tarafından özel olarak üretilmektedir.)"
             },
             {
               "icon": "/icons/delme_hızı.svg",
@@ -363,7 +370,7 @@
             {
               "icon": "/icons/hava_debisi.svg",
               "title": "Hava Debisi",
-              "desc": "5 m3/dk"
+              "desc": "5 m³/dk"
             }
           ],
           "sizes": [
@@ -394,8 +401,12 @@
               "desc": "2 Adet"
             },
             {
-              "title": "Boru",
+              "title": "Boru (Tij)",
               "desc": "15 Adet"
+            },
+            {
+              "title": "Boru Anahtarı",
+              "desc": "2 Adet"
             },
             {
               "title": "Uzatma Fişi",
@@ -437,7 +448,7 @@
             },
             {
               "imageUrl": "/images/products/delici/108T/aksesuar/aksesuar-2.png",
-              "title": "Tabanca (Seri Kafa)",
+              "title": "Tabancalarda Yüksek Performans Tabanca Seri Kafa",
               "desc": "Daha az hava gücü ile daha hızlı delik delmeyi sağlayarak hem enerjiden hem de zamandan tasarruf sağlar."
             }
           ],
@@ -516,8 +527,12 @@
               "desc": "2 Adet"
             },
             {
-              "title": "Boru",
-              "desc": "15 Adet"
+              "title": "Boru Boyu (Tij)",
+              "desc": "1 Metre (15 Adet)"
+            },
+            {
+              "title": "Boru Anahtarı",
+              "desc": "2 Adet"
             },
             {
               "title": "Uzatma Fişi",
@@ -1367,6 +1382,11 @@
             }
           ],
           "accessories": [
+            {
+              "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-1.png",
+              "title": "Forklift Taşıma",
+              "desc": "Yeni çatı sistemi sayesinde makinanın 4 tarafından ve üstünden taşıma imkanı sunar. Böylece dar alanlarda bile kolay taşıma sağlar."
+            },
             {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400/aksesuar/aksesuar-1.png",
               "title": "Kablolu Kumanda",

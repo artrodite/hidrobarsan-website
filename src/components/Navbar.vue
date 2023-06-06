@@ -7,7 +7,16 @@
       </router-link>
       <div class="flex items-center md:order-2">
         <!-- Dropdown -->
+
+
         <div class="hidden md:flex">
+
+          <a class="flex items-center gap-2 mr-8 py-2 pl-3 pr-4 rounded cursor-pointer link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
+             :download="$t('navbar.catalogName')" :href="$t('navbar.catalogLink')">
+            {{ $t('navbar.catalog') }}
+            <i class="fa-regular fa-circle-down text-xs text-[#6B7280]"/>
+          </a>
+
           <button id="languageDropdown" data-dropdown-toggle="language-dropdown"
                   class="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0 w-fit">
             {{ $t('navbar.language') }} <i class="ml-2 fa fa-chevron-down text-[#6B7280] text-xs"/>
@@ -92,9 +101,13 @@
               </ul>
             </div>
           </li>
-
           <li class="md:hidden">
             <div>
+              <a class="flex items-center gap-2 py-2 pl-3 pr-4 rounded cursor-pointer link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
+                 download="file" :href="$t('navbar.catalogLink')">
+                {{ $t('navbar.catalog') }}
+                <i class="fa-regular fa-circle-down text-xs text-[#6B7280]"/>
+              </a>
               <button id="languageDropdownMobile" data-dropdown-toggle="language-dropdown-mobile"
                       class="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0 w-fit">
                 {{ $t('navbar.language') }} <i class="ml-2 fa fa-chevron-down text-[#6B7280] text-xs"/>

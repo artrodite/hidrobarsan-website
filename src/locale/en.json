@@ -7,6 +7,9 @@
     "message": "Message",
     "internship": "Internship Application",
     "job": "Job Application",
+    "catalog": "Download Catalog",
+    "catalogLink": "/catalog/Hidrobarsan-Catalog.pdf",
+    "catalogName": "Hidrobarsan Catalog",
     "language": "Language"
   },
   "home": {
@@ -135,8 +138,8 @@
             },
             {
               "imageUrl": "/images/products/delici/Y328/aksesuar/aksesuar-7.png",
-              "title": "360° Rotation Capability",
-              "desc": "Thanks to its 360° rotating feature, it automatically performs the turn with the operator button, allowing it to cut from all angles."
+              "title": "220° Rotation Capability",
+              "desc": "Thanks to its 220° rotating feature, it automatically performs the turn with the operator button, allowing it to cut from all angles."
             }
           ],
           "specifications": [
@@ -178,12 +181,12 @@
             {
               "icon": "/icons/boru_boyu_(tij).svg",
               "title": "Pipe Length (Stem)",
-              "desc": "2m"
+              "desc": "2 Meters (15 Pieces)"
             },
             {
               "icon": "/icons/hava_basinci.svg",
               "title": "Air Pressure",
-              "desc": "8-10 Bar"
+              "desc": "8-10 Bar (Tamsan)"
             },
             {
               "icon": "/icons/delme_hızı.svg",
@@ -193,7 +196,7 @@
             {
               "icon": "/icons/hava_debisi.svg",
               "title": "Air Flow",
-              "desc": "5 m3/dk"
+              "desc": "5 m³/min"
             }
           ],
           "sizes": [
@@ -224,8 +227,12 @@
               "desc": "2 Pieces"
             },
             {
-              "title": "Pipe",
+              "title": "Pipe (Stem)",
               "desc": "15 Pieces"
+            },
+            {
+              "title": "Pipe Wrench",
+              "desc": "2 Piece"
             },
             {
               "title": "Extension Elect. Cable",
@@ -260,11 +267,11 @@
             },
             {
               "url": "/images/products/delici/Y327/2.png",
-              "desc": "Operator’s Cab"
+              "desc": "Horizontal Drilling Mode"
             },
             {
               "url": "/images/products/delici/Y327/3.png",
-              "desc": "Horizontal Drilling Mode"
+              "desc": "Operator’s Cab"
             }
           ],
           "accessories": [
@@ -305,8 +312,8 @@
             },
             {
               "imageUrl": "/images/products/delici/Y327/aksesuar/aksesuar-8.png",
-              "title": "360° Rotation Capability",
-              "desc": "Thanks to its 360° rotating feature, it automatically performs the turn with the operator button, allowing it to cut from all angles."
+              "title": "220° Rotation Capability",
+              "desc": "Thanks to its 220° rotating feature, it automatically performs the turn with the operator button, allowing it to cut from all angles."
             }
           ],
           "specifications": [
@@ -348,12 +355,12 @@
             {
               "icon": "/icons/boru_boyu_(tij).svg",
               "title": "Pipe Length (Stem)",
-              "desc": "2m (15 Adet)"
+              "desc": "2 Meters (15 Pieces)"
             },
             {
               "icon": "/icons/hava_basinci.svg",
               "title": "Air Pressure",
-              "desc": "8-10 Bar"
+              "desc": "8-10 Bar (Tamsan)"
             },
             {
               "icon": "/icons/delme_hızı.svg",
@@ -363,7 +370,7 @@
             {
               "icon": "/icons/hava_debisi.svg",
               "title": "Air Flow",
-              "desc": "5 m3/dk"
+              "desc": "5 m³/min"
             }
           ],
           "sizes": [
@@ -394,8 +401,12 @@
               "desc": "2 Pieces"
             },
             {
-              "title": "Pipe",
+              "title": "Pipe (Stem)",
               "desc": "15 Pieces"
+            },
+            {
+              "title": "Pipe Wrench",
+              "desc": "2 Pieces"
             },
             {
               "title": "Extension Elect. Cable",
@@ -437,7 +448,7 @@
             },
             {
               "imageUrl": "/images/products/delici/108T/aksesuar/aksesuar-2.png",
-              "title": "DTH Hammer (Speed Drill)",
+              "title": "DTH Hammer Speed Drill",
               "desc": "It saves both energy and time by providing faster hole drilling with less air power."
             }
           ],
@@ -516,8 +527,12 @@
               "desc": "2 Pieces"
             },
             {
-              "title": "Pipe",
-              "desc": "15 Pieces"
+              "title": "Pipe Length (Stem)",
+              "desc": "1 Meter (15 Pieces)"
+            },
+            {
+              "title": "Pipe Wrench",
+              "desc": "2 Pieces"
             },
             {
               "title": "Extension Elect. Cable",
@@ -1117,7 +1132,7 @@
             {
               "icon": "/icons/zincir_donus_hizi.svg",
               "title": "Chain Rotation Speed",
-              "desc": "0 - 60 m/dk"
+              "desc": "0 - 60 m/min"
             },
             {
               "icon": "/icons/ideal_kesme_derinligi.svg",
@@ -1250,7 +1265,7 @@
             {
               "icon": "/icons/zincir_donus_hizi.svg",
               "title": "Chain Rotation Speed",
-              "desc": "0 - 45 m/dk"
+              "desc": "0 - 45 m/min"
             },
             {
               "icon": "/icons/ideal_kesme_derinligi.svg",
@@ -1368,6 +1383,11 @@
           ],
           "accessories": [
             {
+              "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400-YENGEC/aksesuar/aksesuar-1.png",
+              "title": "Forklift Transport",
+              "desc": "Thus, it provides easy transportation even in tight spaces, Thanks to the new roof system, it offers the possibility of carrying from 4 side and above the machine."
+            },
+            {
               "imageUrl": "/images/products/kesici/zincirli-kesici/HZK3400/aksesuar/aksesuar-1.png",
               "title": "Wired Remote",
               "desc": "It provides ease of use by being controlled from a distant location with its 8-meter wired controller."
@@ -1387,7 +1407,7 @@
             {
               "icon": "/icons/zincir_donus_hizi.svg",
               "title": "Chain Rotation Speed",
-              "desc": "0 - 45 m/dk"
+              "desc": "0 - 45 m/min"
             },
             {
               "icon": "/icons/ideal_kesme_derinligi.svg",
@@ -1511,7 +1531,7 @@
             {
               "icon": "/icons/zincir_donus_hizi.svg",
               "title": "Chain Rotation Speed",
-              "desc": "0 - 45 m/dk"
+              "desc": "0 - 45 m/min"
             },
             {
               "icon": "/icons/kesim_acisi.svg",
