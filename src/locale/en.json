@@ -235,7 +235,7 @@
               "desc": "2 Piece"
             },
             {
-              "title": "Extension Elect. Cable",
+              "title": "Extension Cord",
               "desc": "1 piece (5X125A)"
             },
             {
@@ -409,7 +409,7 @@
               "desc": "2 Pieces"
             },
             {
-              "title": "Extension Elect. Cable",
+              "title": "Extension Cord",
               "desc": "1 piece (5X125A)"
             },
             {
@@ -535,7 +535,7 @@
               "desc": "2 Pieces"
             },
             {
-              "title": "Extension Elect. Cable",
+              "title": "Extension Cord",
               "desc": "1 piece (5X125A)"
             },
             {
@@ -606,6 +606,11 @@
               "desc": "1.5 kW"
             },
             {
+              "icon": "/icons/yuruyus_sistemi.svg",
+              "title": "Moving System",
+              "desc": "Inverter (Siemens)"
+            },
+            {
               "icon": "/icons/hidrolik_motoru.svg",
               "title": "Hydraulic Motor",
               "desc": "2.2 kW"
@@ -629,6 +634,11 @@
               "icon": "/icons/kesme_hizi.svg",
               "title": "Cutting Speed",
               "desc": "20-30 m²/s"
+            },
+            {
+              "icon": "/icons/dengeleme.svg",
+              "title": "Leveling",
+              "desc": "3 x Hydraulic Piston"
             }
           ],
           "sizes": [
@@ -671,6 +681,12 @@
               "icon": "/icons/yardimci_kasnak_capi.svg",
               "title": "Guide Flywheel Diameter",
               "desc": "300 mm"
+            }
+          ],
+          "equipments": [
+            {
+              "title": "Extension Cord",
+              "desc": "1 Piece (5X125A)"
             }
           ]
         }
@@ -797,6 +813,12 @@
               "title": "Guide Flywheel Diameter",
               "desc": "300 mm"
             }
+          ],
+          "equipments": [
+            {
+              "title": "Extension Cord",
+              "desc": "1 Piece (5X125A)"
+            }
           ]
         }
       },
@@ -897,6 +919,12 @@
               "icon": "/icons/kasnak_capi.svg",
               "title": "Flywheel Diameter",
               "desc": "500 mm"
+            }
+          ],
+          "equipments": [
+            {
+              "title": "Extension Cord",
+              "desc": "1 Piece (5X125A)"
             }
           ]
         }
@@ -999,6 +1027,12 @@
               "title": "Flywheel Diameter",
               "desc": "500 mm"
             }
+          ],
+          "equipments": [
+            {
+              "title": "Extension Cord",
+              "desc": "1 Piece (5X125A)"
+            }
           ]
         }
       },
@@ -1079,6 +1113,12 @@
               "icon": "/icons/kasnak_capi.svg",
               "title": "Flywheel Diameter",
               "desc": "500 mm"
+            }
+          ],
+          "equipments": [
+            {
+              "title": "Extension Cord",
+              "desc": "1 Piece (5X125A)"
             }
           ]
         }
@@ -1510,7 +1550,7 @@
           "specifications": [
             {
               "icon": "/icons/toplam_elektrik_motor_gucu.svg",
-              "title": "Total Electrical Motor Power",
+              "title": "Main Motor Power",
               "desc": "75 kW"
             },
             {

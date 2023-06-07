@@ -606,6 +606,11 @@
               "desc": "1.5 kW"
             },
             {
+              "icon": "/icons/yuruyus_sistemi.svg",
+              "title": "Yürüyüş Sistemi",
+              "desc": "İnvertör (Siemens)"
+            },
+            {
               "icon": "/icons/hidrolik_motoru.svg",
               "title": "Hidrolik Motoru",
               "desc": "2.2 kW"
@@ -629,6 +634,11 @@
               "icon": "/icons/kesme_hizi.svg",
               "title": "Kesme Hızı",
               "desc": "20-30 m²/s"
+            },
+            {
+              "icon": "/icons/dengeleme.svg",
+              "title": "Dengeleme",
+              "desc": "3 x Hidrolik Piston"
             }
           ],
           "sizes": [
@@ -671,6 +681,12 @@
               "icon": "/icons/yardimci_kasnak_capi.svg",
               "title": "Yardımcı Kasnak Çapı",
               "desc": "300 mm"
+            }
+          ],
+          "equipments": [
+            {
+              "title": "Uzatma Fişi",
+              "desc": "1 Adet (5X125A)"
             }
           ]
         }
@@ -733,7 +749,7 @@
             {
               "icon": "/icons/yuruyus_sistemi.svg",
               "title": "Yürüyüş Sistemi",
-              "desc": "İnvertör"
+              "desc": "İnvertör (Siemens)"
             },
             {
               "icon": "/icons/guc_aktarimi.svg",
@@ -796,6 +812,12 @@
               "icon": "/icons/yardimci_kasnak_capi.svg",
               "title": "Yardımcı Kasnak Çapı",
               "desc": "300 mm"
+            }
+          ],
+          "equipments": [
+            {
+              "title": "Uzatma Fişi",
+              "desc": "1 Adet (5X125A)"
             }
           ]
         }
@@ -898,6 +920,12 @@
               "title": "Kasnak Çapı",
               "desc": "500 mm"
             }
+          ],
+          "equipments": [
+            {
+              "title": "Uzatma Fişi",
+              "desc": "1 Adet (5X125A)"
+            }
           ]
         }
       },
@@ -999,6 +1027,12 @@
               "title": "Kasnak Çapı",
               "desc": "500 mm"
             }
+          ],
+          "equipments": [
+            {
+              "title": "Uzatma Fişi",
+              "desc": "1 Adet (5X125A)"
+            }
           ]
         }
       },
@@ -1079,6 +1113,12 @@
               "icon": "/icons/kasnak_capi.svg",
               "title": "Kasnak Çapı",
               "desc": "500 mm"
+            }
+          ],
+          "equipments": [
+            {
+              "title": "Uzatma Fişi",
+              "desc": "1 Adet (5X125A)"
             }
           ]
         }
@@ -1510,7 +1550,7 @@
           "specifications": [
             {
               "icon": "/icons/toplam_elektrik_motor_gucu.svg",
-              "title": "Toplam Elektrik Motor Gücü",
+              "title": "Ana Motor Gücü",
               "desc": "75 kW"
             },
             {
@@ -1693,6 +1733,7 @@
       },
       "personalInfo": {
         "title": "Kişisel Bilgiler",
+        "description": "Lütfen aşağıdaki bilgileri eksiksiz doldurunuz. Yok ise 'Yok' olarak belirtiniz.",
         "placeholders": {
           "birthDate": "Doğum Tarihi",
           "birthPlace": "Doğum Yeri",
