@@ -28,11 +28,18 @@
                  playsinline
                  type="video/mp4"/>
         </div>
-
         <div class="text-center mt-4">
           <i v-for="(_, index) in 7" :key="index" :style="{animationDelay: index * 100 + 'ms'}"
              class="see-details fa fa-chevron-down mx-1"/>
         </div>
+      </div>
+    </div>
+    <div v-if="productDetails.lastTechnology" class="text-center my-96">
+      <div class="text-8xl font-semibold mb-8" data-aos="fade-up">
+        {{ productDetails.lastTechnology.title }}
+      </div>
+      <div class="text-8xl font-semibold" data-aos="fade-up" data-aos-delay="50">
+        {{ productDetails.lastTechnology.text }}
       </div>
     </div>
     <div v-if="productDetails.videoUrl" class="h-64 lg:h-[40rem] lg:w-3/4 mx-auto mb-40" data-aos="fade-up">
@@ -44,6 +51,23 @@
       />
     </div>
     <div class="grid grid-cols-1 justify-between md:gap-16">
+
+      <div v-if="productDetails.specialFeature" class="text-center mt-64 mb-24">
+        <div class="text-7xl font-semibold text-[#F7AF03] mb-4" data-aos="fade-up">
+          {{ productDetails.specialFeature.title }}
+        </div>
+        <div class="text-2xl font-thin mb-8" data-aos="fade-up">
+          {{ productDetails.specialFeature.description }}
+        </div>
+        <ul>
+          <li v-for="(text, i) in productDetails.specialFeature.featureList" :key="i" class="text-xl mb-2"
+              data-aos="fade-up" :data-aos-delay="i * 50">
+            {{ text }}
+          </li>
+        </ul>
+      </div>
+
+      <!--Swiper-->
       <div class="h-screen mb-12 w-full lg:w-3/4 mx-auto">
         <!--Swiper-->
         <swiper :loop="false" :modules="modules" :navigation="true" :pagination="true" :rewind="rewind"
@@ -53,9 +77,17 @@
             <div v-if="imageUrl.desc" class="font-semibold text-center lg:text-4xl">
               {{ imageUrl.desc }}
             </div>
+            <div v-if="imageUrl.desc2" class="text-center mt-2 text-[#5C5C5C]">
+              {{ imageUrl.desc2 }}
+            </div>
           </swiper-slide>
         </swiper>
       </div>
+
+      <div v-if="productDetails.feature" class="my-96 text-center text-8xl" data-aos="fade-up">
+        {{ productDetails.feature.text }}
+      </div>
+
       <div class="lg:w-[900px] mx-auto">
         <div class="mb-12 font-semibold text-2xl md:text-4xl" data-aos="fade-up">
           {{ $t('products.productDetailsPage.technicalSpecifications') }}

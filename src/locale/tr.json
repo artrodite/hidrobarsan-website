@@ -90,6 +90,10 @@
         "type": "MOBİL SONDAJ",
         "details": {
           "name": "Y328 Mobil Sondaj",
+          "lastTechnology": {
+            "title": "Türkiye'de İlk ve Tek!",
+            "text": "Mermer Tozu Emen Sistem!"
+          },
           "videoUrl": "https://www.youtube.com/embed/m0tmYiniAis",
           "images": [
             {
@@ -246,7 +250,20 @@
               "title": "24 Kombine Anahtar",
               "desc": "1 Adet"
             }
-          ]
+          ],
+          "specialFeature": {
+            "title": "TOZ EMME SİSTEMİ!",
+            "description": "Mermer Tozunu Ortadan Kaldıran Teknoloji",
+            "featureList": [
+              "Operatör Dostu Çalışma Ortamı",
+              "Kürek ile İş Gücü Ortadan Kalkar",
+              "Temiz Hava Sahası",
+              "Daha Az Bakım Maliyeti",
+              "Uzun Filtre Ömrü",
+              "Çevre Sağlığı",
+              "Gres Yağı Tüketiminde Büyük Avantaj"
+            ]
+          }
         }
       },
       {
@@ -1135,6 +1152,10 @@
         "type": "Zincirli Kollu Kesme",
         "details": {
           "name": "HZK8200 Toz Emiş Sistemli",
+          "lastTechnology": {
+            "title": "Türkiye'de İlk ve Tek!",
+            "text": "Mermer Tozu Emen Sistem!"
+          },
           "videoUrl": "https://www.youtube.com/embed/FSiJVyRv_Aw",
           "images": [
             {
@@ -1143,7 +1164,8 @@
             },
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK8200/2.png",
-              "desc": "Alt Kesim Modu"
+              "desc": "Alt Kesim Modu",
+              "desc2": "* İsteğe bağlı olarak küçük boy bıçak ile alt kesim yapılabilir."
             }
           ],
           "accessories": [
@@ -1251,7 +1273,23 @@
               "title": "Ağırlık",
               "desc": "Yaklaşık 16.400 kg"
             }
-          ]
+          ],
+          "feature": {
+            "text": "Otomatik Dalış Sistemi"
+          },
+          "specialFeature": {
+            "title": "TOZ EMME SİSTEMİ!",
+            "description": "Mermer Tozunu Ortadan Kaldıran Teknoloji",
+            "featureList": [
+              "Operatör Dostu Çalışma Ortamı",
+              "Kürek ile İş Gücü Ortadan Kalkar",
+              "Temiz Hava Sahası",
+              "Daha Az Bakım Maliyeti",
+              "Uzun Filtre Ömrü",
+              "Çevre Sağlığı",
+              "Gres Yağı Tüketiminde Büyük Avantaj"
+            ]
+          }
         }
       },
       {
@@ -1389,7 +1427,10 @@
               "title": "Ağırlık",
               "desc": "Yaklaşık 8200 kg"
             }
-          ]
+          ],
+          "feature": {
+            "text": "Otomatik Dalış Sistemi"
+          }
         }
       },
       {
@@ -1526,7 +1567,10 @@
               "title": "Ağırlık",
               "desc": "Yaklaşık 6680 kg"
             }
-          ]
+          ],
+          "feature": {
+            "text": "Otomatik Dalış Sistemi"
+          }
         }
       },
       {

@@ -90,6 +90,10 @@
         "type": "MOBILE DRILLING",
         "details": {
           "name": "Y328 Mobile Drilling",
+          "lastTechnology": {
+            "title": "Latest Technology Dust Suction!",
+            "text": ""
+          },
           "videoUrl": "https://www.youtube.com/embed/m0tmYiniAis",
           "images": [
             {
@@ -246,7 +250,20 @@
               "title": "24 Combine Wrench",
               "desc": "1 piece"
             }
-          ]
+          ],
+          "specialFeature": {
+            "title": "DUST COLLECTOR SYSTEM!",
+            "description": "Dust Collector System That Eliminates Marble Dusts",
+            "featureList": [
+              "Operator Friendly Working Environment",
+              "Manuel Labor is Elimitated",
+              "Cleaner Air",
+              "Less Maintenance Cost",
+              "Long-Lasting Filter",
+              "Environmental Health",
+              "Less Grease Consumption"
+            ]
+          }
         }
       },
       {
@@ -1135,6 +1152,10 @@
         "type": "CHAIN SAW MACHINE",
         "details": {
           "name": "HZK8200 Dust Collector System",
+          "lastTechnology": {
+            "title": "Latest Technology Dust Suction!",
+            "text": ""
+          },
           "videoUrl": "https://www.youtube.com/embed/FSiJVyRv_Aw",
           "images": [
             {
@@ -1143,7 +1164,8 @@
             },
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK8200/2.png",
-              "desc": "Horizontal Cutting Mode"
+              "desc": "Horizontal Cutting Mode",
+              "desc2": "* Optionally, horizontal cutting can be done with a small blade."
             }
           ],
           "accessories": [
@@ -1251,7 +1273,23 @@
               "title": "Weight",
               "desc": "Approximately 16.400 kg"
             }
-          ]
+          ],
+          "feature": {
+            "text": "Automatic Diving System"
+          },
+          "specialFeature": {
+            "title": "DUST COLLECTOR SYSTEM!",
+            "description": "Dust Collector System That Eliminates Marble Dusts",
+            "featureList": [
+              "Operator Friendly Working Environment",
+              "Manuel Labor is Elimitated",
+              "Cleaner Air",
+              "Less Maintenance Cost",
+              "Long-Lasting Filter",
+              "Environmental Health",
+              "Less Grease Consumption"
+            ]
+          }
         }
       },
       {
@@ -1389,7 +1427,10 @@
               "title": "Weight",
               "desc": "Approximately 8200 kg"
             }
-          ]
+          ],
+          "feature": {
+            "text": "Automatic Diving System"
+          }
         }
       },
       {
@@ -1526,7 +1567,10 @@
               "title": "Weight",
               "desc": "Approximately 6680 kg"
             }
-          ]
+          ],
+          "feature": {
+            "text": "Automatic Diving System"
+          }
         }
       },
       {
