@@ -1750,6 +1750,7 @@
   },
   "jobApplicationForm": {
     "title": "Job Application",
+    "required": "It is required to fill marked (*) fields.",
     "sections": {
       "main": {
         "title": "",
@@ -1776,6 +1777,7 @@
       },
       "personalInfo": {
         "title": "Personal Information",
+        "description": "Please fill all the fields below. If not, indicate 'None'.",
         "placeholders": {
           "birthDate": "Date of Birth",
           "birthPlace": "Place of Birth",

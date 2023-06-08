@@ -1751,6 +1751,7 @@
   },
   "jobApplicationForm": {
     "title": "İş Başvurusu",
+    "required": "Yıldız (*) ile işaretli alanları doldurmak zorunludur",
     "sections": {
       "main": {
         "title": "",

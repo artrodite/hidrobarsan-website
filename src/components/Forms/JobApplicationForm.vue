@@ -1,10 +1,9 @@
 <template>
   <div v-if="!isSubmitted" class="container mx-auto px-6 md:px-96">
-    <h1 class="text-4xl mb-12">
+    <h1 class="text-4xl mb-4">
       {{ $t('jobApplicationForm.title') }}
     </h1>
-
-    <!--    <span class="text-red-700">(*): Bu alan zorunludur.</span>-->
+    <div class="text-red-700 text-sm mb-8">{{ $t('jobApplicationForm.required') }}</div>
     <form>
       <div id="main">
         <div v-for="(placeholder, index) in sections.main?.placeholders" :key="index" class="mb-4">
@@ -34,7 +33,7 @@
 
       <div id="personalInfo">
         <h2 class="text-2xl mt-12 mb-b"> {{ sections.personalInfo?.title }} </h2>
-        <div class="font-thin mb-6"> {{ sections.personalInfo?.description }}</div>
+        <div class="font-thin mb-6 text-red-700 text-sm"> {{ sections.personalInfo?.description }}</div>
         <div v-for="(placeholder, index) in sections.personalInfo?.placeholders" :key="index" class="mb-4">
           <custom-input :placeholder="typeof placeholder === 'string' ? placeholder : placeholder.title"
                         :is-dropdown="typeof placeholder !== 'string'"
@@ -55,7 +54,7 @@
 
       <div id="privatePersonalInfo">
         <h2 class="text-2xl mt-12 mb-6"> {{ sections.privatePersonalInfo?.title }} </h2>
-        <div class="font-thin mb-6"> {{ sections.privatePersonalInfo?.description }}</div>
+        <div class="font-thin mb-6 text-sm"> {{ sections.privatePersonalInfo?.description }}</div>
         <div v-for="(placeholder, index) in sections.privatePersonalInfo?.placeholders" :key="index" class="mb-4">
           <custom-input :placeholder="placeholder" @update:model="model[index] = $event" :required="true"/>
         </div>
@@ -63,7 +62,7 @@
 
       <div id="education">
         <h2 class="text-2xl mt-12 mb-6"> {{ sections.education?.title }} </h2>
-        <div class="font-thin mb-6"> {{ sections.education?.description }}</div>
+        <div class="font-thin mb-6 text-sm"> {{ sections.education?.description }}</div>
         <div v-for="(educationLevels, educationType) in sections.education?.placeholders" :key="educationType"
              class="mb-12 md:mb-4">
           <div class="md:flex items-center gap-4">
@@ -77,7 +76,7 @@
 
       <div id="experiences">
         <h2 class="text-2xl mt-12 mb-6"> {{ sections.experiences?.title }} </h2>
-        <div class="font-thin mb-6"> {{ sections.experiences?.description }}</div>
+        <div class="font-thin mb-6 text-sm"> {{ sections.experiences?.description }}</div>
         <div v-for="i in experiencesCount" :key="i" class="mb-12">
           <div class="grid md:grid-cols-2 gap-4">
             <div v-for="(placeholder, index) in sections.experiences?.placeholders" :key="index">
@@ -98,7 +97,7 @@
 
       <div id="language">
         <h2 class="text-2xl mt-12 mb-6"> {{ sections.language?.title }} </h2>
-        <div class="font-thin mb-6"> {{ sections.language?.description }}</div>
+        <div class="font-thin mb-6 text-sm"> {{ sections.language?.description }}</div>
         <div v-for="i in languageCount" :key="i" class="mb-12">
           <div class="grid md:grid-cols-4 gap-4">
             <div v-for="(placeholder, index) in sections.language?.placeholders" :key="index">
@@ -119,7 +118,7 @@
 
       <div id="computer">
         <h2 class="text-2xl mt-12 mb-6"> {{ sections.computer?.title }} </h2>
-        <div class="font-thin mb-6"> {{ sections.computer?.description }}</div>
+        <div class="font-thin mb-6 text-sm"> {{ sections.computer?.description }}</div>
 
         <div v-for="(categories, categoriesType) in sections.computer?.placeholders" :key="categoriesType" class="mb-8">
           <div v-for="i in computerSkillCount" :key="i">
@@ -162,12 +161,11 @@
 
       <div id="references">
         <h2 class="text-2xl mt-12 mb-6"> {{ sections.references?.title }} </h2>
-        <div class="font-thin mb-6"> {{ sections.references?.description }}</div>
+        <div class="font-thin mb-6 text-sm"> {{ sections.references?.description }}</div>
         <div v-for="i in referencesCount" :key="i">
           <div class="grid md:grid-cols-3 md:gap-4 mb-12 md:mb-0">
             <div v-for="(placeholder, index) in sections.references?.placeholders" :key="index" class="mb-4">
-              <custom-input :placeholder="placeholder" @update:model="setFields('references', '', index+i, $event)"
-                            :required="i === 1"/>
+              <custom-input :placeholder="placeholder" @update:model="setFields('references', '', index+i, $event)"/>
             </div>
           </div>
         </div>
@@ -183,7 +181,7 @@
 
       <div id="generalInfo">
         <h2 class="text-2xl mt-12 mb-6"> {{ sections.generalInfo?.title }} </h2>
-        <div class="font-thin mb-6"> {{ sections.generalInfo?.description }}</div>
+        <div class="font-thin mb-6 text-sm"> {{ sections.generalInfo?.description }}</div>
         <div v-for="i in positionPreferencesCount" :key="i" class="mb-4">
           <div class="grid grid-cols-2 gap-4">
             <div v-for="(positionPlaceholder, index) in sections.generalInfo?.positionPreferencePlaceholders"
