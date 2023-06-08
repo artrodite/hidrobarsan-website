@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto px-6 md:px-0">
-    <div class="h-screen">
+    <div class="md:h-screen">
       <div class="mb-8">
         <div class="text-5xl md:text-6xl mb-4" data-aos="fade-right">{{ productDetails.name }}</div>
         <div class="hidden lg:block">
@@ -34,11 +34,11 @@
         </div>
       </div>
     </div>
-    <div v-if="productDetails.lastTechnology" class="text-center my-96">
-      <div class="text-8xl font-semibold mb-8" data-aos="fade-up">
+    <div v-if="productDetails.lastTechnology" class="text-center my-32 md:my-96">
+      <div class="lg:text-8xl text-5xl font-semibold mb-8" data-aos="fade-up">
         {{ productDetails.lastTechnology.title }}
       </div>
-      <div class="text-8xl font-semibold" data-aos="fade-up" data-aos-delay="50">
+      <div class="lg:text-8xl text-4xl font-semibold" data-aos="fade-up" data-aos-delay="50">
         {{ productDetails.lastTechnology.text }}
       </div>
     </div>
@@ -68,11 +68,11 @@
       </div>
 
       <!--Swiper-->
-      <div class="h-screen mb-12 w-full lg:w-3/4 mx-auto">
+      <div class="md:h-screen mb-12 w-full lg:w-3/4 mx-auto">
         <!--Swiper-->
         <swiper :loop="false" :modules="modules" :navigation="true" :pagination="true" :rewind="rewind"
                 :slides-per-view="1" class="my-slider">
-          <swiper-slide v-for="(imageUrl, index) in productDetails.images" :key="index" class="relative p-16">
+          <swiper-slide v-for="(imageUrl, index) in productDetails.images" :key="index" class="relative p-2 md:p-16">
             <img :src="imageUrl.url" alt="imageUrl">
             <div v-if="imageUrl.desc" class="font-semibold text-center lg:text-4xl">
               {{ imageUrl.desc }}
@@ -84,7 +84,7 @@
         </swiper>
       </div>
 
-      <div v-if="productDetails.feature" class="my-96 text-center text-8xl" data-aos="fade-up">
+      <div v-if="productDetails.feature" class=" my-32 md:my-96 text-center lg:text-8xl text-5xl" data-aos="fade-up">
         {{ productDetails.feature.text }}
       </div>
 
@@ -145,9 +145,6 @@
 </template>
 
 <script>
-// import telliKesiciler from "@/datas/telliKesiciler.json";
-// import zincirliKesiciler from "@/datas/zincirliKesiciler.json";
-// import deliciler from "@/datas/deliciler.json";
 import AccessoryCard from "@/components/AccessoryCard.vue";
 import {Swiper, SwiperSlide} from 'swiper/vue';
 import {Pagination, Navigation} from 'swiper';
@@ -293,12 +290,18 @@ i.swipeRight {
     font-size: 3rem;
     font-weight: 900;
     color: #000000;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   :global(.swiper-button-next::after) {
     font-size: 3rem;
     font-weight: 900;
     color: #000000;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   :global(.swiper-pagination-bullet) {
@@ -306,10 +309,19 @@ i.swipeRight {
     width: 1rem;
     height: 1rem;
     opacity: 1 !important;
+    @media (max-width: 768px) {
+      width: 1rem !important;
+      height: 1rem !important;
+    }
   }
 
   :global(.swiper-pagination-bullet-active) {
     background-color: #F7AF03;
+    @media (max-width: 768px) {
+      width: 1rem !important;
+      height: 1rem !important;
+    }
+
   }
 }
 
