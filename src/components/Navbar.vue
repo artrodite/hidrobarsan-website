@@ -51,7 +51,7 @@
       </div>
 
       <div id="mobile-menu-language-select"
-           :class="(!isDropdownOpen && isMobile)? 'h-0 opacity-0' : 'h-screen opacity-100 duration-300'"
+           :class="(!isDropdownOpen && isMobile)? 'h-0 opacity-0' : 'h-screen opacity-100 duration-400'"
            class="blur-effect transition-all ease-in md:flex md:h-auto absolute left-0 top-16 md:static items-center justify-between overscroll-auto w-full md:w-auto md:order-1">
         <ul class="flex flex-col py-16 gap-6 px-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 text-xl md:text-base">
           <li>
@@ -219,7 +219,7 @@ export default {
 .blur-effect {
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  background-color: rgba(247, 247, 247, 0.2);
+  background-color: #F7F7F7;
 }
 
 </style>
