@@ -40,8 +40,10 @@
             </ul>
           </div>
         </div>
+
         <button aria-controls="mobile-menu-language-select" aria-expanded="false"
-                class="items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden "
+                id="mobile-menu-button"
+                class="items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden"
                 data-collapse-toggle="mobile-menu-language-select" type="button" @click="toggleDropdown">
           <span class="sr-only">Open main menu</span>
           <i :class="isDropdownOpen ? 'fa-xmark' : 'fa-grip-lines '"
@@ -50,7 +52,7 @@
       </div>
 
       <div id="mobile-menu-language-select"
-           class="bg-[#F7F7F7] absolute left-0 top-16 md:static items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+           class="bg-[#F7F7F7] shadow-sm shadow-[#F7AF03] md:shadow-none absolute left-0 top-16 md:static items-center justify-between hidden overscroll-auto md:h-auto w-full md:flex md:w-auto md:order-1">
         <ul class="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
           <li>
             <router-link aria-current="page"
@@ -148,10 +150,11 @@ export default {
       isDropdownOpen: false,
       contactDropdown: null,
       languageDropdown: null,
+      mobileMenuButton: null,
     }
   },
   mounted() {
-
+    this.mobileMenuButton = document.querySelector('#mobile-menu-button')
 
     this.contactDropdown = new Dropdown(
         document.querySelector('#dropdown'),
@@ -167,10 +170,19 @@ export default {
     )
   },
   watch: {
-    $route() {
+    $route(to, from) {
       this.contactDropdown.hide()
-      // this.isDropdownOpen = false
+      if (!from.name) return;
+      if (!this.isDropdownOpen) return;
+      this.mobileMenuButton.click() // Close mobile menu
     },
+    // isDropdownOpen() {
+    //   if (this.isDropdownOpen) {
+    //     document.body.style.overflow = "hidden"
+    //   } else {
+    //     document.body.style.overflow = "auto"
+    //   }
+    // },
     $i18n: {
       handler() {
         this.languageDropdown.hide()
