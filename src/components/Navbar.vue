@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-[#F7F7F7] mb-4 w-full font-normal sticky top-0 z-50">
+  <nav class="bg-[#F7F7F7] mb-4 w-full font-normal sticky top-0 z-50" data-aos="fade-down">
     <div
         class="max-w-screen container flex flex-wrap md:flex-nowrap items-center justify-between mx-auto py-4 md:py-8 px-6 md:px-0">
       <router-link class="flex items-center" to="/">
@@ -7,8 +7,6 @@
       </router-link>
       <div class="flex items-center md:order-2">
         <!-- Dropdown -->
-
-
         <div class="hidden md:flex">
 
           <a class="flex items-center gap-2 mr-8 py-2 pl-3 pr-4 rounded cursor-pointer link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
@@ -40,41 +38,43 @@
             </ul>
           </div>
         </div>
-
-        <button aria-controls="mobile-menu-language-select" aria-expanded="false"
-                id="mobile-menu-button"
-                class="items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden"
-                data-collapse-toggle="mobile-menu-language-select" type="button" @click="toggleDropdown">
+        <!--aria-controls="mobile-menu-language-select" aria-expanded="false"-->
+        <!--        data-collapse-toggle="mobile-menu-language-select"-->
+        <button
+            id="mobile-menu-button"
+            class="items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden"
+            type="button" @click="toggleDropdown">
           <span class="sr-only">Open main menu</span>
           <i :class="isDropdownOpen ? 'fa-xmark' : 'fa-grip-lines '"
-             class="fa text-4xl text-black transition-all"/>
+             class="fa text-4xl text-black"/>
         </button>
       </div>
 
       <div id="mobile-menu-language-select"
-           class="bg-[#F7F7F7] shadow-sm shadow-[#F7AF03] md:shadow-none absolute left-0 top-16 md:static items-center justify-between hidden overscroll-auto md:h-auto w-full md:flex md:w-auto md:order-1">
-        <ul class="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+           :class="(!isDropdownOpen && isMobile)? 'h-0 opacity-0' : 'h-screen opacity-100 duration-300'"
+           class="transition-all ease-in md:flex md:h-auto backdrop-blur-xl md:backdrop-blur-none absolute left-0 top-16 md:static items-center justify-between overscroll-auto w-full md:w-auto md:order-1">
+        <ul class="flex flex-col py-16 gap-6 px-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 text-xl md:text-base">
           <li>
             <router-link aria-current="page"
-                         class="block py-2 pl-3 pr-4 rounded link-hover-animation md:bg-transparent md:p-0 w-fit"
+                         class=" block py-2 pl-3 pr-4 rounded link-hover-animation md:bg-transparent md:p-0 w-fit"
                          to="/"> {{ $t('navbar.home') }}
             </router-link>
           </li>
           <li>
             <router-link
-                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
+                class=" block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
                 to="/hakkimizda"> {{ $t('navbar.about') }}
             </router-link>
           </li>
           <li>
             <router-link
-                class="block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
+                class=" block py-2 pl-3 pr-4 rounded link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
                 to="/urunlerimiz"> {{ $t('navbar.products') }}
             </router-link>
           </li>
           <li>
             <button id="contactDropdown" data-dropdown-toggle="dropdown"
-                    class="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0 w-fit">
+                    class=" block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0 w-fit">
               {{ $t('navbar.contact') }} <i class="ml-2 fa fa-chevron-down text-[#6B7280] text-xs"/>
             </button>
             <!-- Dropdown menu -->
@@ -103,15 +103,15 @@
               </ul>
             </div>
           </li>
-          <li class="md:hidden">
+          <li class="mt-20 md:hidden">
             <div>
-              <a class="flex items-center gap-2 py-2 pl-3 pr-4 rounded cursor-pointer link-hover-animation md:hover:bg-transparent  md:p-0 w-fit"
+              <a class="flex items-center gap-2 py-2 pl-3 pr-4 rounded cursor-pointer link-hover-animation md:hover:bg-transparent mb-6 md:mb-0 md:p-0 w-fit"
                  download="file" :href="$t('navbar.catalogLink')">
                 {{ $t('navbar.catalog') }}
                 <i class="fa-regular fa-circle-down text-xs text-[#6B7280]"/>
               </a>
               <button id="languageDropdownMobile" data-dropdown-toggle="language-dropdown-mobile"
-                      class="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0 w-fit">
+                      class="block  py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0 w-fit">
                 {{ $t('navbar.language') }} <i class="ml-2 fa fa-chevron-down text-[#6B7280] text-xs"/>
               </button>
               <!-- Dropdown menu -->
@@ -136,6 +136,7 @@
           </li>
         </ul>
       </div>
+
     </div>
   </nav>
 </template>
@@ -151,9 +152,15 @@ export default {
       contactDropdown: null,
       languageDropdown: null,
       mobileMenuButton: null,
+      isMobile: null
     }
   },
   mounted() {
+    this.isMobile = window.innerWidth < 768
+    window.addEventListener('resize', () => {
+      this.isMobile = window.innerWidth < 768
+    })
+
     this.mobileMenuButton = document.querySelector('#mobile-menu-button')
 
     this.contactDropdown = new Dropdown(
@@ -169,6 +176,11 @@ export default {
         document.querySelector('[ data-dropdown-toggle="language-dropdown-mobile"]')
     )
   },
+  beforeUnmount() {
+    window.removeEventListener('resize', () => {
+      this.isMobile = window.innerWidth < 768
+    })
+  },
   watch: {
     $route(to, from) {
       this.contactDropdown.hide()
@@ -176,13 +188,13 @@ export default {
       if (!this.isDropdownOpen) return;
       this.mobileMenuButton.click() // Close mobile menu
     },
-    // isDropdownOpen() {
-    //   if (this.isDropdownOpen) {
-    //     document.body.style.overflow = "hidden"
-    //   } else {
-    //     document.body.style.overflow = "auto"
-    //   }
-    // },
+    isDropdownOpen() {
+      if (this.isDropdownOpen) {
+        document.body.style.overflow = "hidden"
+      } else {
+        document.body.style.overflow = "auto"
+      }
+    },
     $i18n: {
       handler() {
         this.languageDropdown.hide()
