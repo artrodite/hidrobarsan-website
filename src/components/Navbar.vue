@@ -217,9 +217,9 @@ export default {
 <style scoped>
 
 .blur-effect {
-
-  -webkit-backdrop-filter: blur(24px);
   backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  background-color: rgba(247, 247, 247, 0.2);
 }
 
 </style>
