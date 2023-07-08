@@ -702,6 +702,14 @@
             {
               "title": "Uzatma Fişi",
               "desc": "1 Adet (5X125A)"
+            },
+            {
+              "title": "Kablolu Kumanda",
+              "desc": "1 Adet"
+            },
+            {
+              "title": "Uzaktan Kumanda",
+              "desc": "1 Adet"
             }
           ]
         }
@@ -833,6 +841,14 @@
             {
               "title": "Uzatma Fişi",
               "desc": "1 Adet (5X125A)"
+            },
+            {
+              "title": "Kablolu Kumanda",
+              "desc": "1 Adet"
+            },
+            {
+              "title": "Uzaktan Kumanda",
+              "desc": "1 Adet"
             }
           ]
         }
@@ -940,6 +956,10 @@
             {
               "title": "Uzatma Fişi",
               "desc": "1 Adet (5X125A)"
+            },
+            {
+              "title": "Kablolu Kumanda",
+              "desc": "1 Adet"
             }
           ]
         }
@@ -1047,6 +1067,10 @@
             {
               "title": "Uzatma Fişi",
               "desc": "1 Adet (5X125A)"
+            },
+            {
+              "title": "Kablolu Kumanda",
+              "desc": "1 Adet"
             }
           ]
         }
@@ -1134,6 +1158,10 @@
             {
               "title": "Uzatma Fişi",
               "desc": "1 Adet (5X125A)"
+            },
+            {
+              "title": "Kablolu Kumanda",
+              "desc": "1 Adet"
             }
           ]
         }

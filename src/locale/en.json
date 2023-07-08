@@ -623,7 +623,7 @@
             {
               "icon": "/icons/yuruyus_sistemi.svg",
               "title": "Moving System",
-              "desc": "Inverter (Siemens)"
+              "desc": "Inverter (The invertor brand is Siemens which used on machine)"
             },
             {
               "icon": "/icons/hidrolik_motoru.svg",
@@ -702,6 +702,14 @@
             {
               "title": "Extension Cord",
               "desc": "1 Piece (5X125A)"
+            },
+            {
+              "title": "Wired Remote Control",
+              "desc": "1 Piece"
+            },
+            {
+              "title": "Wireless Remote Control",
+              "desc": "1 Pieces"
             }
           ]
         }
@@ -764,7 +772,7 @@
             {
               "icon": "/icons/yuruyus_sistemi.svg",
               "title": "Moving System",
-              "desc": "Inverter (Siemens)"
+              "desc": "Inverter (The invertor brand is Siemens which used on machine)"
             },
             {
               "icon": "/icons/guc_aktarimi.svg",
@@ -833,6 +841,14 @@
             {
               "title": "Extension Cord",
               "desc": "1 Piece (5X125A)"
+            },
+            {
+              "title": "Wired Remote Control",
+              "desc": "1 Piece"
+            },
+            {
+              "title": "Wireless Remote Control",
+              "desc": "1 Piece"
             }
           ]
         }
@@ -940,6 +956,10 @@
             {
               "title": "Extension Cord",
               "desc": "1 Piece (5X125A)"
+            },
+            {
+              "title": "Wired Remote Control",
+              "desc": "1 Piece"
             }
           ]
         }
@@ -1047,6 +1067,10 @@
             {
               "title": "Extension Cord",
               "desc": "1 Piece (5X125A)"
+            },
+            {
+              "title": "Wired Remote Control",
+              "desc": "1 Piece"
             }
           ]
         }
@@ -1134,6 +1158,10 @@
             {
               "title": "Extension Cord",
               "desc": "1 Piece (5X125A)"
+            },
+            {
+              "title": "Wired Remote Control",
+              "desc": "1 Piece"
             }
           ]
         }
