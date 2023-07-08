@@ -59,21 +59,21 @@
     "categories": [
       {
         "id": 1,
-        "name": "Chain Cutter Machine Group",
+        "name": "Chain Saw Machine Group",
         "url": "kesiciler/zincirli",
         "desc": "",
         "imgUrl": "/images/categories/kesici.png"
       },
       {
         "id": 2,
-        "name": "Wire Cutter Machine Group",
+        "name": "Wire Saw Machine Group",
         "url": "kesiciler/telli",
         "desc": "",
         "imgUrl": "/images/products/kesici/telli-kesici/6000M/1.png"
       },
       {
         "id": 3,
-        "name": "Drills Machine Group",
+        "name": "Drilling Machine Group",
         "url": "deliciler",
         "desc": "",
         "imgUrl": "/images/categories/delici.png"
