@@ -47,8 +47,8 @@
     "urls": {
       "products": "Products",
       "chainsawCutter": "Chain Saw Cutters",
-      "wireCutter": "Wire Cutters",
-      "drill": "Drills"
+      "wireCutter": "Wire Saw Cutters",
+      "drill": "Drilling"
     },
     "productDetailsPage": {
       "contactUs": "Contact Us",
