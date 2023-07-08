@@ -163,17 +163,17 @@ export default {
         subject: this.subject,
         name: this.name,
         message: this.message,
+        email: this.email,
+        reply_to: this.email,
         phoneNumber: this.phoneNumber,
         address: this.address,
       }).then(() => {
-        // console.log('SUCCESS!', response.status, response.text);
         this.name = '';
         this.email = '';
         this.subject = '';
         this.message = '';
         this.feedback = this.$t('contact.submitSuccess')
       }, () => {
-        // console.log('FAILED...', err);
         this.feedback = this.$t('contact.submitFailed')
       });
     }
