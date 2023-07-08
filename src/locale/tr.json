@@ -59,7 +59,7 @@
     "categories": [
       {
         "id": 1,
-        "name": "Zincir Kesici Makina Grubu",
+        "name": "Zincirli Kesici Makina Grubu",
         "url": "kesiciler/zincirli",
         "desc": "",
         "imgUrl": "/images/categories/kesici.png"
@@ -98,11 +98,11 @@
           "images": [
             {
               "url": "/images/products/delici/Y328/1.png",
-              "desc": "Yatay Delme modu"
+              "desc": "Yatay Delme Modu"
             },
             {
               "url": "/images/products/delici/Y328/2.png",
-              "desc": "Dikey Delme modu"
+              "desc": "Dikey Delme Modu"
             },
             {
               "url": "/images/products/delici/Y328/3.png",
@@ -222,7 +222,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "Yaklaşık 7750kg"
+              "desc": "~7750kg"
             }
           ],
           "equipments": [
@@ -495,17 +495,17 @@
             {
               "icon": "/icons/unite_agirligi.svg",
               "title": "Ünite Ağılığı",
-              "desc": "Yaklaşık 320 kg"
+              "desc": "~320 kg"
             },
             {
               "icon": "/icons/direk_agırlıgı.svg",
               "title": "Direk Ağırlığı",
-              "desc": "Yaklaşık 185 kg"
+              "desc": "~185 kg"
             },
             {
               "icon": "/icons/sehpa_borular.svg",
               "title": "Sehpa ve Borular",
-              "desc": "Yaklaşık 350 kg"
+              "desc": "~350 kg"
             },
             {
               "icon": "/icons/unite_en.svg",
@@ -582,11 +582,11 @@
           "images": [
             {
               "url": "/images/products/kesici/telli-kesici/6000M/1.png",
-              "desc": ""
+              "desc": "Yan Kesim Modu"
             },
             {
               "url": "/images/products/kesici/telli-kesici/6000M/2.png",
-              "desc": "Alt kesim modu"
+              "desc": "Alt Kesim Modu"
             }
           ],
           "accessories": [
@@ -625,7 +625,7 @@
             {
               "icon": "/icons/yuruyus_sistemi.svg",
               "title": "Yürüyüş Sistemi",
-              "desc": "İnvertör (Siemens)"
+              "desc": "İnvertör (Makinada kullanılan invertörler Siemens markadır)"
             },
             {
               "icon": "/icons/hidrolik_motoru.svg",
@@ -682,7 +682,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "Yaklaşık 3900 kg"
+              "desc": "~3900 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -727,7 +727,7 @@
             },
             {
               "url": "/images/products/kesici/telli-kesici/1260M/2.png",
-              "desc": ""
+              "desc": "Yan Kesim Modu"
             }
           ],
           "accessories": [
@@ -766,7 +766,7 @@
             {
               "icon": "/icons/yuruyus_sistemi.svg",
               "title": "Yürüyüş Sistemi",
-              "desc": "İnvertör (Siemens)"
+              "desc": "İnvertör (İnvertör Siemens markadır)"
             },
             {
               "icon": "/icons/guc_aktarimi.svg",
@@ -818,7 +818,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "Yaklaşık 1550 kg"
+              "desc": "~1550 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -893,7 +893,7 @@
             {
               "icon": "/icons/calisma_acısı.svg",
               "title": "Çalışma Açısı",
-              "desc": "220°"
+              "desc": "270°"
             },
             {
               "icon": "/icons/calisma_sekli.svg",
@@ -910,7 +910,7 @@
             {
               "icon": "/icons/ray_uzunlugu.svg",
               "title": "Ray Uzunluğu",
-              "desc": "4 Metre (4 Adet)"
+              "desc": "4 Metre"
             },
             {
               "icon": "/icons/en.svg",
@@ -930,7 +930,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "Yaklaşık 815,5 kg"
+              "desc": "~815,5 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -1000,7 +1000,7 @@
             {
               "icon": "/icons/calisma_acısı.svg",
               "title": "Çalışma Açısı",
-              "desc": "220°"
+              "desc": "270°"
             },
             {
               "icon": "/icons/calisma_sekli.svg",
@@ -1037,7 +1037,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "Yaklaşık 742 kg"
+              "desc": "~742 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -1080,7 +1080,7 @@
             {
               "imageUrl": "/images/products/kesici/telli-kesici/3000M/aksesuar/aksesuar-2.png",
               "title": "Kablolu Kumanda",
-              "desc": "8 metrelik kablolu kumandası ile uzak mesafeden yönetilerek kullanım kolaylığı sağlar."
+              "desc": "4 metrelik kablolu kumandası ile uzak mesafeden yönetilerek kullanım kolaylığı sağlar."
             }
           ],
           "specifications": [
@@ -1117,14 +1117,14 @@
               "desc": "3320 mm"
             },
             {
-              "icon": "/icons/yukselik.svg",
+              "icon": "/icons/yukseklik.svg",
               "title": "Yükseklik",
               "desc": "1410 mm"
             },
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "Yaklaşık 435 kg"
+              "desc": "~435 kg"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -1239,12 +1239,12 @@
             {
               "icon": "/icons/yag_tanki_kapasitesi.svg",
               "title": "Yağ Tankı Kapasitesi",
-              "desc": "180 lt"
+              "desc": "180 L"
             },
             {
               "icon": "/icons/gres_tanki_kapasitesi.svg",
               "title": "Gres Tankı Kapasitesi",
-              "desc": "30 lt"
+              "desc": "30 L"
             }
           ],
           "sizes": [
@@ -1271,7 +1271,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "Yaklaşık 16.400 kg"
+              "desc": "~16.400 kg"
             }
           ],
           "feature": {
@@ -1393,12 +1393,12 @@
             {
               "icon": "/icons/yag_tanki_kapasitesi.svg",
               "title": "Yağ Tankı Kapasitesi",
-              "desc": "180 lt"
+              "desc": "180 L"
             },
             {
               "icon": "/icons/gres_tanki_kapasitesi.svg",
               "title": "Gres Tankı Kapasitesi",
-              "desc": "30 lt"
+              "desc": "30 L"
             }
           ],
           "sizes": [
@@ -1425,7 +1425,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "Yaklaşık 8200 kg"
+              "desc": "~8200 kg"
             }
           ],
           "feature": {
@@ -1533,12 +1533,12 @@
             {
               "icon": "/icons/yag_tanki_kapasitesi.svg",
               "title": "Yağ Tankı Kapasitesi",
-              "desc": "180 lt"
+              "desc": "180 L"
             },
             {
               "icon": "/icons/gres_tanki_kapasitesi.svg",
               "title": "Gres Tankı Kapasitesi",
-              "desc": "30 lt"
+              "desc": "30 L"
             }
           ],
           "sizes": [
@@ -1565,7 +1565,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Ağırlık",
-              "desc": "Yaklaşık 6680 kg"
+              "desc": "~6680 kg"
             }
           ],
           "feature": {
@@ -1655,7 +1655,7 @@
             {
               "icon": "/icons/gres_tanki_kapasitesi.svg",
               "title": "Gres Tankı Kapasitesi",
-              "desc": "12 lt"
+              "desc": "12 L"
             }
           ],
           "sizes": [
@@ -1687,7 +1687,7 @@
             {
               "icon": "/icons/kesme_ekipman_agirligi.svg",
               "title": "Kesme Ekipman Ağırlığı",
-              "desc": "Yaklaşık 2500 kg"
+              "desc": "~2500 kg"
             }
           ]
         }

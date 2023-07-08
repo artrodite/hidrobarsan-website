@@ -195,7 +195,7 @@
             {
               "icon": "/icons/delme_hızı.svg",
               "title": "Drilling Speed",
-              "desc": "14-18 m/s"
+              "desc": "14-18 m/h"
             },
             {
               "icon": "/icons/hava_debisi.svg",
@@ -222,7 +222,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "Approximately 7750kg"
+              "desc": "~7750 kgs"
             }
           ],
           "equipments": [
@@ -256,12 +256,10 @@
             "description": "Dust Collector System That Eliminates Marble Dusts",
             "featureList": [
               "Operator Friendly Working Environment",
-              "Manuel Labor is Elimitated",
-              "Cleaner Air",
+              "Clean Air Area",
               "Less Maintenance Cost",
               "Long-Lasting Filter",
-              "Environmental Health",
-              "Less Grease Consumption"
+              "Environmental Health is at Forefront"
             ]
           }
         }
@@ -382,7 +380,7 @@
             {
               "icon": "/icons/delme_hızı.svg",
               "title": "Drilling Speed",
-              "desc": "14-18 m/s"
+              "desc": "14-18 m/h"
             },
             {
               "icon": "/icons/hava_debisi.svg",
@@ -409,7 +407,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "6750 kg"
+              "desc": "6750 kgs"
             }
           ],
           "equipments": [
@@ -478,7 +476,7 @@
             {
               "icon": "/icons/delme_hızı.svg",
               "title": "Drilling Speed",
-              "desc": "6-10 m/s"
+              "desc": "6-10 m/h"
             },
             {
               "icon": "/icons/delme_capı.svg",
@@ -495,7 +493,7 @@
             {
               "icon": "/icons/unite_agirligi.svg",
               "title": "Hydraulic Unit Weight",
-              "desc": "Approximately 320 kg"
+              "desc": "~320 kgs"
             },
             {
               "icon": "/icons/unite_en.svg",
@@ -515,7 +513,7 @@
             {
               "icon": "/icons/direk_agırlıgı.svg",
               "title": "Tower Weight",
-              "desc": "Approximately 185 kg"
+              "desc": "~185 kgs"
             },
             {
               "icon": "/icons/direk_en.svg",
@@ -535,7 +533,7 @@
             {
               "icon": "/icons/sehpa_borular.svg",
               "title": "Stand + Pipes",
-              "desc": "Approximately 350 kg"
+              "desc": "~350 kgs"
             }
           ],
           "equipments": [
@@ -650,7 +648,7 @@
             {
               "icon": "/icons/kesme_hizi.svg",
               "title": "Cutting Speed",
-              "desc": "20-30 m²/s"
+              "desc": "20-30 m²/h"
             },
             {
               "icon": "/icons/dengeleme.svg",
@@ -682,7 +680,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "Approximately 3900 kg"
+              "desc": "~3900 kgs"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -776,7 +774,7 @@
             {
               "icon": "/icons/kesme_hizi.svg",
               "title": "Cutting Speed",
-              "desc": "10-15 m²/s"
+              "desc": "10-15 m²/h"
             },
             {
               "icon": "/icons/calisma_acısı.svg",
@@ -818,7 +816,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "Approximately 1550 kg"
+              "desc": "~1550 kgs"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -883,7 +881,7 @@
             {
               "icon": "/icons/kesme_hizi.svg",
               "title": "Cutting Speed",
-              "desc": "7-13 m²/s"
+              "desc": "7-13 m²/h"
             },
             {
               "icon": "/icons/ray_sonu_kontrolu.svg",
@@ -893,7 +891,7 @@
             {
               "icon": "/icons/calisma_acısı.svg",
               "title": "Cutting Rotation",
-              "desc": "220°"
+              "desc": "270°"
             },
             {
               "icon": "/icons/calisma_sekli.svg",
@@ -930,7 +928,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "Approximately 815,5 kg"
+              "desc": "~815,5 kgs"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -990,7 +988,7 @@
             {
               "icon": "/icons/kesme_hizi.svg",
               "title": "Cutting Speed",
-              "desc": "5-10 m²/s"
+              "desc": "5-10 m²/h"
             },
             {
               "icon": "/icons/ray_sonu_kontrolu.svg",
@@ -1000,7 +998,7 @@
             {
               "icon": "/icons/calisma_acısı.svg",
               "title": "Cutting Rotation",
-              "desc": "220°"
+              "desc": "270°"
             },
             {
               "icon": "/icons/calisma_sekli.svg",
@@ -1037,7 +1035,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "Approximately 742 kg"
+              "desc": "~742 kgs"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -1080,7 +1078,7 @@
             {
               "imageUrl": "/images/products/kesici/telli-kesici/3000M/aksesuar/aksesuar-2.png",
               "title": "Wired Remote",
-              "desc": "It provides ease of use by being controlled from a distant location with its 8-meter wired controller."
+              "desc": "It provides ease of use by being controlled from a distant location with its 4-meter wired controller."
             }
           ],
           "specifications": [
@@ -1092,7 +1090,7 @@
             {
               "icon": "/icons/kesme_hizi.svg",
               "title": "Cutting Speed",
-              "desc": "3-7 m²/s"
+              "desc": "3-7 m²/h"
             },
             {
               "icon": "/icons/calisma_sekli.svg",
@@ -1124,7 +1122,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "Approximately 435 kg"
+              "desc": " ~435 kgs"
             },
             {
               "icon": "/icons/kasnak_capi.svg",
@@ -1153,7 +1151,7 @@
         "details": {
           "name": "HZK8200 Dust Collector System",
           "lastTechnology": {
-            "title": "Latest Technology Dust Suction!",
+            "title": "Latest Technology Dust Suction System!",
             "text": ""
           },
           "videoUrl": "https://www.youtube.com/embed/FSiJVyRv_Aw",
@@ -1165,7 +1163,7 @@
             {
               "url": "/images/products/kesici/zincirli-kesici/HZK8200/2.png",
               "desc": "Horizontal Cutting Mode",
-              "desc2": "* Optionally, horizontal cutting can be done with a small blade."
+              "desc2": "* Optionally, horizontal cutting can be done with a short blade."
             }
           ],
           "accessories": [
@@ -1188,7 +1186,7 @@
           "specifications": [
             {
               "icon": "/icons/toplam_elektrik_motor_gucu.svg",
-              "title": "Total Electrical Motor Power",
+              "title": "Electrical Motor Total Power",
               "desc": "66 kW"
             },
             {
@@ -1224,7 +1222,7 @@
             {
               "icon": "/icons/kesme_hizi.svg",
               "title": "Cutting Speed",
-              "desc": "7-14 m²/s"
+              "desc": "7-14 m²/h"
             },
             {
               "icon": "/icons/kesme_genisligi.svg",
@@ -1239,12 +1237,12 @@
             {
               "icon": "/icons/yag_tanki_kapasitesi.svg",
               "title": "Oil Tank Capacity",
-              "desc": "180 lt"
+              "desc": "180 L"
             },
             {
               "icon": "/icons/gres_tanki_kapasitesi.svg",
               "title": "Grease Tank Capacity",
-              "desc": "30 lt"
+              "desc": "30 L"
             }
           ],
           "sizes": [
@@ -1271,23 +1269,23 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "Approximately 16.400 kg"
+              "desc": " ~16.400 kgs"
             }
           ],
           "feature": {
-            "text": "Automatic Diving System"
+            "text": "Automatically Diving System"
           },
           "specialFeature": {
             "title": "DUST COLLECTOR SYSTEM!",
             "description": "Dust Collector System That Eliminates Marble Dusts",
             "featureList": [
               "Operator Friendly Working Environment",
-              "Manuel Labor is Elimitated",
-              "Cleaner Air",
+              "With the Shovel, Labor is Eliminated",
+              "Clean Air Area",
               "Less Maintenance Cost",
               "Long-Lasting Filter",
-              "Environmental Health",
-              "Less Grease Consumption"
+              "Environmental Health is at the Forefront",
+              "Great Advantage in Grease Consumption"
             ]
           }
         }
@@ -1337,7 +1335,7 @@
           "specifications": [
             {
               "icon": "/icons/toplam_elektrik_motor_gucu.svg",
-              "title": "Total Electrical Motor Power",
+              "title": "Electrical Motor Total Power",
               "desc": "48 kW"
             },
             {
@@ -1378,12 +1376,12 @@
             {
               "icon": "/icons/kesme_hizi.svg",
               "title": "Cutting Speed",
-              "desc": "7-12 m²/s"
+              "desc": "7-12 m²/h"
             },
             {
               "icon": "/icons/yuruyus_hizi.svg",
               "title": "Moving Speed",
-              "desc": "2 km/s"
+              "desc": "2 km/h"
             },
             {
               "icon": "/icons/kesme_genisligi.svg",
@@ -1393,12 +1391,12 @@
             {
               "icon": "/icons/yag_tanki_kapasitesi.svg",
               "title": "Oil Tank Capacity",
-              "desc": "180 lt"
+              "desc": "180 L"
             },
             {
               "icon": "/icons/gres_tanki_kapasitesi.svg",
               "title": "Grease Tank Capacity",
-              "desc": "30 lt"
+              "desc": "30 L"
             }
           ],
           "sizes": [
@@ -1425,7 +1423,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "Approximately 8200 kg"
+              "desc": "~8200 kgs"
             }
           ],
           "feature": {
@@ -1482,7 +1480,7 @@
           "specifications": [
             {
               "icon": "/icons/toplam_elektrik_motor_gucu.svg",
-              "title": "Total Electrical Motor Power",
+              "title": "Electrical Motor Total Power",
               "desc": "48 kW"
             },
             {
@@ -1523,7 +1521,7 @@
             {
               "icon": "/icons/kesme_hizi.svg",
               "title": "Cutting Speed",
-              "desc": "7-12 m²/s"
+              "desc": "7-12 m²/h"
             },
             {
               "icon": "/icons/kesme_genisligi.svg",
@@ -1533,12 +1531,12 @@
             {
               "icon": "/icons/yag_tanki_kapasitesi.svg",
               "title": "Oil Tank Capacity",
-              "desc": "180 lt"
+              "desc": "180 L"
             },
             {
               "icon": "/icons/gres_tanki_kapasitesi.svg",
               "title": "Grease Tank Capacity",
-              "desc": "30 lt"
+              "desc": "30 L"
             }
           ],
           "sizes": [
@@ -1565,7 +1563,7 @@
             {
               "icon": "/icons/agirlik.svg",
               "title": "Weight",
-              "desc": "Approximately 6680 kg"
+              "desc": "~6680 kgs"
             }
           ],
           "feature": {
@@ -1645,7 +1643,7 @@
             {
               "icon": "/icons/kesme_hizi.svg",
               "title": "Cutting Speed",
-              "desc": "7-12 m²/s"
+              "desc": "7-12 m²/h"
             },
             {
               "icon": "/icons/kesme_genisligi.svg",
@@ -1655,7 +1653,7 @@
             {
               "icon": "/icons/gres_tanki_kapasitesi.svg",
               "title": "Grease Tank Capacity",
-              "desc": "12 lt"
+              "desc": "12 L"
             }
           ],
           "sizes": [
@@ -1687,7 +1685,7 @@
             {
               "icon": "/icons/kesme_ekipman_agirligi.svg",
               "title": "Cutting Equipment Weight",
-              "desc": "Approximately 2500 kg"
+              "desc": "~2500 kgs"
             }
           ]
         }
