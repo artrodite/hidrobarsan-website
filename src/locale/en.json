@@ -46,7 +46,7 @@
     "title": "Products",
     "urls": {
       "products": "Products",
-      "chainsawCutter": "Chainsaw Cutters",
+      "chainsawCutter": "Chain Saw Cutters",
       "wireCutter": "Wire Cutters",
       "drill": "Drills"
     },
@@ -1440,7 +1440,7 @@
         "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400/1.png",
         "type": "CHAIN SAW MACHINE",
         "details": {
-          "name": "HZK3400 Chainsaw Machine",
+          "name": "HZK3400 Chain Saw Machine",
           "videoUrl": "",
           "images": [
             {
@@ -1578,9 +1578,9 @@
         "modelVideoUrl": "/videos/hzk3400m.mp4",
         "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
         "imgUrl": "/images/products/kesici/zincirli-kesici/HZK3400-M/1.png",
-        "type": "MOBILE CHAINSAW MACHINE",
+        "type": "MOBILE CHAIN SAW MACHINE",
         "details": {
-          "name": "HZK3400-M Mobile Chainsaw Machine",
+          "name": "HZK3400-M Mobile Chain Saw Machine",
           "videoUrl": "",
           "images": [
             {
