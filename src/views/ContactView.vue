@@ -18,6 +18,25 @@
                    required type="text">
           </div>
         </div>
+
+
+        <div class="flex items-center">
+          <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-4">
+            <i class="fa fa-flag"/>
+          </div>
+          <div class="w-full p-[3px] bg-[#F3F3F3]">
+            <select id="country"
+                    class="bg-gray-50 border-none text-[#6A7280] text-sm rounded-lg block w-full p-2.5"
+                    v-model="country">
+              <option selected>{{ $t('contact.inputPlaceholders.country') }}</option>
+              <option v-for="(country, index) in countries"
+                      :key="index">
+                {{ country }}
+              </option>
+            </select>
+          </div>
+        </div>
+
         <div class="flex items-center">
           <div class="bg-[#F3F3F3] h-[46px] flex items-center justify-center p-[0.9rem]">
             <i class="fa fa-phone"/>
@@ -60,11 +79,6 @@
             <i class="fa fa-comment-dots"/>
           </div>
           <div class="w-full p-[3px] bg-[#F3F3F3]">
-            <!--                        <input id="subject"-->
-            <!--                               v-model="subject"-->
-            <!--                               class="w-full border-none"-->
-            <!--                               placeholder="Konu"-->
-            <!--                               required type="text">-->
             <select id="subject"
                     class="bg-gray-50 border-none text-[#6A7280] text-sm rounded-lg block w-full p-2.5"
                     v-model="subject">
@@ -144,7 +158,9 @@ export default {
   components: {Whatsapp, ProductsSlider, MobileFooterContact},
   data() {
     return {
+      countries: [],
       name: '',
+      country: this.$t('contact.inputPlaceholders.country'),
       phoneNumber: '',
       address: '',
       email: '',
@@ -155,13 +171,14 @@ export default {
   },
   methods: {
     async submit() {
-      if (this.name === '' || this.email === '' || this.subject === '' || this.message === '' || this.phoneNumber === '' || this.address === '') {
+      if (this.name === '' || this.country === '' || this.email === '' || this.subject === '' || this.message === '' || this.phoneNumber === '' || this.address === '') {
         this.feedback = this.$t('contact.fillAllFields');
         return;
       }
       await emailjs.send(process.env.VUE_APP_EMAIL_SERVICE, process.env.VUE_APP_EMAIL_TEMPLATE, {
         subject: this.subject,
         name: this.name,
+        country: this.country,
         message: this.message,
         email: this.email,
         reply_to: this.email,
@@ -170,6 +187,7 @@ export default {
       }).then(() => {
         this.name = '';
         this.email = '';
+        this.country = '';
         this.subject = '';
         this.message = '';
         this.feedback = this.$t('contact.submitSuccess')
@@ -178,6 +196,15 @@ export default {
       });
     }
   },
+  mounted() {
+    fetch('https://trial.mobiscroll.com/content/countries.json')
+        .then((response) => response.json())
+        .then((data) => {
+          data.map((country) => {
+            this.countries.push(country.text);
+          });
+        });
+  }
 }
 </script>
 
