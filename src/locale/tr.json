@@ -42,6 +42,63 @@
       "seeMore": "Daha Fazlasını Görmek İçin Tıklayın"
     }
   },
+  "about": {
+    "hero": {
+      "hello": "Merhaba",
+      "weAre": "biz Hidrobarsan",
+      "rest": "2000 yılından bu yana mermer makinaları üretiyoruz",
+      "desc1": "Hidrobarsan Mermer Makinaları, mermer ve doğal taş endüstrisine en iyi çözümleri sunan öncü bir firmadır. Firmamız, 20 yılı aşkın süredir sektörde faaliyet göstermekte olup, yenilikçi yaklaşımı ve yüksek kalite standartları ile tanınmaktadır.",
+      "desc2": "Sektördeki uzmanlığımız ve deneyimimiz, mermer ocak makineleri ve ekipmanları üretimi konusunda bize güçlü bir rekabet avantajı sağlamaktadır. Müşterilerimize en iyi hizmeti sunabilmek için sürekli olarak kendimizi geliştirmekte ve yenilikçi teknolojileri takip etmekteyiz."
+    },
+    "mapSection": {
+      "title": "Makinalarımızı Denizli’de üretip dünyanın dört bir yanına hizmet veriyoruz.",
+      "desc1": "Hidrobarsan Mermer Makinaları olarak misyonumuz, müşteri memnuniyetini en üst düzeyde tutmak ve onlara sektör standartlarını aşan kaliteli ürünler sunmaktır. Ürünlerimizin her biri, yüksek kalite kontrol süreçlerinden geçer ve en son teknolojiyle üretilir. Müşterilerimizin ihtiyaçlarını karşılamak için esnek çözümler sunarız ve her zaman kaliteden ödün vermeden hızlı teslimat sağlamaya çalışırız.",
+      "desc2": "Firmamızın vizyonu, küresel ölçekte lider bir mermer makinaları üreticisi olmaktır. Sektördeki liderliğimizi sürdürmek için sürekli olarak yenilikler yapar, müşterilerimize yüksek kalite sunar ve müşteri odaklı bir yaklaşım benimseriz. Hidrobarsan Mermer Makinaları olarak, müşterilerimizin başarılarını destekleyerek, sektördeki güvenilirliğimizi ve itibarımızı sürdürmeyi hedefliyoruz."
+    },
+    "historicalProcess": {
+      "title": "Denizli'den Dünyaya",
+      "2000": {
+        "text": "2000 yılında Hidrobar ismi ile, devamında ise Hidrobarsan olarak yenilenip hizmet vermeye ve dünyaya açılmaya devam ettik.",
+        "year": "2000"
+      },
+      "2003": {
+        "text": "Endüstriyel ve hidrolik alanına ek olarak 2003 yılında Ayırıcı (Titano) makinesi üreterek sizlere mermer sektöründe de hizmet sağladık.",
+        "text2": "Akabinde Rampalı Saylama, Hidrolik Sondaj ve Tel (Dağ) kesme gibi makineler ile büyümeye devam ettik.",
+        "year": "2003"
+      },
+      "today": {
+        "title": "Günümüz",
+        "subtitle": "Ülkemizde değerler katıyoruz.",
+        "text": "Makinalarımızın tasarım, AR-GE, parça üretimleri ve yazılım programlaması gibi aşamalarını büyük bir ölçüde kendi bünyemizde yaparak, katma değeri yüksek ürünler üretiyor ve ülkemizin sanayisini dünya çapında tanıtmayı hedefliyoruz.",
+        "text2": "Hidrobarsan Mermer Makinaları olarak geniş ürün yelpazemiz, mermer ocaklarında her müşteri segmentinin ihtiyaçlarını karşılamaktadır. Ürünlerimiz arasında kollu kesme makineleri, tel kesme makineleri, sondaj makineleri ve çok daha fazlası bulunmaktadır."
+      }
+    },
+    "productionArea": {
+      "text": "Toplam 16.000 m² üretim alanına sahibiz."
+    },
+    "ourMission": {
+      "title": "Her Aşamada Sizinleyiz.",
+      "text": "Hedefimiz, satış sonrasında cihazlarınızın en iyi şekilde kurulumunu, profesyonel olarak eğitimleri ve satış sonrası teknik servisimiz ile ocaklarınızın en verimli şekilde çalışmasıdır.",
+      "sales": "Satış",
+      "setup": "Kurulum",
+      "education": "Eğitim",
+      "technicalService": "Teknik Servis"
+    },
+    "serviceArea": {
+      "title": "Size hızlı ve yerinde servis imkanı veriyoruz.",
+      "description": "Hedefimiz, satış sonrasında da size ihtiyacınız olan her şeyi sağlayarak çalışmalarınızdan en iyi verimi alabilmenizi sağlamak.",
+      "text": "Hidrobarsan Mermer Makinaları, müşteri memnuniyetini her zaman öncelikli tutar ve uzun vadeli iş ilişkileri kurmayı amaçlar. Profesyonel ekibimiz, müşterilerimize uzmanlık, teknik destek ve satış sonrası hizmetlerde yardımcı olmak için her zaman yanlarında bulunmaktadır."
+    },
+    "testimonial": {
+      "description": "Bizimle çalışarak, mermer ve doğal taş üretiminde başarınızı artırmak için güvenilir, kaliteli ve yenilikçi çözümleri deneyimleyebilirsiniz. Hidrobarsan Mermer Makinaları olarak, sektördeki başarımızı sürdürmek ve müşterilerimize en iyi hizmeti sunmak için her gün çalışmaktayız.",
+      "quote": "Hidrobarsan olarak alanımızda kalite yönetim ve mevzuat şartlarına uyacağımızı, etkinliği sürekli iyileştireceğimizi, sektörün önde gelen bir kuruluşu olma amacı ile bünyemizde çalışan tüm personel ile yaptığımız işi ve kullandığımız hammaddelerde kaliteli, çevreci ve insan sağlığını ön planda tutacağımızı ve standartlara uyacağımızı taahhüt ederiz.",
+      "author": "Ahmet Kaçar"
+    },
+    "contactUs": {
+      "text": "Şirketimiz ve ürünlerimiz hakkında istediğiniz bilgiyi almak için hemen bize ulaşabilirsiniz.",
+      "buttonText": "İletişime Geç"
+    }
+  },
   "products": {
     "title": "Ürünlerimiz",
     "urls": {

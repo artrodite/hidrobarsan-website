@@ -42,6 +42,63 @@
       "seeMore": "See More"
     }
   },
+  "about": {
+    "hero": {
+      "hello": "Hello",
+      "weAre": "we are Hidrobarsan",
+      "rest": "We have been producing marble machines since 2000",
+      "desc1": "Hidrobarsan is a leading company that offers the best solutions to the marble and natural stone industry. Our company has been operating in the sector for more than 20 years and is known for its innovative approach and high quality standards.",
+      "desc2": "Our expertise and experience in the sector gives us a strong competitive advantage in the production of marble quarry machines and equipment. We constantly improve ourselves and follow innovative technologies in order to provide the best service to our customers."
+    },
+    "mapSection": {
+      "title": "We produce our machines in Denizli and serve all over the world.",
+      "desc1": "As Hidrobarsan, our mission is to keep customer satisfaction at the highest level and offer them quality products that exceed industry standards. Each of our products goes through high quality control processes and is produced with the latest technology. We offer flexible solutions to meet our customers needs and always strive to provide fast delivery without compromising quality.",
+      "desc2": "Our company vision is to be a leading marble machinery manufacturer on a global scale. To maintain our leadership in the industry, we constantly innovate, offer high quality to our customers and adopt a customer-oriented approach. As Hidrobarsan, we aim to maintain our reliability and reputation in the sector by supporting the success of our customers."
+    },
+    "historicalProcess": {
+      "title": "From Denizli to the World",
+      "2000": {
+        "text": "We started with the name Hidrobar in 2000. Afterwards, we continued to renew and provide service as Hidrobarsan and to open up to the world.",
+        "year": "2000"
+      },
+      "2003": {
+        "text": "In addition to the industrial and hydraulic fields, we also served you in the marble sector by producing a Separator (Titano) machine in 2003.",
+        "text2": "Afterwards, we continued to grow with machines such as Ramp Type Block Sizing, Hydraulic Drilling and Diamond Wire Saw With Rails.",
+        "year": "2003"
+      },
+      "today": {
+        "title": "Today",
+        "subtitle": "We add value to the sector.",
+        "text": "By carrying out the stages such as design, R&D, part production and software programming of our machines to a large extent in-house, we produce high value-added products and aim to promote our country's industry worldwide.",
+        "text2": "As Hidrobarsan, our wide product range meets the needs of every customer segment in marble quarries. Our products include sleeve cutting machines, wire cutting machines, drilling machines and much more."
+      }
+    },
+    "productionArea": {
+      "text": "We have a total production area of 16,000 m²."
+    },
+    "ourMission": {
+      "title": "We are with you at every stage.",
+      "text": "Our goal is to ensure that your marble quarries operate in the most efficient way with the best installation of your machines after sales, professional training and our after-sales technical service.",
+      "sales": "Sales",
+      "setup": "Setup",
+      "education": "Education",
+      "technicalService": "Technical Service"
+    },
+    "serviceArea": {
+      "title": "We provide you with fast and on-site service.",
+      "description": "Our goal is to ensure that you get the best efficiency from your work by providing you with everything you need after sales.",
+      "text": "Hidrobarsan always prioritizes customer satisfaction and aims to establish long-term business relationships. Our professional team is always there to assist our customers with expertise, technical support and after-sales services."
+    },
+    "testimonial": {
+      "description": "By working with us, you can experience reliable, high-quality and innovative solutions to increase your success in marble and natural stone production. As Hidrobarsan, we work every day to maintain our success in the sector and provide the best service to our customers.",
+      "quote": "As Hidrobarsan, we undertake to comply with the quality management and legislation requirements in our field, to continuously improve the effectiveness, to prioritize quality, environmentalist and human health in the work we do with all the personnel working within our body and the raw materials we use with the aim of becoming a leading organization in the sector and to comply with the standards.",
+      "author": "Ahmet Kaçar"
+    },
+    "contactUs": {
+      "text": "You can contact us immediately to get the information you want about our company and our products.",
+      "buttonText": "Contact Us"
+    }
+  },
   "products": {
     "title": "Products",
     "urls": {
